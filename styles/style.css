@@ -1,0 +1,161 @@
+
+.table_lesson {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+  }
+
+ td {
+  border: 0.5px outset black;
+  padding: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+#container p {
+  display: inline
+}
+
+.grid-item_1 {
+  background-color:#5980B9;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.grid-item_2 {
+  background-color: #DDF1FE;
+  color:#5980B9;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#lesson_btn {
+  border-right: 3.5px solid #5980B9;
+} 
+#constr_btn {
+  border-left: 3.5px solid #5980B9;
+} 
+
+#lesson_cont {
+  font-size: 35px;
+  border-spacing: 10px;
+}
+
+.lesson_cont_row {
+  background-color: #DDF1FE;
+}
+
+.no_undscr {
+  text-decoration: none;
+  color:#5980B9;
+  margin: 10px;
+}
+
+.no_border {
+  border: 0;
+}
+
+#lang_level {
+    position: relative;
+    right: 10px;
+    top: 20px;
+    float: right;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+}
+
+.first_indent {
+    position: relative;
+    margin-left: 50px;
+    top: 20px;
+}
+
+.normal_label {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.second_indent {
+    position: relative;
+    margin-left: 80px;
+    top: 20px;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .images_block {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+  }
+
+  .images {
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+
+  .home_block {
+    text-align: justify;
+    font-size: 25px;
+    margin: 35px;
+    margin-right: 70px;
+    margin-left: 70px;
+    /* padding: 10px; */
+    background-color: #5980B9;
+    color:white;
+  }
+
+  .home_text {
+    margin: 30px;
+    padding: 15px;
+  }
+
+  .about_block {
+    /* text-align: center; */
+    font-size: 25px;
+    margin: 35px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #DDF1FE;
+    color:#5980B9;    
+  }
+
+  .about_titles {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .about_text {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .ru_text {
+    background-color: #D7E8AE;
+  }
+
+  .construction {
+    color: #5980B9;
+  }

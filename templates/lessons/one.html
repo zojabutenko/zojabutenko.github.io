@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../../scripts/myscript.js"></script>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="icon" href="../../images/logo.png">
+    <title>Lesson 1
+    </title>
+
+</head>
+
+<body style="font-family: Calibri, sans-serif;">
+    <div style="display: inline-block; width: 100%;">
+        <img src="../../images/txtlogo.png" alt="Construxercise" style="height: 150px;">
+    </div>
+
+<div class="grid-container">
+    <a class="grid-item_1" href="../../index.html">HOME</a>
+    <a class="grid-item_2" id="lesson_btn" href="../lessons.html">LESSONS</a>
+    <a class="grid-item_2" id="constr_btn" href="../functions.html">FUNCTIONS</a>
+    <a class="grid-item_1" href="../about.html">ABOUT</a>
+</div>
+    <h1 class="first_indent" id="constr_1">Урок 1. Знакомство</h1>
+    <h2 class="first_indent">Знакомство. Introducing yourself</h2>
+    <div class="first_indent">
+        <p>Конструкции урока:</p>
+        <table class="table_lesson">
+            <tr>
+                <th>ID</th>
+                <th>Construction</th>
+                <th>Illustration</th>
+            </tr>
+            <tr>
+                <td>170</td>
+                <td>(а) кроме того XP/Cl</td>
+                <td>Он, кроме того, плавает.</td>
+            </tr>
+            <tr>
+                <td>410</td>
+                <td>не только XP, но и XP</td>
+                <td>Он был не только умён, но и добр.</td>
+            </tr>
+            <tr>
+                <td>1872</td>
+                <td>(и) кстати (говоря), Cl</td>
+                <td>И кстати, он пришёл без подарка.</td>
+            </tr>
+            <tr>
+                <td>1093</td>
+                <td>к тому же XP/Cl</td>
+                <td>К тому же каждый день шёл снег.</td>
+            </tr>
+            <tr>
+                <td>1867</td>
+                <td>плюс/вдобавок (ко всему/к тому/к этому), Cl</td>
+                <td>Плюс ко всему, погода резко испортилась.</td>
+            </tr>
+        </table>
+        <p>Русский конструктикон <a href="https://constructicon.github.io/russian/" target="_blank"
+            style="text-decoration: none;">https://constructicon.github.io/russian/</a></p>
+    </div>
+
+    <h3 class="first_indent">1. Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?</h3>
+    <div class="second_indent"><p>
+        а.<br>
+        Познакомьтесь! Матвей Белов – студент медицинского факультета. <b>Кроме того</b>, Матвей
+        занимается каратэ и хорошо плавает. Матвей <b>не только</b> учится, <b>но и</b> работает санитаром в
+        больнице. Это полезный опыт, <b>к тому же</b> неплохая зарплата. <b>Кстати говоря</b>, в этой больнице
+        лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, <b>плюс ко всему</b>, у него
+        очень хорошее чувство юмора.</p>
+        <p>
+            б.<br>
+            Это Ирина. Она талантливая певица. Ирина <b>не только</b> отлично поет, <b>но и</b> прекрасно играет на
+            гитаре. <b>Кстати говоря</b>, гитару Ирине подарил отец.
+        </p>
+        <button onclick="Ex1()">Ответ:</button>
+        <div id="ex1_ans"></div>
+    </div>
+
+    <h3 class="first_indent">2. Переформулируйте предложения, используя конструкцию <span class="construction">не только XP, но и XP.</span> Любое ли
+        предложение можно переделать?</h3>
+    <div class="second_indent">
+        <p>а. Роман хорошо играет в футбол и фотографирует.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2a_input">
+        <button onclick="check_Ex2a()">Проверить</button><br>
+        <div id="ex2a_result" style="display: inline;"></div><br>
+        <button onclick="Ex2a()">Ответ:</button>
+        <div id="ex2a_ans"></div>
+        <p>б. София красиво поëт и играет на пианино.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2b_input">
+        <button onclick="check_Ex2b()">Проверить</button><br>
+        <div id="ex2b_result" style="display: inline;"></div><br>
+        <button onclick="Ex2b()">Ответ:</button>
+        <div id="ex2b_ans"></div>
+        <p>в. Даниил плохо видит и носит очки.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2c_input">
+        <button onclick="check_Ex2c()">Проверить</button><br>
+        <div id="ex2c_result" style="display: inline;"></div><br>
+        <button onclick="Ex2c()">Ответ:</button>
+        <div id="ex2c_ans"></div>
+    </div>
+
+    <h3 class="first_indent">3. Составьте предложения.</h3>
+    <div class="second_indent">
+        <p><b>Образец</b>:<br>
+            Егор любит не только играть на компьютере, но и придумывать свои игры.<br></p>
+        <table class="table_lesson" style="width: 500px">
+            <tr>
+                <td>Егор любит </td>
+                <td rowspan="5">Не только V, но и V</td>
+                <td>играть на компьютере<br>
+                    придумывать свои игры</td>
+            </tr>
+            <tr>
+                <td>Полине нравится</td>
+                <td>готовить еду<br>
+                    придумывать свои рецепты</td>
+            </tr>
+            <tr>
+                <td>Степан хочет</td>
+                <td>много путешествовать<br>
+                    делать видеоблог</td>
+            </tr>
+            <tr>
+                <td>Стас планирует</td>
+                <td>изучать анатомию<br>
+                    стать кардиохирургом</td>
+            </tr>
+            <tr>
+                <td>Михаил мечтает</td>
+                <td>работать переводчиком<br>
+                    написать свою книгу</td>
+            </tr>
+            <tr>
+                <td>Инна</td>
+                <td rowspan="4">не только Adj, но и Adj</td>
+                <td>умная<br>
+                    красивая</td>
+            </tr>
+            <tr>
+                <td>Игорь</td>
+                <td>добрый<br>
+                    вежливый</td>
+            </tr>
+            <tr>
+                <td>Валентина</td>
+                <td>приятная<br>
+                    ответственная</td>
+            </tr>
+            <tr>
+                <td>Максим</td>
+                <td>весëлый<br>
+                    пунктуальный</td>
+            </tr>
+            <tr>
+                <td>Я много путешествовал</td>
+                <td rowspan="2">не только Prep+N, но и Prep+N</td>
+                <td>в Америке<br>
+                    в Азии</td>
+            </tr>
+            <tr>
+                <td>Сергей много знает</td>
+                <td>о космосе<br>
+                    о ракетах</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3 class="first_indent">4. Соедините части предложений, подобрав логичное продолжение.<br>Назовите, слова каких частей речи стоят на месте <span class="construction">XP</span> в конструкции <span class="construction">не только XP, но и
+        XP.</span></h3>
+    <div class="second_indent">
+        <p>Для первой части предложения в левом столбце таблицы подберите логичное продолжение из правого столбца.<br> Для каждого предложения назовите часть речи тех слов, которые связаны конструкцией не только XP, но и XP</p>
+        <table style="width: 650px">
+        <tr>
+            <td>1. Я люблю не только книги про Шерлока Холмса,<br><br>
+                2. Он был не только талантливым писателем,<br><br>
+                3. Не только школьники,<br><br>
+                4. Ксюша - самая красивая девочка не только в нашем классе,<br><br>
+                5. Он не только отлично плавал,
+            </td>
+            <td>а. но и во всей школе!<br><br>
+                б. но и вкусно готовил.<br><br>
+                в. но и умным политиком.<br><br>
+                г. но и учителя выбежали на улицу играть в снежки.<br><br>
+                д. но и фильмы о нём.
+            </td>
+        </tr>
+    </table>
+    <label for="answer">Ваш ответ:</label>
+    <input type="text" id="ex4_input" placeholder="1а, 2б, 3в, 4г, 5д">
+    <button onclick="check_Ex4()">Проверить</button><br>
+    <div id="ex4_result" style="display: inline;"></div><br>
+    <button onclick="Ex4()">Ответ:</button>
+    <div id="ex4_ans"></div>
+    </div>
+    
+
+
+    <h3 class="first_indent">5. Переформулируйте предложения, используя конструкцию <span class="construction">(а) кроме того XP/Cl.</span></h3>
+    <p class="second_indent">Пример:
+        Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них.<br>
+        <i>Иван пережил много невероятных приключений, (а) кроме того, он мог увлекательно
+        рассказать о них.</i><br>
+    </p>
+    <ol class="second_indent">
+        <li>Мы сами выращиваем на даче овощи и фрукты. Мы собираем в лесу ягоды.</li>
+        <li>Я люблю фильмы про природу. Мне нравится фантастика.</li>
+    </ol>
+    
+    <h3 class="first_indent">6. Переформулируйте предложения, используя конструкцию <span class="construction">(а) кроме того XP/Cl.</span><br>
+        Замените союз <i>и</i> на слова <span class="construction"><i>а кроме того</i></span>.</h3>
+    <p class="second_indent">Пример:
+        Вчера я решил убраться во всем доме и выбросить мусор.<br>
+        <i>Вчера я решил убраться во всем доме, а кроме того, выбросить мусор.</i><br>
+    </p>
+    <ol class="second_indent">
+        <li>Моя подруга очень умная и веселая.</li>
+        <li>Мы хотим купить новый автомобиль и продать старый.</li>
+    </ol>
+
+    <br><br>
+    <!-- <h3 class="first_indent">7. Перед вами запись в дневнике. Соедините предложения с помощью конструкций</h3>
+
+    <p class="second_indent">Вика заболела. Вчера она весь день кашляла, а сегодня
+        <input type="text">
+        (кашель), у нее
+        начался насморк. Она не пошла в университет, поэтому теперь ей нужно читать<br>
+        учебник <input type="text"> (домашнее задание). Надеюсь, что она скоро выздоровеет, ведь мы в эти
+        выходные хотели сходить в кино, и <input type="text"> (это) в ресторан.<br> Вика любит старые
+        фильмы, потому что они интересные, добрые, а <input type="text"> (всё) еще и красивые.</p>
+        <button class="second_indent">Проверить</button> -->
+</body>
+
+</html>
