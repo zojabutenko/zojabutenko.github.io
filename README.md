@@ -1,1 +1,1 @@
-site available at https://miltend.github.io/russian_pedagogy/
+site available at https://constructicon.github.io/construxercise-rus/
