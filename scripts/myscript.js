@@ -17,7 +17,7 @@ function Ex1() {
 }
 
 function Ex1_eng() {
-    result = "<i>Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
+    result = "<i>&ensp;Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
     var x = document.getElementById("ex1_eng")
     x.innerHTML = result;
     // alert(x.style.display)
@@ -172,5 +172,51 @@ function Ex5_eng() {
       } else {
         x.style.display = "inline-block";
         
+    }
+}
+
+function check_Ex5a() {
+    var x = document.getElementById('ex5a_input');
+    if (x.value.toLowerCase() == "Мы сами выращиваем на даче овощи и фрукты, а кроме того мы собираем в лесу ягоды.".toLowerCase()) {
+        result = "Правильно";
+        document.getElementById("ex5a_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex5a_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex5a_result").innerHTML = result;
+}
+
+function Ex5a() {
+    result = "Мы сами выращиваем на даче овощи и фрукты, а кроме того мы собираем в лесу ягоды.";
+    var x = document.getElementById("ex5a_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function check_Ex5b() {
+    var x = document.getElementById('ex5b_input');
+    if (x.value.toLowerCase() == "Я люблю фильмы про природу, а кроме того мне нравится фантастика.".toLowerCase()) {
+        result = "Правильно";
+        document.getElementById("ex5b_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex5b_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex5b_result").innerHTML = result;
+}
+
+function Ex5b() {
+    result = "Я люблю фильмы про природу, а кроме того мне нравится фантастика.";
+    var x = document.getElementById("ex5b_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
     }
 }
