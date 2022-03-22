@@ -86,10 +86,8 @@
 
     <h3>2. Переформулируйте предложения, используя конструкцию <span class="construction">не только XP, но и XP.</span> Любое ли
         предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>) </h3>
-        <p class="translation" style="white-space: nowrap;">
         <button onclick="Ex2_eng()">Show in English</button>
         <div id="ex2_eng"></div>
-        </p>
         
     <div class="second_indent">
         <p>а. Роман хорошо играет в футбол и фотографирует.</p>
@@ -116,10 +114,8 @@
     </div>
 
     <h3>3. Составьте предложения.</h3>
-    <p class="translation" style="white-space: nowrap;">
     <button onclick="Ex3_eng()">Show in English</button>
     <div id="ex3_eng"></div>
-    </p>
 
     <div class="second_indent">
         <p><b>Образец</b>:<br>
@@ -188,10 +184,8 @@
 
     <h3>4. Соедините части предложений, подобрав логичное продолжение.<br>Назовите, слова каких частей речи стоят на месте <span class="construction">XP</span> в конструкции <span class="construction">не только XP, но и
         XP.</span></h3>
-    <p class="translation" style="white-space: nowrap;">
     <button onclick="Ex4_eng()">Show in English</button>
     <div id="ex4_eng"></div>
-    </p>
 
     <div class="second_indent">
         <!-- <p>Для первой части предложения в левом столбце таблицы подберите логичное продолжение из правого столбца.<br> Для каждого предложения назовите часть речи тех слов, которые связаны конструкцией не только XP, но и XP</p> -->
@@ -225,13 +219,11 @@
     рассказать о них.</i><br> -->
 
     <h3>5. Переформулируйте предложения, используя конструкцию <span class="construction">(а) кроме того XP/Cl.</span></h3>
-    <p class="translation" style="white-space: nowrap;">
     <button onclick="Ex5_eng()">Show in English</button>
     <div id="ex5_eng"></div>
-    </p>
 
     <div class="second_indent">
-        <p>Образец:
+        <p><b>Образец</b>:<br>
             Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них.<br>
             <i>Иван пережил много невероятных приключений, <span class='construction'>а кроме того</span>, он мог увлекательно
             рассказать о них.</i><br>
@@ -255,30 +247,90 @@
     
     <h3>6. Переформулируйте предложения, используя конструкцию <span class="construction">(а) кроме того XP/Cl.</span><br>
         Замените союз <i>и</i> на слова <span class="construction"><i>а кроме того</i></span>.</h3>
-    
+    <button onclick="Ex6_eng()">Show in English</button>
+    <div id="ex6_eng"></div>
+
     <div class="second_indent">
-        <p>Пример:
+        <p><b>Образец</b>:<br>
             Вчера я решил убраться во всем доме и выбросить мусор.<br>
-            <i>Вчера я решил убраться во всем доме, а кроме того, выбросить мусор.</i><br>
+            <i>Вчера я решил убраться во всем доме, <span class='construction'>а кроме того</span>, выбросить мусор.</i><br>
         </p>
-        <ol>
-            <li>Моя подруга очень умная и веселая.</li>
-            <li>Мы хотим купить новый автомобиль и продать старый.</li>
-        </ol>
+        
+        <p>а. Моя подруга очень умная и веселая.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex6a_input">
+        <button onclick="check_Ex6a()">Проверить</button><br>
+        <div id="ex6a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex6a()">Показать ответ</button>
+        <div id="ex6a_ans"></div>
+        <p>б. Мы хотим купить новый автомобиль и продать старый.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex6b_input">
+        <button onclick="check_Ex6b()">Проверить</button><br>
+        <div id="ex6b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex6b()">Показать ответ</button>
+        <div id="ex6b_ans"></div>
+    </div>
+
+
+    
+    <h3>7. Перед вами запись в дневнике. Соедините предложения с помощью конструкций
+        <ul type="circle">
+            <li><span class="construction">к тому же XP/Cl</span></li>
+            <li><span class="construction">плюс/вдобавок (ко всему/к тому/к этому), Cl</span></li>
+            <li><span class="construction">(а) кроме того XP/Cl</span></li>
+        </ul>
+    </h3>
+    <button onclick="Ex7_eng()">Show in English</button>
+    <div id="ex7_eng"></div>
+
+    <div class="second_indent">
+        <p>Дорогой дневник, день сегодня просто отличный!<br>
+            Погода теплая и солнечная!
+            <ul>
+                <li>По дороге на учебу встретил старого друга.</li>
+                <li>Я посмотрел новую серию моего любимого сериала.</li>
+                <li>Мы с отцом наконец выбрали, какую машину мы купим.</li>
+                <li>Я позвал Юлю в кино, и она согласилась!</li>
+            </ul>
+        </p>
+    </div>
+
+
+    <h3>8. Соедините части предложений, подобрав логичное продолжение.
+        Обратите внимание, что конструкция <span class="construction">(и) кстати (говоря), Cl</span> вводит дополнительную
+        информацию и обозначает отклонение от темы.</h3>
+    <button onclick="Ex8_eng()">Show in English</button>
+    <div id="ex8_eng"></div>
+    <div class="second_indent">
+        <!-- <p>Для первой части предложения в левом столбце таблицы подберите логичное продолжение из правого столбца.<br> Для каждого предложения назовите часть речи тех слов, которые связаны конструкцией не только XP, но и XP</p> -->
+        <table class="table_lesson" style="width: 850px">
+        <tr>
+            <td>1. К нам в гости пришла тетя Клава, наша соседка.<br><br>
+                2. Петя опять поругался со своим братом Кириллом.<br><br>
+                3. У тебя на телефоне опять не работает навигатор.<br><br>
+                4. Знаете ли вы, что стены и башни московского Кремля спроектировал архитектор из Италии?<br><br>
+                5. Я купил билеты в кино, пойдешь со мной?
+            </td>
+            <td>а. Кирилл, кстати, до сих пор не вернул Пете плеер.<br><br>
+                б. Кстати говоря, после фильма будет встреча с режиссером.<br><br>
+                в. Она, кстати говоря, недавно сломала руку.<br><br>
+                г. И кстати говоря, мы едем не в ту сторону!<br><br>
+                д. И кстати, раньше стены были белого цвета, а не красного, как сегодня.
+            </td>
+        </tr>
+        </table>
+        <br>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex8_input" placeholder="1а, 2б, 3в, 4г, 5д">
+        <button onclick="check_Ex8()">Проверить</button><br>
+        <div id="ex8_result" style="display: inline;"></div><br>
+        <button onclick="Ex8()">Показать ответ</button>
+        <div id="ex8_ans"></div>
+    </div>
+
     </div>
     <br><br>
-    <!-- <h3 class="first_indent">7. Перед вами запись в дневнике. Соедините предложения с помощью конструкций</h3>
-
-    <p class="second_indent">Вика заболела. Вчера она весь день кашляла, а сегодня
-        <input type="text">
-        (кашель), у нее
-        начался насморк. Она не пошла в университет, поэтому теперь ей нужно читать<br>
-        учебник <input type="text"> (домашнее задание). Надеюсь, что она скоро выздоровеет, ведь мы в эти
-        выходные хотели сходить в кино, и <input type="text"> (это) в ресторан.<br> Вика любит старые
-        фильмы, потому что они интересные, добрые, а <input type="text"> (всё) еще и красивые.</p>
-        <button class="second_indent">Проверить</button> -->
-
-    </div>
 </body>
 
 </html>

@@ -17,7 +17,7 @@ function Ex1() {
 }
 
 function Ex1_eng() {
-    result = "<i>&ensp;Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
+    result = "<i>Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
     var x = document.getElementById("ex1_eng")
     x.innerHTML = result;
     // alert(x.style.display)
@@ -34,7 +34,6 @@ function Ex2_eng() {
     result = "<i>Rephrase each sentence by using the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. Are there any sentences that cannot be rephrased?</i>"
     var x = document.getElementById("ex2_eng")
     x.innerHTML = result;
-    // alert(x.style.display)
     if (x.style.display === "inline-block") {
         x.style.display = "none";
       } else {
@@ -177,7 +176,12 @@ function Ex5_eng() {
 
 function check_Ex5a() {
     var x = document.getElementById('ex5a_input');
-    if (x.value.toLowerCase() == "Мы сами выращиваем на даче овощи и фрукты, а кроме того мы собираем в лесу ягоды.".toLowerCase()) {
+    answers = ["Мы сами выращиваем на даче овощи и фрукты, а кроме того, мы собираем в лесу ягоды.".toLowerCase(),
+                "Мы сами выращиваем на даче овощи и фрукты, а кроме того, собираем в лесу ягоды.".toLowerCase(),
+                "Мы сами выращиваем на даче овощи и фрукты. Кроме того, мы собираем в лесу ягоды.".toLowerCase(),
+                "Мы сами выращиваем на даче овощи и фрукты, кроме того, собираем в лесу ягоды.".toLowerCase(),
+                "Мы сами выращиваем на даче овощи и фрукты, кроме того, мы собираем в лесу ягоды.".toLowerCase()]
+    if (answers.includes(x.value.toLowerCase())) {
         result = "Правильно";
         document.getElementById("ex5a_result").style.backgroundColor = "#6ef184";
     } else {
@@ -188,7 +192,7 @@ function check_Ex5a() {
 }
 
 function Ex5a() {
-    result = "Мы сами выращиваем на даче овощи и фрукты, а кроме того мы собираем в лесу ягоды.";
+    result = "Мы сами выращиваем на даче овощи и фрукты, <span class='construction'>а кроме того</span>, мы собираем в лесу ягоды.";
     var x = document.getElementById("ex5a_ans");
     x.innerHTML = result;
     if (x.style.display === "block") {
@@ -200,7 +204,10 @@ function Ex5a() {
 
 function check_Ex5b() {
     var x = document.getElementById('ex5b_input');
-    if (x.value.toLowerCase() == "Я люблю фильмы про природу, а кроме того мне нравится фантастика.".toLowerCase()) {
+    answers = ["Я люблю фильмы про природу, а кроме того, мне нравится фантастика.".toLowerCase(),
+                "Я люблю фильмы про природу, кроме того, мне нравится фантастика.".toLowerCase(),
+                "Я люблю фильмы про природу. Кроме того, мне нравится фантастика.".toLowerCase(),]
+    if (answers.includes(x.value.toLowerCase())) {
         result = "Правильно";
         document.getElementById("ex5b_result").style.backgroundColor = "#6ef184";
     } else {
@@ -211,8 +218,113 @@ function check_Ex5b() {
 }
 
 function Ex5b() {
-    result = "Я люблю фильмы про природу, а кроме того мне нравится фантастика.";
+    result = "Я люблю фильмы про природу, <span class='construction'>а кроме того</span>, мне нравится фантастика.";
     var x = document.getElementById("ex5b_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function Ex6_eng() {
+    result = "<i>Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i> Replace the conjunction <i>и</i> &#39;and&#39; with the words <span class='construction'>а кроме того</span>."
+    var x = document.getElementById("ex6_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function check_Ex6a() {
+    var x = document.getElementById("ex6a_input");
+    if (x.value.toLowerCase() == "Моя подруга очень умная, а кроме того, веселая.".toLowerCase()) {
+        result = "Правильно"
+        document.getElementById("ex6a_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = "Неправильно"
+        document.getElementById("ex6a_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex6a_result").innerHTML = result;
+}
+
+function Ex6a() {
+    result = "Моя подруга очень умная, <span class='construction'>а кроме того</span>, веселая.";
+    var x = document.getElementById("ex6a_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function check_Ex6b() {
+    var x = document.getElementById("ex6b_input");
+    if (x.value.toLowerCase() == "Мы хотим купить новый автомобиль, а кроме того, продать старый.".toLowerCase()) {
+        result = "Правильно"
+        document.getElementById("ex6b_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = "Неправильно"
+        document.getElementById("ex6b_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex6b_result").innerHTML = result;
+}
+
+function Ex6b() {
+    result = "Мы хотим купить новый автомобиль, <span class='construction'>а кроме того</span>, продать старый.";
+    var x = document.getElementById("ex6b_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function Ex7_eng() {
+    result = "<i>You see an entry in a diary. Connect the matching sentences by using the indicated constructions."
+    var x = document.getElementById("ex7_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex8_eng() {
+    result = "<i>Connect the phrases by choosing a matching continuation. Note that the construction <span class='construction'>(и) кстати (говоря), Cl</span> introduces additional information and often denotes digression."
+    var x = document.getElementById("ex8_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function check_Ex8() {
+    var x = document.getElementById('ex8_input');
+    if (x.value.toLowerCase() == "1в, 2а, 3г, 4д, 5б") {
+        result = "Правильно";
+        document.getElementById("ex8_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex8_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex8_result").innerHTML = result;
+}
+
+function Ex8() {
+    result = "1в, 2а, 3г, 4д, 5б";
+    var x = document.getElementById("ex8_ans");
     x.innerHTML = result;
     if (x.style.display === "block") {
         x.style.display = "none";
