@@ -167,9 +167,9 @@ td {
     color: #1b67d8;
   }
 
-  /* .translation {
-    font-style: italic;
-  } */
+  .translation {
+    color: #707172;
+  }
 
   .textarea {
     display: block;
