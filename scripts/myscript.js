@@ -332,3 +332,96 @@ function Ex8() {
         x.style.display = "block";
     }
 }
+
+
+function Ex9_eng() {
+    result = "<i>The construction <span class='construction'>(и) кстати (говоря), Cl</span> has the four variants indicated in the table. Note that the variants <span class='construction'>и кстати</span> and <span class='construction'>и кстати говоря</span> do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible."
+    var x = document.getElementById("ex9_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function check_Ex9() {
+    var x = document.getElementById('ex9a_input');
+    answers = ["а, в", "а", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9a_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9a_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9a_result").innerHTML = result;
+
+    var x = document.getElementById('ex9b_input');
+    answers = ["а, б, в, г", "а", "б", "в", "г"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9b_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9b_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9b_result").innerHTML = result;
+
+    var x = document.getElementById('ex9c_input');
+    answers = ["а, в", "а", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9c_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9c_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9c_result").innerHTML = result;
+
+    var x = document.getElementById('ex9d_input');
+    answers = ["а, б, в, г", "а", "б", "в", "г"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9d_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9d_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9d_result").innerHTML = result;
+
+    var x = document.getElementById('ex9e_input');
+    answers = ["а, б, в, г", "а", "б", "в", "г"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9e_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9e_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9e_result").innerHTML = result;
+
+    var x = document.getElementById('ex9f_input');
+    answers = ["а, б, в, г", "а", "б", "в", "г"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex9f_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex9f_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex9f_result").innerHTML = result;
+
+}
+
+function Ex9() {
+    result = "1: а, в;<br>2: а, б, в, г;<br>3: а, в;<br>4: а, б, в, г;<br>5: а, б, в, г;<br>6: а, б, в, г";
+    var x = document.getElementById("ex9_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
