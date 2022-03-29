@@ -155,7 +155,8 @@ td {
 
   .ru_text {
     background-color: #A787B6;
-    color: #DDF1FE;
+    /* color: #DDF1FE; */
+    color: white
   }
 
   .norw_text {
@@ -165,10 +166,12 @@ td {
   .construction {
     font-weight: bold;
     color: #1b67d8;
+    /* font-style:inherit; */
   }
 
   .translation {
-    color: #707172;
+    color: #3d3e3f;
+    font-style: italic;
   }
 
   .textarea {
@@ -194,4 +197,8 @@ td {
 
   .input_normal {
     width:initial
+  }
+
+  button {
+    margin: 2px
   }

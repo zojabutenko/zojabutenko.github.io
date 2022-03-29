@@ -17,10 +17,21 @@ function Ex1() {
 }
 
 function Ex1_eng() {
-    result = "<i>Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
+    result = "Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?"
     var x = document.getElementById("ex1_eng")
     x.innerHTML = result;
-    // alert(x.style.display)
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex1_norw() {
+    result = "Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?"
+    var x = document.getElementById("ex1_norw")
+    x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
       } else {
@@ -31,8 +42,20 @@ function Ex1_eng() {
 
 
 function Ex2_eng() {
-    result = "<i>Rephrase each sentence by using the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. Are there any sentences that cannot be rephrased?</i>"
+    result = "Rephrase each sentence by using the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. Are there any sentences that cannot be rephrased?</i>"
     var x = document.getElementById("ex2_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex2_norw() {
+    result = "Omformuler hver setning ved å bruke konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ...&#39;. Finnes det noen setninger som ikke kan omformuleres?"
+    var x = document.getElementById("ex2_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
@@ -112,10 +135,21 @@ function Ex2c() {
 }
 
 function Ex3_eng() {
-    result = "<i>Build sentences from the available parts.</i>"
+    result = "Build sentences from the available parts."
     var x = document.getElementById("ex3_eng")
     x.innerHTML = result;
-    // alert(x.style.display)
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex3_norw() {
+    result = "Lag setninger ved hjelp av de forskjellige delene."
+    var x = document.getElementById("ex3_norw")
+    x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
       } else {
@@ -126,10 +160,22 @@ function Ex3_eng() {
 
 
 function Ex4_eng() {
-    result = "<i>Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;?</i>"
+    result = "<i>Connect the phrases by choosing the matching continuation. What parts of speech fill the slot <span class='construction'>XP</span> in the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;?</i>"
     var x = document.getElementById("ex4_eng")
     x.innerHTML = result;
     // alert(x.style.display)
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex4_norw() {
+    result = "Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør <span class='construction'>XP</span> i konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ...&#39;?"
+    var x = document.getElementById("ex4_norw")
+    x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
       } else {
@@ -162,10 +208,22 @@ function Ex4() {
 }
 
 function Ex5_eng() {
-    result = "<i>Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i>"
+    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>."
     var x = document.getElementById("ex5_eng")
     x.innerHTML = result;
     // alert(x.style.display)
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex5_norw() {
+    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>."
+    var x = document.getElementById("ex5_norw")
+    x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
       } else {
@@ -229,8 +287,20 @@ function Ex5b() {
 }
 
 function Ex6_eng() {
-    result = "<i>Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i> Replace the conjunction <i>и</i> &#39;and&#39; with the words <span class='construction'>а кроме того</span>."
+    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i> Replace the conjunction <i>и</i> &#39;and&#39; with the words <span class='construction'>а кроме того</span>."
     var x = document.getElementById("ex6_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex6_norw() {
+    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>. Bytt ut konjunksjonen <i>и</i> &#39;og&#39; med ordene <span class='construction'>а кроме того</span>."
+    var x = document.getElementById("ex6_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
@@ -287,7 +357,7 @@ function Ex6b() {
 }
 
 function Ex7_eng() {
-    result = "<i>You see an entry in a diary. Connect the matching sentences by using the indicated constructions."
+    result = "You see an entry in a diary. Connect the matching sentences by using the indicated constructions."
     var x = document.getElementById("ex7_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -298,9 +368,33 @@ function Ex7_eng() {
     }
 }
 
+function Ex7_norw() {
+    result = "Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene."
+    var x = document.getElementById("ex7_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
 function Ex8_eng() {
-    result = "<i>Connect the phrases by choosing a matching continuation. Note that the construction <span class='construction'>(и) кстати (говоря), Cl</span> introduces additional information and often denotes digression."
+    result = "Connect the phrases by choosing a matching continuation. Note that the construction <span class='construction'>(и) кстати (говоря), Cl</span> introduces additional information and often denotes digression."
     var x = document.getElementById("ex8_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex8_norw() {
+    result = "Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span> angir tilleggsinformasjon og ofte indikerer et avvik fra emnet."
+    var x = document.getElementById("ex8_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
@@ -335,8 +429,20 @@ function Ex8() {
 
 
 function Ex9_eng() {
-    result = "<i>The construction <span class='construction'>(и) кстати (говоря), Cl</span> has the four variants indicated in the table. Note that the variants <span class='construction'>и кстати</span> and <span class='construction'>и кстати говоря</span> do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible."
+    result = "The construction <span class='construction'>(и) кстати (говоря), Cl</span> has the four variants indicated in the table. Note that the variants <span class='construction'>и кстати</span> and <span class='construction'>и кстати говоря</span> do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible."
     var x = document.getElementById("ex9_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex9_norw() {
+    result = "Tabellen viser de fire mulige variantene av konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span>. Legg merke til at <span class='construction'>и кстати</span> og <span class='construction'>и кстати говоря</span> aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig."
+    var x = document.getElementById("ex9_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
         x.style.display = "none";
@@ -416,12 +522,277 @@ function check_Ex9() {
 }
 
 function Ex9() {
-    result = "1: а, в;<br>2: а, б, в, г;<br>3: а, в;<br>4: а, б, в, г;<br>5: а, б, в, г;<br>6: а, б, в, г";
+    result = "1: а, в;<br>2: а, б, в, г;<br>3: а, в;<br>4: а, б, в, г;<br>5: а, б, в, г;<br>6: а, б, в, г;";
     var x = document.getElementById("ex9_ans");
     x.innerHTML = result;
     if (x.style.display === "block") {
         x.style.display = "none";
       } else {
         x.style.display = "block";
+    }
+}
+
+function Ex10_eng() {
+    result = "Bonus exercise. Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer."
+    var x = document.getElementById("ex10_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex10_norw() {
+    result = "Bonusoppgave. Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig."
+    var x = document.getElementById("ex10_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function check_Ex10() {
+    var x = document.getElementById('ex10a_input');
+    answers = ["а"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10a_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10a_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10a_result").innerHTML = result;
+
+    var x = document.getElementById('ex10b_input');
+    answers = ["а, б, в", "а", "б", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10b_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10b_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10b_result").innerHTML = result;
+
+    var x = document.getElementById('ex10c_input');
+    answers = ["б, в", "б", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10c_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10c_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10c_result").innerHTML = result;
+
+    var x = document.getElementById('ex10d_input');
+    answers = ["а"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10d_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10d_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10d_result").innerHTML = result;
+
+    var x = document.getElementById('ex10e_input');
+    answers = ["б, в", "б", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10e_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10e_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10e_result").innerHTML = result;
+
+    var x = document.getElementById('ex10f_input');
+    answers = ["б, в", "б", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10f_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10f_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10f_result").innerHTML = result;
+
+    var x = document.getElementById('ex10g_input');
+    answers = ["б, в", "б", "в"]
+    if (answers.includes(x.value.toLowerCase())) {
+        result = "Правильно";
+        document.getElementById("ex10g_result").style.backgroundColor = "#6ef184";
+    } else {
+        result = 'Неправильно';
+        document.getElementById("ex10g_result").style.backgroundColor = "#ee5151";
+    }
+    document.getElementById("ex10g_result").innerHTML = result;
+}
+
+function Ex10() {
+    var result = ""
+    answ_a = "1: а<br><span class='construction'>Кстати</span> вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> здесь не подходят, так как они не передают этого значения.<br> = <span class='translation'>The word <span class='construction'>Кстати</span> &#39;by the way&#39; introduces a thought that suddenly came to the speaker&#39;s mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; are not appropriate here, because they do not convey this meaning.</span><br>";
+    answ_b = "2: а, б, в;<br>Здесь подходят все три конструкции, но они вносят разные нюансы. <span class='construction'>Кстати</span> вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br> = <span class='translation'> All three constructions can be used here. However, they have different nuances in meaning. Кстати &#39;by the way&#39; introduces a thought that suddenly came to the speaker&#39;s mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words кроме того &#39;besides&#39; and к тому же &#39;in addition&#39; introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.</span><br>";
+    answ_c = "3: б, в;<br>Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция кстати здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br> = <span class='translation'>The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word <span class='construction'>кстати</span> &#39;by the way&#39; cannot be used here, because it emphasizes that the added information is unexpected.</span><br>";
+    answ_d = "4: а;<br><span class='construction'>Кстати</span> вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> здесь не подходят, так как они не передают этого значения.<br> = <span class='translation'>The word <span class='construction'>Кстати</span> &#39;by the way&#39; introduces a thought that suddenly came to the speaker&#39;s mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; are not appropriate here, because they do not convey this meaning.</span><br>";
+    answ_e = "5: б, в;<br>Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция <span class='construction'>кстати</span> здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br> = <span class='translation'>The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word <span class='construction'>кстати</span> &#39;by the way&#39; cannot be used here, because it emphasizes that the added information is unexpected.</span><br>";
+    answ_f = "6: б, в;<br>Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции <span class='construction'>к тому же</span> в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br> = <span class='translation'>The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words <span class='construction'>к тому же</span> &#39;in addition&#39; often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.</span><br>";
+    answ_g = "7: б, в;<br>Конструкции <span class='construction'>кроме того</span> и <span class='construction'>к тому же</span> вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции <span class='construction'>к тому же</span> в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br> = <span class='translation'>The constructions with the words <span class='construction'>кроме того</span> &#39;besides&#39; and <span class='construction'>к тому же</span> &#39;in addition&#39; introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words <span class='construction'>к тому же</span> &#39;in addition&#39; often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.</span>";
+    result = result.concat(answ_a, answ_b, answ_c, answ_d, answ_e, answ_f, answ_g)
+    var x = document.getElementById("ex10_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function Ex11_eng() {
+    result = "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;."
+    var x = document.getElementById("ex11_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex11_norw() {
+    result = "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ... &#39;."
+    var x = document.getElementById("ex11_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex11_comment() {
+    result = "Формат задания: в парах. = Task format: in pairs."
+    var x = document.getElementById("ex11_comment")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex12_eng() {
+    result = "Tell another person what a real friend should be like. Add information by using the constructions from this list."
+    var x = document.getElementById("ex12_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex12_norw() {
+    result = "Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon."
+    var x = document.getElementById("ex12_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex12_comment() {
+    result = "Это упражнение хорошо делать с целой группой студентов. Формат задания: по цепочке. Каждый студент должен добавить к описанию идеального друга новую черту. Продолжаем по очереди, все предложения должны быть связаны друг с другом.<br> = This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
+    var x = document.getElementById("ex12_comment")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex13_eng() {
+    result = "You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list."
+    var x = document.getElementById("ex13_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex13_norw() {
+    result = "Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen."
+    var x = document.getElementById("ex13_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex13_comment() {
+    result = "Каждый студент получает имя известного человека и должен объяснить, кто он (или она). Задача других студентов — отгадать, кто это. Кроме имени, студентам можно дать карточки с информацией об этих знаменитостях. <br> = Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
+    var x = document.getElementById("ex13_comment")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex13() {
+    result = "а: Александр Рыбак;<br>б: Адель;<br>в: Грета Тунберг;<br>г: Джонни Депп;<br>д: Магнус Карлсен;<br>е: Йенс Столтенберг;<br>ж: Леонардо Ди Каприо;<br>з: Анджелина Джоли;";
+    var x = document.getElementById("ex13_ans");
+    x.innerHTML = result;
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+}
+
+function Ex14_eng() {
+    result = "Write a short text (6 to 7 sentences) about your friend or acquaintance. Use all five new constructions."
+    var x = document.getElementById("ex14_eng")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
+    }
+}
+
+function Ex14_norw() {
+    result = "Skriv en kort tekst (6 til 7 setninger) om en venn eller bekjent. Bruk alle de fem nye konstruksjonene."
+    var x = document.getElementById("ex14_norw")
+    x.innerHTML = result;
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "inline-block";
+        
     }
 }
