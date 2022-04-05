@@ -91,7 +91,6 @@ td {
 .second_indent {
     position: relative;
     margin-left: 30px;
-    /* top: 20px; */
 }
 
 .dropbtn {
@@ -123,7 +122,6 @@ td {
     margin: 35px;
     margin-right: 70px;
     margin-left: 70px;
-    /* padding: 10px; */
     background-color: #5980B9;
     color:white;
   }
@@ -134,7 +132,6 @@ td {
   }
 
   .about_block {
-    /* text-align: center; */
     font-size: 25px;
     margin: 35px;
     margin-right: 70px;
@@ -155,7 +152,6 @@ td {
 
   .ru_text {
     background-color: #A787B6;
-    /* color: #DDF1FE; */
     color: white
   }
 
@@ -166,7 +162,6 @@ td {
   .construction {
     font-weight: bold;
     color: #1b67d8;
-    /* font-style:inherit; */
   }
 
   .translation {
@@ -181,12 +176,6 @@ td {
     font-size: inherit;
     margin-bottom: 5px;
     margin-top: 5px;
-    /* padding: 1px 2px; */
-    /* width: 100%; */
-    /* overflow: hidden; */
-    /* resize: both; */
-    /* min-height: 40px;
-    line-height: 20px; */
   }
 
   input {
@@ -201,4 +190,18 @@ td {
 
   button {
     margin: 2px
+  }
+
+  .collapsible {
+    /* color: transparent; */
+    /* background-color: inherit; */
+    font-size: 25px;
+    display: none;
+  }
+
+  .expand_btn {
+    background-color: inherit;
+    font-size: 40px;
+    position: absolute;
+    right: 30px
   }
