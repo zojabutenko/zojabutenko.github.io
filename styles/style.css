@@ -193,8 +193,6 @@ td {
   }
 
   .collapsible {
-    /* color: transparent; */
-    /* background-color: inherit; */
     font-size: 25px;
     display: none;
   }
