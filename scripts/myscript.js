@@ -797,16 +797,3 @@ function Ex14_norw() {
     }
 }
 
-
-
-function func_one() {
-    // result = "Skriv en kort tekst (6 til 7 setninger) om en venn eller bekjent. Bruk alle de fem nye konstruksjonene."
-    var x = document.getElementById("func_exmpl_one")
-    // x.innerHTML = result;
-    if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-        
-    }
-}

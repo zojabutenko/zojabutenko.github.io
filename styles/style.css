@@ -50,6 +50,12 @@ td {
   border-spacing: 10px;
 }
 
+#function_cont {
+  font-size: 35px;
+  border-spacing: 10px;
+  width: 1050px;
+}
+
 .lesson_cont_row {
   background-color: #DDF1FE;
 }
