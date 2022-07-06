@@ -6,636 +6,644 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
 
     <title>Construxersize!</title>
 </head>
 <body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
-<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-warning">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../images/main_logo.png" alt="" width="500">
-        </a>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse float-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item m-3">
-                        <a class="btn btn-outline-info " aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item btn-group m-3">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/main_logo.png" alt="" width="500">
+            </a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse float-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-3">
+                            <a class="btn btn-outline-info " aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item btn-group m-3">
 
-                        <a class="btn btn-outline-info" href="Lessons.html" role="button">Lessons</a>
-                        <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="visually-hidden">Toggle Dropdown</span>
+                            <a class="btn btn-outline-info" href="Lessons.html" role="button">Lessons</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
+                                <li><a class="dropdown-item" href="lessons/Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
+                                <li><a class="dropdown-item" href="lessons/Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
+                                <li><a class="dropdown-item" href="#"><b>3.Устройство на работу.</b> Getting a job</a></li>
+                                <li><a class="dropdown-item" href="#"><b>4. Поход к врачу.</b> Going to the doctor</a></li>
+                                <li><a class="dropdown-item" href="#"><b>5. Закрепление уроков 1-4.</b> Review lessons 1-4</a></li>
+                                <li><a class="dropdown-item" href="#"><b>6. Транспорт.</b> Getting around</a></li>
+                                <li><a class="dropdown-item" href="#"><b>7. Праздники.</b> Holiday celebrations</a></li>
+                                <li><a class="dropdown-item" href="#"><b>8. Еда.</b> Cooking and eating</a></li>
+                                <li><a class="dropdown-item" href="#"><b>9. Внешность.</b> Personal Appearance </a></li>
+                                <li><a class="dropdown-item" href="#"><b>10. Характер.</b> Describing personality</a></li>
+                                <li><a class="dropdown-item" href="#"><b>11. Одежда.</b> Getting dressed</a></li>
+                                <li><a class="dropdown-item" href="#"><b>12. Закрепление уроков 6-11.</b> Review lessons 6-11</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item btn-group m-3">
+                            <a class="btn btn-outline-info" href="Functions.html" role="button">Functions</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
+                                <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
+                                <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
+                                <li><a class="dropdown-item" href="#"><b>3. Добавить информацию. </b>Add information</a></li>
+                                <li><a class="dropdown-item" href="#"><b>4. Ввести тему. </b>Introduce a topic</a></li>
+                                <li><a class="dropdown-item" href="#"><b>5. Упорядочить аргументы. </b>Structure your argument</a></li>
+                                <li><a class="dropdown-item" href="#"><b>6. Подвести итог. </b>Draw a conclusion</a></li>
+                                <li><a class="dropdown-item" href="#"><b>7. Выразить свое мнение. </b>Express your opinion</a></li>
+                                <li><a class="dropdown-item" href="#"><b>8. Узнать мнение собеседника. </b>Ask someone for their opinion</a></li>
+                                <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания. </b>Hedge</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="btn btn-outline-info active" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <ul class="nav nav-tabs " id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="true"><img src="../images/us.svg" alt="eng" width="25"></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="norw-tab" data-bs-toggle="tab" data-bs-target="#norw" type="button" role="tab" aria-controls="norwegian" aria-selected="false"><img src="../images/no.svg" alt="no" width="25"></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="false"><img src="../images/ru.svg" alt="rus" width="25"></button>
+        </li>
+    </ul>
+
+
+    <div class="tab-content" id="myTabContent">
+
+        <div class="tab-pane fade show active" id="eng" role="tabpanel" aria-labelledby="eng-tab">
+            <div class="accordion lang_tab">
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_1" aria-expanded="true" aria-controls="eng_1">
+                            OUR MISSION
                         </button>
-
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
-                            <li><a class="dropdown-item" href="lessons/Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
-                            <li><a class="dropdown-item" href="lessons/Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
-                            <li><a class="dropdown-item" href="#"><b>3.Устройство на работу.</b> Getting a job</a></li>
-                            <li><a class="dropdown-item" href="#"><b>4. Поход к врачу.</b> Going to the doctor</a></li>
-                            <li><a class="dropdown-item" href="#"><b>5. Закрепление уроков 1-4.</b> Review lessons 1-4</a></li>
-                            <li><a class="dropdown-item" href="#"><b>6. Транспорт.</b> Getting around</a></li>
-                            <li><a class="dropdown-item" href="#"><b>7. Праздники.</b> Holiday celebrations</a></li>
-                            <li><a class="dropdown-item" href="#"><b>8. Еда.</b> Cooking and eating</a></li>
-                            <li><a class="dropdown-item" href="#"><b>9. Внешность.</b> Personal Appearance </a></li>
-                            <li><a class="dropdown-item" href="#"><b>10. Характер.</b> Describing personality</a></li>
-                            <li><a class="dropdown-item" href="#"><b>11. Одежда.</b> Getting dressed</a></li>
-                            <li><a class="dropdown-item" href="#"><b>12. Закрепление уроков 6-11.</b> Review lessons 6-11</a></li>
-
-                        </ul>
-                    </li>
-
-                    <li class="nav-item btn-group m-3">
-                        <a class="btn btn-outline-info" href="Functions.html" role="button">Functions</a>
-                        <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="visually-hidden">Toggle Dropdown</span>
+                    </h2>
+                    <div id="eng_1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> helps to:
+                            <ol>
+                                <li>practice your speaking and writing</li>
+                                <li>clearly structure your statements</li>
+                                <li>make it easy to generate a text, either spoken or written, on your own</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_2" aria-expanded="false" aria-controls="eng_2">
+                            TARGET USERS
                         </button>
+                    </h2>
+                    <div id="eng_2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> is designed to be a useful practical tool for both learners and language instructors of Russian as a foreign language. The proposed exercises can be used both in the classroom and for self-guided study.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_3" aria-expanded="false" aria-controls="eng_3">
+                            LEVEL
+                        </button>
+                    </h2>
+                    <div id="eng_3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> vocabulary and grammar target A2-B1 levels of language proficiency (according to CEFR, the Common European Framework of Reference for Languages). Bonus exercises employ more advanced vocabulary to benefit the learners at levels B2-C1.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_4" aria-expanded="false" aria-controls="eng_4">
+                            WHAT IS A CONSTRUCTION?
+                        </button>
+                    </h2>
+                    <div id="eng_4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Constructions are the building blocks of language. Constructions are patterns of word choices,
+                            word combinations, and sentence structures that are often difficult for foreign learners to
+                            master. A typical construction is made up of fixed pieces and slots where you can add words.
+                            For example, in the construction <b>что касается NP-Gen, то Cl</b>, the words “что касается” and
+                            “то” are fixed elements, while NP-Gen (= noun phrase in the genitive case) and Cl (= clause,
+                            sentence) are open slots that can be filled with different fillers. Thus, this construction provides
+                            a structure that you can use to build an entire sentence, for instance: Что касается спорта, я
+                            очень люблю бегать.
+                        </div>
+                    </div>
+                </div>
 
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
-                            <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
-                            <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
-                            <li><a class="dropdown-item" href="#"><b>3. Добавить информацию. </b>Add information</a></li>
-                            <li><a class="dropdown-item" href="#"><b>4. Ввести тему. </b>Introduce a topic</a></li>
-                            <li><a class="dropdown-item" href="#"><b>5. Упорядочить аргументы. </b>Structure your argument</a></li>
-                            <li><a class="dropdown-item" href="#"><b>6. Подвести итог. </b>Draw a conclusion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>7. Выразить свое мнение. </b>Express your opinion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>8. Узнать мнение собеседника. </b>Ask someone for their opinion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания. </b>Hedge</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="btn btn-outline-info active" href="about.html">About</a>
-                    </li>
-                </ul>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_5" aria-expanded="false" aria-controls="eng_5">
+                            CONSTRUCTION-BASED APPROACH
+                        </button>
+                    </h2>
+                    <div id="eng_5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            A language is more than just words and grammar rules. <b>Construxercise!</b> presents ready-to-use
+                            communicative patterns that you can employ to build confidence and proficiency. Learning
+                            Russian by its constructions is a strategic and research-based approach inspired by the theory
+                            of language called Construction Grammar. All constructions you will learn in <b>Construxercise!</b> are
+                            thoroughly described and illustrated in the Russian Constructicon, a large collection of over
+                            2,200 Russian constructions available at <a href="https://constructicon.github.io/russian/" target="_blank"
+                            style="color: inherit;">https://constructicon.github.io/russian/</a>.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_6" aria-expanded="false" aria-controls="eng_6">
+                            EXERCISES BY LESSONS AND BY FUNCTIONS
+                        </button>
+                    </h2>
+                    <div id="eng_6" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>The exercises are grouped by lessons and by functions. Each of the twelve lessons introduces a
+                            group of five to six constructions using vocabulary and grammar connected to a given topic. On
+                            <b>the page “Lessons”</b> the user can find twelve lessons for topics like Работа (Getting a job),
+                            Поход к врачу (Going to the doctor), Внешность (Personal appearance), etc. Each lesson takes
+                            approximately 45 minutes to complete and contains 12 to 15 exercises.</p>
+                            <p>Alternatively, one can access the exercises on <b>the page “Functions”</b> where they are grouped
+                            according to why they are used: to express one&#39;s subjective opinion, to add information, to
+                            clarify one&#39;s point, etc. The exercises encourage learners to engage in speaking and writing. The
+                            constructions are stylistically neutral and can be used in a wide variety of genres and topics.</p>
+                            <p>Our philosophy is that the more you produce Russian on your own, the more you learn
+                            (learning-by-doing). You can train in speaking and writing already at early stages of learning
+                            Russian. We focus on simple constructions that enrich your language skills, make your speech
+                            more fluent, native-like, and give you confidence to engage in conversation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_7" aria-expanded="false" aria-controls="eng_7">
+                            THE TEAM
+                        </button>
+                    </h2>
+                    <div id="eng_7" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>The team of collaborators includes Anna Endresen, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova.</p>
+                            <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
+                            <p>The project is administered at UiT The Arctic University of Norway and is supported by the
+                                Directorate for Higher Education and Skills of the Norwegian Ministry of Education and
+                                Research (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, the grant UTF-2020/10129).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_8" aria-expanded="false" aria-controls="eng_8">
+                            HOW TO CITE
+                        </button>
+                    </h2>
+                    <div id="eng_8" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>When using the materials available here, please provide the following citation:</p>
+                            <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_9" aria-expanded="false" aria-controls="eng_9">
+                            CONTACT
+                        </button>
+                    </h2>
+                    <div id="eng_9" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Anna Endresen anna.endresen@uit.no ; Valentina Zhukova valentina.a.zhukova@uit.no
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-</nav>
 
+        <div class="tab-pane fade" id="norw" role="tabpanel" aria-labelledby="norw-tab">
 
-
-<ul class="nav nav-tabs " id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
-    <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="true"><img src="../images/us.svg" alt="eng" width="25"></button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="norw-tab" data-bs-toggle="tab" data-bs-target="#norw" type="button" role="tab" aria-controls="norwegian" aria-selected="false"><img src="../images/no.svg" alt="no" width="25"></button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="false"><img src="../images/ru.svg" alt="rus" width="25"></button>
-    </li>
-</ul>
-
-
-<div class="tab-content" id="myTabContent">
-
-    <div class="tab-pane fade show active" id="eng" role="tabpanel" aria-labelledby="eng-tab">
-        <div class="accordion lang_tab">
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_1" aria-expanded="true" aria-controls="eng_1">
-                        OUR MISSION
-                    </button>
-                </h2>
-                <div id="eng_1" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> helps to:
-                        <ol>
-                            <li>practice your speaking and writing</li>
-                            <li>clearly structure your statements</li>
-                            <li>make it easy to generate a text, either spoken or written, on your own</li>
-                        </ol>
+            <div class="accordion lang_tab">
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_1" aria-expanded="true" aria-controls="norw_1">
+                            VÅRT OPPDRAG
+                        </button>
+                    </h2>
+                    <div id="norw_1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> hjelper brukeren:
+                            <ol>
+                                <li>å utvikle muntlige og skriftlige ferdigheter</li>
+                                <li>å uttrykke seg tydelig og strukturert</li>
+                                <li>å selvstendig formulere seg både muntlig og skriftlig</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_2" aria-expanded="false" aria-controls="eng_2">
-                        TARGET USERS
-                    </button>
-                </h2>
-                <div id="eng_2" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> is designed to be a useful practical tool for both learners and language instructors of Russian as a foreign language. The proposed exercises can be used both in the classroom and for self-guided study.
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_2" aria-expanded="false" aria-controls="norw_2">
+                            HVEM KAN BRUKE CONSTRUXERCISE?
+                        </button>
+                    </h2>
+                    <div id="norw_2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> er et praktisk verktøy rettet mot studenter og undervisere i russisk som
+                            fremmedspråk. De foreslåtte oppgavene passer til gruppearbeid i klasserommet, eller til
+                            selvstudier hjemme.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_3" aria-expanded="false" aria-controls="eng_3">
-                        LEVEL
-                    </button>
-                </h2>
-                <div id="eng_3" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> vocabulary and grammar target A2-B1 levels of language proficiency (according to CEFR, the Common European Framework of Reference for Languages). Bonus exercises employ more advanced vocabulary to benefit the learners at levels B2-C1.
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_3" aria-expanded="false" aria-controls="norw_3">
+                            NIVÅ PÅ OPPGAVENE
+                        </button>
+                    </h2>
+                    <div id="norw_3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> er laget for studenter med grammatikk- og ordforråd tilsvarende nivå A1-B1
+                            i henhold til CEFR (The Common European Framework of Reference for Languages).
+                            Bonusoppgaver med mer avansert vokabular, tilpasset brukere med kunnskaper tilsvarende
+                            nivå B2-C1 (over gjennomsnittlig til avansert) er også tilgjengelig.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_4" aria-expanded="false" aria-controls="eng_4">
-                        WHAT IS A CONSTRUCTION?
-                    </button>
-                </h2>
-                <div id="eng_4" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Constructions are the building blocks of language. Constructions are patterns of word choices,
-                        word combinations, and sentence structures that are often difficult for foreign learners to
-                        master. A typical construction is made up of fixed pieces and slots where you can add words.
-                        For example, in the construction <b>что касается NP-Gen, то Cl</b>, the words “что касается” and
-                        “то” are fixed elements, while NP-Gen (= noun phrase in the genitive case) and Cl (= clause,
-                        sentence) are open slots that can be filled with different fillers. Thus, this construction provides
-                        a structure that you can use to build an entire sentence, for instance: Что касается спорта, я
-                        очень люблю бегать.
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_4" aria-expanded="false" aria-controls="norw_4">
+                            HVA ER EN KONSTRUKSJON?
+                        </button>
+                    </h2>
+                    <div id="norw_4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Konstruksjoner er faste språklige strukturer, eller byggesteiner, som brukes for å danne
+                            setninger og uttrykk. Morsmålsbrukere anvender ofte konstruksjoner og ordkombinasjoner
+                            som kan oppleves fremmede for utenlandske studenter, og dermed vanskelige å mestre.</p>
+                            <p>Som fremmedspråkstudent har du sikkert vært med på å lage helt korrekte setninger, men
+                                etterpå fått høre morsmålsbrukere si: alt er <i>forståelig</i>, det er <i>mulig</i> å uttrykke seg slik, men
+                                ingen <i>snakker på den måten</i>. Poenget er at i språket finnes det som regel allerede en allment
+                                akseptert måte å uttrykke seg på, det vil si ved å bruke faste konstruksjoner. Noen
+                                eksempler på faste konstruksjoner i russisk:<br>
+                                <b>нет-нет да и VP-Pfv</b>, som i setningen <i>Он нет-нет да и спросит</i> &quot;Av og til stiller han et
+                                spørsmål&quot;;<br>
+                                <b>(NP-Gen) не напасёшься (на NP-Acc)</b>, som i setningen <i>На всех не напасёшься</i> &quot;Ikke
+                                bekymre deg for alle!&quot;;<br>
+                                <b>NP-Nom Cop так себе</b>, som i setningen <i>Картина была так себе</i> &quot;Maleriet var så som så&quot;;<br>
+                                <b>Хорош VP-Ipfv.Inf!</b>, som i setningen <i>Хорош прыгать!</i> &quot;Slutt å hoppe!&quot;</p>
+                                <p>Typiske konstruksjoner er bygget opp av en fast del og en foranderlig del. For eksempel, i
+                                konstruksjonen <b>что касается NP-Gen, то Cl</b>, er ordene «что касается» og «то», faste og kan
+                                ikke forandres eller byttes ut. Derimot kan NP-Gen (= substantiv i genitiv kasus og avhengige
+                                ord) og Cl (= setning) forandres. Følgelig kan denne konstruksjonen brukes for å danne
+                                fullstendige setninger, for eksempel
+                                <i>Что касается спорта, я очень люблю бегать</i> &quot;Når det gjelder sport, liker jeg godt å jogge&quot; eller <i>Что касается музыки, то я
+                                предпочитаю классику</i> &quot;Når det kommer til musikk, foretrekker jeg klassisk musikk&quot;.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_5" aria-expanded="false" aria-controls="eng_5">
-                        CONSTRUCTION-BASED APPROACH
-                    </button>
-                </h2>
-                <div id="eng_5" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        A language is more than just words and grammar rules. <b>Construxercise!</b> presents ready-to-use
-                        communicative patterns that you can employ to build confidence and proficiency. Learning
-                        Russian by its constructions is a strategic and research-based approach inspired by the theory
-                        of language called Construction Grammar. All constructions you will learn in <b>Construxercise!</b> are
-                        thoroughly described and illustrated in the Russian Constructicon, a large collection of over
-                        2,200 Russian constructions available at <a href="https://constructicon.github.io/russian/" target="_blank"
-                        style="color: inherit;">https://constructicon.github.io/russian/</a>.
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_5" aria-expanded="false" aria-controls="norw_5">
+                            KONSTRUKSJONSBASERT TILNÆRMING TIL SPRÅKSTUDIER
+                        </button>
+                    </h2>
+                    <div id="norw_5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Språk dreier seg ikke bare om ord- og grammatikkunnskaper. <b>Construxercise!</b> tilbyr ferdige
+                            eksempler på språk- og kommunikasjonsmønster som gir studentene selvtillit og hjelper
+                            dem å utvikle sine ferdigheter i fremmedspråk. Å studere russisk ved å lære seg
+                            konstruksjoner er en strategisk, effektiv og evidensbasert tilnærming, basert på språkteorien
+                            Konstruksjonsgrammatikk. Alle konstruksjoner som inngår i øvelsene er omhyggelig
+                            beskrevet og illustrert i Det Russiske konstruktikonet, en resurs som inneholder mer enn
+                            2200 russiske grammatiske konstruksjoner <a href="https://constructicon.github.io/russian/" target="_blank"
+                            style="color: inherit;">https://constructicon.github.io/russian/</a>.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_6" aria-expanded="false" aria-controls="eng_6">
-                        EXERCISES BY LESSONS AND BY FUNCTIONS
-                    </button>
-                </h2>
-                <div id="eng_6" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>The exercises are grouped by lessons and by functions. Each of the twelve lessons introduces a
-                        group of five to six constructions using vocabulary and grammar connected to a given topic. On
-                        <b>the page “Lessons”</b> the user can find twelve lessons for topics like Работа (Getting a job),
-                        Поход к врачу (Going to the doctor), Внешность (Personal appearance), etc. Each lesson takes
-                        approximately 45 minutes to complete and contains 12 to 15 exercises.</p>
-                        <p>Alternatively, one can access the exercises on <b>the page “Functions”</b> where they are grouped
-                        according to why they are used: to express one&#39;s subjective opinion, to add information, to
-                        clarify one&#39;s point, etc. The exercises encourage learners to engage in speaking and writing. The
-                        constructions are stylistically neutral and can be used in a wide variety of genres and topics.</p>
-                        <p>Our philosophy is that the more you produce Russian on your own, the more you learn
-                        (learning-by-doing). You can train in speaking and writing already at early stages of learning
-                        Russian. We focus on simple constructions that enrich your language skills, make your speech
-                        more fluent, native-like, and give you confidence to engage in conversation.</p>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_6" aria-expanded="false" aria-controls="norw_6">
+                            LEKSJONER OG FUNKSJONER
+                        </button>
+                    </h2>
+                    <div id="norw_6" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Øvelsene er inndelt etter leksjoner og funksjoner. I hver av de tolv leksjonene på siden
+                            <b>“Lessons”</b> presenteres 5-6 konstruksjoner. Vokabular og grammatikk i leksjonene tilsvarer
+                            et gitt tema, for eksempel: Работа (Arbeid), Поход к врачу (Legetime), Внешность
+                            (Utseende) og så videre. Dessuten kan disse konstruksjonene brukes i andre tekster og
+                            sammenheng, uansett tema. Hver leksjon består av 12-15 øvelser som tar omtrent 45
+                            minutter å fullføre.</p>
+                            <p>På siden <b>“Functions”</b> er øvelsene inndelt etter funksjoner: выразить мнение (uttrykke
+                                meninger), добавить информацию (legge til informasjon), пояснить мысль (forklare en
+                                tanke eller mening) og så videre. Alle konstruksjoner er stilistisk nøytrale, og kan brukes i
+                                vidt forskjellige emner og sjangre.</p>
+                            <p>Jo mer studentene selvstendig lager egne setninger og tekster på russisk, jo bedre behersker
+                                de språket. Det er mulig allerede tidlig i russiskstudiene å aktivt øve på både muntlige og
+                                skriftlige ferdigheter. Konstruksjonsøvelsene som vi tilbyr er tilstrekkelig lettforståelige når
+                                det gjelder struktur og bruk, samtidig som de beriker språket betraktelig. Dessuten hjelper
+                                øvelsene studentene å nå opp til et språknivå mer likt morsmålsbrukere, og skaper dermed
+                                selvtillit i samtalesituasjoner.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_7" aria-expanded="false" aria-controls="eng_7">
-                        THE TEAM
-                    </button>
-                </h2>
-                <div id="eng_7" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>The team of collaborators includes Anna Endresen, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova.</p>
-                        <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
-                        <p>The project is administered at UiT The Arctic University of Norway and is supported by the
-                            Directorate for Higher Education and Skills of the Norwegian Ministry of Education and
-                            Research (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, the grant UTF-2020/10129).</p>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_7" aria-expanded="false" aria-controls="norw_7">
+                            VÅRT TEAM
+                        </button>
+                    </h2>
+                    <div id="norw_7" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Vårt team av medarbeidere består av Anna Endresen, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova.</p>
+                            <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
+                            <p>Dette prosjektet administreres av UiT Norges arktiske universitet og støttes av Direktoratet
+                                for høyere utdanning og kompetanse, underlagt Kunnskapsdepartementet. (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, middel nr. UTF-2020/10129).</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_8" aria-expanded="false" aria-controls="eng_8">
-                        HOW TO CITE
-                    </button>
-                </h2>
-                <div id="eng_8" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>When using the materials available here, please provide the following citation:</p>
-                        <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a></p>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_8" aria-expanded="false" aria-controls="norw_8">
+                            HVORDAN SITERE
+                        </button>
+                    </h2>
+                    <div id="norw_8" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Hvis du ønsker å bruke dette materialet, vennligst siter:</p>
+                            <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eng_9" aria-expanded="false" aria-controls="eng_9">
-                        CONTACT
-                    </button>
-                </h2>
-                <div id="eng_9" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Anna Endresen anna.endresen@uit.no ; Valentina Zhukova valentina.a.zhukova@uit.no
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_9" aria-expanded="false" aria-controls="norw_9">
+                            KONTAKT
+                        </button>
+                    </h2>
+                    <div id="norw_9" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Anna Endresen anna.endresen@uit.no ; Valentina Zhukova valentina.a.zhukova@uit.no
+                        </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="tab-pane fade" id="norw" role="tabpanel" aria-labelledby="norw-tab">
-
-        <div class="accordion lang_tab">
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_1" aria-expanded="true" aria-controls="norw_1">
-                        VÅRT OPPDRAG
-                    </button>
-                </h2>
-                <div id="norw_1" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> hjelper brukeren:
-                        <ol>
-                            <li>å utvikle muntlige og skriftlige ferdigheter</li>
-                            <li>å uttrykke seg tydelig og strukturert</li>
-                            <li>å selvstendig formulere seg både muntlig og skriftlig</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_2" aria-expanded="false" aria-controls="norw_2">
-                        HVEM KAN BRUKE CONSTRUXERCISE?
-                    </button>
-                </h2>
-                <div id="norw_2" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> er et praktisk verktøy rettet mot studenter og undervisere i russisk som
-                        fremmedspråk. De foreslåtte oppgavene passer til gruppearbeid i klasserommet, eller til
-                        selvstudier hjemme.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_3" aria-expanded="false" aria-controls="norw_3">
-                        NIVÅ PÅ OPPGAVENE
-                    </button>
-                </h2>
-                <div id="norw_3" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> er laget for studenter med grammatikk- og ordforråd tilsvarende nivå A1-B1
-                        i henhold til CEFR (The Common European Framework of Reference for Languages).
-                        Bonusoppgaver med mer avansert vokabular, tilpasset brukere med kunnskaper tilsvarende
-                        nivå B2-C1 (over gjennomsnittlig til avansert) er også tilgjengelig.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_4" aria-expanded="false" aria-controls="norw_4">
-                        HVA ER EN KONSTRUKSJON?
-                    </button>
-                </h2>
-                <div id="norw_4" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Konstruksjoner er faste språklige strukturer, eller byggesteiner, som brukes for å danne
-                        setninger og uttrykk. Morsmålsbrukere anvender ofte konstruksjoner og ordkombinasjoner
-                        som kan oppleves fremmede for utenlandske studenter, og dermed vanskelige å mestre.</p>
-                        <p>Som fremmedspråkstudent har du sikkert vært med på å lage helt korrekte setninger, men
-                            etterpå fått høre morsmålsbrukere si: alt er <i>forståelig</i>, det er <i>mulig</i> å uttrykke seg slik, men
-                            ingen <i>snakker på den måten</i>. Poenget er at i språket finnes det som regel allerede en allment
-                            akseptert måte å uttrykke seg på, det vil si ved å bruke faste konstruksjoner. Noen
-                            eksempler på faste konstruksjoner i russisk:<br>
-                            <b>нет-нет да и VP-Pfv</b>, som i setningen <i>Он нет-нет да и спросит</i> &quot;Av og til stiller han et
-                            spørsmål&quot;;<br>
-                            <b>(NP-Gen) не напасёшься (на NP-Acc)</b>, som i setningen <i>На всех не напасёшься</i> &quot;Ikke
-                            bekymre deg for alle!&quot;;<br>
-                            <b>NP-Nom Cop так себе</b>, som i setningen <i>Картина была так себе</i> &quot;Maleriet var så som så&quot;;<br>
-                            <b>Хорош VP-Ipfv.Inf!</b>, som i setningen <i>Хорош прыгать!</i> &quot;Slutt å hoppe!&quot;</p>
-                            <p>Typiske konstruksjoner er bygget opp av en fast del og en foranderlig del. For eksempel, i
-                            konstruksjonen <b>что касается NP-Gen, то Cl</b>, er ordene «что касается» og «то», faste og kan
-                            ikke forandres eller byttes ut. Derimot kan NP-Gen (= substantiv i genitiv kasus og avhengige
-                            ord) og Cl (= setning) forandres. Følgelig kan denne konstruksjonen brukes for å danne
-                            fullstendige setninger, for eksempel
-                            <i>Что касается спорта, я очень люблю бегать</i> &quot;Når det gjelder sport, liker jeg godt å jogge&quot; eller <i>Что касается музыки, то я
-                            предпочитаю классику</i> &quot;Når det kommer til musikk, foretrekker jeg klassisk musikk&quot;.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_5" aria-expanded="false" aria-controls="norw_5">
-                        KONSTRUKSJONSBASERT TILNÆRMING TIL SPRÅKSTUDIER
-                    </button>
-                </h2>
-                <div id="norw_5" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Språk dreier seg ikke bare om ord- og grammatikkunnskaper. <b>Construxercise!</b> tilbyr ferdige
-                        eksempler på språk- og kommunikasjonsmønster som gir studentene selvtillit og hjelper
-                        dem å utvikle sine ferdigheter i fremmedspråk. Å studere russisk ved å lære seg
-                        konstruksjoner er en strategisk, effektiv og evidensbasert tilnærming, basert på språkteorien
-                        Konstruksjonsgrammatikk. Alle konstruksjoner som inngår i øvelsene er omhyggelig
-                        beskrevet og illustrert i Det Russiske konstruktikonet, en resurs som inneholder mer enn
-                        2200 russiske grammatiske konstruksjoner <a href="https://constructicon.github.io/russian/" target="_blank"
-                        style="color: inherit;">https://constructicon.github.io/russian/</a>.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_6" aria-expanded="false" aria-controls="norw_6">
-                        LEKSJONER OG FUNKSJONER
-                    </button>
-                </h2>
-                <div id="norw_6" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Øvelsene er inndelt etter leksjoner og funksjoner. I hver av de tolv leksjonene på siden
-                        <b>“Lessons”</b> presenteres 5-6 konstruksjoner. Vokabular og grammatikk i leksjonene tilsvarer
-                        et gitt tema, for eksempel: Работа (Arbeid), Поход к врачу (Legetime), Внешность
-                        (Utseende) og så videre. Dessuten kan disse konstruksjonene brukes i andre tekster og
-                        sammenheng, uansett tema. Hver leksjon består av 12-15 øvelser som tar omtrent 45
-                        minutter å fullføre.</p>
-                        <p>På siden <b>“Functions”</b> er øvelsene inndelt etter funksjoner: выразить мнение (uttrykke
-                            meninger), добавить информацию (legge til informasjon), пояснить мысль (forklare en
-                            tanke eller mening) og så videre. Alle konstruksjoner er stilistisk nøytrale, og kan brukes i
-                            vidt forskjellige emner og sjangre.</p>
-                        <p>Jo mer studentene selvstendig lager egne setninger og tekster på russisk, jo bedre behersker
-                            de språket. Det er mulig allerede tidlig i russiskstudiene å aktivt øve på både muntlige og
-                            skriftlige ferdigheter. Konstruksjonsøvelsene som vi tilbyr er tilstrekkelig lettforståelige når
-                            det gjelder struktur og bruk, samtidig som de beriker språket betraktelig. Dessuten hjelper
-                            øvelsene studentene å nå opp til et språknivå mer likt morsmålsbrukere, og skaper dermed
-                            selvtillit i samtalesituasjoner.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_7" aria-expanded="false" aria-controls="norw_7">
-                        VÅRT TEAM
-                    </button>
-                </h2>
-                <div id="norw_7" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Vårt team av medarbeidere består av Anna Endresen, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova.</p>
-                        <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
-                        <p>Dette prosjektet administreres av UiT Norges arktiske universitet og støttes av Direktoratet
-                            for høyere utdanning og kompetanse, underlagt Kunnskapsdepartementet. (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, middel nr. UTF-2020/10129).</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_8" aria-expanded="false" aria-controls="norw_8">
-                        HVORDAN SITERE
-                    </button>
-                </h2>
-                <div id="norw_8" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Hvis du ønsker å bruke dette materialet, vennligst siter:</p>
-                        <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norw_9" aria-expanded="false" aria-controls="norw_9">
-                        KONTAKT
-                    </button>
-                </h2>
-                <div id="norw_9" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Anna Endresen anna.endresen@uit.no ; Valentina Zhukova valentina.a.zhukova@uit.no
-                    </div>
-                </div>
-            </div>
 
 
+
+            </div>
 
         </div>
 
-    </div>
+        <div class="tab-pane fade show" id="rus" role="tabpanel" aria-labelledby="rus-tab">
+            <div class="accordion lang_tab">
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_1" aria-expanded="true" aria-controls="rus_1">
+                            НАША МИССИЯ
+                        </button>
+                    </h2>
+                    <div id="rus_1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> поможет:
+                            <ol>
+                                <li>развить навыки говорения и письма</li>
+                                <li>четко структурировать высказывания</li>
+                                <li>самостоятельно создавать устные и письменные тексты</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_2" aria-expanded="false" aria-controls="rus_2">
+                            ДЛЯ КОГО
+                        </button>
+                    </h2>
+                    <div id="rus_2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <b>Construxercise!</b> — это практический ресурс, который предназначен для студентов и
+                            преподавателей русского языка как иностранного. Предлагаемые задания могут
+                            использоваться и на занятиях в классе, и для самостоятельного изучения дома.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_3" aria-expanded="false" aria-controls="rus_3">
+                            УРОВЕНЬ ЗАДАНИЙ
+                        </button>
+                    </h2>
+                    <div id="rus_3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            По уровню лексики и грамматики задания соответствуют уровням владения иностранным
+                            языком A2-B1 (базовый и средний уровни согласно общеевропейской шкале CEFR). В
+                            дополнительных бонусных упражнениях используется более сложная лексика,
+                            соответствующая уровням B2-C1 (уровень выше среднего и продвинутый).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_4" aria-expanded="false" aria-controls="rus_4">
+                            ЧТО ТАКОЕ КОНСТРУКЦИЯ
+                        </button>
+                    </h2>
+                    <div id="rus_4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Конструкции — это языковые структуры, которые образуют предложения, их части и язык
+                            в целом, подобно кирпичикам в здании. Вся речь носителей языка пронизана
+                            конструкциями, а для изучающих иностранный язык конструкции далеко не очевидны, и
+                            поэтому вызывают многочисленные трудности.</p>
+                            <p>Вам, должно быть, знакома ситуация, когда при изучении иностранного языка вы
+                            составляете предложение по всем правилам, услышав которое носители этого языка
+                            скажут: все понятно, так сказать можно, но так никто не говорит. Как правило, дело в
+                            том, что в языке уже существует общепринятый способ выражения этой мысли — с
+                            помощью определенной конструкции. Примерами русских конструкций являются:<br>
+                            <b>нет-нет да и VP-Pfv</b>, как в предложении <i>Он нет-нет да и спросит</i><br>
+                            <b>(NP-Gen) не напасёшься (на NP-Acc)</b>, как в предложении <i>На всех не напасешься</i><br>
+                            <b>NP-Nom Cop так себе</b>, как в предложении <i>Картина была так себе</i><br>
+                            <b>Хорош VP-Ipfv.Inf!</b>, как в предложении <i>Хорош прыгать!</i></p>
+                            <p>Типичная конструкция имеет фиксированную часть и переменные. Например, в
+                            конструкции <b>что касается NP-Gen, то Cl</b>, слова “что касается” и “то” — это фиксированные
+                            элементы, а NP-Gen (= имя существительное в родительном падеже с зависимыми
+                            словами) и Cl (= клауза, или предложение) — переменные. Так, эта конструкция имеет
+                            структуру, которую можно использовать для построения целого предложения, например,
+                            <i>Что касается спорта, я очень люблю бегать или Что касается музыки, я предпочитаю
+                            классику.</i></p>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="tab-pane fade show" id="rus" role="tabpanel" aria-labelledby="rus-tab">
-        <div class="accordion lang_tab">
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_1" aria-expanded="true" aria-controls="rus_1">
-                        НАША МИССИЯ
-                    </button>
-                </h2>
-                <div id="rus_1" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> поможет:
-                        <ol>
-                            <li>развить навыки говорения и письма</li>
-                            <li>четко структурировать высказывания</li>
-                            <li>самостоятельно создавать устные и письменные тексты</li>
-                        </ol>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_5" aria-expanded="false" aria-controls="rus_5">
+                            КОНСТРУКЦИОННЫЙ ПОДХОД К ИЗУЧЕНИЮ ЯЗЫКА
+                        </button>
+                    </h2>
+                    <div id="rus_5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Знание языка не исчерпывается знанием слов и грамматических правил. Ресурс
+                            <b>Construxercise!</b> предлагает готовые к использованию коммуникативные структуры,
+                            которые придадут студенту уверенности и помогут продвинуться в изучении иностранного
+                            языка. Изучение русского языка через конструкции — это стратегически эффективный и
+                            подкрепленный исследованиями подход, который опирается на теорию Грамматики
+                            Конструкций. Все конструкции, которые отрабатываются в упражнениях, детально
+                            описаны и проиллюстрированы в  Русском конструктиконе — ресурсе, где собрано более
+                            2200 конструкций русского языка <a href="https://constructicon.github.io/russian/" target="_blank" style="color: inherit;">https://constructicon.github.io/russian/</a>.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_2" aria-expanded="false" aria-controls="rus_2">
-                        ДЛЯ КОГО
-                    </button>
-                </h2>
-                <div id="rus_2" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <b>Construxercise!</b> — это практический ресурс, который предназначен для студентов и
-                        преподавателей русского языка как иностранного. Предлагаемые задания могут
-                        использоваться и на занятиях в классе, и для самостоятельного изучения дома.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_3" aria-expanded="false" aria-controls="rus_3">
-                        УРОВЕНЬ ЗАДАНИЙ
-                    </button>
-                </h2>
-                <div id="rus_3" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        По уровню лексики и грамматики задания соответствуют уровням владения иностранным
-                        языком A2-B1 (базовый и средний уровни согласно общеевропейской шкале CEFR). В
-                        дополнительных бонусных упражнениях используется более сложная лексика,
-                        соответствующая уровням B2-C1 (уровень выше среднего и продвинутый).
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_4" aria-expanded="false" aria-controls="rus_4">
-                        ЧТО ТАКОЕ КОНСТРУКЦИЯ
-                    </button>
-                </h2>
-                <div id="rus_4" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Конструкции — это языковые структуры, которые образуют предложения, их части и язык
-                        в целом, подобно кирпичикам в здании. Вся речь носителей языка пронизана
-                        конструкциями, а для изучающих иностранный язык конструкции далеко не очевидны, и
-                        поэтому вызывают многочисленные трудности.</p>
-                        <p>Вам, должно быть, знакома ситуация, когда при изучении иностранного языка вы
-                        составляете предложение по всем правилам, услышав которое носители этого языка
-                        скажут: все понятно, так сказать можно, но так никто не говорит. Как правило, дело в
-                        том, что в языке уже существует общепринятый способ выражения этой мысли — с
-                        помощью определенной конструкции. Примерами русских конструкций являются:<br>
-                        <b>нет-нет да и VP-Pfv</b>, как в предложении <i>Он нет-нет да и спросит</i><br>
-                        <b>(NP-Gen) не напасёшься (на NP-Acc)</b>, как в предложении <i>На всех не напасешься</i><br>
-                        <b>NP-Nom Cop так себе</b>, как в предложении <i>Картина была так себе</i><br>
-                        <b>Хорош VP-Ipfv.Inf!</b>, как в предложении <i>Хорош прыгать!</i></p>
-                        <p>Типичная конструкция имеет фиксированную часть и переменные. Например, в
-                        конструкции <b>что касается NP-Gen, то Cl</b>, слова “что касается” и “то” — это фиксированные
-                        элементы, а NP-Gen (= имя существительное в родительном падеже с зависимыми
-                        словами) и Cl (= клауза, или предложение) — переменные. Так, эта конструкция имеет
-                        структуру, которую можно использовать для построения целого предложения, например,
-                        <i>Что касается спорта, я очень люблю бегать или Что касается музыки, я предпочитаю
-                        классику.</i></p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_5" aria-expanded="false" aria-controls="rus_5">
-                        КОНСТРУКЦИОННЫЙ ПОДХОД К ИЗУЧЕНИЮ ЯЗЫКА
-                    </button>
-                </h2>
-                <div id="rus_5" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Знание языка не исчерпывается знанием слов и грамматических правил. Ресурс
-                        <b>Construxercise!</b> предлагает готовые к использованию коммуникативные структуры,
-                        которые придадут студенту уверенности и помогут продвинуться в изучении иностранного
-                        языка. Изучение русского языка через конструкции — это стратегически эффективный и
-                        подкрепленный исследованиями подход, который опирается на теорию Грамматики
-                        Конструкций. Все конструкции, которые отрабатываются в упражнениях, детально
-                        описаны и проиллюстрированы в  Русском конструктиконе — ресурсе, где собрано более
-                        2200 конструкций русского языка <a href="https://constructicon.github.io/russian/" target="_blank" style="color: inherit;">https://constructicon.github.io/russian/</a>.
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_6" aria-expanded="false" aria-controls="rus_6">
+                            УРОКИ И ФУНКЦИИ
+                        </button>
+                    </h2>
+                    <div id="rus_6" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Упражнения сгруппированы по урокам и по функциям. В каждом из 12 уроков на странице
+                                <b>“Lessons”</b> вводится 5-6 конструкций. Лексика и грамматика уроков соответствуют
+                                заявленным темам: Работа, Поход к врачу, Внешность и т.д. При этом сами конструкции
+                                могут использоваться в текстах любой тематики. Каждый урок содержит 12-15
+                                упражнений, выполнение которых занимает около 45 минут.</p>
+                            <p>На странице <b>“Functions”</b> упражнения сгруппированы по функциям, которые конструкции
+                                выполняют в тексте: выразить мнение, добавить информацию, пояснить мысль и др.
+                                Отобранные конструкции стилистически нейтральны и присутствуют в текстах самых
+                                разных жанров.</p>
+                            <p>Чем больше студенты самостоятельно порождают тексты на русском языке, тем лучше
+                                они осваивают язык. Активная отработка навыков устной и письменной речи возможна
+                                уже на ранних стадиях изучения русского языка. Конструкции, которые мы предлагаем,
+                                достаточно просты по структуре и использованию, но значительно обогащают речь,
+                                приближают ее к уровню носителей языка и придают уверенности для участия в
+                                разговоре.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_6" aria-expanded="false" aria-controls="rus_6">
-                        УРОКИ И ФУНКЦИИ
-                    </button>
-                </h2>
-                <div id="rus_6" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Упражнения сгруппированы по урокам и по функциям. В каждом из 12 уроков на странице
-                            <b>“Lessons”</b> вводится 5-6 конструкций. Лексика и грамматика уроков соответствуют
-                            заявленным темам: Работа, Поход к врачу, Внешность и т.д. При этом сами конструкции
-                            могут использоваться в текстах любой тематики. Каждый урок содержит 12-15
-                            упражнений, выполнение которых занимает около 45 минут.</p>
-                        <p>На странице <b>“Functions”</b> упражнения сгруппированы по функциям, которые конструкции
-                            выполняют в тексте: выразить мнение, добавить информацию, пояснить мысль и др.
-                            Отобранные конструкции стилистически нейтральны и присутствуют в текстах самых
-                            разных жанров.</p>
-                        <p>Чем больше студенты самостоятельно порождают тексты на русском языке, тем лучше
-                            они осваивают язык. Активная отработка навыков устной и письменной речи возможна
-                            уже на ранних стадиях изучения русского языка. Конструкции, которые мы предлагаем,
-                            достаточно просты по структуре и использованию, но значительно обогащают речь,
-                            приближают ее к уровню носителей языка и придают уверенности для участия в
-                            разговоре.</p>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_7" aria-expanded="false" aria-controls="rus_7">
+                            КОМАНДА
+                        </button>
+                    </h2>
+                    <div id="rus_7" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Анна  Эндресен, Валентина Жукова, Георгий Лоншаков, Дарья Демидова, Наталия Каланова, Елена Бьёргве, Давид Хенрик Лавен, Лора А. Янда, Зоя Бутенко, Татьяна Перевощикова</p>
+                            <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
+                            <p>Проект осуществлен в Норвежском Арктическом Университете и поддержан Норвежским
+                                управлением по вопросам образования и обучения Министерства Образования и
+                                Исследований Норвегии (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, грант UTF-2020/10129).</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_7" aria-expanded="false" aria-controls="rus_7">
-                        КОМАНДА
-                    </button>
-                </h2>
-                <div id="rus_7" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Анна  Эндресен, Валентина Жукова, Георгий Лоншаков, Дарья Демидова, Наталия Каланова, Елена Бьёргве, Давид Хенрик Лавен, Лора А. Янда, Зоя Бутенко, Татьяна Перевощикова</p>
-                        <img src="../images/team.jpg" alt="team" style="max-width: 70%; display: block; margin-left: auto; margin-right: auto; padding: 25px;">
-                        <p>Проект осуществлен в Норвежском Арктическом Университете и поддержан Норвежским
-                            управлением по вопросам образования и обучения Министерства Образования и
-                            Исследований Норвегии (HK-dir, <a href="https://hkdir.no" target="_blank" style="color: inherit;">https://hkdir.no</a>, грант UTF-2020/10129).</p>
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_8" aria-expanded="false" aria-controls="rus_8">
+                            КАК СОСЛАТЬСЯ
+                        </button>
+                    </h2>
+                    <div id="rus_8" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>При использовании материалов ресурса необходимо приводить следующую ссылку:</p>
+                            <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_8" aria-expanded="false" aria-controls="rus_8">
-                        КАК СОСЛАТЬСЯ
-                    </button>
-                </h2>
-                <div id="rus_8" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>При использовании материалов ресурса необходимо приводить следующую ссылку:</p>
-                        <p>Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. <a href="https://constructicon.github.io/construxercise-rus/" target="_blank" style="color: inherit;">https://constructicon.github.io/construxercise-rus/</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item paragraph">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_9" aria-expanded="false" aria-controls="rus_9">
-                        КОНТАКТЫ
-                    </button>
-                </h2>
-                <div id="rus_9" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Анна Эндресен anna.endresen@uit.no ; Валентина Жукова valentina.a.zhukova@uit.no
+                <div class="accordion-item paragraph">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rus_9" aria-expanded="false" aria-controls="rus_9">
+                            КОНТАКТЫ
+                        </button>
+                    </h2>
+                    <div id="rus_9" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Анна Эндресен anna.endresen@uit.no ; Валентина Жукова valentina.a.zhukova@uit.no
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container-fluid">
-    <footer class="py-3 my-4">
-        <div class="row border-bottom" style="height: 10px">
-            <div class="col p-3 w-30" >
-                <div class="p-3">
-                    <a href="https://constructicon.github.io/russian/" target="_blank"><img src="../images/constructicon.png" class="img-fluid" alt=""></a>
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <div class="row border-bottom" style="height: 10px">
+                <div class="col p-3 w-30" >
+                    <div class="p-3">
+                        <a href="https://constructicon.github.io/russian/" target="_blank"><img src="../images/constructicon.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://uit.no/startsida" target="_blank"><img src="../images/uit.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://www.hse.ru/en/" target="_blank"><img src="../images/HSE_University_blue.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="../images/hkdir_alt.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
             </div>
-            <div class="col p-3 w-30">
-                <div class="p-3">
-                    <a href="https://uit.no/startsida" target="_blank"><img src="../images/uit.png" class="img-fluid" alt=""></a>
-                </div>
-            </div>
-            <div class="col p-3 w-30">
-                <div class="p-3">
-                    <a href="https://www.hse.ru/en/" target="_blank"><img src="../images/HSE_University_blue.png" class="img-fluid" alt=""></a>
-                </div>
-            </div>
-            <div class="col p-3 w-30">
-                <div class="p-3">
-                    <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="../images/hkdir_alt.png" class="img-fluid" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
-
-<!-- <script src="../js/test.js"></script> -->
+        </footer>
+    </div>
 
 </body>
 </html>

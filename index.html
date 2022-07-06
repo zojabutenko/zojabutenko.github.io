@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
-
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            // $("#header").load("header.html");
+            $("#footer").load("templates/footer.html");
+        });
+    </script>
 
     <title>Construxersize!</title>
 </head>
@@ -96,24 +106,7 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid">
-        <footer class="footer mt-auto py-3 my-4">
-            <div class="row border-bottom align-items-center" style="height: 10px">
-                <div class="col p-3 w-30" >
-                    <a href="https://constructicon.github.io/russian/" target="_blank"><img src="images/constructicon.png" class="img-fluid" alt=""></a>
-                </div>
-                <div class="col p-3 w-30">
-                    <a href="https://uit.no/startsida" target="_blank"><img src="images/uit.png" class="img-fluid" alt=""></a>
-                </div>
-                <div class="col p-3 w-30">
-                    <a href="https://www.hse.ru/en/" target="_blank"><img src="images/HSE_University_blue.png" class="img-fluid" alt=""></a>
-                </div>
-                <div class="col p-3 w-30">
-                    <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="images/hkdir_alt.png" class="img-fluid" alt=""></a>
-                </div>
-            </div>
-<!--            <p class="text-center text-muted">© лицензия</p>-->
-        </footer>
-    </div>
+    <div id="footer"></div>
+
 </body>
 </html>
