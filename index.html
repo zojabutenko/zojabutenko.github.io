@@ -12,7 +12,7 @@
     </script>
     <script>
         $(function(){
-            // $("#header").load("header.html");
+            $("#header").load("templates/header.html");
             $("#footer").load("templates/footer.html");
         });
     </script>
@@ -21,72 +21,7 @@
 </head>
 <body>
     <script src="js/bootstrap.bundle.js"></script>
-
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-warning">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/main_logo.png" alt="" width="500">
-            </a>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse float-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item m-3">
-                        <a class="btn btn-outline-info active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item btn-group m-3">
-
-                        <a class="btn btn-outline-info" href="templates/Lessons.html" role="button">Lessons</a>
-                        <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="visually-hidden">Toggle Dropdown</span>
-                        </button>
-
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
-                            <li><a class="dropdown-item" href="templates/lessons/Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
-                            <li><a class="dropdown-item" href="templates/lessons/Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
-                            <li><a class="dropdown-item" href="#"><b>3. Устройство на работу.</b> Getting a job</a></li>
-                            <li><a class="dropdown-item" href="#"><b>4. Поход к врачу.</b> Going to the doctor</a></li>
-                            <li><a class="dropdown-item" href="#"><b>5. Закрепление уроков 1-4.</b> Review lessons 1-4</a></li>
-                            <li><a class="dropdown-item" href="#"><b>6. Транспорт.</b> Getting around</a></li>
-                            <li><a class="dropdown-item" href="#"><b>7. Праздники.</b> Holiday celebrations</a></li>
-                            <li><a class="dropdown-item" href="#"><b>8. Еда.</b> Cooking and eating</a></li>
-                            <li><a class="dropdown-item" href="#"><b>9. Внешность.</b> Personal Appearance </a></li>
-                            <li><a class="dropdown-item" href="#"><b>10. Характер.</b> Describing personality</a></li>
-                            <li><a class="dropdown-item" href="#"><b>11. Одежда.</b> Getting dressed</a></li>
-                            <li><a class="dropdown-item" href="#"><b>12. Закрепление уроков 6-11.</b> Review lessons 6-11</a></li>
-
-                        </ul>
-                    </li>
-
-                    <li class="nav-item btn-group m-3">
-                        <a class="btn btn-outline-info" href="templates/Functions.html" role="button">Functions</a>
-                        <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="visually-hidden">Toggle Dropdown</span>
-                        </button>
-
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
-                            <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
-                            <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
-                            <li><a class="dropdown-item" href="#"><b>3. Добавить информацию. </b>Add information</a></li>
-                            <li><a class="dropdown-item" href="#"><b>4. Ввести тему. </b>Introduce a topic</a></li>
-                            <li><a class="dropdown-item" href="#"><b>5. Упорядочить аргументы. </b>Structure your argument</a></li>
-                            <li><a class="dropdown-item" href="#"><b>6. Подвести итог. </b>Draw a conclusion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>7. Выразить свое мнение. </b>Express your opinion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>8. Узнать мнение собеседника. </b>Ask someone for their opinion</a></li>
-                            <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания. </b>Hedge</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="btn btn-outline-info" href="templates/about.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </div>
-    </nav>
-
+    <div id="header"></div>
     <section class="p-5">
         <div class="container px-3">
             <div class="row text-wrap overflow-hidden">
