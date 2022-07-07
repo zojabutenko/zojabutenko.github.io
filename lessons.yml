@@ -1,0 +1,37 @@
+---
+1:
+  lesson_id: 1
+  lesson_name: Урок 1. Знакомство
+  lesson_name_eng: Introducing yourself
+  lesson_pdf_link: https://zojabutenko.github.io/files/Lesson%201.%20Download.pdf
+  construction_table_header: # это можно наверное не делать, заголовки таблиц всегда одинаковые
+    - ID
+    - Construction
+    - Illustration
+  construction_table_rows:
+    1:
+      - 170
+      - (а) кроме того XP/Cl
+      - Он, кроме того, плавает.
+    2:
+      - 410
+      - не только XP, но и XP
+      - Он был не только умён, но и добр.
+    3:
+      - 1872
+      - (и) кстати (говоря), Cl
+      - И кстати, он пришёл без подарка.
+    4:
+      - 1093
+      - к тому же XP/Cl
+      - К тому же каждый день шёл снег.
+    5:
+      - 1867
+      - плюс/вдобавок (ко всему/к тому/к этому), Cl
+      - Плюс ко всему, погода резко испортилась.
+2:
+  lesson_id: 2
+  lesson_name: Урок 2. Поездка за границу
+  lesson_name_eng: Traveling abroad
+  lesson_pdf_link: ""
+---
