@@ -85,8 +85,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 subtask.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
                 subtask.appendChild(document.createTextNode(data[exercise_id]["task"][`task${i}`]))
                 task_text.appendChild(subtask)
-                
-                if (data[exercise_id]["exersize_type"] == "text_input") {
+                if (data[exercise_id]["exercize_type"] == "text_input") {
+                    
                     let your_answer = document.createElement("label")
                     your_answer.setAttribute("for", "ex2a_input")
                     your_answer.setAttribute("class", "label")
@@ -115,6 +115,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     button2.appendChild(document.createTextNode("Answer"))
 
 
+                    
                     task_text.appendChild(your_answer)
                     task_text.appendChild(answer)
                     buttons.appendChild(button1)
