@@ -75,6 +75,7 @@ for (var i = 0; i < data["lesson_instructions"].length; i++) {
 }
 const constr_link = document.createElement("a")
 constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
+constr_link.setAttribute("target", "_blank")
 constr_link.appendChild(document.createTextNode("Русский конструктикон"))
 
 abbvs.appendChild(constr_link)
