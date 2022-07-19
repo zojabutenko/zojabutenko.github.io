@@ -38,7 +38,7 @@
     answer2: София не только красиво поëт, но и играет на пианино.
     answer3: "Это предложение нельзя переформулировать. Конструкция не только XP, но и XP требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие. = It is not possible to rephrase this sentence. The construction не только XP, но и XP 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence. Det er ikke mulig å omformulere denne setningen. Konstruksjonen не только XP, но и XP 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
   difficult_words:
-    word2: "*test_word"
+    words2: "*test_word"
   table: ~
 3:
   lesson_id: 3
