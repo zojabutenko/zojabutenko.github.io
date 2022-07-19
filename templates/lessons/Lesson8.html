@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="icon" type="image/x-icon" href="../../images/logo.png">
-    <title>Lesson 2</title>
+    <title>Lesson 8</title>
 </head>
 <body>
     <script src="../../js/bootstrap.bundle.js"></script>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-warning">
         <div class="container">
             <a class="navbar-brand" href="../../index.html">
-                <img src="../../images/main_logo.png" alt="" width="500">
+                <img src="../../images/main_logo.png" alt="" width="300">
             </a>
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse float-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link inactive" aria-current="page" href="../../index.html">Home</a>
+                        <li class="nav-item m-3">
+                            <a class="btn btn-outline-info " aria-current="page" href="../../index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle nav-link active" aria-current="page" href="#" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Lessons
-                            </a>
+                        <li class="nav-item btn-group m-3">
+
+                            <a class="btn btn-outline-info active" href="../Lessons.html" role="button">Lessons</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split active" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
                                 <li><a class="dropdown-item" href="Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
                                 <li><a class="dropdown-item" href="Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
@@ -43,10 +45,12 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Functions
-                            </a>
+                        <li class="nav-item btn-group m-3">
+                            <a class="btn btn-outline-info" href="../Functions.html" role="button">Functions</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
                                 <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
                                 <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
@@ -59,8 +63,8 @@
                                 <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания. </b>Hedge</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../about.html">About</a>
+                        <li class="nav-item m-3">
+                            <a class="btn btn-outline-info" href="../about.html">About</a>
                         </li>
                     </ul>
                 </div>
@@ -68,11 +72,67 @@
         </div>
     </nav>
 
-    <section class="p-5">
-        <div class="container px-4">
-            <h1>Урок 2. Поездка за границу <a class="btn btn-light float-end" href="../../files/#" role="button" target="_blank">Скачать</a></h1>
-        </div>
+
+
+
+
+
+    <section id="start_table" class="p-5">
+        <script type="module" src="../../js/build_construction_tables.js"></script>
     </section>
 
-    </body>
+    <section id="content">
+        <script type="module" src="../../js/build_lessons.js"></script>
+    </section>
+
+
+
+
+
+
+
+    <div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="Lesson2.html">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">Up</a></li>
+                <li class="page-item"><a class="page-link" href="Lesson4.html">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <div class="row border-bottom" style="height: 10px">
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://constructicon.github.io/russian/" target="_blank"><img src="../../images/constructicon.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://uit.no/startsida" target="_blank"><img src="../../images/uit.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://www.hse.ru/en/" target="_blank"><img src="../../images/hse.svg" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col p-3 w-30">
+                    <div class="p-3">
+                        <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="../../images/hkdir.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
+                integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk="
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+
+        </footer>
+    </div>
+</body>
 </html>

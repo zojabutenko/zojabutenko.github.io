@@ -4,7 +4,7 @@
   ex_number: 1
   title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
   instructions: ~
-  text_inpu: ~
+  exercise_type: ~
   title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
   title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
   comment: Test comment.
@@ -23,7 +23,7 @@
   ex_number: 2
   title: Переформулируйте предложения, используя конструкцию не только XP, но и XP. Любое ли предложение можно переделать? (Если нельзя, напишите нельзя переделать)
   instructions: На месте XP находится слово или фраза (XP=phrase).
-  text_input: +
+  exercise_type: text_input
   title_eng: Rephrase each sentence by using the construction не только XP, но и XP 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
   title_nor: Omformuler hver setning ved å bruke konstruksjonen не только XP, но и XP 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
   comment: ~
@@ -50,7 +50,7 @@
   ex_number: 2
   title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию с точки зрения NP-Gen, Cl.
   instructions: В этой конструкции NP — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
-  text_input: ~
+  exercise_type: ~
   title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction с точки зрения NP-Gen, Cl meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
   title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen с точки зрения NP-Gen, Cl som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
   comment: ~

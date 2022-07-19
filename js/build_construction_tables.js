@@ -60,6 +60,8 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             t.setAttribute("scope", "row")
         } else {
             var t = document.createElement("td")
+            // t.setAttribute("style", "border: inherit")
+            console.log(t.style)
         }
         t.appendChild(document.createTextNode(data["construction_table_rows"][i][k]))
         tr.appendChild(t)
