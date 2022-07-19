@@ -1,5 +1,6 @@
 ---
 1:
+  lesson_id: 3
   ex_number: 1
   title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
   instructions: ~
@@ -17,6 +18,7 @@
   difficult_words: ~
   table: ~
 2:
+  lesson_id: 3
   ex_number: 2
   title: Переформулируйте предложения, используя конструкцию не только XP, но и XP. Любое ли предложение можно переделать? (Если нельзя, напишите нельзя переделать)
   instructions: На месте XP находится слово или фраза (XP=phrase).
@@ -38,6 +40,7 @@
   difficult_words: ~
   table: ~
 3:
+  lesson_id: 3
   ex_number: 2
   title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию с точки зрения NP-Gen, Cl.
   instructions: В этой конструкции NP — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
@@ -47,7 +50,11 @@
   comment: ~
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
-  image: "https://constructicon.github.io/construxercise-rus/images/6/2_1.png"
+  image: 
+    link: "https://constructicon.github.io/construxercise-rus/images/6/2_1.png"
+    width: ~
+    height: ~
+  
   task: ~
   answer: ~
   difficult_words: ~

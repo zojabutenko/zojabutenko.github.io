@@ -4,10 +4,6 @@
   lesson_name: Урок 1. Знакомство
   lesson_name_eng: Introducing yourself
   lesson_pdf_link: https://zojabutenko.github.io/files/Lesson%201.%20Download.pdf
-  construction_table_header: # это можно наверное не делать, заголовки таблиц всегда одинаковые
-    - ID
-    - Construction
-    - Illustration
   construction_table_rows:
     -
       - 170
@@ -37,10 +33,6 @@
   lesson_name: Урок 2. Поездка за границу
   lesson_name_eng: Traveling abroad
   lesson_pdf_link: ~
-  construction_table_header: # это можно наверное не делать, заголовки таблиц всегда одинаковые
-    - ID
-    - Construction
-    - Illustration
   construction_table_rows:
     -
       - 2273
