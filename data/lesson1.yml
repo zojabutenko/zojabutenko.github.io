@@ -7,7 +7,7 @@
   exercize_type: no_answer
   title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
   title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
-  comment: ~
+  comment: Test comment.
   example: ~
   model: ~
   image: ~
@@ -15,7 +15,7 @@
     task1: а. Познакомьтесь! Матвей Белов – студент медицинского факультета. Кроме того, Матвей занимается каратэ и хорошо плавает. Матвей не только учится, но и работает санитаром в больнице. Это полезный опыт, к тому же неплохая зарплата. Кстати говоря, в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, плюс ко всему, у него очень хорошее чувство юмора.
     task2: б. Это Ирина. Она талантливая певица. Ирина не только отлично поет, но и прекрасно играет на гитаре. Кстати говоря, гитару Ирине подарил отец.
   answer: Все эти конструкции вводят дополнительную информацию. All of these constructions introduce additional information. Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere.
-  difficult_words: ~
+  difficult_words: "*test word"
   table: ~
 2:
   lesson_id: 3
@@ -37,7 +37,10 @@
     answer1: Роман не только хорошо играет в футбол, но и фотографирует.
     answer2: София не только красиво поëт, но и играет на пианино.
     answer3: "Это предложение нельзя переформулировать. Конструкция не только XP, но и XP требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие. = It is not possible to rephrase this sentence. The construction не только XP, но и XP 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence. Det er ikke mulig å omformulere denne setningen. Konstruksjonen не только XP, но и XP 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
-  difficult_words: ~
+  difficult_words:
+    word1: ~
+    word2: "*test_word"
+    word3: ~
   table: ~
 3:
   lesson_id: 3
