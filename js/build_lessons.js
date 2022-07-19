@@ -275,15 +275,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(table)
     }
 
-
-
-
-
-
-
-
-
-
     if (data[exercise_id]["task"] != null) {
         var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
         var task_text = document.createElement("div")
@@ -299,12 +290,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
                 if (data[exercise_id]["difficult_words"] != null) {
                     if (data[exercise_id]["difficult_words"][`words${i}`] != null) {
-                        console.log(1)
                         let d_word = document.createElement("p");
                         d_word.innerHTML = data[exercise_id]["difficult_words"][`words${i}`];
                         task_text.appendChild(d_word);
                     } else if (i == subtasks_amount & typeof data[exercise_id]["difficult_words"] != "object") {
-                        console.log(0)
                         let d_word = document.createElement("p");
                         d_word.innerHTML = data[exercise_id]["difficult_words"];
                         task_text.appendChild(d_word);
@@ -312,7 +301,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
-
+                    console.log(11)
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
 
                     add_answer(answer_to_show, answer_key, create_input());
