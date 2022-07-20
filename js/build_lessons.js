@@ -194,7 +194,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         } else if (data[exercise_id]["image"]["height"] != null) {
             image.setAttribute("style", `height: ${data[exercise_id]["image"]["height"]}px`)
         } else {
-            image.setAttribute("style", "width: 600px")
+            image.setAttribute("style", "width: 800px")
         }
         main_content.appendChild(image)
     }
