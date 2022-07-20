@@ -84,7 +84,7 @@
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/3.png
-    width: 700px
+    width: 700
     height: ~
   task: ~
   answer_to_show: 1б, 2д, 3а, 4е, 5г, 6в
