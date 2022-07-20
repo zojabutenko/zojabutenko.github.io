@@ -286,7 +286,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 subtask.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
                 subtask.innerHTML = data[exercise_id]["task"][`task${i}`]
                 task_text.appendChild(subtask)
-                let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
+
 
                 if (data[exercise_id]["difficult_words"] != null) {
                     if (data[exercise_id]["difficult_words"][`words${i}`] != null) {
@@ -301,15 +301,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
-                    console.log(11)
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
-
                     add_answer(answer_to_show, answer_key, create_input());
-
-                } else if (typeof data[exercise_id]["answer_to_show"] != "string") {
-                    let answer_to_show = data[exercise_id]["answer_to_show"]
-                    add_answer(answer_to_show);
-                } else if (i == subtasks_amount) {
+                } else if (typeof data[exercise_id]["answer_to_show"] == "object" || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
                     let answer_to_show = data[exercise_id]["answer_to_show"]
                     add_answer(answer_to_show);
                 }
@@ -319,16 +314,27 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             task.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
             task.innerHTML = data[exercise_id]["task"];
             task_text.appendChild(task);
-            let answer_to_show = data[exercise_id]["answer_to_show"]
-
             if (data[exercise_id]["exercise_type"] == "text_input") {
+                let answer_to_show = data[exercise_id]["answer_to_show"]
                 let answer_key = data[exercise_id]["answer_key"]
                 add_answer(answer_to_show, answer_key, create_input());
+            } else if (typeof data[exercise_id]["answer_to_show"] != null) {
+                let answer_to_show = data[exercise_id]["answer_to_show"]
+                add_answer(answer_to_show);
             }
 
         };
         main_content.appendChild(task_text);
-    };
+    } else if (typeof data[exercise_id]["answer_to_show"] != null) {
+        let answer_to_show = data[exercise_id]["answer_to_show"]
+        if (data[exercise_id]["exercise_type"] == "text_input") {
+            let answer_key = data[exercise_id]["answer_key"]
+            add_answer(answer_to_show, answer_key, create_input());
+        } else {
+            add_answer(answer_to_show);
+        }
+    }
+
     tree.appendChild(main_content)
 }
 document.getElementById("content").appendChild(tree)
