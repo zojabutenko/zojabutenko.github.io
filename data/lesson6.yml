@@ -40,6 +40,7 @@
   answer_key: ~
   difficult_words: ~
   table:
+    width: ~
     table_header: ~
     row1:
       - С точки зрения + Gen
@@ -91,6 +92,7 @@
   answer_key: 1б, 2д, 3а, 4е, 5г, 6в
   difficult_words: ~
   table:
+    width: ~
     table_header: ~
     row1:
       - 
