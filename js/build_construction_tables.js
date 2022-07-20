@@ -1,4 +1,5 @@
 const tree = document.createDocumentFragment();
+const lesson_id = document.title.split(" ")[1]
 let r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons.yml");
 let json_data = jsyaml.loadAll(r.data);
 let records = {};
@@ -7,8 +8,7 @@ for (let key of Object.keys(json_data)) {
     records[key] = json_data[key];
 }
 
-// берет номер урока с title'а страницы (пока -2, тк тестовый ямл, исправить потом)
-const lesson_id = document.title.split(" ")[1] - 2
+
 
 const data = records[0][lesson_id]
 const part_1 = document.createElement("div")

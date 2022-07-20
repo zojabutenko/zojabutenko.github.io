@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="icon" type="image/x-icon" href="../../images/logo.png">
     <title>Lesson 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
+        integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
 </head>
+
 <body>
     <script src="../../js/bootstrap.bundle.js"></script>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-warning">
@@ -15,7 +20,8 @@
                 <img src="../../images/main_logo.png" alt="" width="300">
             </a>
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse float-end" id="navbarNav">
@@ -26,41 +32,65 @@
                         <li class="nav-item btn-group m-3">
 
                             <a class="btn btn-outline-info active" href="../Lessons.html" role="button">Lessons</a>
-                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split active" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-outline-info dropdown-toggle dropdown-toggle-split active"
+                                id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
-                                <li><a class="dropdown-item" href="Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
-                                <li><a class="dropdown-item" href="Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
-                                <li><a class="dropdown-item" href="Lesson3.html"><b>3.Устройство на работу.</b> Getting a job</a></li>
-                                <li><a class="dropdown-item" href="Lesson4.html"><b>4. Поход к врачу.</b> Going to the doctor</a></li>
-                                <li><a class="dropdown-item" href="Lesson5.html"><b>5. Закрепление уроков 1-4.</b> Review lessons 1-4</a></li>
-                                <li><a class="dropdown-item" href="Lesson6.html"><b>6. Транспорт.</b> Getting around</a></li>
-                                <li><a class="dropdown-item" href="Lesson7.html"><b>7. Праздники.</b> Holiday celebrations</a></li>
-                                <li><a class="dropdown-item" href="Lesson8.html"><b>8. Еда.</b> Cooking and eating</a></li>
-                                <li><a class="dropdown-item" href="Lesson9.html"><b>9. Внешность.</b> Personal Appearance </a></li>
-                                <li><a class="dropdown-item" href="Lesson10.html"><b>10. Характер.</b> Describing personality</a></li>
-                                <li><a class="dropdown-item" href="Lesson11.html"><b>11. Одежда.</b> Getting dressed</a></li>
-                                <li><a class="dropdown-item" href="Lesson12.html"><b>12. Закрепление уроков 6-11.</b> Review lessons 6-11</a></li>
+                                <li><a class="dropdown-item" href="Lesson1.html"><b>1. Знакомство.</b> Introducing
+                                        yourself</a></li>
+                                <li><a class="dropdown-item" href="Lesson2.html"><b>2. Поездка за границу.</b> Traveling
+                                        abroad</a></li>
+                                <li><a class="dropdown-item" href="Lesson3.html"><b>3.Устройство на работу.</b> Getting
+                                        a job</a></li>
+                                <li><a class="dropdown-item" href="Lesson4.html"><b>4. Поход к врачу.</b> Going to the
+                                        doctor</a></li>
+                                <li><a class="dropdown-item" href="Lesson5.html"><b>5. Закрепление уроков 1-4.</b>
+                                        Review lessons 1-4</a></li>
+                                <li><a class="dropdown-item" href="Lesson6.html"><b>6. Транспорт.</b> Getting around</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Lesson7.html"><b>7. Праздники.</b> Holiday
+                                        celebrations</a></li>
+                                <li><a class="dropdown-item" href="Lesson8.html"><b>8. Еда.</b> Cooking and eating</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Lesson9.html"><b>9. Внешность.</b> Personal
+                                        Appearance </a></li>
+                                <li><a class="dropdown-item" href="Lesson10.html"><b>10. Характер.</b> Describing
+                                        personality</a></li>
+                                <li><a class="dropdown-item" href="Lesson11.html"><b>11. Одежда.</b> Getting dressed</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Lesson12.html"><b>12. Закрепление уроков 6-11.</b>
+                                        Review lessons 6-11</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item btn-group m-3">
                             <a class="btn btn-outline-info" href="../Functions.html" role="button">Functions</a>
-                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-outline-info dropdown-toggle dropdown-toggle-split"
+                                id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
 
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
+                            <ul class="dropdown-menu dropdown-menu-end"
+                                aria-labelledby="navbarDropdownMenuLinkFunctions">
                                 <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
-                                <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
-                                <li><a class="dropdown-item" href="#"><b>3. Добавить информацию. </b>Add information</a></li>
+                                <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><b>3. Добавить информацию. </b>Add information</a>
+                                </li>
                                 <li><a class="dropdown-item" href="#"><b>4. Ввести тему. </b>Introduce a topic</a></li>
-                                <li><a class="dropdown-item" href="#"><b>5. Упорядочить аргументы. </b>Structure your argument</a></li>
-                                <li><a class="dropdown-item" href="#"><b>6. Подвести итог. </b>Draw a conclusion</a></li>
-                                <li><a class="dropdown-item" href="#"><b>7. Выразить свое мнение. </b>Express your opinion</a></li>
-                                <li><a class="dropdown-item" href="#"><b>8. Узнать мнение собеседника. </b>Ask someone for their opinion</a></li>
-                                <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания. </b>Hedge</a></li>
+                                <li><a class="dropdown-item" href="#"><b>5. Упорядочить аргументы. </b>Structure your
+                                        argument</a></li>
+                                <li><a class="dropdown-item" href="#"><b>6. Подвести итог. </b>Draw a conclusion</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><b>7. Выразить свое мнение. </b>Express your
+                                        opinion</a></li>
+                                <li><a class="dropdown-item" href="#"><b>8. Узнать мнение собеседника. </b>Ask someone
+                                        for their opinion</a></li>
+                                <li><a class="dropdown-item" href="#"><b>9. Смягчить категоричность высказывания.
+                                        </b>Hedge</a></li>
                             </ul>
                         </li>
                         <li class="nav-item m-3">
@@ -72,349 +102,12 @@
         </div>
     </nav>
 
-    <section class="p-5">
-        <div class="container px-4">
-            <h1>Урок 1. Знакомство <a class="btn btn-light float-end" href="../../files/Lesson%201.%20Download.pdf" role="button" target="_blank">Download</a></h1>
-            <h3>Конструкции урока</h3>
-            <table class="table">
-                <thead class="table-primary">
-                <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Construction</th>
-                    <th scope="col">Illustration</th>
-                </tr>
-                </thead>
-                <!-- <thead class="table-primary"> -->
-                <tbody>
-                <tr>
-                    <th scope="row">170</th>
-                    <td>(а) кроме того XP/Cl</td>
-                    <td>Он, <span class="text-primary"><b>кроме того,</b></span> плавает.</td>
-                </tr>
-                <tr>
-                    <th scope="row">410</th>
-                    <td>не только XP, но и XP</td>
-                    <td>Он был <span class="text-primary"><b>не только</b></span> умён, но и добр.</td>
-                </tr>
-                <tr>
-                    <th scope="row">1872</th>
-                    <td>(и) кстати (говоря), Cl</td>
-                    <td><span class="text-primary"><b>И кстати,</b></span> он пришёл без подарка.</td>
-                </tr>
-                <tr>
-                    <th scope="row">1093</th>
-                    <td>к тому же XP/Cl</td>
-                    <td><span class="text-primary"><b>К тому же</b></span> каждый день шёл снег.</td>
-                </tr>
-                <tr>
-                    <th scope="row">1867</th>
-                    <td>плюс/вдобавок (ко всему/к тому/к этому), Cl</td>
-                    <td><span class="text-primary"><b>Плюс ко всему,</b></span> погода резко испортилась.</td>
-                </tr>
-                </tbody>
-            </table>
-            <p>XP = phrase (фраза)<br>
-                Cl = clause, sentence (предложение) <br>
-                <a href="https://constructicon.github.io/russian/">Русский конструктикон</a> содержит информацию обо всех конструкциях урока</p>
-            <h3>
-                1. Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex1_eng()">English</button>
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex1_nor()">Norsk</button>
-                </div>
-            </h3>
+    <section id="start_table" class="p-5">
+        <script type="module" src="../../js/build_construction_tables.js"></script>
+    </section>
 
-            <script>
-                function Ex1_eng() {
-                    result = "<i>Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?</i>"
-                    let x = document.getElementById("ex1_eng")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-                function Ex1_nor() {
-                    result = "<i>Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?</i>"
-                    let x = document.getElementById("ex1_nor")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-                function Ex1_ans() {
-                    result = "Все эти конструкции вводят дополнительную информацию. <br> All of these constructions introduce additional information. <br> Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
-                    let x = document.getElementById("ex1_ans")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-            </script>
-            <p id="ex1_eng"></p>
-            <p id="ex1_nor"></p>
-            <div class="shadow-sm p-2 mb-3 bg-body rounded">
-                <b>а.</b>
-                Познакомьтесь! Матвей Белов – студент медицинского факультета. <span class="text-primary"><b>Кроме того,</b></span> Матвей занимается каратэ и хорошо плавает. Матвей <span class="text-primary"><b>не только</b></span> учится, <span class="text-primary"><b>но и</b></span> работает санитаром в больнице. Это полезный опыт, <span class="text-primary"><b>к тому же</b></span> неплохая зарплата. <span class="text-primary"><b>Кстати говоря,</b></span> в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, <span class="text-primary"><b>плюс ко всему,</b></span> у него очень хорошее чувство юмора.
-            </div>
-            <div class="shadow-sm p-2 mb-3 bg-body rounded">
-                <b>б.</b>
-                Это Ирина. Она талантливая певица. Ирина <span class="text-primary"><b>не только</b></span> отлично поет, <span class="text-primary"><b>но и</b></span> прекрасно играет на гитаре. <span class="text-primary"><b>Кстати говоря,</b></span> гитару Ирине подарил отец.
-            </div>
-            <div class="d-grid gap-3 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex1_ans()">Answer</button>
-            </div>
-            <p id="ex1_ans"></p>
-
-        </div>
-        <div class="container px-4 gap-3">
-            <h3>
-                2. Переформулируйте предложения, используя конструкцию <span class="text-primary"><b>не только XP, но и XP</b></span>. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
-                На месте XP находится слово или фраза (XP=phrase).
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex2_eng()">English</button>
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex2_nor()">Norsk</button>
-                </div>
-            </h3>
-
-            <script>
-                function Ex2_eng() {
-                    result = "<i>Rephrase each sentence by using the construction <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).</i>"
-                    let x = document.getElementById("ex2_eng")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-                function Ex2_nor() {
-                    result = "<i>Omformuler hver setning ved å bruke konstruksjonen <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).</i>"
-                    let x = document.getElementById("ex2_nor")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-                function check_Ex2a() {
-                    var x = document.getElementById("ex2a_input");
-                    if (x.value.toLowerCase() == "Роман не только хорошо играет в футбол, но и фотографирует.".toLowerCase()) {
-                        document.getElementById("ex2a_input").style.backgroundColor = "#6ef184";
-                    } else {
-                        document.getElementById("ex2a_input").style.backgroundColor = "#EC7063";
-                    }
-                }
-
-                function Ex2a() {
-                    result = "Роман <span class=\"text-primary\"><b>не только</b></span> хорошо играет в футбол, <span class=\"text-primary\"><b>но и</b></span> фотографирует.";
-                    var x = document.getElementById("ex2a_ans");
-                    x.innerHTML = result;
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-                function check_Ex2b() {
-                    var x = document.getElementById("ex2b_input");
-                    if (x.value.toLowerCase() == "София не только красиво поëт, но и играет на пианино.".toLowerCase()) {
-                        document.getElementById("ex2b_input").style.backgroundColor = "#6ef184";
-                    } else {
-                        document.getElementById("ex2b_input").style.backgroundColor = "#EC7063";
-                    }
-                }
-
-                function Ex2b(){
-                    result = "София <span class=\"text-primary\"><b>не только</b></span> красиво поëт, <span class=\"text-primary\"><b>но и</b></span> играет на пианино.";
-                    var x = document.getElementById("ex2b_ans");
-                    x.innerHTML = result;
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-                function check_Ex2c() {
-                    var x = document.getElementById("ex2c_input");
-                    if (x.value.toLowerCase() == "Нельзя переделать".toLowerCase()) {
-                        document.getElementById("ex2c_input").style.backgroundColor = "#6ef184";
-                    } else {
-                        document.getElementById("ex2c_input").style.backgroundColor = "#EC7063";
-                    }
-                }
-
-                function Ex2c(){
-                    result = "Это предложение нельзя переформулировать. Конструкция <span class=\"text-primary\"><b>не только XP, но и XP</b></span> требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие. <br>= It is not possible to rephrase this sentence. The construction <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence. <br>= Det er ikke mulig å omformulere denne setningen. Konstruksjonen <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning.";
-                    var x = document.getElementById("ex2c_ans");
-                    x.innerHTML = result;
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-            </script>
-            <p id="ex2_eng"></p>
-            <p id="ex2_nor"></p>
-            <div class="shadow-sm p-2 mb-3 bg-body rounded m-3">
-                а. Роман хорошо играет в футбол и фотографирует.
-            </div>
-            <label for="ex2a_input" class="form-label">Ваш ответ: </label>
-
-            <input type="text" id="ex2a_input" class="form-control" aria-describedby="passwordHelpBlock">
-            <div class="d-grid gap-3 d-md-flex justify-content-md-end m-3">
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="check_Ex2a()">Check answer</button>
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex2a()">Answer</button>
-            </div>
-            <p id="ex2a_result"></p>
-            <p id="ex2a_ans"></p>
-
-            <div class="shadow-sm p-2 mb-3 bg-body rounded m-3">
-                б. София красиво поëт и играет на пианино.
-            </div>
-            <label for="ex2b_input" class="form-label">Ваш ответ: </label>
-            <input type="text" id="ex2b_input" class="form-control" aria-describedby="passwordHelpBlock">
-            <div class="d-grid gap-3 d-md-flex justify-content-md-end m-3">
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="check_Ex2b()">Check answer</button>
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex2b()">Answer</button>
-            </div>
-            <p id="ex2b_result"></p>
-            <p id="ex2b_ans"></p>
-
-            <div class="shadow-sm p-2 mb-3 bg-body rounded m-3">
-                в. Даниил плохо видит и носит очки.
-            </div>
-            <label for="ex2c_input" class="form-label">Ваш ответ: </label>
-            <input type="text" id="ex2c_input" class="form-control " aria-describedby="passwordHelpBlock">
-            <div class="d-grid gap-3 d-md-flex justify-content-md-end m-3">
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="check_Ex2c()">Check answer</button>
-                <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex2c()">Answer</button>
-            </div>
-            <p id="ex2c_result"></p>
-            <p id="ex2c_ans"></p>
-        </div>
-        <div class="container px-4 gap-3">
-            <h3>
-                4. Соедините части предложений, подобрав логичное продолжение.
-                Назовите, слова каких частей речи стоят на месте XP в конструкции <span class="text-primary"><b>не только XP, но и XP</b></span>.
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex4_eng()">English</button>
-                    <button type="button" class="btn btn-outline-primary float-end btn-sm" onclick="Ex4_nor()">Norsk</button>
-                </div>
-            </h3>
-            <script>
-                function Ex4_eng() {
-                    result = "<i>Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'not only... but also ...'?</i>"
-                    let x = document.getElementById("ex4_eng")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-                function Ex4_nor() {
-                    result = "<i>Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen <span class=\"text-primary\"><b>не только XP, но и XP</b></span> 'ikke bare... men også ...'?</i>"
-                    let x = document.getElementById("ex4_nor")
-                    x.innerHTML = result;
-                    if (x.style.display === "inline-block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "inline-block";
-                    }
-                }
-            </script>
-            <p id="ex4_eng"></p>
-            <p id="ex4_nor"></p>
-            <table class="table shadow-sm">
-                <tbody>
-                <tr>
-                    <td><b>1.</b> Я люблю не только книги про Шерлока Холмса,</td>
-                    <td><b>а.</b> но и во всей школе!</td>
-                </tr>
-                <tr>
-                    <td><b>2.</b> Он был не только талантливым писателем,</td>
-                    <td><b>б.</b> но и вкусно готовил.</td>
-                </tr>
-                <tr>
-                    <td><b>3.</b> Не только школьники,</td>
-                    <td><b>в.</b> но и умным политиком.</td>
-                </tr>
-                <tr>
-                    <td><b>4.</b> Ксюша - самая красивая девочка не только в нашем классе,</td>
-                    <td><b>г.</b> но и учителя выбежали на улицу играть в снежки.</td>
-                </tr>
-                <tr>
-                    <td><b>5.</b> Он не только отлично плавал,</td>
-                    <td><b>д.</b> но и фильмы о нём.</td>
-                </tr>
-                </tbody>
-            </table>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <p>1.</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Choose answer</option>
-                    <option value="1">а</option>
-                    <option value="2">б</option>
-                    <option value="3">в</option>
-                    <option value="4">г</option>
-                    <option value="5">д</option>
-                </select>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <p>2.</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Choose answer</option>
-                    <option value="1">а</option>
-                    <option value="2">б</option>
-                    <option value="3">в</option>
-                    <option value="4">г</option>
-                    <option value="5">д</option>
-                </select>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <p>3.</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Choose answer</option>
-                    <option value="1">а</option>
-                    <option value="2">б</option>
-                    <option value="3">в</option>
-                    <option value="4">г</option>
-                    <option value="5">д</option>
-                </select>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <p>4.</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Choose answer</option>
-                    <option value="1">а</option>
-                    <option value="2">б</option>
-                    <option value="3">в</option>
-                    <option value="4">г</option>
-                    <option value="5">д</option>
-
-                </select>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <p>5.</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Choose answer</option>
-                    <option value="1">а</option>
-                    <option value="2">б</option>
-                    <option value="3">в</option>
-                    <option value="4">г</option>
-                    <option value="5">д</option>
-
-                </select>
-            </div>
-        </div>
+    <section id="content">
+        <script type="module" src="../../js/build_lessons.js"></script>
     </section>
     <div>
         <nav aria-label="Page navigation example">
@@ -425,34 +118,37 @@
             </ul>
         </nav>
     </div>
-
     <div class="container-fluid">
         <footer class="py-3 my-4">
             <div class="row border-bottom" style="height: 10px">
                 <div class="col p-3 w-30">
                     <div class="p-3">
-                        <a href="https://constructicon.github.io/russian/" target="_blank"><img src="../../images/constructicon.png" class="img-fluid" alt=""></a>
+                        <a href="https://constructicon.github.io/russian/" target="_blank"><img
+                                src="../../images/constructicon.png" class="img-fluid" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-3 w-30">
                     <div class="p-3">
-                        <a href="https://uit.no/startsida" target="_blank"><img src="../../images/uit.png" class="img-fluid" alt=""></a>
+                        <a href="https://uit.no/startsida" target="_blank"><img src="../../images/uit.png"
+                                class="img-fluid" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-3 w-30">
                     <div class="p-3">
-                        <a href="https://www.hse.ru/en/" target="_blank"><img src="../../images/hse.svg" class="img-fluid" alt=""></a>
+                        <a href="https://www.hse.ru/en/" target="_blank"><img src="../../images/hse.svg"
+                                class="img-fluid" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-3 w-30">
                     <div class="p-3">
-                        <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="../../images/hkdir.png" class="img-fluid" alt=""></a>
+                        <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills"
+                            target="_blank"><img src="../../images/hkdir.png" class="img-fluid" alt=""></a>
                     </div>
                 </div>
             </div>
-<!--            <p class="text-center text-muted border-bottom">How to cite:</p>-->
 
         </footer>
     </div>
 </body>
+
 </html>
