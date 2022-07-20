@@ -189,11 +189,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         image.setAttribute("src", data[exercise_id]["image"]["link"])
         image.setAttribute("alt", "image description")
         if (data[exercise_id]["image"]["width"] != null) {
+            console.log(`width: ${data[exercise_id]["image"]["width"]}px`)
             image.setAttribute("style", `width: ${data[exercise_id]["image"]["width"]}px`)
         } else if (data[exercise_id]["image"]["height"] != null) {
-            image.setAttribute("style", `width: ${data[exercise_id]["image"]["height"]}px`)
+            image.setAttribute("style", `height: ${data[exercise_id]["image"]["height"]}px`)
         } else {
-            image.setAttribute("style", "width: 400px")
+            image.setAttribute("style", "width: 600px")
         }
         main_content.appendChild(image)
     }
@@ -227,34 +228,19 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
         let tbody = document.createElement("tbody");
 
-
+        var rows_amount = 0;
         for (let z = 0; z < Object.keys(data[exercise_id]["table"]).length; z++) {
-            ;
-            var rows_amount = 0;
-
             if (Object.keys(data[exercise_id]["table"])[z].startsWith("row")) {
-                ;
-                rows_amount++;
+                rows_amount ++;
             };
-
         };
 
         for (let i = 1; i <= rows_amount; i++) {
             var tr = document.createElement("tr")
             let row_length = data[exercise_id]["table"][`row${i}`].length
-
-            // console.log(row_length)
             for (let k = 0; k < row_length; k++) {
-                // if (k == 0) {
-                //     var t = document.createElement("th")
-                //     t.setAttribute("scope", "row")
-                // } else {
                 var t = document.createElement("td")
                 t.setAttribute("style", "border: 0.5px outset black")
-                // }
-
-                // console.log(typeof data[exercise_id]["table"][`row${i}`][k])
-
                 if (typeof data[exercise_id]["table"][`row${i}`][k] == "object") {
                     let length = data[exercise_id]["table"][`row${i}`][k].length
                     for (let s = 0; s < length; s++) {
@@ -264,9 +250,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 } else {
                     t.innerHTML = data[exercise_id]["table"][`row${i}`][k];
                 }
-                // for (let elem in data[exercise_id]["table"][`row${i}`][k]) {
-                //     console.log(typeof elem)
-                // }
                 tr.appendChild(t)
             }
             tbody.appendChild(tr)
