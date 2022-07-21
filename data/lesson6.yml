@@ -219,3 +219,68 @@
         Кропóткинская
       -
         Проспект мира (Gen Проспекта мира)
+5:
+  lesson_id: 6
+  ex_number: 5
+  title: Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции Cl, не так ли? и на PronPoss-Acc взгляд, Cl.<br>
+          В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например мой, наш.<br>
+          Слова на мой взгляд и на наш взгляд могут находиться в начале, в конце или в середине предложения.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: You and your friends are going on a trip, and you need to decide how you will travel. In pairs, discuss the pros and cons of traveling by plane, train, bus, and private car. Use the constructions Cl, не так ли? ‘..., isn’t it?’ or ‘..., right?’ and на PronPoss-Acc взгляд, Cl ‘In my opinion, ...’.<br>
+            In these constructions, Cl is a whole sentence (Cl=clause, sentence), and PronPoss-Acc is a possessive pronoun in the accusative case (PronPoss = possessive pronoun, Acc = Accusative case), for example мой ‘mine’ and наш ‘ours’. The words на мой взгляд and на наш взгляд can be placed at the beginning, at the end or in the middle of a sentence.
+  title_nor: Du planlegger en reise sammen med noen venner og trenger å velge transportmiddel. Diskuter i par om fordeler og ulemper med fly, tog, bus og egen bil. Bruk konstruksjonen Cl, не так ли? ‘..., ikke sant?’ og на PronPoss-Acc взгляд, Cl ‘Etter X syn / Etter min mening, ...’<br>
+            I disse konstruksjonene er Cl en hel setning (Cl=setning) og PronPoss-Acc er et possessivt pronomen i akkusativ kasus (PronPoss=possessivt pronomen, Acc=akkusativ kasus), for eksempel мой ‘min’ and наш ‘vår’. Ordene на мой взгляд og на наш взгляд kan plasseres i begynnelsen, i slutten eller i midten av en setning.
+  comment: ~
+  example: "А: — На самолёте мы долетим намного быстрее, не так ли?<br>
+            Б: — Да, но на мой взгляд, мы больше времени потратим в аэропорту. Поезд намного экологичнее, не так ли?<br>
+            А: — Да, но он дороже, чем автобус, на мой взгляд. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс, не так ли?"
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    width: ~
+    table_header: ~
+    row1:
+      - 
+        Самолет
+      - 
+        - быстро
+        - красивый вид из иллюминатора
+        - можно заказать еду и напитки в пути
+        - дорого
+        - необходимо приезжать в аэропорт за 2 часа до вылета
+        - сложный предполётный досмотр
+    row2:
+      - 
+        Поезд
+      - 
+        - можно приехать на вокзал сразу ко времени отправления
+        - экологично
+        - можно взять отдельное купе только для вашей компании
+        - дольше ехать, чем на самолёте
+        - дорого
+        - могут быть шумные соседи
+    row3:
+      - 
+        Автобус
+      - 
+        - недорого
+        - много маршрутов и рейсов
+        - можно приехать на автовокзал сразу ко времени отправления
+        - долгая поездка может быть утомительной
+        - некоторых людей в автобусах тошнит
+        - неэкологично
+    row4:
+      - 
+        Личный автомобиль
+      - 
+        - можно поехать в любое время
+        - нет соседей
+        - можно останавливаться в любом месте, где хочешь
+        - дорогой бензин
+        - если водитель один, то нужно будет останавливаться на ночь в отеле
+        - машина может сломаться по дороге
