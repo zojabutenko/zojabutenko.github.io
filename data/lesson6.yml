@@ -11,10 +11,10 @@
   example: ~
   model: ~
   image: ~
-  task: — Алло, привет! Встретимся у Эрмитажа?
-        — Давай! Это станция метро «Адмиралтейская», не так ли?
-        — На мой взгляд, от Адмиралтейской дойти ближе всего, впрочем, можно доехать до станции «Гостиный двор» или «Невский проспект», а дальше пешком или на транспорте. На твоём месте я бы доехала от Невского проспекта на такси. Ты билет уже купила?
-        — Насколько я понимаю, завтра в Эрмитаже бесплатный день, билет не нужен.
+  task: — Алло, привет! Встретимся у Эрмитажа?<br>
+        — Давай! Это станция метро «Адмиралтейская», не так ли?<br>
+        — На мой взгляд, от Адмиралтейской дойти ближе всего, впрочем, можно доехать до станции «Гостиный двор» или «Невский проспект», а дальше пешком или на транспорте. На твоём месте я бы доехала от Невского проспекта на такси. Ты билет уже купила?<br>
+        — Насколько я понимаю, завтра в Эрмитаже бесплатный день, билет не нужен.<br>
         — Точно! Тогда до встречи!
   answer_to_show: ~
   answer_key: ~
@@ -134,26 +134,23 @@
   lesson_id: 6
   ex_number: 4
   title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию впрочем, Cl.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Откройте схему московского метро по ссылке <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">1</a>. *5 — Кольцевая ветка (название дано не по цвету).
   exercise_type: ~
   title_eng: Here is a portion of the Moscow subway map. One of you is a tourist, and the other is a resident of Moscow. The tourist needs to find out how to get from one subway station to a different one. The Moscow resident gives instructions and describes two ways how to get to the destination. Use the dialogue structure provided below. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
   title_nor: Foran dere er en del av Moskvas tunnelbanekart. En av dere er turist, den andre moskovitt. Turisten trenger å vite hvordan man tar seg fra en tunnelbanestasjon til en annen. Moskovitten forklarer for turisten at det finns to måter å komme seg til riktig stasjon. Bruk dialogmalen nedenfor. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig/ imidlertid / likevel ...’. Plassen Cl kan fylles med en hel setning (Cl=setning).
-  comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.
+  comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.<br>
            Task format: in pairs. After each dialogue, the students switch roles."
-  example: Откуда	Куда
-          Минская	Киевская
-          — Скажите, пожалуйста, как мне доехать от Минской до Киевской?
-          — Вам нужно доехать до Делового центра, а потом пересесть на голубую ветку. Впрочем, вы можете доехать до Парка победы, а потом пересесть на синюю ветку.
-  model: "Турист/туристка:
-          — Скажите, пожалуйста, как мне доехать от (Gen)__________ до (Gen) __________?
-
-          Москвич/москвичка:
+  example: — Скажите, пожалуйста, как мне доехать от Минской до Киевской?<br>
+           — Вам нужно доехать до Делового центра, а потом пересесть на голубую ветку. Впрочем, вы можете доехать до Парка победы, а потом пересесть на синюю ветку.
+  model: "Турист/туристка:<br>
+          — Скажите, пожалуйста, как мне доехать от (Gen)__________ до (Gen) __________?<br>
+          Москвич/москвичка:<br>
           — Вам нужно доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку. Впрочем, вы можете доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку (а потом доехать до (Gen)____________и пересесть на (Acc) ____________ ветку)"
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/4.png
     width: ~
     height: ~
-  task: Откройте схему московского метро по ссылке <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401">1</a>. *5 — Кольцевая ветка (название дано не по цвету).
+  task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~

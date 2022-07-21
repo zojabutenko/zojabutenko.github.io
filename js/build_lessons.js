@@ -189,10 +189,14 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         table.setAttribute("style", "margin-top: 10px")
         table.setAttribute("class", "table table_lesson")
 
+        if (data[exercise_id]["table"]["width"] != null) {
+            table.setAttribute("style", `width: ${data[exercise_id]["table"]["width"]}px`)
+        }
+
         if (data[exercise_id]["table"]["table_header"] != null) {
 
             let thead = document.createElement("thead")
-            thead.setAttribute("class", "table-primary")
+            // thead.setAttribute("class", "table-primary")
 
             let tr_head = document.createElement("tr")
 
