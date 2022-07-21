@@ -8,16 +8,11 @@ for (let key of Object.keys(json_data)) {
     records[key] = json_data[key];
 }
 
-
-
-
-
 const data = records[0]
 const main_content = document.createElement("div")
 main_content.setAttribute("class", "container px-4")
 
 const exercises_amount = Object.keys(data).length
-
 
 function show_item(x, item) {
     x.innerHTML = item;
@@ -57,7 +52,6 @@ function create_input() {
     return input
 }
 
-
 function add_answer(answer_to_show, answer_key, input) {
 
     let answer_text = document.createElement("p");
@@ -85,12 +79,9 @@ function add_answer(answer_to_show, answer_key, input) {
         }
         buttons.appendChild(button1);
     }
-
     button2.onclick = function () {
         show_item(answer_text, answer_to_show);
     }
-
-
     buttons.appendChild(button2);
     task.appendChild(buttons);
 
@@ -99,10 +90,7 @@ function add_answer(answer_to_show, answer_key, input) {
     }
     task.appendChild(answer_text);
 }
-
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
-
-
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
     task_title.innerHTML = `${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`;
@@ -112,24 +100,18 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         instructions.innerHTML = data[exercise_id]["instructions"];
         task_title.appendChild(instructions);
     };
-
-
     let task_buttons = document.createElement("div");
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
-
     let eng_text = document.createElement("h6");
     let norw_text = document.createElement("h6");
-
     let eng = document.createElement("button");
     eng.setAttribute("type", "button");
     eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
     eng.innerHTML = "English";
-
     let translation_text_eng = data[exercise_id]["title_eng"]
     eng.onclick = function () {
         show_item(eng_text, translation_text_eng)
     }
-
     let norw = document.createElement("button");
     norw.setAttribute("type", "button");
     norw.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
@@ -164,8 +146,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         task_title.appendChild(comment);
 
     }
-
-
 
 
     if (data[exercise_id]["model"] != null) {
@@ -234,7 +214,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         var rows_amount = 0;
         for (let z = 0; z < Object.keys(data[exercise_id]["table"]).length; z++) {
             if (Object.keys(data[exercise_id]["table"])[z].startsWith("row")) {
-                rows_amount ++;
+                rows_amount++;
             };
         };
 
