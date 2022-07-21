@@ -284,3 +284,49 @@
         - дорогой бензин
         - если водитель один, то нужно будет останавливаться на ночь в отеле
         - машина может сломаться по дороге
+6:
+  lesson_id: 6
+  ex_number: 6
+  title: "Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию насколько PronPers-1 понимать, Cl.<br>
+        В этой конструкции PronPers-1 — это личное местоимение 1 лица я, мы (PronPers=personal pronoun), а Cl — это целое предложение (Cl=clause, sentence).<br>
+        Глагол понимать согласуется с местоимением: я понимаю, мы понимаем."
+  instructions: ~
+  exercise_type: text_input
+  title_eng: "You have arrived in Moscow, and people there mistake you for someone local. Help the tourists find their way. Use the construction насколько PronPers-1 понимать, Cl meaning ‘As far as I understand, ...’. In this construction, PronPers-1 stands for a personal pronoun like я, мы (PronPers=personal pronoun), аnd Cl is a sentence (Cl=clause, sentence). The verb понимать ‘understand’ agrees with the pronoun: я понимаю ‘I understand’, мы понимаем ‘We understand’."
+  title_nor: "Du har reist til Moskva, og folk tror allerede at du kommer derfra. Hjelp turistene å finne frem. Bruk konstruksjonen насколько PronPers-1 понимать, Cl som betyr ‘etter hva jeg vet ... / så vidt X forstår, ...’. I denne konstruksjonen betyr PronPers-1 personlig pronomen, for eksempel я, мы (PronPers=personlig pronomen), og Cl er en setning (Cl=setning). Verbet понимать ‘å forstå’ bøyes etter pronomenet: я понимаю ‘jeg forstår’, мы понимаем ‘vi forstår’."
+  comment: ~
+  example: "Вопрос туриста: — Как доехать от станции метро Театральная до Охотного ряда?<br>
+          (Это одна станция. Перейдите с зелёной ветки на красную.)<br>
+          -><br>
+          Ваш ответ:<br>
+          — Насколько я понимаю, это одна станция. Перейдите с зелёной ветки на красную."
+  model: ~
+  image: ~
+  task:
+    task1: 1. Где находится Никольская улица? (рядом с Красной площадью)
+    task2: 2. Как доехать до Третьяковской галереи? (трамвай номер 3)
+    task3: 3. На чём можно уехать в Сергиев Посад? (электричка)
+    task4: 4. На какой ветке метро находится парк Воробьёвы горы? (красная)
+    task5: 5. Я могу доехать до аэропорта Домодедово на аэроэкспрессе? (да)
+  answer_to_show:
+    answer1: — Насколько я понимаю, это рядом с Красной площадью.<br>
+            — Насколько я понимаю, Никольская улица находится рядом с Красной площадью.
+    answer2: — Насколько я понимаю, вам нужен трамвай номер 3.<br>
+            — Насколько я понимаю, туда идёт трамвай номер 3.<br>
+            — Насколько я понимаю, туда можно доехать на трамвае номер 3.
+    answer3: — Насколько я понимаю, на электричке.<br>
+            — Насколько я понимаю, в Сергиев Посад можно уехать на электричке.
+    answer4: — Насколько я понимаю, на красной.<br>
+            — Насколько я понимаю, на красной ветке.<br>
+            — Насколько я понимаю, он находится на красной ветке.<br>
+            — Насколько я понимаю, парк Воробьёвы горы находится на красной ветке.
+    answer5: — Насколько я понимаю, да.<br>
+            — Насколько я понимаю, можете.
+  answer_key:
+    answer1: Насколько я понимаю, это рядом с Красной площадью.
+    answer2: Насколько я понимаю, вам нужен трамвай номер 3.
+    answer3: Насколько я понимаю, на электричке.
+    answer4: Насколько я понимаю, на красной.
+    answer5: Насколько я понимаю, да.
+  difficult_words: ~
+  table: ~
