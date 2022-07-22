@@ -478,14 +478,14 @@
 10:
   lesson_id: 6
   ex_number: 10
-  title: Турист пришёл в турагентство. В зависимости от вашей роли, купите или продайте турпутёвку. Описание каждой роли предложено ниже (турист и турагент). Используйте конструкции
-          с точки зрения NP-Gen, Cl<br>
-          впрочем, Cl<br>
-          Cl, не так ли?<br>
-          на PronPoss-Acc взгляд, Cl<br>
-          насколько PronPers-1 понимать, Cl<br>
-          на PronPoss-Loc месте/на месте NP-Gen Cl бы<br>
-          Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
+  title: Турист пришёл в турагентство. В зависимости от вашей роли, купите или продайте турпутёвку. Описание каждой роли предложено ниже (турист и турагент). Используйте конструкции<br>
+          — с точки зрения NP-Gen, Cl<br>
+          — впрочем, Cl<br>
+          — Cl, не так ли?<br>
+          — на PronPoss-Acc взгляд, Cl<br>
+          — насколько PronPers-1 понимать, Cl<br>
+          — на PronPoss-Loc месте/на месте NP-Gen Cl бы<br>
+          — Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
   instructions: ~
   exercise_type: ~
   title_eng: A tourist contacts a travel agency. Depending on your role (tourist or travel agent), buy or sell a tour package. The description of each role is given below. Use the constructions from the list. If you are the tourist, your task is to choose the most attractive tour package from those offered by the travel agent. To do this, the tourist must describe their ideal trip to the travel agent. If you are the travel agent, your task is to sell one of the three tour packages. To do this, the travel agent must convince the tourist to choose one of them.
@@ -509,10 +509,69 @@
       text: "Турагент<br>
             Продайте турпутёвку в Калининград, Сочи или Санкт-Петербург."
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_3.png
-    task4:
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_3.png
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png    
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 6
+  ex_number: 11
+  title: "Вы с другом или подругой обсуждаете маршрут, как добраться из места, где вы находитесь, до места, куда вам нужно. Перед вами карты из приложения Google Карты (Google Maps). Обсудите все варианты и выберите оптимальный. Учитывайте разные факторы, которые влияют на ваш маршрут:
+          — Цена
+          — Пробки
+          — Время
+          — Комфорт
+          — Погода
+          Используйте конструкции
+          — с точки зрения NP-Gen, Cl
+          — впрочем, Cl
+          — Cl, не так ли?
+          — на PronPoss-Acc взгляд, Cl
+          — насколько PronPers-1 понимать, Cl
+          — на PronPoss-Loc месте/на месте NP-Gen Cl бы"
+  instructions: ~
+  exercise_type: ~
+  title_eng: "You and your friend are discussing the route to get from the place where you are to your destination. Here are maps from the Google Maps app. Discuss all the route options and choose the most optimal one. Consider various factors that can affect your itinerary: price, traffic jams, time, comfort, weather. Use the constructions from the list."
+  title_nor: "Du og din venn diskuterer hvordan dere skal reise fra plassen hvor dere befinner dere, frem til reisemålet. Foran dere er et kart fra appen Google Maps. Diskuter alle mulige reiseruter og velg den beste. Vurder forskjellige faktorer som kan påvirke deres rutevalg: pris, trafikkorker, tid, bekvemmelighet, vær. Bruk konstruksjonene i listen."
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "Ситуация 1.<br>
+            Вы в городе Тромсё в Северной Норвегии<br>
+            Откуда: центральная библиотека города Тромсё<br>
+            Куда: музей Полярия"
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png    
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_1.png
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_2.png
+    task2:
+      text: "Ситуация 2.<br>
+            Вы в Париже.<br>
+            Откуда: музей Лувр<br>
+            Куда: музей Орсе"
+      image:
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_3.png
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_4.png
+    task3:
+      text: "Ситуация 3.<br>
+            Вы в Москве.<br>
+            Откуда: парк Зарядье<br>
+            Куда: музей Третьяковская галерея"
+      image:
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_5.png
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_6.png
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~

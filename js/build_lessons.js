@@ -52,15 +52,15 @@ function create_input() {
     return input
 }
 
-function add_image(subtask) {
+function add_image(image_data) {
     let image = document.createElement("img")
-    if (Boolean(subtask)) {
-        var image_data = data[exercise_id]["task"][`task${i}`]["image"]
-        subtask.appendChild(image)
-    } else {
-        var image_data = data[exercise_id]["image"]
-        all_exercise.appendChild(image)
-    }
+    // if (Boolean(subtask)) {
+    //     var image_data = data[exercise_id]["task"][`task${i}`]["image"]
+    //     subtask.appendChild(image)
+    // } else {
+    //     var image_data = data[exercise_id]["image"]
+    //     all_exercise.appendChild(image)
+    // }
 
     image.setAttribute("src", image_data["link"])
     image.setAttribute("alt", "image description")
@@ -74,7 +74,8 @@ function add_image(subtask) {
     } else {
         image.setAttribute("style", "width: 800px")
     }
-        
+
+    return image
 }
 
 function add_answer(answer_to_show, answer_key, input) {
@@ -235,8 +236,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(task_buttons);
     task_title.appendChild(eng_text)
     task_title.appendChild(norw_text)
-    all_exercise.appendChild(task_title)
-    // main_content.appendChild(task_title);
+    // all_exercise.appendChild(task_title)
+    main_content.appendChild(task_title);
 
     if (data[exercise_id]["comment"]) {
         let comment = document.createElement("h6");
@@ -280,7 +281,16 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
 
     if (data[exercise_id]["image"] != null) {
-        add_image()
+        if (typeof data[exercise_id]["image"] == "object") {
+            var images_amount = data[exercise_id]["image"].length
+            var images = document.createElement("div")
+            for (let e = 1; e <= images_amount; e++) {
+                images.appendChild(add_image(data[exercise_id]["image"][`image${e}`]))
+            }
+            all_exercise.appendChild(images)
+        } else {
+            all_exercise.appendChild(add_image(data[exercise_id]["image"]))
+        }
         // main_content.appendChild(image)
     }
 
@@ -309,7 +319,15 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
-                    add_image(subtask)
+                    if (typeof data[exercise_id]["task"][`task${i}`]["image"] == "object") {
+                        var images_amount = data[exercise_id]["task"][`task${i}`]["image"].length
+                        var images = document.createElement("div")
+                        for (let e = 1; e <= images_amount; e++) {
+                            images.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"][`image${e}`]))
+                        }
+                        subtask.appendChild(images)
+                    }
+                    subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
                 }
 
                 if (data[exercise_id]["difficult_words"] != null) {
