@@ -286,10 +286,9 @@
 6:
   lesson_id: 6
   ex_number: 6
-  title: "Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию насколько PronPers-1 понимать, Cl.<br>
-        В этой конструкции PronPers-1 — это личное местоимение 1 лица я, мы (PronPers=personal pronoun), а Cl — это целое предложение (Cl=clause, sentence).<br>
-        Глагол понимать согласуется с местоимением: я понимаю, мы понимаем."
-  instructions: ~
+  title: Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию насколько PronPers-1 понимать, Cl.
+  instructions: "В этой конструкции PronPers-1 — это личное местоимение 1 лица я, мы (PronPers=personal pronoun), а Cl — это целое предложение (Cl=clause, sentence).<br>
+                  Глагол понимать согласуется с местоимением: я понимаю, мы понимаем."
   exercise_type: text_input
   title_eng: "You have arrived in Moscow, and people there mistake you for someone local. Help the tourists find their way. Use the construction насколько PronPers-1 понимать, Cl meaning ‘As far as I understand, ...’. In this construction, PronPers-1 stands for a personal pronoun like я, мы (PronPers=personal pronoun), аnd Cl is a sentence (Cl=clause, sentence). The verb понимать ‘understand’ agrees with the pronoun: я понимаю ‘I understand’, мы понимаем ‘We understand’."
   title_nor: "Du har reist til Moskva, og folk tror allerede at du kommer derfra. Hjelp turistene å finne frem. Bruk konstruksjonen насколько PronPers-1 понимать, Cl som betyr ‘etter hva jeg vet ... / så vidt X forstår, ...’. I denne konstruksjonen betyr PronPers-1 personlig pronomen, for eksempel я, мы (PronPers=personlig pronomen), og Cl er en setning (Cl=setning). Verbet понимать ‘å forstå’ bøyes etter pronomenet: я понимаю ‘jeg forstår’, мы понимаем ‘vi forstår’."
