@@ -543,7 +543,7 @@
   image: ~
   task:
     task1:
-      text: "Ситуация 1.<br>
+      text: "<b>Ситуация 1</b><br>
             Вы в городе Тромсё в Северной Норвегии<br>
             Откуда: центральная библиотека города Тромсё<br>
             Куда: музей Полярия"
@@ -555,7 +555,7 @@
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_2.png
           width: 450
     task2:
-      text: "Ситуация 2.<br>
+      text: "<b>Ситуация 2</b><br>
             Вы в Париже.<br>
             Откуда: музей Лувр<br>
             Куда: музей Орсе"
@@ -567,7 +567,7 @@
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_4.png
           width: 450
     task3:
-      text: "Ситуация 3.<br>
+      text: "<b>Ситуация 3</b><br>
             Вы в Москве.<br>
             Откуда: парк Зарядье<br>
             Куда: музей Третьяковская галерея"
