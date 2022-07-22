@@ -299,6 +299,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 subtask.setAttribute("class", "shadow-sm p-2 mb-3 rounded")
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
                     subtask.innerHTML = data[exercise_id]["task"][`task${i}`]["text"]
+                    subtask.appendChild(document.createElement("br"))
                 }
                 
                 task.appendChild(subtask)
@@ -327,7 +328,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
                     add_answer(answer_to_show, answer_key, create_input());
-                } else if (typeof data[exercise_id]["answer_to_show"] == "object" || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
+                } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null) || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
+                    console.log(typeof null)
                     let answer_to_show = data[exercise_id]["answer_to_show"]
                     add_answer(answer_to_show);
                 }

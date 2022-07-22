@@ -478,11 +478,18 @@
 10:
   lesson_id: 6
   ex_number: 10
-  title: Придумайте свои советы для людей из упражнения 8. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
+  title: Турист пришёл в турагентство. В зависимости от вашей роли, купите или продайте турпутёвку. Описание каждой роли предложено ниже (турист и турагент). Используйте конструкции
+          с точки зрения NP-Gen, Cl<br>
+          впрочем, Cl<br>
+          Cl, не так ли?<br>
+          на PronPoss-Acc взгляд, Cl<br>
+          насколько PronPers-1 понимать, Cl<br>
+          на PronPoss-Loc месте/на месте NP-Gen Cl бы<br>
+          Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
   instructions: ~
   exercise_type: ~
-  title_eng: Come up with your own advice for the people in exercise 8. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
-  title_nor: Gi dine egne råd til personene i oppgave 8. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.
+  title_eng: A tourist contacts a travel agency. Depending on your role (tourist or travel agent), buy or sell a tour package. The description of each role is given below. Use the constructions from the list. If you are the tourist, your task is to choose the most attractive tour package from those offered by the travel agent. To do this, the tourist must describe their ideal trip to the travel agent. If you are the travel agent, your task is to sell one of the three tour packages. To do this, the travel agent must convince the tourist to choose one of them.
+  title_nor: En turist kontakter et reisebyrå. Avhengig av din rolle (turist eller reiseselger), skal du kjøpe eller selge en reise. Beskrivelse til begge rollene finner du nedenfor. Bruk konstruksjonene i listen. Turistens oppgave er å velge den beste reisen som reiseselgeren tilbyr. For å gjøre dette, må turisten beskrive sin drømmereise for reiseselgeren. Reiseselgerens oppgave er å overbevise turisten å velge en av de tre reisene.
   comment: ~
   example: ~
   model: ~
@@ -505,8 +512,7 @@
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_3.png
     task4:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png
-        
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png    
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
