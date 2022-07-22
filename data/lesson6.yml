@@ -418,9 +418,12 @@ I denne konstruksjonen er PronPoss-Loc et possessivt pronomen i lokativ kasus (P
   table:
     width: ~
     table_header:
-      - Друг
-      - Проблема
-      - Совет
+      - 
+        Друг
+      - 
+        Проблема
+      - 
+        Совет
     row1:
       - 
         Сергей
