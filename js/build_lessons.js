@@ -14,6 +14,19 @@ main_content.setAttribute("class", "container px-4")
 
 const exercises_amount = Object.keys(data).length
 
+
+function annotate(text) {
+    // finds constructions between %-symbols and changes their color
+    let matches = text.match(/%(.+?)%/g);
+    for (let substring of matches) {
+        text = text.replace(substring, '<span style="color: #5980B9">' + substring + '</span>');
+    }
+    let rem_matches = text.match(/%/g);
+    for (let rm of rem_matches){
+        text = text.replace(rm, "")
+    }
+    return text}
+
 function show_item(x, item) {
     x.innerHTML = item;
     if (x.style.display === "block") {
