@@ -403,9 +403,7 @@
   title_nor: Bonusoppgave. Du og dine venner sitter på en bar og diskuterer problemene deres. Gi råd til vennene dine ved å fortelle dem hva du ville gjøre hvis du var i deres sted. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.<br>
           I denne konstruksjonen er PronPoss-Loc et possessivt pronomen i lokativ kasus (PronPoss=possessivt pronomen, Loc=lokativ kasus), NP-Gen er et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), og Cl er en setning (Cl=setning). Verbet etter partikkelen бы brukes i forttidsform, enten i maskulinum eller femininum, avhengig av talerens kjønn.
   comment: ~
-  example: "А: — На самолёте мы долетим намного быстрее, не так ли?<br>
-            Б: — Да, но на мой взгляд, мы больше времени потратим в аэропорту. Поезд намного экологичнее, не так ли?<br>
-            А: — Да, но он дороже, чем автобус, на мой взгляд. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс, не так ли?"
+  example: ~
   model: ~
   image: 
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/8.png
