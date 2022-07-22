@@ -222,10 +222,9 @@
 5:
   lesson_id: 6
   ex_number: 5
-  title: Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции Cl, не так ли? и на PronPoss-Acc взгляд, Cl.<br>
-          В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например мой, наш.<br>
-          Слова на мой взгляд и на наш взгляд могут находиться в начале, в конце или в середине предложения.
-  instructions: ~
+  title: Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции Cl, не так ли? и на PronPoss-Acc взгляд, Cl.
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например мой, наш.<br>
+                Слова на мой взгляд и на наш взгляд могут находиться в начале, в конце или в середине предложения.
   exercise_type: text_input
   title_eng: You and your friends are going on a trip, and you need to decide how you will travel. In pairs, discuss the pros and cons of traveling by plane, train, bus, and private car. Use the constructions Cl, не так ли? ‘..., isn’t it?’ or ‘..., right?’ and на PronPoss-Acc взгляд, Cl ‘In my opinion, ...’.<br>
             In these constructions, Cl is a whole sentence (Cl=clause, sentence), and PronPoss-Acc is a possessive pronoun in the accusative case (PronPoss = possessive pronoun, Acc = Accusative case), for example мой ‘mine’ and наш ‘ours’. The words на мой взгляд and на наш взгляд can be placed at the beginning, at the end or in the middle of a sentence.
