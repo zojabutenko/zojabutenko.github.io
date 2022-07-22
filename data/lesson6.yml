@@ -135,7 +135,7 @@
   ex_number: 4
   title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию впрочем, Cl.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
-                Откройте схему московского метро по ссылке <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">1</a>. *5 — Кольцевая ветка (название дано не по цвету).
+                Откройте схему московского метро по <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">ссылке</a>. *5 — Кольцевая ветка (название дано не по цвету).
   exercise_type: ~
   title_eng: Here is a portion of the Moscow subway map. One of you is a tourist, and the other is a resident of Moscow. The tourist needs to find out how to get from one subway station to a different one. The Moscow resident gives instructions and describes two ways how to get to the destination. Use the dialogue structure provided below. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
   title_nor: Foran dere er en del av Moskvas tunnelbanekart. En av dere er turist, den andre moskovitt. Turisten trenger å vite hvordan man tar seg fra en tunnelbanestasjon til en annen. Moskovitten forklarer for turisten at det finns to måter å komme seg til riktig stasjon. Bruk dialogmalen nedenfor. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig/ imidlertid / likevel ...’. Plassen Cl kan fylles med en hel setning (Cl=setning).
@@ -303,11 +303,16 @@
   model: ~
   image: ~
   task:
-    task1: 1. Где находится Никольская улица? (рядом с Красной площадью)
-    task2: 2. Как доехать до Третьяковской галереи? (трамвай номер 3)
-    task3: 3. На чём можно уехать в Сергиев Посад? (электричка)
-    task4: 4. На какой ветке метро находится парк Воробьёвы горы? (красная)
-    task5: 5. Я могу доехать до аэропорта Домодедово на аэроэкспрессе? (да)
+    task1: 
+      text: 1. Где находится Никольская улица? (рядом с Красной площадью)
+    task2:  
+      text: 2. Как доехать до Третьяковской галереи? (трамвай номер 3)
+    task3:  
+      text: 3. На чём можно уехать в Сергиев Посад? (электричка)
+    task4:  
+      text: 4. На какой ветке метро находится парк Воробьёвы горы? (красная)
+    task5:  
+      text: 5. Я могу доехать до аэропорта Домодедово на аэроэкспрессе? (да)
   answer_to_show:
     answer1: — Насколько я понимаю, это рядом с Красной площадью.<br>
             — Насколько я понимаю, Никольская улица находится рядом с Красной площадью.
@@ -348,11 +353,16 @@
     width: ~
     height: ~
   task:
-    task1: 1. Паша пойдёт пешком. (поехать на метро)
-    task2: 2. Таня поедет на трамвае. (велосипед)
-    task3: 3. Мы полетим на самолёте. (поехать на поезде)
-    task4: 4. Они поедут на трамвае. (машине)
-    task5: 5. Валя поедет на такси. (пойти пешком)
+    task1:  
+      text: 1. Паша пойдёт пешком. (поехать на метро)
+    task2:  
+      text: 2. Таня поедет на трамвае. (велосипед)
+    task3:  
+      text: 3. Мы полетим на самолёте. (поехать на поезде)
+    task4:  
+      text: 4. Они поедут на трамвае. (машине)
+    task5:  
+      text: 5. Валя поедет на такси. (пойти пешком)
   answer_to_show:
     answer1: "от лица женщины:<br>
               На его месте я бы поехала на метро.<br>
@@ -407,8 +417,6 @@
   model: ~
   image: 
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/8.png
-    width: ~
-    height: ~
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -450,3 +458,56 @@
         Я постоянно забываю о своих дедлайнах.
       - 
         записывать дедлайны в календарь
+9:
+  lesson_id: 6
+  ex_number: 9
+  title: Придумайте свои советы для людей из упражнения 8. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Come up with your own advice for the people in exercise 8. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
+  title_nor: Gi dine egne råd til personene i oppgave 8. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 6
+  ex_number: 10
+  title: Придумайте свои советы для людей из упражнения 8. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Come up with your own advice for the people in exercise 8. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
+  title_nor: Gi dine egne råd til personene i oppgave 8. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "Турист 1<br>
+            Вы едете отдыхать. Ваше идеальное путешествие:"
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_1.png
+    task2:
+      text: "Турист 2<br>
+            Вы едете отдыхать. Ваше идеальное путешествие:"
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_2.png
+    task3:
+      text: "Турагент<br>
+            Продайте турпутёвку в Калининград, Сочи или Санкт-Петербург."
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_3.png
+    task4:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png
+        
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~

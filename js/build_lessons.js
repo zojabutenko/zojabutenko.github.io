@@ -52,6 +52,31 @@ function create_input() {
     return input
 }
 
+function add_image(subtask) {
+    let image = document.createElement("img")
+    if (Boolean(subtask)) {
+        var image_data = data[exercise_id]["task"][`task${i}`]["image"]
+        subtask.appendChild(image)
+    } else {
+        var image_data = data[exercise_id]["image"]
+        all_exercise.appendChild(image)
+    }
+
+    image.setAttribute("src", image_data["link"])
+    image.setAttribute("alt", "image description")
+    // image.setAttribute("style", "margin: 50px")
+
+    if (image_data["width"] != null) {
+        // console.log(`width: ${image_data["width"]}px`)
+        image.setAttribute("style", `width: ${image_data["width"]}px`)
+    } else if (image_data["height"] != null) {
+        image.setAttribute("style", `height: ${image_data["height"]}px`)
+    } else {
+        image.setAttribute("style", "width: 800px")
+    }
+        
+}
+
 function add_answer(answer_to_show, answer_key, input) {
 
     let answer_text = document.createElement("p");
@@ -90,8 +115,86 @@ function add_answer(answer_to_show, answer_key, input) {
     }
     task.appendChild(answer_text);
 }
+
+function add_table(subtask) {
+
+    let table = document.createElement("table")
+    table.setAttribute("style", "margin-top: 10px")
+    table.setAttribute("class", "table table_lesson")
+
+    if (Boolean(subtask)) {
+        var table_data = data[exercise_id][subtask]["table"]
+        subtask.appendChild(table)
+    } else {
+        var table_data = data[exercise_id]["table"]
+        all_exercise.appendChild(table)
+        main_content.appendChild(all_exercise);
+    }
+
+
+    if (table_data["width"] != null) {
+        table.setAttribute("style", `width: ${table_data["width"]}px`)
+    }
+
+    if (table_data["table_header"] != null) {
+
+        let thead = document.createElement("thead")
+        // thead.setAttribute("class", "table-primary")
+
+        let tr_head = document.createElement("tr")
+
+        let table_header = table_data["table_header"]
+        for (var i = 0; i <= 2; i++) {
+            var t = document.createElement("th")
+            t.setAttribute("scope", "col")
+            t.innerHTML = table_header[i]
+            tr_head.appendChild(t)
+        }
+
+        thead.appendChild(tr_head)
+        table.appendChild(thead)
+    }
+
+
+    let tbody = document.createElement("tbody");
+
+    var rows_amount = 0;
+    for (let z = 0; z < Object.keys(table_data).length; z++) {
+        if (Object.keys(table_data)[z].startsWith("row")) {
+            rows_amount++;
+        };
+    };
+
+    for (let i = 1; i <= rows_amount; i++) {
+        var tr = document.createElement("tr")
+        let row_length = table_data[`row${i}`].length
+        for (let k = 0; k < row_length; k++) {
+            var t = document.createElement("td")
+            t.setAttribute("style", "border: 0.5px outset black")
+            if (typeof table_data[`row${i}`][k] == "object") {
+                let length = table_data[`row${i}`][k].length
+                for (let s = 0; s < length; s++) {
+                    t.appendChild(document.createTextNode(table_data[`row${i}`][k][s]))
+                    t.appendChild(document.createElement("br"))
+                }
+            } else {
+                t.innerHTML = table_data[`row${i}`][k];
+            }
+            tr.appendChild(t)
+        }
+        tbody.appendChild(tr)
+    }
+    table.appendChild(tbody)
+
+        
+        // main_content.appendChild(table)
+    
+}
+
+
+
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
-    let all_exercise = document.createElement("div");
+    var all_exercise = document.createElement("div");
     if (exercise_id % 2 != 0) {
         // all_exercise.setAttribute("style", "background-color: #DDF1FE ");
     }
@@ -175,97 +278,38 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         // main_content.appendChild(example)
     }
 
-    if (data[exercise_id]["image"] != null) {
-        let image = document.createElement("img")
-        image.setAttribute("src", data[exercise_id]["image"]["link"])
-        image.setAttribute("alt", "image description")
-        // image.setAttribute("style", "margin: 50px")
 
-        if (data[exercise_id]["image"]["width"] != null) {
-            console.log(`width: ${data[exercise_id]["image"]["width"]}px`)
-            image.setAttribute("style", `width: ${data[exercise_id]["image"]["width"]}px`)
-        } else if (data[exercise_id]["image"]["height"] != null) {
-            image.setAttribute("style", `height: ${data[exercise_id]["image"]["height"]}px`)
-        } else {
-            image.setAttribute("style", "width: 800px")
-        }
-        all_exercise.appendChild(image)
+    if (data[exercise_id]["image"] != null) {
+        add_image()
         // main_content.appendChild(image)
     }
 
 
     if (data[exercise_id]["table"] != null) {
-        let table = document.createElement("table")
-        table.setAttribute("style", "margin-top: 10px")
-        table.setAttribute("class", "table table_lesson")
-
-        if (data[exercise_id]["table"]["width"] != null) {
-            table.setAttribute("style", `width: ${data[exercise_id]["table"]["width"]}px`)
-        }
-
-        if (data[exercise_id]["table"]["table_header"] != null) {
-
-            let thead = document.createElement("thead")
-            // thead.setAttribute("class", "table-primary")
-
-            let tr_head = document.createElement("tr")
-
-            let table_header = data[exercise_id]["table"]["table_header"]
-            for (var i = 0; i <= 2; i++) {
-                var t = document.createElement("th")
-                t.setAttribute("scope", "col")
-                t.innerHTML = table_header[i]
-                tr_head.appendChild(t)
-            }
-
-            thead.appendChild(tr_head)
-            table.appendChild(thead)
-        }
-
-
-        let tbody = document.createElement("tbody");
-
-        var rows_amount = 0;
-        for (let z = 0; z < Object.keys(data[exercise_id]["table"]).length; z++) {
-            if (Object.keys(data[exercise_id]["table"])[z].startsWith("row")) {
-                rows_amount++;
-            };
-        };
-
-        for (let i = 1; i <= rows_amount; i++) {
-            var tr = document.createElement("tr")
-            let row_length = data[exercise_id]["table"][`row${i}`].length
-            for (let k = 0; k < row_length; k++) {
-                var t = document.createElement("td")
-                t.setAttribute("style", "border: 0.5px outset black")
-                if (typeof data[exercise_id]["table"][`row${i}`][k] == "object") {
-                    let length = data[exercise_id]["table"][`row${i}`][k].length
-                    for (let s = 0; s < length; s++) {
-                        t.appendChild(document.createTextNode(data[exercise_id]["table"][`row${i}`][k][s]))
-                        t.appendChild(document.createElement("br"))
-                    }
-                } else {
-                    t.innerHTML = data[exercise_id]["table"][`row${i}`][k];
-                }
-                tr.appendChild(t)
-            }
-            tbody.appendChild(tr)
-        }
-        table.appendChild(tbody)
-        all_exercise.appendChild(table)
-        main_content.appendChild(all_exercise);
-        // main_content.appendChild(table)
+        add_table()
     }
+   
+
     var task = document.createElement("div")
     if (data[exercise_id]["task"] != null) {
         if (typeof data[exercise_id]["task"] == "object") {
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
-            for (let i = 1; i <= subtasks_amount; i++) {
-                var subtask = document.createElement("p")
+            for (var i = 1; i <= subtasks_amount; i++) {
+                var subtask = document.createElement("div")
                 subtask.setAttribute("class", "shadow-sm p-2 mb-3 rounded")
-                subtask.innerHTML = data[exercise_id]["task"][`task${i}`]
+                if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
+                    subtask.innerHTML = data[exercise_id]["task"][`task${i}`]["text"]
+                }
+                
                 task.appendChild(subtask)
 
+                if (data[exercise_id]["task"][`task${i}`]["table"] != null) {
+                    add_table(subtask)
+                }
+
+                if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
+                    add_image(subtask)
+                }
 
                 if (data[exercise_id]["difficult_words"] != null) {
                     if (data[exercise_id]["difficult_words"][`words${i}`] != null) {
