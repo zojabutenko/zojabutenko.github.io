@@ -550,10 +550,10 @@
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_1.png
-          width: 600
+          width: 500
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_2.png
-          width: 300
+          width: 450
     task2:
       text: "Ситуация 2.<br>
             Вы в Париже.<br>
@@ -565,7 +565,7 @@
           width: 1100
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_4.png
-          width: 300
+          width: 450
     task3:
       text: "Ситуация 3.<br>
             Вы в Москве.<br>
@@ -574,9 +574,27 @@
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_5.png
+          width: 700
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_6.png
-          width: 300
+          width: 450
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+12:
+  lesson_id: 6
+  ex_number: 12
+  title: К вам скоро приедет друг или подруга. Объясните ему или ей, как добраться из а) аэропорта, б) из центра вашего города или в) из университета до вашего дома. Предложите два варианта, как добраться. Составьте диалог, как в упражнении 1. Используйте конструкции этого урока.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Your friend is going to visit you. Explain to your friend how to get from a) the airport, 2) city center, 3) the university to your home. Offer two options for how to get to your place. Make a dialogue as in exercise 1. Use the constructions you learned in this lesson.
+  title_nor: Om ikke lenge kommer en av vennene dine på besøk. Forklar hvordan vennen kan ta seg fra a) flyplassen, 2) sentrum, 3) universitetet, og hjem til deg. Foreslå to mulige måter å ta seg hjem til deg. Lag en dialog på samme måte som i oppgave 1. Bruk alle konstruksjonene du har lært i denne leksjonen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
