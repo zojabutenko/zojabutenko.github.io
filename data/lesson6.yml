@@ -330,3 +330,64 @@
     answer5: Насколько я понимаю, да.
   difficult_words: ~
   table: ~
+7:
+  lesson_id: 6
+  ex_number: 7
+  title: Посоветуйте людям, названным в предложениях, другой способ передвижения. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
+  instructions: В этой конструкции PronPoss-Loc — это притяжательное местоимение в локативе (PronPoss=possessive pronoun, Loc=Locative case), NP-Gen — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего.
+  exercise_type: text_input
+  title_eng: Give advice to the people named in the sentences by suggesting an alternative means of transportation. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
+In this construction, PronPoss-Loc is a possessive pronoun in the Locative PronPoss=possessive pronoun, Loc=Locative case), NP-Gen is a noun in the Genitive (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). The verb that follows the particle бы is used in the past tense and either masculine or feminine form depending on the sex of the speaker.
+  title_nor: Gi råd til de navngitte personene i setningene ved å foreslå alternative transportmidler og ulike måter å ta seg frem på. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ...’, f.eks. ‘hvis jeg var deg, ...’, ‘hvis jeg var i dine sko’.
+I denne konstruksjonen er PronPoss-Loc et possessivt pronomen i lokativ kasus (PronPoss=possessivt pronomen, Loc=lokativ kasus), NP-Gen er et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), og Cl er en setning (Cl=setning). Verbet etter partikkelen бы brukes i forttidsform, enten i maskulinum eller femininum, avhengig av talerens kjønn.
+  comment: ~
+  example: Я поеду на такси (автобус)
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/7.png
+    width: ~
+    height: ~
+  task:
+    task1: 1. Паша пойдёт пешком. (поехать на метро)
+    task2: 2. Таня поедет на трамвае. (велосипед)
+    task3: 3. Мы полетим на самолёте. (поехать на поезде)
+    task4: 4. Они поедут на трамвае. (машине)
+    task5: 5. Валя поедет на такси. (пойти пешком)
+  answer_to_show:
+    answer1: "от лица женщины:
+              На его месте я бы поехала на метро.
+              На месте Паши я бы поехала на метро.
+
+              от лица мужчины:
+              На его месте я бы поехал на метро.
+              На месте Паши я бы поехал на метро."
+    answer2: "от лица женщины:
+              На её месте я бы поехала на велосипеде.
+              На месте Тани я бы поехала на велосипеде.
+
+              от лица мужчины:
+              На её месте я бы поехал на велосипеде.
+              На месте Тани я бы поехал на велосипеде."
+    answer3: "от лица женщины:
+              На вашем месте я бы поехала на поезде.
+
+              от лица мужчины:
+              На вашем месте я бы поехал на поезде."
+    answer4: "от лица женщины:
+              На их месте я бы поехала на машине.
+
+              от лица мужчины:
+              На их месте я бы поехал на машине."
+    answer5: "от лица женщины:
+              На её месте я бы пошла пешком.
+
+              от лица мужчины:
+              На её месте я бы пошёл пешком"
+  answer_key:
+    answer1: На его месте я бы поехала на метро.
+    answer2: На её месте я бы поехала на велосипеде.
+    answer3: На вашем месте я бы поехала на поезде.
+    answer4: На их месте я бы поехала на машине.
+    answer5: На её месте я бы пошла пешком.
+  difficult_words: ~
+  table: ~

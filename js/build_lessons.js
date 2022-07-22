@@ -43,7 +43,7 @@ function create_input() {
     your_answer.innerHTML = "Ваш ответ:"
 
     let input = document.createElement("input")
-    // input.setAttribute("type", "text")
+    // input.setAttribute("style", "background-color: #ddf1fe")
     input.setAttribute("class", "form-control")
     input.setAttribute("aria-describedby", "passwordHelpBlock")
 
@@ -91,6 +91,11 @@ function add_answer(answer_to_show, answer_key, input) {
     task.appendChild(answer_text);
 }
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
+    let all_exercise = document.createElement("div");
+    if (exercise_id % 2 != 0) {
+        // all_exercise.setAttribute("style", "background-color: #DDF1FE ");
+    }
+
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
     task_title.innerHTML = `${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`;
@@ -127,7 +132,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(task_buttons);
     task_title.appendChild(eng_text)
     task_title.appendChild(norw_text)
-    main_content.appendChild(task_title);
+    all_exercise.appendChild(task_title)
+    // main_content.appendChild(task_title);
 
     if (data[exercise_id]["comment"]) {
         let comment = document.createElement("h6");
@@ -152,7 +158,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let model = document.createElement("div");
         model.setAttribute("style", "margin-bottom: 20px")
         model.innerHTML = data[exercise_id]["model"];
-        main_content.appendChild(model);
+        all_exercise.appendChild(model);
+        // main_content.appendChild(model);
     }
 
     if (data[exercise_id]["example"] != null) {
@@ -162,8 +169,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         ex_words.innerHTML = "Образец:"
         ex_words.appendChild(document.createElement("br"))
         example.innerHTML = data[exercise_id]["example"]
-        main_content.appendChild(ex_words)
-        main_content.appendChild(example)
+        all_exercise.appendChild(ex_words)
+        all_exercise.appendChild(example)
+        // main_content.appendChild(ex_words)
+        // main_content.appendChild(example)
     }
 
     if (data[exercise_id]["image"] != null) {
@@ -180,7 +189,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         } else {
             image.setAttribute("style", "width: 800px")
         }
-        main_content.appendChild(image)
+        all_exercise.appendChild(image)
+        // main_content.appendChild(image)
     }
 
 
@@ -242,7 +252,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             tbody.appendChild(tr)
         }
         table.appendChild(tbody)
-        main_content.appendChild(table)
+        all_exercise.appendChild(table)
+        main_content.appendChild(all_exercise);
+        // main_content.appendChild(table)
     }
     var task = document.createElement("div")
     if (data[exercise_id]["task"] != null) {
@@ -250,7 +262,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (let i = 1; i <= subtasks_amount; i++) {
                 var subtask = document.createElement("p")
-                subtask.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
+                subtask.setAttribute("class", "shadow-sm p-2 mb-3 rounded")
                 subtask.innerHTML = data[exercise_id]["task"][`task${i}`]
                 task.appendChild(subtask)
 
@@ -289,7 +301,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
             }
         };
-        main_content.appendChild(task);
+        all_exercise.appendChild(task)
+        main_content.appendChild(all_exercise);
+        // main_content.appendChild(task);
     } else if (data[exercise_id]["answer_to_show"] != null) {
         let answer_to_show = data[exercise_id]["answer_to_show"]
         if (data[exercise_id]["exercise_type"] == "text_input") {
@@ -298,9 +312,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         } else {
             add_answer(answer_to_show);
         }
-        main_content.appendChild(task);
+        all_exercise.appendChild(task)
+        main_content.appendChild(all_exercise);
     }
-
+    
     tree.appendChild(main_content)
 }
 document.getElementById("content").appendChild(tree)
