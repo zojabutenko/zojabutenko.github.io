@@ -83,7 +83,7 @@ function add_answer(answer_to_show, answer_key, input) {
     let answer_text = document.createElement("p");
 
     let buttons = document.createElement("div")
-    buttons.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end m-3")
+    buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
 
     let button2 = document.createElement("button")
     button2.setAttribute("type", "button")

@@ -496,17 +496,17 @@
   image: ~
   task:
     task1:
-      text: "Турист 1<br>
+      text: "<b>Турист 1</b><br>
             Вы едете отдыхать. Ваше идеальное путешествие:"
       image:
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_1.png
     task2:
-      text: "Турист 2<br>
+      text: "<b>Турист 2</b><br>
             Вы едете отдыхать. Ваше идеальное путешествие:"
       image:
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_2.png
     task3:
-      text: "Турагент<br>
+      text: "<b>Турагент</b><br>
             Продайте турпутёвку в Калининград, Сочи или Санкт-Петербург."
       image:
         image1:
@@ -526,7 +526,7 @@
           — Время<br>
           — Комфорт<br>
           — Погода<br>
-          Используйте конструкции<br>
+          Используйте конструкции:<br>
           — с точки зрения NP-Gen, Cl<br>
           — впрочем, Cl<br>
           — Cl, не так ли?<br>
