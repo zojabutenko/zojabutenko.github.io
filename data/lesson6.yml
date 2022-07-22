@@ -520,18 +520,18 @@
 11:
   lesson_id: 6
   ex_number: 11
-  title: "Вы с другом или подругой обсуждаете маршрут, как добраться из места, где вы находитесь, до места, куда вам нужно. Перед вами карты из приложения Google Карты (Google Maps). Обсудите все варианты и выберите оптимальный. Учитывайте разные факторы, которые влияют на ваш маршрут:
-          — Цена
-          — Пробки
-          — Время
-          — Комфорт
-          — Погода
-          Используйте конструкции
-          — с точки зрения NP-Gen, Cl
-          — впрочем, Cl
-          — Cl, не так ли?
-          — на PronPoss-Acc взгляд, Cl
-          — насколько PronPers-1 понимать, Cl
+  title: "Вы с другом или подругой обсуждаете маршрут, как добраться из места, где вы находитесь, до места, куда вам нужно. Перед вами карты из приложения Google Карты (Google Maps). Обсудите все варианты и выберите оптимальный. Учитывайте разные факторы, которые влияют на ваш маршрут:<br>
+          — Цена<br>
+          — Пробки<br>
+          — Время<br>
+          — Комфорт<br>
+          — Погода<br>
+          Используйте конструкции<br>
+          — с точки зрения NP-Gen, Cl<br>
+          — впрочем, Cl<br>
+          — Cl, не так ли?<br>
+          — на PronPoss-Acc взгляд, Cl<br>
+          — насколько PronPers-1 понимать, Cl<br>
           — на PronPoss-Loc месте/на месте NP-Gen Cl бы"
   instructions: ~
   exercise_type: ~
@@ -550,8 +550,10 @@
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_1.png
+          width: 600
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_2.png
+          width: 300
     task2:
       text: "Ситуация 2.<br>
             Вы в Париже.<br>
@@ -560,8 +562,10 @@
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_3.png
+          width: 1100
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_4.png
+          width: 300
     task3:
       text: "Ситуация 3.<br>
             Вы в Москве.<br>
@@ -572,6 +576,7 @@
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_5.png
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_6.png
+          width: 300
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~

@@ -319,15 +319,16 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
-                    if (typeof data[exercise_id]["task"][`task${i}`]["image"] == "object") {
-                        var images_amount = data[exercise_id]["task"][`task${i}`]["image"].length
+                    if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
+                        subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
+                    } else {
+                        var images_amount = Object.keys(data[exercise_id]["task"][`task${i}`]["image"]).length
                         var images = document.createElement("div")
                         for (let e = 1; e <= images_amount; e++) {
                             images.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"][`image${e}`]))
                         }
-                        subtask.appendChild(images)
+                        subtask.appendChild(images)                        
                     }
-                    subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
                 }
 
                 if (data[exercise_id]["difficult_words"] != null) {
