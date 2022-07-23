@@ -294,15 +294,15 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
 
     if (data[exercise_id]["image"] != null) {
-        if (typeof data[exercise_id]["image"] == "object") {
+        if (data[exercise_id]["image"]["link"] != undefined) {
+            all_exercise.appendChild(add_image(data[exercise_id]["image"]))
+        } else {
             var images_amount = data[exercise_id]["image"].length
             var images = document.createElement("div")
             for (let e = 1; e <= images_amount; e++) {
                 images.appendChild(add_image(data[exercise_id]["image"][`image${e}`]))
             }
             all_exercise.appendChild(images)
-        } else {
-            all_exercise.appendChild(add_image(data[exercise_id]["image"]))
         }
         // main_content.appendChild(image)
     }
