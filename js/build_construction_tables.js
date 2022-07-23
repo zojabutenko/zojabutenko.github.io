@@ -8,7 +8,23 @@ for (let key of Object.keys(json_data)) {
     records[key] = json_data[key];
 }
 
-
+function annotate(text) {
+    // finds constructions between %-symbols and changes their color
+    let matches = text.match(/\^.+?@/g);
+    if (matches){
+        for (let substring of matches) {
+            text = text.replace(substring, '<b><span style="color: #5980B9">' + substring + '</span></b>');
+        }
+        let rem_matches = text.match(/\^/g);
+        for (let rm of rem_matches){
+            text = text.replace(rm, "")
+        }
+        let rem_matches2 = text.match(/@/g);
+        for (let rm of rem_matches2){
+            text = text.replace(rm, "")
+        }
+    }
+    return text}
 
 const data = records[0][lesson_id]
 const part_1 = document.createElement("div")
@@ -61,7 +77,10 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
         } else {
             var t = document.createElement("td")
         }
-        t.appendChild(document.createTextNode(data["construction_table_rows"][i][k]))
+        console.log(data["construction_table_rows"][i][k])
+        var txt = document.createElement("p")
+        txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]))
+        t.appendChild(txt)
         tr.appendChild(t)
     }
     tbody.appendChild(tr)
