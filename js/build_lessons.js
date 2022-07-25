@@ -131,10 +131,10 @@ function add_answer(answer_to_show, answer_key, input) {
 }
 
 function add_table(subtask) {
-
     let table = document.createElement("table")
-    table.setAttribute("style", "margin-top: 10px")
-    table.setAttribute("class", "table table_lesson")
+
+
+    table.setAttribute("class", "table table-bordered")
 
     if (Boolean(subtask)) {
         var table_data = data[exercise_id][subtask]["table"]
@@ -184,7 +184,7 @@ function add_table(subtask) {
         let row_length = table_data[`row${i}`].length
         for (let k = 0; k < row_length; k++) {
             var t = document.createElement("td")
-            t.setAttribute("style", "border: 0.5px outset black")
+            // t.setAttribute("style", "border: 0.5px outset black")
             if (typeof table_data[`row${i}`][k] == "object") {
                 let length = table_data[`row${i}`][k].length
                 for (let s = 0; s < length; s++) {
@@ -199,8 +199,6 @@ function add_table(subtask) {
         tbody.appendChild(tr)
     }
     table.appendChild(tbody)
-
-        
         // main_content.appendChild(table)
     
 }
