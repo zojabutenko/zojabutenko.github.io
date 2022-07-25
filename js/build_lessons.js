@@ -290,7 +290,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let example = document.createElement("div")
         example.setAttribute("style", "margin-bottom: 10px")
         let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Образец:"
+        ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
         example.innerHTML = data[exercise_id]["example"]
         all_exercise.appendChild(ex_words)
