@@ -1,0 +1,51 @@
+---
+1:
+  lesson_id: 7
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: Я очень люблю праздники. ^Будь моя воля, я бы праздновал что-нибудь каждый день. Например, 3 марта — День писателя, 4 марта — День рождения микрофона, а 5 марта — День рождения степлера. Как по мне, все эти праздники очень важные. Сами подумайте, я пишу этот текст, значит, я писатель. Вы пользуетесь степлером, так? Значит, надо отмечать 5 марта. Словом, надо жить так, чтобы каждый день был как праздник!
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+2:
+  lesson_id: 7
+  ex_number: 2
+  title: Соедините части предложений, подобрав логичное продолжение.Используйте конструкцию ^VP, заодно VP@.
+  instructions: В этой конструкции VP — это глагол (VP=verb phrase).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^VP, заодно VP@ meaning ‘while X is at it ...’ or ‘..., meanwhile ...’. In this construction, VP stands for a verb (VP=verb phrase).
+  title_nor: Koble sammen frasene ved å velge en passende fortsettelse. Bruk konstruksjonen ^VP, заодно VP@ ‘..., samtidig, i tillegg ...’. I denne konstruksjonen står VP for et verb (VP=verbfrase).
+  comment: ~
+  example: Я вчера сделала уборку дома, ^заодно@ нашла старые фотографии бабушки с дедушкой.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3д, 4б, 5г
+  answer_key: 1в, 2а, 3д, 4б, 5г
+  difficult_words: ~
+  table:
+    vertical_align: +
+    row1:
+      - 1. Я вчера сделала уборку дома
+      - а. попробуем вместе новый рецепт.
+    row2:
+      - 2. Помоги мне, пожалуйста, приготовить торт
+      - б. посмотрим, нужны ли нам новые ёлочные игрушки.
+    row3:
+      - 3. Отправь приглашение на юбилей тёте Ирине
+      - в. нашла старые фотографии бабушки с дедушкой.
+    row4:
+      - 4. Давай пораньше украсим дом к Новому году
+      - г. нашёл себе новую рубашку на праздник.
+    row5:
+      - 5. Он уже купил всей семье подарки на Рождество
+      - д. узнаешь как у неё дела.

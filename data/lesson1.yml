@@ -48,7 +48,7 @@
     answer2: София не только красиво поëт, но и играет на пианино.
     answer3: Нельзя переделать
   difficult_words:
-    words2: "*test_word"
+    word2: "*test_word"
   table: ~
 3:
   lesson_id: 3
