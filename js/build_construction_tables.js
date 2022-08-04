@@ -9,7 +9,7 @@ for (let key of Object.keys(json_data)) {
 }
 
 function annotate(text) {
-    // finds constructions between %-symbols and changes their color
+    // finds constructions between special symbols and changes their color
     let matches = text.match(/\^.+?@/g);
     if (matches){
         for (let substring of matches) {
@@ -77,7 +77,6 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
         } else {
             var t = document.createElement("td")
         }
-        console.log(data["construction_table_rows"][i][k])
         var txt = document.createElement("p")
         txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]))
         t.appendChild(txt)

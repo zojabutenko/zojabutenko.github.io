@@ -16,14 +16,20 @@ const exercises_amount = Object.keys(data).length
 
 
 function annotate(text) {
-    // finds constructions between %-symbols and changes their color
-    let matches = text.match(/%(.+?)%/g);
-    for (let substring of matches) {
-        text = text.replace(substring, '<span style="color: #5980B9">' + substring + '</span>');
-    }
-    let rem_matches = text.match(/%/g);
-    for (let rm of rem_matches){
-        text = text.replace(rm, "")
+    // finds constructions between special symbols and changes their color
+    let matches = text.match(/\^.+?@/g);
+    if (matches){
+        for (let substring of matches) {
+            text = text.replace(substring, '<b><span style="color: #5980B9">' + substring + '</span></b>');
+        }
+        let rem_matches = text.match(/\^/g);
+        for (let rm of rem_matches){
+            text = text.replace(rm, "")
+        }
+        let rem_matches2 = text.match(/@/g);
+        for (let rm of rem_matches2){
+            text = text.replace(rm, "")
+        }
     }
     return text}
 
@@ -189,8 +195,11 @@ function add_table(subtask) {
             if (typeof table_data[`row${i}`][k] == "object") {
                 let length = table_data[`row${i}`][k].length
                 for (let s = 0; s < length; s++) {
-                    t.appendChild(document.createTextNode(table_data[`row${i}`][k][s]))
-                    t.appendChild(document.createElement("br"))
+                    var txt = document.createElement("p")
+                    txt.innerHTML = annotate(String(table_data[`row${i}`][k][s]))
+                    // t.appendChild(document.createTextNode(table_data[`row${i}`][k][s]))
+                    t.appendChild(txt)
+                    // t.appendChild(document.createElement("br"))
                 }
             } else {
                 t.innerHTML = table_data[`row${i}`][k];
@@ -214,7 +223,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
-    task_title.innerHTML = `${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`;
+    task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
 
     if (data[exercise_id]["instructions"] != null) {
         let instructions = document.createElement("h6");
@@ -284,7 +293,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let example = document.createElement("div")
         example.setAttribute("style", "margin-bottom: 10px")
         let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Образец:"
+        ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
         example.innerHTML = data[exercise_id]["example"]
         all_exercise.appendChild(ex_words)
@@ -322,8 +331,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 var subtask = document.createElement("div")
                 subtask.setAttribute("class", "shadow-sm p-2 mb-3 rounded")
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
-                    subtask.innerHTML = data[exercise_id]["task"][`task${i}`]["text"]
-                    subtask.appendChild(document.createElement("br"))
+                    subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
+
+                    // subtask.appendChild(document.createElement("br"))
                 }
                 
                 task.appendChild(subtask)
@@ -358,7 +368,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
-                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
+                    let answer_to_show = annotate(data[exercise_id]["answer_to_show"][`answer${i}`])
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
                     add_answer(answer_to_show, answer_key, create_input());
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null) || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
@@ -369,7 +379,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             };
         } else {
             task.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
-            task.innerHTML = data[exercise_id]["task"];
+            task.innerHTML = annotate(data[exercise_id]["task"]);
             if (data[exercise_id]["answer_to_show"] != null) {
                 let answer_to_show = data[exercise_id]["answer_to_show"]
                 if (data[exercise_id]["exercise_type"] == "text_input") {
