@@ -142,6 +142,12 @@ function add_table(subtask) {
 
 
     table.setAttribute("class", "table table-bordered")
+    
+    // console.log(table_data["vertical_align"])
+    
+
+    
+    
 
     if (Boolean(subtask)) {
         var table_data = data[exercise_id][subtask]["table"]
@@ -152,6 +158,11 @@ function add_table(subtask) {
         main_content.appendChild(all_exercise);
     }
 
+    if (table_data["vertical_align"] == "+") {
+        table.setAttribute("style", "vertical-align: middle;")
+    }
+
+    
 
     if (table_data["width"] != null) {
         table.setAttribute("style", `width: ${table_data["width"]}px`)
@@ -188,6 +199,15 @@ function add_table(subtask) {
 
     for (let i = 1; i <= rows_amount; i++) {
         var tr = document.createElement("tr")
+        // console.log(table_data["horizontal_align"] == "+")
+        console.log(table_data["vertical_align"] == "+")
+        if (table_data["horizontal_align"] == "+") {
+            tr.setAttribute("style", "text-align: center;")
+        }
+        // if (table_data["vertical_align"] == "+") {
+        //     tr.setAttribute("style", "vertical-align: middle;")
+        // }
+        
         let row_length = table_data[`row${i}`].length
         for (let k = 0; k < row_length; k++) {
             var t = document.createElement("td")

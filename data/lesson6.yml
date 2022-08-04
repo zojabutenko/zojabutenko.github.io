@@ -243,6 +243,8 @@
   answer_key: ~
   difficult_words: ~
   table:
+    vertical_align: +
+    horizontal_align: +
     width: 950
     table_header: ~
     row1:
