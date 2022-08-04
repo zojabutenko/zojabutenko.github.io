@@ -11,7 +11,7 @@
   example: ~
   model: ~
   image: ~
-  task: Я очень люблю праздники. ^Будь моя воля, я бы праздновал что-нибудь каждый день. Например, 3 марта — День писателя, 4 марта — День рождения микрофона, а 5 марта — День рождения степлера. Как по мне, все эти праздники очень важные. Сами подумайте, я пишу этот текст, значит, я писатель. Вы пользуетесь степлером, так? Значит, надо отмечать 5 марта. Словом, надо жить так, чтобы каждый день был как праздник!
+  task: Я очень люблю праздники. ^Будь моя воля,@ я бы праздновал что-нибудь каждый день. Например, 3 марта — День писателя, 4 марта — День рождения микрофона, а 5 марта — День рождения степлера. ^Как по мне,@ все эти праздники очень важные. ^Сами подумайте,@ я пишу этот текст, значит, я писатель. Вы пользуетесь степлером, ^так?@ Значит, надо отмечать 5 марта. ^Словом,@ надо жить так, чтобы каждый день был как праздник!
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -49,3 +49,63 @@
     row5:
       - 5. Он уже купил всей семье подарки на Рождество
       - д. узнаешь как у неё дела.
+3:
+  lesson_id: 7
+  ex_number: 3
+  title: Иностранные студенты обсуждают русские праздники. Заполните пропуски, используя конструкцию ^Cl, так (ведь)?@ в вопросах и конструкцию ^Сам подумать-Imp, Cl@ в ответах.
+  instructions: "В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).<br>
+                Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине (см. образец). При этом форма императива <i>подумай</i> не меняется."
+  exercise_type: text_input
+  title_eng: "Foreign students are discussing Russian holidays. Fill in the blanks. Use the construction ^Cl, так (ведь)?@ ‘..., isn’t it?’ in questions and the construction ^Сам подумать-Imp, Cl@ ‘Think about it, ...’ in responses.<br>
+            In these constructions, Cl means an entire sentence (Cl=clause, sentence), and подумать-Imp is an imperative form of the verb подумать ‘think’ (Imp = imperative), that is подумай (in singular) and подумайте (in plural).<br>
+            Note that the form of the pronoun сам ‘self’ depends on the sex of the speaker: use сам when addressing a man, but сама when addressing a woman. The form of the imperative подумай does not change in this regard."
+  title_nor: "Utenlandske studenter diskuterer russiske helligdager. Fyll ut de tomme feltene. Bruk konstruksjonen ^Cl, так (ведь)?@ som betyr omtrent ‘... , ikke sant’ og konstruksjonen ^Сам подумать-Imp, Cl@ som betyr omtrent ‘Tenk på det, Tenk på at, Husk at ... ’.<br>
+            I disse konstruksjonene står Cl for en hel setning (Cl=setning), og подумать-Imp som er imperativformen av verbet подумать ‘å tenke’ (Imp = imperativ), det vil si подумай (entall) og подумайте (flertall). Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk сам for å tiltale en mann, сама for å tiltale en kvinne. Imperativformen подумай er ikke avhengig av samtalepartnerens kjønn."
+  comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.<br>
+            Comment for language teachers. Task format: in pairs. After each dialogue, the students switch roles."
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/7/3.png
+  task:
+    task1:
+      text: "<b>а.</b><br>
+            Ханна: — В День знаний в магазинах России не продают алкоголь,__________?<br>
+            Майкл: — Да.__________, это же праздник для школьников."
+    task2:
+      text: "<b>б.</b><br>
+            Закир: — Масленицу отмечают три дня,__________?<br>
+            Фатима: — Нет.__________. Масленицу же называют Масленичной неделей, значит семь дней."
+    task3:
+      text: "<b>в.</b><br>
+            Шарлотта: — Ты отмечаешь День защиты детей,__________?<br>
+            Лиам: — Нет.__________, я же уже не ребенок и детей у меня пока нет."
+    task4:
+      text: "<b>г.</b><br>
+            Сара: — Тебе подарили цветы на 8 марта,__________?<br>
+            Оливия: — Конечно!__________, я же женщина."
+    task5:
+      text: "<b>д.</b><br>
+            Джеймс: — Итон, ты отмечал День святого Валентина в этом году,__________?<br> 
+            Итон: — Нет, конечно!__________, я же недавно расстался с девушкой."
+
+  answer_to_show:
+    answer1: "Ханна: — В День знаний в магазинах России не продают алкоголь, ^так / так ведь?@<br>
+              Майкл: — Да. ^Сама подумай,@ это же праздник для школьников."
+    answer2: "Закир: — Масленицу отмечают три дня, ^так / так ведь?@<br>
+              Фатима: — Нет. ^Сам подумай@. Масленицу же называют Масленичной неделей, значит семь дней."
+    answer3: "Шарлотта: — Ты отмечаешь День защиты детей, ^так / так ведь?@<br>
+              Лиам: — Нет. ^Сама подумай,@ я же уже не ребенок и детей у меня пока нет."
+    answer4: "Сара: — Тебе подарили цветы на 8 марта, ^так / так ведь?@<br>
+              Оливия: — Конечно! ^Сама подумай,@ я же женщина."
+    answer5: "Джеймс: — Итон, ты отмечал День святого Валентина в этом году, ^так / так ведь?@<br>
+              Итон: — Нет, конечно! ^Сам подумай,@ я же недавно расстался с девушкой."
+
+  answer_key:
+    answer1: так ведь; сама подумай
+    answer2: так ведь; сам подумай
+    answer3: так ведь; сама подумай
+    answer4: так ведь; сама подумай
+    answer5: так ведь; сам подумай
+  difficult_words: ~
+  table: ~

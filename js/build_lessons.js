@@ -175,11 +175,11 @@ function add_table(subtask) {
 
         let tr_head = document.createElement("tr")
 
-        let table_header = table_data["table_header"]
+        let table_header = annotate(String(table_data["table_header"]))
         for (var i = 0; i <= 2; i++) {
             var t = document.createElement("th")
             t.setAttribute("scope", "col")
-            t.innerHTML = table_header[i]
+            t.innerHTML = annotate(table_header[i])
             tr_head.appendChild(t)
         }
 
@@ -200,7 +200,7 @@ function add_table(subtask) {
     for (let i = 1; i <= rows_amount; i++) {
         var tr = document.createElement("tr")
         // console.log(table_data["horizontal_align"] == "+")
-        console.log(table_data["vertical_align"] == "+")
+        // console.log(table_data["vertical_align"] == "+")
         if (table_data["horizontal_align"] == "+") {
             tr.setAttribute("style", "text-align: center;")
         }
@@ -222,7 +222,7 @@ function add_table(subtask) {
                     // t.appendChild(document.createElement("br"))
                 }
             } else {
-                t.innerHTML = table_data[`row${i}`][k];
+                t.innerHTML = annotate(String(table_data[`row${i}`][k]));
             }
             tr.appendChild(t)
         }
@@ -315,7 +315,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
-        example.innerHTML = data[exercise_id]["example"]
+        example.innerHTML = annotate(data[exercise_id]["example"])
         all_exercise.appendChild(ex_words)
         all_exercise.appendChild(example)
         // main_content.appendChild(ex_words)
@@ -376,9 +376,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["difficult_words"] != null) {
-                    if (data[exercise_id]["difficult_words"][`words${i}`] != null) {
+                    if (data[exercise_id]["difficult_words"][`word${i}`] != null) {
                         let d_word = document.createElement("p");
-                        d_word.innerHTML = data[exercise_id]["difficult_words"][`words${i}`];
+                        d_word.innerHTML = data[exercise_id]["difficult_words"][`word${i}`];
                         task.appendChild(d_word);
                     } else if (i == subtasks_amount & typeof data[exercise_id]["difficult_words"] != "object") {
                         let d_word = document.createElement("p");
