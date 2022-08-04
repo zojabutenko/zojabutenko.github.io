@@ -40,6 +40,8 @@
   answer_key: ~
   difficult_words: ~
   table:
+    vertical_align: ~
+    horizontal_align: +
     width: ~
     table_header: ~
     row1:
