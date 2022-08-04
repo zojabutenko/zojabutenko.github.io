@@ -96,37 +96,43 @@
     table_header: ~
     row1:
       - 
-        - 1. — Как мне доехать до стадиона?
+        - 1
+        - — Как мне доехать до стадиона?
         - — Вам нужен трамвай номер 25.
       - 
         - а. ^Впрочем,@ налево и прямо тоже можно.
     row2:
       - 
-        - 2. — Сколько стоит проезд на метро?
+        - 2
+        - — Сколько стоит проезд на метро?
         - — Одна поездка стоит 56 рублей.
       - 
         - б. ^Впрочем,@ вам быстрее дойти пешком через парк.
     row3:
       - 
-        - 3. — Как дойти до Большого театра?
+        - 3
+        - — Как дойти до Большого театра?
         - — Вам сейчас нужно повернуть направо и на перекрестке снова направо.
       - 
         - в. ^Впрочем,@ на троллейбусе можно доехать всего за двадцать минут.
     row4:
       - 
-        - 4. — Ура, прилетели! Поедем домой на автобусе?
+        - 4
+        - — Ура, прилетели! Поедем домой на автобусе?
         - — Да, можно.
       - 
         - г. ^Впрочем,@ сейчас пробки. Нам будет быстрее доехать в аэропорт на аэроэкспрессе.
     row5:
       - 
-        - 5. — Нам надо быть в аэропорту через час. Я вызову такси?
+        - 5
+        - — Нам надо быть в аэропорту через час. Я вызову такси?
         - — Да, вызывай!
       - 
         - д. ^Впрочем,@ неважно! У вас же есть проездной!
     row6:
       - 
-        - 6. — Вы далеко живёте от работы?
+        - 6
+        - — Вы далеко живёте от работы?
         - — Далеко! Пешком идти больше часа.
       - 
         - е. ^Впрочем,@ у нас много багажа. Поехали лучше на такси!
@@ -135,7 +141,7 @@
   ex_number: 4
   title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию впрочем, Cl.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
-                Откройте схему московского метро по <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">ссылке</a>. *5 — Кольцевая ветка (название дано не по цвету).
+                Откройте схему московского метро по <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">ссылке</a>.<br>*5 — Кольцевая ветка (название дано не по цвету).
   exercise_type: ~
   title_eng: Here is a portion of the Moscow subway map. One of you is a tourist, and the other is a resident of Moscow. The tourist needs to find out how to get from one subway station to a different one. The Moscow resident gives instructions and describes two ways how to get to the destination. Use the dialogue structure provided below. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
   title_nor: Foran dere er en del av Moskvas tunnelbanekart. En av dere er turist, den andre moskovitt. Turisten trenger å vite hvordan man tar seg fra en tunnelbanestasjon til en annen. Moskovitten forklarer for turisten at det finns to måter å komme seg til riktig stasjon. Bruk dialogmalen nedenfor. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig/ imidlertid / likevel ...’. Plassen Cl kan fylles med en hel setning (Cl=setning).
@@ -483,7 +489,7 @@
           — на PronPoss-Acc взгляд, Cl<br>
           — насколько PronPers-1 понимать, Cl<br>
           — на PronPoss-Loc месте/на месте NP-Gen Cl бы<br>
-          — Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
+          Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
   instructions: ~
   exercise_type: ~
   title_eng: A tourist contacts a travel agency. Depending on your role (tourist or travel agent), buy or sell a tour package. The description of each role is given below. Use the constructions from the list. If you are the tourist, your task is to choose the most attractive tour package from those offered by the travel agent. To do this, the tourist must describe their ideal trip to the travel agent. If you are the travel agent, your task is to sell one of the three tour packages. To do this, the travel agent must convince the tourist to choose one of them.
