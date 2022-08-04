@@ -97,6 +97,7 @@ function add_answer(answer_to_show, answer_key, input) {
 
     let buttons = document.createElement("div")
     buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
+    buttons.setAttribute("style", "margin-top: 10px")
 
     let button2 = document.createElement("button")
     button2.setAttribute("type", "button")
@@ -207,9 +208,9 @@ function add_table(subtask) {
 
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     var all_exercise = document.createElement("div");
-    if (exercise_id % 2 != 0) {
-        // all_exercise.setAttribute("style", "background-color: #DDF1FE ");
-    }
+    // if (exercise_id % 2 != 0) {
+    //     all_exercise.setAttribute("style", "background-color: #DDF1FE ");
+    // }
 
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
@@ -218,10 +219,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["instructions"] != null) {
         let instructions = document.createElement("h6");
         instructions.innerHTML = data[exercise_id]["instructions"];
+        instructions.setAttribute("style", "margin-top: 10px")
         task_title.appendChild(instructions);
     };
     let task_buttons = document.createElement("div");
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
+    task_buttons.setAttribute("style", "margin-top: 10px")
     let eng_text = document.createElement("h6");
     let norw_text = document.createElement("h6");
     let eng = document.createElement("button");
