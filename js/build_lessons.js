@@ -174,12 +174,12 @@ function add_table(subtask) {
         // thead.setAttribute("class", "table-primary")
 
         let tr_head = document.createElement("tr")
-
-        let table_header = annotate(String(table_data["table_header"]))
-        for (var i = 0; i <= 2; i++) {
+        
+        let table_header = table_data["table_header"]
+        for (var i = 0; i < table_header.length; i++) {
             var t = document.createElement("th")
             t.setAttribute("scope", "col")
-            t.innerHTML = annotate(table_header[i])
+            t.innerHTML = annotate(String(table_header[i]))
             tr_head.appendChild(t)
         }
 

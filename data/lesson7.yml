@@ -132,8 +132,7 @@
   table:
     vertical_align: +
     table_header:
-      - 
-        Информация о Саше
+      - Информация о Саше
     row1:
       -
         - 20 лет
@@ -144,3 +143,79 @@
         - у неё есть собака Буян
         - любит яркий макияж
         - не любит кошек
+5:
+  lesson_id: 7
+  ex_number: 5
+  title: Расскажите, что бы вы изменили в мире к лучшему, если бы была такая возможность. Используйте конструкцию ^будь моя воля, Cl бы@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего (см. образец).
+  exercise_type: ~
+  title_eng: "Tell your interlocutor what you would change in the world for the better if you had the opportunity. Use the construction ^будь моя воля, Cl бы@ meaning ‘If it were up to me, I would …’.<br>
+              In this construction, Cl stands for an entire sentence (Cl=clause, sentence). The verb that follows the particle бы is used in the past tense form and should have masculine or feminine grammatical gender depending on the sex of the speaker."
+  title_nor: "Fortell om hva i verden du ville forbedret hvis du hadde mulighet. Bruk konstruksjonen ^будь моя воля, Cl бы@ som betyr omtrent ‘Om det var opp til meg, ...’ eller ‘Var det opp til meg, ...’ eller ‘Hvis det var opp til meg, ...’<br>
+              I denne konstruksjonen står Cl for en hel setning (Cl=setning). Verbet etter partikkelen бы brukes i forttidsform, og skal bøyes i overenstemmelse med talerens kjønn."
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/7/5.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 7
+  ex_number: 6
+  title: Обсудите с собеседником ваше отношение к праздникам, которые отмечают в России и в вашей стране. Используйте конструкцию ^(как) по мне, (так) Cl@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: ~
+  title_eng: Discuss with your interlocutor how you feel about the holidays that are celebrated in Russia and in your country of origin. Use the construction ^(как) по мне, (так) Cl@ meaning ‘as for me, ...’ or ‘in my opinion, ...’.<br>
+              In this construction, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Diskuter med din samtalepartner om ditt forhold til helligdagene som feires i Russland og i ditt hjemland. Bruk konstruksjonen ^(как) по мне, (так) Cl@ som betyr omtrent ‘Jeg tror, ... ’ eller ‘Etter min mening, ...’ eller ‘For meg ...’<br>
+              I denne konstruksjonen står Cl for en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: "Праздник: 8 марта<br>
+            — ^Как по мне,@ люди не понимают смысл этого праздника.<br>
+            — ^Как по мне,@ этот праздник устарел."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    row1:
+      - "Праздники:"
+      - "Подсказки:"
+    row2:
+      -
+        - День рождения
+        - Новый год
+        - Рождество
+        - Пасха
+        - День космонавтики (12 апреля)
+        - 8 марта
+        - День Конституции
+        - День святого Валентина
+        - Профессиональные праздники (День медицинского работника, День учителя)
+        - День знаний (1 сентября)
+        - Хэллоуин (31 октября)
+        - День труда (1 мая)
+        - День студента (25 января)
+        - добавляйте праздники, которые вы знаете
+      -
+        - важный
+        - неважный
+        - мой любимый
+        - главный праздник в моей стране
+        - устарел
+        - актуален
+        - коммерческий
+        - популярный
+        - непопулярный
+        - непонятный
+        - не понимаю, зачем поздравлять
+        - отмечают в каждой семье
+        - никто не отмечает
+        - праздник для детей
