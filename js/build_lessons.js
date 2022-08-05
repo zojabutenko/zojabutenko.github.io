@@ -260,7 +260,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     eng.setAttribute("type", "button");
     eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
     eng.innerHTML = "English";
-    let translation_text_eng = data[exercise_id]["title_eng"]
+    let translation_text_eng = annotate(data[exercise_id]["title_eng"])
     eng.onclick = function () {
         show_item(eng_text, translation_text_eng)
     }
@@ -268,7 +268,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     norw.setAttribute("type", "button");
     norw.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
     norw.innerHTML = "Norwegian";
-    let translation_text_norw = data[exercise_id]["title_nor"]
+    let translation_text_norw = annotate(data[exercise_id]["title_nor"])
     norw.onclick = function () {
         show_item(norw_text, translation_text_norw)
     }

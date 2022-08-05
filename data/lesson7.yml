@@ -132,7 +132,8 @@
   table:
     vertical_align: +
     table_header:
-      - Информация о Саше
+      - 
+        Информация о Саше
     row1:
       -
         - 20 лет
