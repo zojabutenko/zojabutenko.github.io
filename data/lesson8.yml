@@ -73,15 +73,20 @@
   image: ~
   task:
     task1:
-      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
     task2:
-      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
     task3:
-      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
     task4:
-      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
     task5:
-      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
   answer_to_show: Затем я попробовала кексы. Это что-то ^типа@ маффинов.<br>
                   Затем я попробовала яичницу болтунью. Это что-то ^типа@ яичного скрэмбла.<br>
                   Затем я попробовала бефстроганов. Это что-то ^типа@ гуляша.<br>
