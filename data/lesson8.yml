@@ -12,11 +12,85 @@
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/1.jpg
+    width: 600
   task: <b>а.</b><br>
         Я очень редко готовлю по интересным рецептам. Дело не в том, что я не люблю готовить, а в том, что у меня нет на это времени. Обычно я делаю что-то простое типа каши или спагетти с сыром. Поел что-то горячее, и на том спасибо. А насчёт рецептов — пробую их, когда ко мне приходят гости. Они всегда говорят, что я готовлю вкусные и необычные блюда. Вот и отлично!<br>
         <b>б.</b><br>
         Вчера я был в гостях у коллеги по работе. У них дома подавали* на ужин какое-то овощное блюдо типа рататуя. Я не смог это есть! Дело не в рецепте, а во вкусе этого блюда. Они добавили очень много соли. Еда не подгорела*, и на том спасибо. Я ушёл голодным. А насчёт хозяев дома, так они в целом милые люди, но готовить не умеют.
   answer_to_show: ~
+  answer_key: ~
+  difficult_words: "*подавать — English: serve; Norwegian: servere<br>
+                    *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
+  table: ~
+2:
+  lesson_id: 8
+  ex_number: 2
+  title: Соедините части предложений, подобрав логичное продолжение.Используйте конструкцию ^Cl,и на том спасибо@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^Cl,и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^Cl,и на том спасибо@. som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning.
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/1.jpg
+    width: 600
+  task: <b>а.</b><br>
+        Я очень редко готовлю по интересным рецептам. Дело не в том, что я не люблю готовить, а в том, что у меня нет на это времени. Обычно я делаю что-то простое типа каши или спагетти с сыром. Поел что-то горячее, и на том спасибо. А насчёт рецептов — пробую их, когда ко мне приходят гости. Они всегда говорят, что я готовлю вкусные и необычные блюда. Вот и отлично!<br>
+        <b>б.</b><br>
+        Вчера я был в гостях у коллеги по работе. У них дома подавали* на ужин какое-то овощное блюдо типа рататуя. Я не смог это есть! Дело не в рецепте, а во вкусе этого блюда. Они добавили очень много соли. Еда не подгорела*, и на том спасибо. Я ушёл голодным. А насчёт хозяев дома, так они в целом милые люди, но готовить не умеют.
+  answer_to_show: 1в, 2а, 3г, 4д, 5б<br><br>
+                  Соня опять пересолила суп. Со сметаной есть можно, ^и на том спасибо@.<br>
+                  Паша снова съел шоколадку вместо ужина. Что-то поел, ^и на том спасибо@.<br>
+                  Я выпил(а) уже 3 кружки кофе за утро. Не пиво, ^и на том спасибо@.<br>
+                  У моего брата сильная аллергия на цитрусовые. Он может есть остальные фрукты, ^и на том спасибо@.<br>
+                  Муж опять забыл убрать молоко в холодильник, и оно испортилось. Никто это молоко не выпил, ^и на том спасибо@.
+  answer_key: 1в, 2а, 3г, 4д, 5б
+  difficult_words: "*пересолить — English: to put too much salt; Norwegian:"
+  table:
+    row1:
+      - 1. Соня опять пересолила* суп.
+      - а. Что-то поел.
+    row2:
+      - 2. Паша снова съел шоколадку вместо ужина.
+      - б. Никто это молоко не выпил.
+    row3:
+      - 3. Я выпил(а) уже 3 кружки кофе за утро.
+      - в. Со сметаной есть можно.
+    row4:
+      - 4. У моего брата сильная аллергия на цитрусовые.
+      - г. Не пиво.
+    row5:
+      - 5. Муж опять забыл убрать молоко в холодильник, и оно испортилось.
+      - д. Он может есть остальные фрукты.
+3:
+  lesson_id: 8
+  ex_number: 3
+  title: Некоторые популярные в России блюда имеют аналоги в других странах. Вы сходили в кафе в Москве. Расскажите другу о том, какое блюдо вы попробовали, используя конструкцию ^NP типа NP-Gen@.
+  instructions: В этой конструкции NP — это существительное (NP=noun phrase), а NP-Gen — это существительное в генитиве (Gen=Genitive case).
+  exercise_type: ~
+  title_eng: Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction ^NP типа NP-Gen@ ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case).
+  title_nor: Noen populære russiske retter har tilsvarende retter i andre land. Forestill deg at du har vært på en kafé i Moskva. Fortell en venn om hvilke matretter du prøvde der, ved å bruke konstruksjonen ^NP типа NP-Gen@ ‘en slags X / som X’. I denne konstruksjonen står NP for et substantiv (NP=nominalfrase), og NP-Gen betyr substantiv i genitiv kasus (Gen=genitiv kasus).
+  comment: ~
+  example: Сначала я заказала оладьи. Это что-то ^типа@ панкейков. Затем я попробовала...
+  model: ~
+  image: ~
+  task:
+    task1:
+      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
+    task1:
+      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
+    task1:
+      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
+    task1:
+      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
+    task1:
+      link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
+  answer_to_show: Затем я попробовала кексы. Это что-то ^типа@ маффинов.<br>
+                  Затем я попробовала яичницу болтунью. Это что-то ^типа@ яичного скрэмбла.<br>
+                  Затем я попробовала бефстроганов. Это что-то ^типа@ гуляша.<br>
+                  Затем я попробовала творожную запеканку. Это что-то ^типа@ чизкейка.
   answer_key: ~
   difficult_words: "*подавать — English: serve; Norwegian: servere<br>
                     *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
