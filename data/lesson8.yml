@@ -95,3 +95,43 @@
   difficult_words: "*подавать — English: serve; Norwegian: servere<br>
                     *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
   table: ~
+4:
+  lesson_id: 8
+  ex_number: 4
+  title: Закончите разговор, дописав третью реплику. Поставьте прилагательное в скобках () в краткую форму. Используйте конструкцию ^вот и Pred!@
+  instructions: В этой конструкции Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative).
+  exercise_type: text_input
+  title_eng: Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction ^вот и Pred!@ ‘then X’ (for example Then fine!). In this construction, Pred stands for a predicative, that is a short form of an adjective.
+  title_nor: "Fullfør samtalen ved å legge til en tredje replikk. Bruk kortform av adjektivet i parentes. Bruk konstruksjonen ^вот и Pred!@ som kan oversettes med enten ‘det er X’, ‘hvor X’ eller ‘så X’ (for eksempel: Det er fint! Hvor herlig! Så bra!). I denne konstruksjonen står Pred for predikativ, det vil si adjektivets kortform."
+  comment: ~
+  example: "— Ждём вас на обед к двум. Придёте?<br>
+            — Да.<br>
+            — _____________________(чудесный)!<br><br>
+            Ответ: ^Вот и@ чудесно!"
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>а.</b><br>
+            — Будешь чай?<br>
+            — Да.<br>
+            — _____________________(отличный)!
+    task2:
+      text: <b>б.</b><br>
+            — Как вам ужин?<br>
+            — Ужин нам очнь понравился!<br>
+            — _____________________(замечательный)!
+    task3:
+      text: <b>в.</b><br>
+            — У вас есть клубника?<br>
+            — Да. — _____________________(прекрасный)!
+  answer_to_show:
+    answer1: ^Вот и@ отлично!
+    answer2: ^Вот и@ замечательно!
+    answer3: ^Вот и@ прекрасно!
+  answer_key:
+    answer1: Вот и отлично!
+    answer2: Вот и замечательно!
+    answer3: Вот и прекрасно!
+  difficult_words: ~
+  table: ~
