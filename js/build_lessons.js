@@ -130,7 +130,7 @@ function add_answer(answer_to_show, answer_key, input) {
         buttons.appendChild(button1);
     }
     button2.onclick = function () {
-        show_item(answer_text, answer_to_show);
+        show_item(answer_text, annotate(answer_to_show));
     }
     buttons.appendChild(button2);
     task.appendChild(buttons);
