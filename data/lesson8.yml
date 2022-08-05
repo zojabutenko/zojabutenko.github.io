@@ -135,3 +135,49 @@
     answer3: Вот и прекрасно!
   difficult_words: ~
   table: ~
+5:
+  lesson_id: 8
+  ex_number: 5
+  title: Вы с собеседником должны решить, что приготовить на праздничный ужин. Обсудите с ним блюда, используя конструкции<br>
+          — ^(а) насчёт NP-Gen – Cl@<br>
+          — ^вот и Pred!@
+  instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence), Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: ~
+  title_eng: You and your interlocutor must decide what to cook for a festive dinner. Discuss your meal plan with him (or her). Use the construction ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and the construction ^вот и Pred!@ ‘then X’ (for example Then fine!).<br>
+              In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, and parentheses () indicate an optional element of a construction.
+  title_nor: "Du og din samtalepartner må bestemme hva dere skal lage til en festlig middag. Diskuter forskjellige matretter med din samtalepartner ved å bruke konstruksjonene ^(а) насчёт NP-Gen – Cl@ ‘og når det gjelder X, ... ’ og ^вот и Pred!@ ‘det er X’, ‘hvor X’, eller ‘så X’ (For eksempel: Det er fint! Hvor herlig! Så bra!).<br>
+              I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Pred betyr predikativ, det vil si adjektivets kortform, mens parentesene () indikerer en valgfri del av en konstruksjon."
+  comment: ~
+  example: — ^А насчёт@ горячего — что мы будем готовить?<br>
+            — Я хочу лазанью. А ты?<br>
+            — Я тоже.<br>
+            — ^Вот и@ чудесно!
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1) — ^А насчёт@ закусок — что мы будем готовить?<br>
+                  2) — ^А насчёт@ супа — что мы будем готовить?<br>
+                  3) — ^А насчёт@ горячего — что мы будем готовить?<br>
+                  4) — ^А насчёт@ гарнира — что мы будем готовить?<br>
+                  5) — ^А насчёт@ десерта — что мы будем готовить?
+  answer_key: ~
+  difficult_words: ~
+  table:
+    row1:
+      - А насчёт + NP-Gen
+      - 
+        - закуски
+        - суп
+        - горячее
+        - гарнир
+        - десерт
+      - — что мы будем готовить?
+    row2:
+      - Вот и
+      - 
+        - славно
+        - отлично
+        - хорошо
+        - замечательно
+        - чудесно
+        - прекрасно
