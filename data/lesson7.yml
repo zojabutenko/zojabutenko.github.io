@@ -252,3 +252,45 @@
         - родителей с годовщиной свадьбы
         - коллегу с Днём рождения (34 года)
         - учителя с Днём учителя
+8:
+  lesson_id: 7
+  ex_number: 8
+  title: "Перед вами разговор Лизы и Оли. Заполните пропуски словами из списка:
+          — ^будь моя воля@
+          — ^как по мне, так@
+          — ^заодно@
+          — ^сама подумай@
+          — ^словом@
+          — ^так ведь@"
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Here is a conversation between Lisa and Olya. Fill in the blanks with words from the list.
+  title_nor: Se på samtalen mellom Lisa og Olja. Fyll ut de tomme feltene med ord fra listen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "<b>Оля</b>: Привет! Я в эти выходные праздную свой День рождения. Приходи,__________ с Антоном познакомишься. __________, мы уже с ним полгода встречаемся, а с друзьями я его ещё не знакомила.<br>
+        <b>Лиза</b>: Ты же дома празднуешь,__________? __________ это отличная идея. Обожаю приходить к тебе в гости. __________, я бы от тебя и не уходила никогда. __________, я обязательно буду! Во сколько всё начнётся?<br>
+        <b>Оля</b>: Ура! Я жду всех к шести вечера, но ты приходи пораньше — поболтаем до прихода гостей."
+  answer_to_show: заодно; Сама подумай; так ведь; Как по мне, так; Будь моя воля; Словом
+  answer_key: заодно; Сама подумай; так ведь; Как по мне, так; Будь моя воля; Словом
+  difficult_words: ~
+  table:
+9:
+  lesson_id: 7
+  ex_number: 9
+  title: Напишите короткий текст (5-6 предложений) о том, какой праздник вы бы ввели или упразднили. Используйте новые конструкции этого урока.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Write a short text (five to six sentences) about a holiday that you would like to introduce or eliminate. Use all new constructions from this lesson.
+  title_nor: Skriv en kort tekst (5 til 6 setninger) om hvilke helligdager du vil innføre eller avskaffe. Bruk alle konstruksjonene du har lært i denne leksjonen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
