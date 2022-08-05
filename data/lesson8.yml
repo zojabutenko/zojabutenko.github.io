@@ -1,0 +1,22 @@
+---
+1:
+  lesson_id: 8
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: <b>а.</b><br>
+        Я очень редко готовлю по интересным рецептам. Дело не в том, что я не люблю готовить, а в том, что у меня нет на это времени. Обычно я делаю что-то простое типа каши или спагетти с сыром. Поел что-то горячее, и на том спасибо. А насчёт рецептов — пробую их, когда ко мне приходят гости. Они всегда говорят, что я готовлю вкусные и необычные блюда. Вот и отлично!<br>
+        <b>б.</b><br>
+        Вчера я был в гостях у коллеги по работе. У них дома подавали* на ужин какое-то овощное блюдо типа рататуя. Я не смог это есть! Дело не в рецепте, а во вкусе этого блюда. Они добавили очень много соли. Еда не подгорела*, и на том спасибо. Я ушёл голодным. А насчёт хозяев дома, так они в целом милые люди, но готовить не умеют.
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: "*подавать — English: serve; Norwegian: servere<br>
+                    *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
+  table: ~
