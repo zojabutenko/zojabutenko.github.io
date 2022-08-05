@@ -19,7 +19,7 @@
 2:
   lesson_id: 7
   ex_number: 2
-  title: Соедините части предложений, подобрав логичное продолжение.Используйте конструкцию ^VP, заодно VP@.
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^VP, заодно VP@.
   instructions: В этой конструкции VP — это глагол (VP=verb phrase).
   exercise_type: text_input
   title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^VP, заодно VP@ meaning ‘while X is at it ...’ or ‘..., meanwhile ...’. In this construction, VP stands for a verb (VP=verb phrase).
@@ -256,11 +256,11 @@
   lesson_id: 7
   ex_number: 8
   title: "Перед вами разговор Лизы и Оли. Заполните пропуски словами из списка:
-          — ^будь моя воля@
-          — ^как по мне, так@
-          — ^заодно@
-          — ^сама подумай@
-          — ^словом@
+          — ^будь моя воля@<br>
+          — ^как по мне, так@<br>
+          — ^заодно@<br>
+          — ^сама подумай@<br>
+          — ^словом@<br>
           — ^так ведь@"
   instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -282,7 +282,7 @@
   ex_number: 9
   title: Напишите короткий текст (5-6 предложений) о том, какой праздник вы бы ввели или упразднили. Используйте новые конструкции этого урока.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Write a short text (five to six sentences) about a holiday that you would like to introduce or eliminate. Use all new constructions from this lesson.
   title_nor: Skriv en kort tekst (5 til 6 setninger) om hvilke helligdager du vil innføre eller avskaffe. Bruk alle konstruksjonene du har lært i denne leksjonen.
   comment: ~
