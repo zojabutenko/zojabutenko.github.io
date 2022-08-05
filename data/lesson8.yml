@@ -79,13 +79,13 @@
   task:
     task1:
       link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
-    task1:
+    task2:
       link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
-    task1:
+    task3:
       link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
-    task1:
+    task4:
       link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
-    task1:
+    task5:
       link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
   answer_to_show: Затем я попробовала кексы. Это что-то ^типа@ маффинов.<br>
                   Затем я попробовала яичницу болтунью. Это что-то ^типа@ яичного скрэмбла.<br>
