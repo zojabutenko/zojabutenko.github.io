@@ -402,7 +402,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_answer(answer_to_show, answer_key, create_input());
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null) || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
                     console.log(typeof null)
-                    let answer_to_show = data[exercise_id]["answer_to_show"]
+                    let answer_to_show = annotate(data[exercise_id]["answer_to_show"])
                     add_answer(answer_to_show);
                 }
             };
