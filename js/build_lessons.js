@@ -333,7 +333,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
 
     if (data[exercise_id]["image"] != null) {
+        
         if (data[exercise_id]["image"]["link"] != undefined) {
+            console.log(exercise_id)
             all_exercise.appendChild(add_image(data[exercise_id]["image"]))
         } else {
             var images_amount = data[exercise_id]["image"].length
@@ -343,7 +345,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             }
             all_exercise.appendChild(images)
         }
-        // main_content.appendChild(image)
+        main_content.appendChild(all_exercise)
     }
 
 
