@@ -109,3 +109,37 @@
     answer5: так ведь; сам подумай
   difficult_words: ~
   table: ~
+4:
+  lesson_id: 7
+  ex_number: 4
+  title: У вашей подруги Саши скоро День Рождения. Вы с другом пришли в магазин и пытаетесь выбрать подарок, но Саше сложно угодить. Обсудите с другом, какой подарок вы купите. Используйте конструкции ^Cl, так (ведь)?@ и ^Сам подумать-Imp, Cl@.
+  instructions: "В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе). Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине. При этом форма императива <i>подумай</i> не меняется."
+  exercise_type: ~
+  title_eng: "Your friend Sasha has a birthday soon. You and a friend of yours are at a store and are trying to choose a gift for Sasha, but Sasha is hard to please. Discuss with your friend what gift you will buy. Use the constructions ^Cl, так (ведь)?@ ‘..., isn’t it?’ and ^Сам подумать-Imp, Cl@ ‘Think about it, ...’.<br>
+              In these constructions, Cl means an entire sentence (Cl=clause, sentence), and подумать-Imp is an imperative form of the verb подумать ‘think’ (Imp = imperative), that is подумай (in singular) и подумайте (in plural).<br>
+              Note that the form of the pronoun сам ‘self’ depends on the sex of the speaker: use сам when addressing a man, but сама when addressing a woman. The form of the imperative подумай does not change in this regard."
+  title_nor: "Din venninne Sasja har snart bursdag. Du og en venn har tatt turen til en butikk og prøver å velge ut en gave til Sasja, men det er ikke lett å gjøre Sasja fornøyd. Diskuter med din venn om hvilken gave dere skal kjøpe. Bruk konstruksjonene ^Cl, так (ведь)?@ som betyr omtrent ‘..., ikke sant’ og ^Сам подумать-Imp, Cl@ som betyr omtrent ‘Tenk på det, Tenk på at, Husk at ...’.<br>
+              I disse konstruksjonene står Cl for en hel setning (Cl=setning), og подумать-Imp som er imperativformen av verbet подумать ‘å tenke’ (Imp = imperativ), det vil si подумай (entall) og подумайте (flertall). Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk сам for å tiltale en mann, сама for å tiltale en kvinne. Imperativformen подумай er ikke avhengig av samtalepartnerens kjønn."
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/7/4.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    table_header:
+      - Информация о Саше
+    row1:
+      -
+        - 20 лет
+        - не любит оранжевый, красный и зелёный цвет
+        - учится на историка
+        - любит книги про феминизм
+        - любит мягкие игрушки
+        - у неё есть собака Буян
+        - любит яркий макияж
+        - не любит кошек
