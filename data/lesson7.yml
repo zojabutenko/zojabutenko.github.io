@@ -255,7 +255,7 @@
 8:
   lesson_id: 7
   ex_number: 8
-  title: "Перед вами разговор Лизы и Оли. Заполните пропуски словами из списка:
+  title: "Перед вами разговор Лизы и Оли. Заполните пропуски словами из списка:<br>
           — ^будь моя воля@<br>
           — ^как по мне, так@<br>
           — ^заодно@<br>
@@ -263,7 +263,7 @@
           — ^словом@<br>
           — ^так ведь@"
   instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Here is a conversation between Lisa and Olya. Fill in the blanks with words from the list.
   title_nor: Se på samtalen mellom Lisa og Olja. Fyll ut de tomme feltene med ord fra listen.
   comment: ~
@@ -282,7 +282,7 @@
   ex_number: 9
   title: Напишите короткий текст (5-6 предложений) о том, какой праздник вы бы ввели или упразднили. Используйте новые конструкции этого урока.
   instructions: ~
-  exercise_type: text_input
+  exercise_type: ~
   title_eng: Write a short text (five to six sentences) about a holiday that you would like to introduce or eliminate. Use all new constructions from this lesson.
   title_nor: Skriv en kort tekst (5 til 6 setninger) om hvilke helligdager du vil innføre eller avskaffe. Bruk alle konstruksjonene du har lært i denne leksjonen.
   comment: ~
