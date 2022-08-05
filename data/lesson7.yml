@@ -131,7 +131,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    table_header:
+    header:
       - Информация о Саше
     row1:
       -
@@ -219,3 +219,36 @@
         - отмечают в каждой семье
         - никто не отмечает
         - праздник для детей
+7:
+  lesson_id: 7
+  ex_number: 7
+  title: Подпишите открытки, адресованные разным людям. В каждой открытке напишите поздравление с помощью «конструктора поздравлений». Обратите внимание, что поздравления разным людям отличаются друг от друга. Каждое поздравление заканчивайте, используя конструкцию ^словом, Cl@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Sign postcards addressed to different people. In each card, write a congratulation using the congratulations constructor. Note that congratulations for different people differ from each other. At the end of each congratulation, use the construction ^словом, Cl@ meaning ‘In a nutshell, ... ’ or ‘to make a long story short, ...’.<br>
+              In this construction Cl stands for an entire sentence (Cl=clause, sentence).
+  title_nor: Signer postkortene adresserte til forskjellige folk. Skriv gratulasjoner i hvert postkort ved hjelp av «gratulasjonsgeneratoren». Legg merke til at det er forskjell på gratulasjoner til forskjellige folk. Avslutt hver gratulasjon med konstruksjonen ^словом, Cl@ som betyr ‘alt i alt / generelt / kort sagt / fortalt ...’.<br>
+              I denne konstruksjonen står Cl for en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/7/7.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    header:
+      - <b>Кого поздравить:</b>
+    row1:
+      - 
+        - сестру с Днём рождения (18 лет)
+        - друга с Новым годом
+        - начальника с юбилеем (60 лет)
+        - подругу с рождением ребёнка
+        - бабушку с 8 марта
+        - родителей с годовщиной свадьбы
+        - коллегу с Днём рождения (34 года)
+        - учителя с Днём учителя

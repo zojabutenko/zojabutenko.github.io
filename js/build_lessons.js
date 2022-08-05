@@ -39,6 +39,10 @@ function show_item(x, item) {
         x.style.display = "none";
     } else {
         x.style.display = "block";
+        x.appendChild(document.createElement("br"))
+        x.appendChild(document.createElement("br"))
+        // x.appendChild(document.createElement("br"))
+        // x.appendChild(document.createElement("br"))
     }
 }
 
@@ -168,14 +172,14 @@ function add_table(subtask) {
         table.setAttribute("style", `width: ${table_data["width"]}px`)
     }
 
-    if (table_data["table_header"] != null) {
+    if (table_data["header"] != null) {
 
         let thead = document.createElement("thead")
         // thead.setAttribute("class", "table-primary")
 
         let tr_head = document.createElement("tr")
         
-        let table_header = table_data["table_header"]
+        let table_header = table_data["header"]
         for (var i = 0; i < table_header.length; i++) {
             var t = document.createElement("th")
             t.setAttribute("scope", "col")
@@ -255,7 +259,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
     task_buttons.setAttribute("style", "margin-top: 10px")
     let eng_text = document.createElement("h6");
+    // eng_text.appendChild(document.createElement("br"))
     let norw_text = document.createElement("h6");
+    // norw_text.appendChild(document.createElement("br"))
     let eng = document.createElement("button");
     eng.setAttribute("type", "button");
     eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
@@ -281,6 +287,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(norw_text)
     // all_exercise.appendChild(task_title)
     main_content.appendChild(task_title);
+
 
     if (data[exercise_id]["comment"]) {
         let comment = document.createElement("h6");
@@ -315,9 +322,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
+        
         example.innerHTML = annotate(data[exercise_id]["example"])
         all_exercise.appendChild(ex_words)
         all_exercise.appendChild(example)
+        all_exercise.appendChild(document.createElement("br"))
         // main_content.appendChild(ex_words)
         // main_content.appendChild(example)
     }
