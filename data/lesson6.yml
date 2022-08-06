@@ -43,7 +43,7 @@
     vertical_align: +
     horizontal_align: +
     width: ~
-    table_header: ~
+    header: ~
     row1:
       - С точки зрения + Gen
       -
@@ -96,7 +96,7 @@
   table:
     vertical_align: +
     width: ~
-    table_header: ~
+    header: ~
     row1:
       - 1
       - 
@@ -160,7 +160,7 @@
   difficult_words: ~
   table:
     width: ~
-    table_header:
+    header:
       -
       -
         Откуда
@@ -247,7 +247,7 @@
     vertical_align: +
     horizontal_align: +
     width: 950
-    table_header: ~
+    header: ~
     row1:
       - Самолет
       - 
@@ -422,7 +422,7 @@
   difficult_words: ~
   table:
     width: ~
-    table_header:
+    header:
       - 
         Друг
       - 

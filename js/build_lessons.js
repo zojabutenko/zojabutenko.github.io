@@ -39,6 +39,10 @@ function show_item(x, item) {
         x.style.display = "none";
     } else {
         x.style.display = "block";
+        x.appendChild(document.createElement("br"))
+        x.appendChild(document.createElement("br"))
+        // x.appendChild(document.createElement("br"))
+        // x.appendChild(document.createElement("br"))
     }
 }
 
@@ -126,7 +130,7 @@ function add_answer(answer_to_show, answer_key, input) {
         buttons.appendChild(button1);
     }
     button2.onclick = function () {
-        show_item(answer_text, answer_to_show);
+        show_item(answer_text, annotate(answer_to_show));
     }
     buttons.appendChild(button2);
     task.appendChild(buttons);
@@ -168,14 +172,14 @@ function add_table(subtask) {
         table.setAttribute("style", `width: ${table_data["width"]}px`)
     }
 
-    if (table_data["table_header"] != null) {
+    if (table_data["header"] != null) {
 
         let thead = document.createElement("thead")
         // thead.setAttribute("class", "table-primary")
 
         let tr_head = document.createElement("tr")
         
-        let table_header = table_data["table_header"]
+        let table_header = table_data["header"]
         for (var i = 0; i < table_header.length; i++) {
             var t = document.createElement("th")
             t.setAttribute("scope", "col")
@@ -255,7 +259,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
     task_buttons.setAttribute("style", "margin-top: 10px")
     let eng_text = document.createElement("h6");
+    // eng_text.appendChild(document.createElement("br"))
     let norw_text = document.createElement("h6");
+    // norw_text.appendChild(document.createElement("br"))
     let eng = document.createElement("button");
     eng.setAttribute("type", "button");
     eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
@@ -281,6 +287,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(norw_text)
     // all_exercise.appendChild(task_title)
     main_content.appendChild(task_title);
+
 
     if (data[exercise_id]["comment"]) {
         let comment = document.createElement("h6");
@@ -315,16 +322,20 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
+        
         example.innerHTML = annotate(data[exercise_id]["example"])
         all_exercise.appendChild(ex_words)
         all_exercise.appendChild(example)
+        all_exercise.appendChild(document.createElement("br"))
         // main_content.appendChild(ex_words)
         // main_content.appendChild(example)
     }
 
 
     if (data[exercise_id]["image"] != null) {
+        
         if (data[exercise_id]["image"]["link"] != undefined) {
+            console.log(exercise_id)
             all_exercise.appendChild(add_image(data[exercise_id]["image"]))
         } else {
             var images_amount = data[exercise_id]["image"].length
@@ -334,7 +345,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             }
             all_exercise.appendChild(images)
         }
-        // main_content.appendChild(image)
+        main_content.appendChild(all_exercise)
     }
 
 
@@ -393,7 +404,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_answer(answer_to_show, answer_key, create_input());
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null) || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
                     console.log(typeof null)
-                    let answer_to_show = data[exercise_id]["answer_to_show"]
+                    let answer_to_show = annotate(data[exercise_id]["answer_to_show"])
                     add_answer(answer_to_show);
                 }
             };
