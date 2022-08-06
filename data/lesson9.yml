@@ -64,12 +64,12 @@
     task6:
       text: 6. Я так волнуюсь из-за экзамена. Не уверен, что я сдам его,______________?
   answer_to_show:
-    answer1: А ты не думаешь, что эти брюки тебе уже малы?
-    answer2: Думаю, нам лучше не ехать на этом автобусе, а подождать следующий, а ты как думаешь?
-    answer3: А ты не думаешь, что я могу быть не дома?
-    answer4: По-моему, мне пойдёт, а ты как думаешь?
-    answer5: А ты не думаешь, что твоя собственная внешность намного интереснее?
-    answer6: Не уверен, что я сдам его, а ты как думаешь?
+    answer1: ^А ты не думаешь, что@ эти брюки тебе уже малы?
+    answer2: Думаю, нам лучше не ехать на этом автобусе, а подождать следующий, ^а ты как думаешь?@
+    answer3: ^А ты не думаешь, что@ я могу быть не дома?
+    answer4: По-моему, мне пойдёт, ^а ты как думаешь?@
+    answer5: ^А ты не думаешь, что@ твоя собственная внешность намного интереснее?
+    answer6: Не уверен, что я сдам его, ^а ты как думаешь?@
   answer_key:
     answer1: А ты не думаешь, что
     answer2: а ты как думаешь
@@ -95,3 +95,41 @@
     row4:
       - Når vi spør etter samtalepartnerens mening
       - Formelt sett spør vi etter samtalepartnerens mening, men egentlig ønsker vi å underbygge vår eget resonnement med ytterligere et argument. Ordet не ‘ikke’ er ikke nektende!
+3:
+  lesson_id: 9
+  ex_number: 3
+  title: Допишите предложения, используя слова в скобках и конструкцию ^а NP-Nom не думать-Prs, что Cl?@
+  instructions: В этой конструкции NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense), Cl — это целое предложение (Cl=clause, sentence). На месте NP-Nom используйте то местоимение, которое указано в скобках.
+  exercise_type: text_input
+  title_eng: Complete the sentences by using the words in parentheses and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
+              In this construction, NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), Prs stands for the present tense of the verb (Prs= present tense), and Cl means an entire sentence (Cl=clause, sentence). In the slot NP-Nom use the pronoun given in the parentheses (ты, вы, он, она, etc.).
+  title_nor: Fullfør setningene ved å bruke ordene i parentes og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
+              I denne konstruksjonen står NP-Nom for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens), og Cl betyr en hel setning (Cl=setning). Ved plassen NP-Nom, bruk pronomen i parentes (ты, вы, он, она, etc.).
+  comment: ~
+  example: Странно, что ты хочешь идти на стрижку к новому парикмахеру. ______________ (ты / результат может тебе не понравиться)?<br>
+            -><br>
+            ^А ты не думаешь, что@ результат может тебе не понравиться?
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>1.</b> — У вас такая хорошая фигура! Как вам повезло!<br>
+            —______________ (вы / это благодаря спорту)?
+    task2:
+      text: <b>2.</b> Я слышал, твоя сестра хочет стать стилистом. ______________ (она / для этого надо учиться)?
+    task3:
+      text: <b>3.</b> Не понимаю, зачем твой брат купил вторую машину. ______________ (он / это плохо для экологии)?
+    task4:
+      text: <b>4.</b> В Тромсё люди даже зимой ходят без шапки. Интересно, ______________ (они / они могут заболеть)?
+  answer_to_show:
+    answer1: ^А вы не думаете, что@ это благодаря спорту?
+    answer2: ^А она не думает, что@ для этого надо учиться?
+    answer3: ^А он не думает, что@ это плохо для экологии?
+    answer4: Интересно, ^а они не думают, что@ они могут заболеть?
+  answer_key:
+    answer1: А вы не думаете, что это благодаря спорту?
+    answer2: А она не думает, что для этого надо учиться?
+    answer3: А он не думает, что это плохо для экологии?
+    answer4: а они не думают, что они могут заболеть?
+  difficult_words: ~
+  table: ~
