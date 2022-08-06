@@ -164,3 +164,48 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+6:
+  lesson_id: 8
+  ex_number: 6
+  title: Вы услышали небольшую часть разговора на улице. Попробуйте догадаться, о чём говорили до этого. Назовите тему разговора и придумайте предыдущие реплики. Используйте конструкцию ^(а) насчёт NP-Gen – Cl@.
+  instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент.
+  exercise_type: ~
+  title_eng: You overheard a small part of a conversation on the street. Try to guess what was said before the part that you heard. Name the topic of the conversation and imagine what the previous remarks might have been. Use the construction ^(а) насчёт NP-Gen – Cl@ meaning ‘and concerning X, ...’.<br>
+              In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Du overhørte en liten del av en samtale på gata. Prøv å gjette hva som ble sagt tidligere. Navngi temaet på samtalen og finn ut hvordan de foregående uttalelsene kunne ha sett ut. Bruk konstruksjonen ^(а) насчёт NP-Gen – Cl@ som betyr ‘og når det gjelder X, ... ’.<br>
+              I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: "<b>Вы услышали:</b><br>
+            — Ой, мне звонят! Надо идти! ^А насчёт@ ужина — скажи, сможешь ли ты прийти в гости в пятницу.<br><br>
+            <b>Разговор до этого:</b><br>
+            <b>Тема:</b> Друзья говорили об ужине, планировали собраться на ужин.<br>
+            — Давай в конце недели поужинаем у меня, заодно поиграем в настольные игры.<br>
+            — Отличная идея! Правда, я пока не знаю, будет ли у меня время"
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "а.
+            Вы услышали:
+            — Хорошо, я подумаю об этом. ^Насчёт@ рецепта пирогов — спроси у бабушки, как она их печёт.
+            Разговор до этого:
+            ________________________________________"
+    task2:
+      text: "б.
+            Вы услышали:
+            — Вот это да! Хорошо, я никому не расскажу. ^А насчёт@ кофе — ты пробовал по утрам пить зелёный чай вместо него? Может, будешь лучше спать.
+            Разговор до этого:
+            ________________________________________"
+    task3:
+      text: "в.
+            Вы услышали:
+            — Хорошо, тогда приготовлю для тебя ужин без мяса. ^А насчёт@ десерта — он будет из фруктов, не переживай.
+            Разговор до этого:
+            ________________________________________"
+  answer_to_show:
+    answer1: Они говорили о рецепте для пирогов.
+    answer2: Они говорили о кофе.
+    answer3: Они говорили о десерте.
+  answer_key: ~
+  difficult_words: ~
+  table: ~
