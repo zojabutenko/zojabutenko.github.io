@@ -353,3 +353,70 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+10:
+  lesson_id: 8
+  ex_number: 10
+  title: Вы собираетесь пригласить друзей на ужин. Сейчас вы в магазине покупаете продукты. Обсудите с вашим другом, что вы купите, сколько вам нужно каждого продукта и что вы приготовите.<br>
+        Используйте конструкции<br>
+        — ^(а) насчёт NP-Gen – Cl@<br>
+        — ^вот и Pred!@<br>
+        — ^дело Cop не в NP-Loc (, а в NP-Loc)@<br>
+        — ^NP типа NP-Gen@
+  instructions: В этих конструкциях<br>
+                NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case),<br>
+                Cl — это целое предложение (Cl=clause, sentence),<br>
+                Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative),<br>
+                Cop — это связочный глагол быть (Cop =copula verb),<br>
+                NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case),<br>
+                скобки () обозначают факультативные элементы.
+  exercise_type: ~
+  title_eng: "You are planning to invite your friends for dinner. You are now shopping in the grocery store. Discuss with your friend what you will buy, how much of each item you need, and what you will cook. Use the constructions from the list:<br>
+              — ^(а) насчёт NP-Gen – Cl@<br>
+              — ^вот и Pred!@<br>
+              — ^дело Cop не в NP-Loc (, а в NP-Loc)@<br>
+              — ^NP типа NP-Gen@<br>
+              In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, Cop means a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc= Locative case), and parentheses () indicate an optional element of a construction."
+  title_nor: Du skal invitere noen venner på middag. Akkurat nå er du på butikken for å handle. Diskuter med en venn hva du skal kjøpe, hvor mye av hver vare du trenger og hva du skal lage. Bruk følgende konstruksjoner<br>
+              — ^(а) насчёт NP-Gen – Cl@<br>
+              — ^вот и Pred!@<br>
+              — ^дело Cop не в NP-Loc (, а в NP-Loc)@<br>
+              — ^NP типа NP-Gen@<br>
+              I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Pred betyr predikativ, det vil si adjektivets kortform, Cop betyr kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus, (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: — ^А что насчёт@ десерта?<br>
+            — ^А насчёт@ десерта — давай закажем шоколадный торт.<br>
+            — Я не хочу.<br>
+            — Почему?<br>
+            — ^Дело не в@ цене, ^а в том, что@ у меня аллергия на шоколад.<br>
+            — Ну давай закажем мороженое.<br>
+            — Давай!<br>
+            — ^Вот и@ хорошо!
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - 1. День рождения
+      - 2. Новоселье
+      - 3. Романтический ужин
+    row1:
+      -
+        - 10 человек
+        - 18-20 лет
+        - крепкий алкоголь не пьют
+        - любят итальянскую кухню (italiensk kjøkken)
+        - 5 человек — вегетарианцы
+      -
+        - 20 гостей
+        - 30-45 лет
+        - любят русскую кухню
+        - пьют виски и кока-колу
+        - у 6 человек аллергия на яйца и лактозу
+      -
+        - 2 человека
+        - 32 и 28 лет
+        - алкоголь не пьют
+        - любят кухню Юго-Восточной Азии
