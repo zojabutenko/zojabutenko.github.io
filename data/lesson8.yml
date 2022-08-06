@@ -267,8 +267,8 @@
   lesson_id: 8
   ex_number: 8
   title: Переделайте диалог, используя конструкции<br>
-— ^(а) насчёт NP-Gen – Cl@<br>
-— ^дело Cop не в NP-Loc (, а в NP-Loc)@
+          — ^(а) насчёт NP-Gen – Cl@<br>
+          — ^дело Cop не в NP-Loc (, а в NP-Loc)@
   instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () обозначают факультативный элемент.
   exercise_type: text_input
   title_eng: Rewrite a dialog by using the constructions ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
@@ -328,28 +328,28 @@
     answer4: этого блюда; в нём самые простые ингредиенты; ингредиентах; у меня нет на это времени
   difficult_words: ~
   table: ~
-9:
-  lesson_id: 8
-  ex_number: 9
-  title: Вы с другом в ресторане. Вам нужно сделать заказ. Посмотрите на меню и обсудите, что вы будете заказывать в каждой категории блюд.
-  instructions: ~
-  exercise_type: ~
-  title_eng: You are with a friend in a restaurant. You need to order food. Look at the menu and discuss with your friend what you will order in each category of food.
-  title_nor: Du og en venn er på restaurant. Dere skal bestille mat. Se på menyen og diskuter hva dere skal bestille fra hver kategori.
-  comment: "Формат задания: в парах. = Task format: in pairs."
-  example: — ^А что насчёт@ десерта?<br>
-            — ^А насчёт@ десерта — давай закажем шоколадный торт.<br>
-            — Я не хочу.<br>
-            — Почему?<br>
-            — ^Дело не в@ цене, ^а в том, что@ у меня аллергия на шоколад.<br>
-            — Ну давай закажем мороженое.<br>
-            — Давай!<br>
-            — ^Вот и@ хорошо!
-  model: ~
-  image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/9.png
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
-  difficult_words: ~
-  table: ~
+# 9:
+#   lesson_id: 8
+#   ex_number: 9
+#   title: Вы с другом в ресторане. Вам нужно сделать заказ. Посмотрите на меню и обсудите, что вы будете заказывать в каждой категории блюд.
+#   instructions: ~
+#   exercise_type: ~
+#   title_eng: You are with a friend in a restaurant. You need to order food. Look at the menu and discuss with your friend what you will order in each category of food.
+#   title_nor: Du og en venn er på restaurant. Dere skal bestille mat. Se på menyen og diskuter hva dere skal bestille fra hver kategori.
+#   comment: "Формат задания: в парах. = Task format: in pairs."
+#   example: — ^А что насчёт@ десерта?<br>
+#             — ^А насчёт@ десерта — давай закажем шоколадный торт.<br>
+#             — Я не хочу.<br>
+#             — Почему?<br>
+#             — ^Дело не в@ цене, ^а в том, что@ у меня аллергия на шоколад.<br>
+#             — Ну давай закажем мороженое.<br>
+#             — Давай!<br>
+#             — ^Вот и@ хорошо!
+#   model: ~
+#   image:
+#     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/9.png
+#   task: ~
+#   answer_to_show: ~
+#   answer_key: ~
+#   difficult_words: ~
+#   table: ~
