@@ -1,0 +1,382 @@
+---
+1:
+  lesson_id: 3
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "— ^Что насчет@ твоей работы? Ты всё ещё работаешь юристом? — Да, но ^честно говоря,@ я не очень люблю свою работу. Ответственности* много, а денег мало. Мне кажется, в фирме меня совсем не любят. Мой начальник*, ^к примеру,@ даже имя моё часто забывает. ^Что касается@ коллег, ^то@ мы почти не общаемся*. ^Так,@ я постоянно обедаю одна, а коллеги — вместе. Я даже хочу уволиться*."
+    task2:
+      text: "Искать работу — большой стресс. ^Так,@ многие работодатели* требуют большой опыт работы* по специальности. ^К примеру,@ чтобы тебя взяли на работу, нужен опыт, минимум три года. А чтобы получить этот опыт, нужно сначала устроиться* на работу. ^Что касается@ фриланса, ^то@ он не считается опытом работы, потому что не указан в трудовой книжке*. ^Честно говоря,@ это совсем нелогично."
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words:
+    word1: "*ответственность — English: responsibility; Norwegian: ansvar<br>*начальник — English: boss; Norwegian: sjef, arbeidsgiver<br>*общаться — English: communicate; Norwegian: å kommunisere<br>*уволиться — English: quit; Norwegian: å slutte"
+    word2: "*работодатель — English: employer; Norwegian: arbeidsgiver<br>*устроиться на работу — English: to get a job; Norwegian: å få en jobb<br>*трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)<br>*опыт работы — English: work experience; Norwegian: arbeidserfaring"
+  table: ~
+2:
+  lesson_id: 3
+  ex_number: 2
+  title: Соедините части предложений. Используйте конструкцию ^что касается NP-Gen, то Cl@.
+  instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect parts of the sentences. Use the construction ^что касается NP-Gen, то Cl@ ‘As far as ... is concerned, ...’. In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen= Genitive case). In the place of Cl we locate an entire sentence (Cl=clause, sentence).
+  title_nor: Koble sammen setningsdelene ved å bruke konstruksjonen ^что касается NP-Gen, то Cl@ ‘når det gjelder ..., ... ’. I denne konstruksjonen står NP-Gen for et substantiv (NP=nominalfrase) i genitiv kasus. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Образование / Я закончил экономический факультет МГУ.
+    task2:
+      text: б. Опыт работы / Я уже два года работаю финансовым аналитиком в банке.
+    task3:
+      text: в. Хобби / Я люблю играть в теннис и кататься на лыжах.
+    task4:
+      text: г. Навыки программирования / Я программирую на языках Python и С++.
+    task5:
+      text: д. Личные качества / Я коммуникабельный и умею работать в команде.
+  answer_to_show:
+    answer1: ^Что касается@ образования, ^то@ я закончил экономический факультет МГУ.
+    answer2: ^Что касается@ опыта работы, ^то@ я уже два года работаю финансовым аналитиком в банке.
+    answer3: ^Что касается@ хобби, ^то@ я люблю играть в теннис и кататься на лыжах.
+    answer4: ^Что касается@ навыков программирования, ^то@ я программирую на языках Python и С++.
+    answer5: ^Что касается@ личных качеств, ^то@ я коммуникабельный и умею работать в команде.
+  answer_key:
+    answer1: Что касается образования, то я закончил экономический факультет МГУ.
+    answer2: Что касается опыта работы, то я уже два года работаю финансовым аналитиком в банке.
+    answer3: Что касается хобби, то я люблю играть в теннис и кататься на лыжах.
+    answer4: Что касается навыков программирования, то я программирую на языках Python и С++.
+    answer5: Что касается личных качеств, то я коммуникабельный и умею работать в команде.
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 3
+  ex_number: 3
+  title: Заполните пропуски, используя конструкцию ^(а/так) что насчёт XP?@ и слова скобках.
+  instructions: На месте XP могут быть слова разных частей речи. Если это существительное или прилагательное, то в этой конструкции оно стоит в генитиве. Если это наречие или глагол в инфинитиве, эти слова изменять не надо.
+  exercise_type: text_input
+  title_eng: Fill in the blanks by using the construction ^(а/так) что насчёт XP?@ ‘(And) what about ...?’ and the words given in parentheses. In the place of XP we can use various parts of speech. Nouns and adjectives should be used here in the Genitive case. Adverbs and verbs in the infinitive do not change their form.
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonen ^(а/так) что насчёт XP?@ ‘(Og) hva med ...?’ og ordene i parentes. Ved XP er mange forskjellige ordklasser mulige. Substantiv og adjektiv skal bøyes i genitiv, mens adverb og verb i infinitiv ikke skal bøyes.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "— ___________________________________________ (новый фильм Джеймса Кэмерона)? Ты его уже смотрела?<br>
+— Да! Фильм красивый, но мне кажется, он очень скучный."
+    task2:
+      text: "— ____________________________________________________ (поездка)? Ты согласен?<br>
+— Ещё не знаю, мне надо подумать."
+    task3:
+      text: "— ___________________________________________________ (шкаф)? где его поставить?<br>
+— Поставь его в спальне."
+    task4:
+      text: "— Вы говорили, что скучаете по своей старой работе. __________________________________________ (вернуться туда)?<br>
+— Не могу, зарплата там слишком маленькая."
+    task5:
+      text: "— ____________________________________________________ (завтра)? Пойдём гулять?<br>
+— Да, пойдём! Завтра после работы у меня нет никаких дел."
+  answer_to_show:
+    answer1: "^А что насчёт@ нового фильма Джеймса Кэмерона?<br>
+^Так что насчёт@ нового фильма Джеймса Кэмерона?<br>
+^Что насчёт@ нового фильма Джеймса Кэмерона?"
+    answer2: "^А что насчёт@ поездки?<br>
+^Так что насчёт@ поездки?<br>
+^Что насчёт@ поездки?"
+    answer3: "^А что насчёт@ шкафа?<br>
+^Так что насчёт@ шкафа?<br>
+^Что насчёт@ шкафа?"
+    answer4: "^А что насчёт@ вернуться туда?<br>
+^Так что насчёт@ вернуться туда?<br>
+^Что насчёт@ вернуться туда?"
+    answer5: "^А что насчёт@ завтра?<br>
+^Так что насчёт@ завтра?<br>
+^Что насчёт@ завтра?"
+  answer_key:
+    answer1: Что насчёт нового фильма Джеймса Кэмерона?
+    answer2: Что насчёт поездки?
+    answer3: Что насчёт шкафа?
+    answer4: Что насчёт вернуться туда?
+    answer5: Что насчёт завтра?
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 3
+  ex_number: 4
+  title: Прочитайте вопросы и найдите подходящие ответы. Что обозначает конструкция ^Честно говоря, Cl@?
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Read the questions and find appropriate answers. What does the construction ^Честно говоря, Cl mean@?
+  title_nor: Les teksten og finn de riktige svarene. Hva betyr konstruksjonen ^Честно говоря, Cl@?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1г, 2в, 3а, 4д, 5б
+  answer_key: 1г, 2в, 3а, 4д, 5б
+  difficult_words: "* руководитель отдела — English: department head; Norwegian: avdelingsleder<br>
+* неожиданный — English: unexpected; Norwegian: uventet<br>
+* сменить работу — English: change jobs; Norwegian: bytte jobb<br>
+* чувствовала себя не на своём месте — English: felt out of place; Norw.: føltes malplassert<br>
+* мне подходит — English: suits me, works for me; Norwegian: det passer meg"
+  table:
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. В каких ещё компаниях вы проходите собеседование?
+      - а. Честно говоря, я не очень амбициозный человек. Через пять лет я хочу продолжать работать в вашей компании на должности руководителя отдела*.
+    row2:
+      - 2. Расскажите о своей мечте.
+      - б. Честно говоря, это очень неожиданный* вопрос. Не думаю, что я бы хотел быть животным.
+    row3:
+      - 3. Где вы видите себя через пять лет?
+      - в. Честно говоря, я не мечтаю, а действую. Но вообще я хочу прыгнуть с парашютом.
+    row4:
+      - 4. Почему вы решили сменить* работу?
+      - г. Честно говоря, это мое единственное собеседование.
+    row5:
+      - 5. Каким животным вы бы хотели быть?
+      - д. Честно говоря, я давно чувствовала себя не на своём месте*. Думаю, мне больше подходит* работа с людьми.
+5:
+  lesson_id: 3
+  ex_number: 5
+  title: Посмотрите на таблицу в упражнении 4. Обсудите с собеседником, насколько удачны эти ответы на реальном собеседовании. Предложите свои варианты, используя конструкцию ^Честно говоря, Cl@.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Use the table in exercise 4. Discuss with your conversation partner whether it is wise to use these answers in a real job interview. Suggest your own answers to these questions. Use the construction ^Честно говоря, Cl@ ‘Frankly speaking / To tell the truth, ...’. In this construction we insert an entire sentence in the place of Cl (Cl = Clause, sentence).
+  title_nor: Bruk tabellen til øvelse 4. Diskuter med din samtalepartner om det er lurt å bruke disse svarene i et virkelig jobbintervju. Lag dine egne svar ved å bruke konstruksjonen ^Честно говоря, Cl@ ‘Ærlig talt, ...’. I denne konstruksjonen skal plassen Cl fylles med en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. <br>= Task format: in pairs."
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 3
+  ex_number: 6
+  title: Расскажите собеседнику о себе. В каждой паре предложений выберите то начало, которое вам подходит. Продолжите предложения, используя конструкции ^К примеру, Cl/XP@ и ^Так, Cl@.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Tell your conversation partner about yourself. In each pair of sentences, choose the sentence that describes you best. Complete the sentences by using the constructions ^К примеру, Cl/XP@ and ^Так, Cl@, both meaning ‘For example, ...’. In these constructions, XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
+  title_nor: Fortell din samtalepartner om deg selv. Velg den setningen som passer best. Fullfør setningene ved å bruke konstruksjonene ^К примеру, Cl/XP@ og ^Так, Cl@. Begge betyr ‘For eksempel, ...’. I disse konstruksjonene står XP for en frase, mens Cl er en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. <br>= Task format: in pairs."
+  example: Я обожаю домашних животных. ^Так,@ у меня дома живут кот, черепаха и рыбки.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "1.<br>
+а. Сфера моих интересов обширна. ^Так,@ …<br>
+б. У меня не так много интересов. ^Так,@ …"
+    task2:
+      text: "2.<br>
+а. Я обожаю спорт. ^К примеру,@ …<br>
+б. Я не фанат спорта. ^К примеру,@ …"
+    task3:
+      text: "3.<br>
+а. У меня активная жизнь. ^Так,@ …<br>
+б. У меня не очень активная жизнь. ^Так,@ …"
+    task4:
+      text: "4.<br>
+а. Я очень люблю путешествовать. ^К примеру,@ …<br>
+б. Я не очень люблю путешествовать. ^К примеру,@ …"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+7:
+  lesson_id: 3
+  ex_number: 7
+  title: Задавая вопрос, люди часто сначала отвечают на него сами. Продолжите предложения, используйте конструкции ^К примеру,@ и ^Что касается NP-Gen, то Cl@.
+  instructions: ~
+  exercise_type: ~
+  title_eng: When one asks a question, it is common to first provide one’s own answer. Use this strategy and complete the sentences by using the constructions ^К примеру, Cl/XP@ ‘For example, ...’ and ^что касается NP-Gen, то Cl@ ‘As far as ... is concerned, ...’. In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen= Genitive case), XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
+  title_nor: Når man stiller et spørsmål om noe, er det ganske vanlig å først uttrykke sin egen mening. Fullfør setningene ved å bruke konstruksjonene ^К примеру, Cl/XP@ ‘For eksempel, ...’ and ^что касается NP-Gen, то Cl@ ‘Når det gjelder, ...’. I disse konstruksjonene betyr NP-Gen et substantiv i genitiv kasus (NP=nominalfrase; Gen= genitiv), XP er en frase, og Cl er en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. <br>= Task format: in pairs."
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "1.<br>
+— Какие фильмы вам нравятся? Мне, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+    task2:
+      text: "2.<br>
+— О чём вы мечтаете? Я, ^к примеру,@ о …<br>
+— ^Что касается@ меня, ^то@ …"
+    task3:
+      text: "3.<br>
+— Часто ли вы читаете книги? Я, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+    task4:
+      text: "4.<br>
+— Вы больше любите кино или театр? Я, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+    task5:
+      text: "5.<br>
+— Какой вид спорта вы предпочитаете? Я, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+    task6:
+      text: "6.<br>
+— Часто ли вы пропускаете дедлайны? Я, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+    task7:
+      text: "7.<br>
+— Вы обычно делаете всё заранее или в последний момент? Я, ^к примеру,@ …<br>
+— ^Что касается@ меня, ^то@ …"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 3
+  ex_number: 8
+  title: "Заполните пропуски словами из списка: <br>
+  <ul><li>Так,</li>
+<li>К примеру</li>
+<li>Честно говоря</li>
+<li>Что касается</li>
+<li>то</li></ul>"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Fill in the blanks with the words from the list.
+  title_nor: Fyll ut de tomme feltene med ord fra listen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "В этом году я поступил в университет на филологический факультет. ___________________________________, учиться здесь сложно. ___________________________________, преподаватель по литературе, задаёт очень много домашних заданий на неделю. ___________________________________, к сегодняшнему занятию нам нужно было прочитать роман \"Идиот\" целиком и написать эссе. ___________________________________меня, ___________________________________я люблю учить иностранные языки: английский и испанский. А вот литература мне уже не очень нравится."
+  answer_to_show: "1. Честно говоря <br>2. К примеру / Так, <br>3. К примеру / Так, <br>4. Что касается <br>5. то"
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+9:
+  lesson_id: 3
+  ex_number: 9
+  title: "Сегодня три компании проводят собеседования. В зависимости от вашей роли, проведите или пройдите собеседование. Описание каждой роли предложено ниже (3 варианта вакансий и 3 варианта кандидатов). Используйте конструкции:
+  <ul><li>Что касается</li>
+<li>К примеру</li>
+<li>Так,</li>
+<li>Честно говоря</li>
+<li>(а/так) что насчёт XP?</li></ul>"
+  instructions: "<b>Возможные вопросы:</b><br><ol>
+<li>Какие у вас сильные и слабые стороны?</li>
+<li>Какие языки вы знаете?</li>
+<li>Какой график работы вам подходит?</li>
+<li>Есть ли у вас опыт работы в этой области?</li>
+<li>Какую зарплату вы ожидаете?</li>
+<li>Какое у вас образование?</li>
+<li>Кем вы видите себя через 5 лет?</li>
+<li>Почему вы ушли с прошлой работы?</li></ol>"
+  exercise_type: ~
+  title_eng: Today, three companies are holding job interviews for vacant positions. Depending on the role you receive (interviewer or interviewee), conduct or undergo an interview. The description of each role is provided below (three job positions and three candidate options). Use the constructions from the list.
+  title_nor: I dag er det jobbintervjuer ved tre selskaper som har utlyst ledige stillinger. Avhengig av din rolle, skal du enten intervjue eller bli intervjuet. Beskrivelse av hver rolle finnes nedenfor (tre stillinger og tre kandidater). Bruk konstruksjonene i listen.
+  comment: "Формат задания: в парах. В задании предложено 6 карточек с ролями: 3 сотрудника HR получают карточки с описанием вакансии, на которую им нужно найти сотрудника; 3 кандидата получают карточки со своей биографией и хотят найти работу. Сотрудники HR сидят на своих местах и проводят собеседование с каждым кандидатом по очереди. Кандидаты ходят по собеседованиям.<br>
+Task format: in pairs. The task contains 6 cards with roles: each of the three interviewers receives a card describing a vacant position for which they need to find an employee, and each of the three job candidates receives a card describing their biography. The interviewers are placed at their desks and interview each candidate in their turn. Candidates come to the interviewers and are interviewed for the various vacant positions one after another."
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "<b>1. Вы — сотрудник HR. Найдите подходящего компании сотрудника.</b><br><br>
+
+<b>Вакансия:</b> Кассир в Макдональдсе<br>
+<b>Опыт работы:</b> не требуется<br>
+<b>Зарплата:</b> от 20 000 рублей в месяц<br>
+<b>Образование:</b> высшее образование не требуется<br>
+<b>Требования:</b> коммуникабельность, ответственность, умение работать в команде<br>
+<b>Обязанности:</b> приём заказов, помощь на кухне<br>
+Возможен карьерный рост: менеджер ресторана (после года работы)<br>
+Гибкий график работы"
+    task2:
+      text: "<b>2. Вы — сотрудник HR. Найдите подходящего компании сотрудника.</b><br><br>
+
+<b>Вакансия:</b> Переводчик документов в крупной компании<br>
+<b>Опыт работы:</b> от 3 лет<br>
+<b>Зарплата:</b> 60 000 рублей в месяц<br>
+<b>Образование:</b> высшее (филолог/лингвист/переводчик)<br>
+<b>Требования:</b> знание русского, норвежского, английского не ниже уровня В2 (требуется сертификат), навык составления документов. Приветствуется опыт работы в сфере рыболовной промышленности.<br>
+<b>Обязанности:</b> перевод документов<br>
+Возможно повышение зарплаты после испытательного срока (3 месяца)<br>
+Полный рабочий день, работа в офисе"
+    task3:
+      text: "<b>3. Вы — сотрудник HR. Найдите подходящего компании сотрудника.</b><br><br>
+<b>Вакансия:</b> Веб-дизайнер
+<b>Опыт работы:</b> необходимо портфолио (примеры сайтов)
+<b>Зарплата:</b> по договоренности
+<b>Образование:</b> высшее (дизайн/программирование)
+<b>Требования:</b> опыт программирования на языках С++ и Python, владение Photoshop, умение работать со сложными клиентами
+Свободный график, удалённая работа"
+    task4:
+      text: "<b>4. Кандидат А<br>
+Вы ищете работу. Пройдите три собеседования и найдите подходящую работу</b><br><br>.
+<ul>
+<li>Вам 17 лет, учитесь в 10 классе</li>
+<li>Вы хотите работать в свободное от школы время, чтобы купить себе игровую приставку PlayStation</li>
+<li>Ваше хобби — создавать красивые сайты (так, вы сделали новый сайт вашей школы). Вы немного программировали на Python.</li>
+<li>Вы активный, коммуникабельный человек, умеете работать в команде. Немного ленивый, любите прокрастинировать, поэтому работать из дома у вас не получается.</li></ul>"
+    task5:
+      text: "<b>5. Кандидат Б<br>
+Вы ищете работу. Пройдите три собеседования и найдите подходящую работу.</b><br><br>
+<ul>
+<li>Вам 36 лет, вы уже 7 лет работаете переводчиком (норвежский, английский, немецкий). Недавно сдали экзамен по русскому языку, ваш уровень — С1.</li>
+<li>Первое образование вы получили по программе Рыболовство и аквакультура в UiT.</li>
+<li>Затем решили, что хотите переводить художественную литературу с английского на норвежский. Ваше второе образование — переводчик.</li>
+<li>Вы очень внимательный человек, любите порядок, предпочитаете работать в офисе.</li></ul>"
+    task6:
+      text: "<b>6. Кандидат В<br>
+Вы ищете работу. Пройдите три собеседования и найдите подходящую работу.</b><br><br>
+<ul>
+<li>Вам 25 лет, сейчас вы фрилансер</li>
+<li>Учились на программиста, но вам надоело, поэтому бросили университет</li>
+<li>С детства любите рисовать (сейчас изучаете Photoshop, чтобы рисовать в нём)</li>
+<li>Последние 3 года вы создаете сайты для различных заказчиков, у вас большое портфолио</li>
+<li>Хотите найти постоянную работу, потому что устали сами искать клиентов</li></ul>"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 3
+  ex_number: 10
+  title: Составьте краткий текст (питч) из 6 предложений. Ваша задача — прорекламировать себя за короткое время, убедить работодателя в том, что вы идеальный кандидат на должность. Выберите один вариант вакансии или придумайте свой
+  instructions: "<ul>
+<li>менеджер по инновациям в компании по производству мобильных телефонов</li>
+<li>художественный руководитель в театре оперы и балета</li>
+<li>журналист в международном отделе газеты</li>
+<li>инструктор в автошколе</li></ul>
+  "
+  exercise_type: ~
+  title_eng: "Write a short text (6 sentences) that will work as your elevator pitch. Your task is to briefly advertise yourself and to convince an employer that you are the ideal candidate for the position. Pick one job option from the list or create your own:<br><ul>
+<li>innovation manager at a mobile phone company</li>
+<li>artistic director at the Opera and Ballet Theater</li>
+<li>journalist in the international department of a newspaper</li>
+<li>driving school instructor</li></ul>"
+  title_nor: Skriv en kort tekst med 6 setninger. Din oppgave er på kort tid å overbevise en arbeidsgiver om at du er den perfekte kandidaten til stillingen. Velg en stilling fra listen, eller finn på en egen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
