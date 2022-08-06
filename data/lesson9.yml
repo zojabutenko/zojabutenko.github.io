@@ -125,11 +125,78 @@
     answer1: ^А вы не думаете, что@ это благодаря спорту?
     answer2: ^А она не думает, что@ для этого надо учиться?
     answer3: ^А он не думает, что@ это плохо для экологии?
-    answer4: Интересно, ^а они не думают, что@ они могут заболеть?
+    answer4: ^а они не думают, что@ они могут заболеть?
   answer_key:
     answer1: А вы не думаете, что это благодаря спорту?
     answer2: А она не думает, что для этого надо учиться?
     answer3: А он не думает, что это плохо для экологии?
     answer4: а они не думают, что они могут заболеть?
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 9
+  ex_number: 4
+  title: Переделайте утверждения в вопросы, используя конструкции<br>
+          — ^Аdj-Nom Cop NP-Nom, правда (ведь)?@<br>
+          — ^Cl, не правда ли?@
+  instructions: В этих конструкциях Аdj-Nom — это прилагательное (Аdj = adjective) в номинативе (Nom=Nominative case), Cop — это связочный глагол быть (Cop =copula verb), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Cl — это целое предложение (Cl=clause, sentence). Конструкции очень похожи по значению. Обе конструкции значат, что говорящий ждёт от собеседника согласия. Частица "не" не передает отрицание!
+  exercise_type: text_input
+  title_eng: Rephrase these statements as questions by using the construction ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ meaning ‘X is Y, isn’t it?’ and the construction ^Cl, не правда ли?@ meaning ‘..., isn’t that right?’. These Russian constructions are used similarly to tag questions in English (e.g. She is beautiful, isn’t she?).<br>
+              In these constructions, Аdj-Nom means an adjective in the Nominative case (Adj=adjective, Nom=Nominative case), Cop is a copula verb быть (Cop=copula verb), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom=Nominative case), and Cl means an entire sentence (Cl=clause, sentence). The two constructions are very similar in meaning. Both constructions mean that the speaker expects that the interlocutor to agree with him or her. The word не does not convey negation!
+  title_nor: Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^Cl, не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
+              I disse konstruksjonene står Adj-Nom for et adjektiv i nominativ kasus (Adj=adjektiv, Nom=nominativ kasus), Cop er kopula-verbet быть (Cop=kopula-verb), NP-Nom betyr substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), og Cl betyr en hel setning (Cl=setning). Disse to konstruksjonene har veldig lik betydning. Begge konstruksjonene betyr at taleren forventer at samtalepartneren er enig. Ordet не ‘ikke’ er ikke nektende!
+  comment: ~
+  example: У Алины весёлая улыбка.<br>
+            -><br>
+            У Алины весёлая улыбка, ^правда?@<br>
+            У Алины весёлая улыбка, ^правда ведь?@<br>
+            У Алины весёлая улыбка, ^не правда ли?@
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>1.</b> У Олега хитрый взгляд.
+    task2:
+      text: <b>2.</b> Мне к лицу зелёный цвет.
+    task3:
+      text: <b>3.</b> Настя очень красивая.
+    task4:
+      text: <b>4.</b> У Кирилла приятное лицо.
+    task5:
+      text: <b>5.</b> Пете к лицу эта рубашка.
+    task6:
+      text: <b>6.</b> Ваня очень симпатичный.
+    task7:
+      text: <b>7.</b> Алексей выглядит моложе своих лет.
+  answer_to_show:
+    answer1: У Олега хитрый взгляд, ^правда?@<br>
+              У Олега хитрый взгляд, ^правда ведь?@<br>
+              У Олега хитрый взгляд, ^не правда ли?@
+    answer2: Мне к лицу зелёный цвет, ^правда?@<br>
+              Мне к лицу зелёный цвет, ^правда ведь?@<br>
+              Мне к лицу зелёный цвет, ^не правда ли?@
+    answer3: Настя очень красивая, ^правда?@<br>
+              Настя очень красивая, ^правда ведь?@<br>
+              Настя очень красивая, ^не правда ли?@
+    answer4: У Кирилла приятное лицо, ^правда?@<br>
+              У Кирилла приятное лицо, ^правда ведь?@<br>
+              У Кирилла приятное лицо, ^не правда ли?@
+    answer5: Пете к лицу эта рубашка, ^правда?@<br>
+              Пете к лицу эта рубашка, ^правда ведь?@<br>
+              Пете к лицу эта рубашка, ^не правда ли?@
+    answer6: Ваня очень симпатичный, ^правда?@<br>
+              Ваня очень симпатичный, ^правда ведь?@<br>
+              Ваня очень симпатичный, ^не правда ли?@
+    answer7: Алексей выглядит моложе своих лет, ^правда?@<br>
+              Алексей выглядит моложе своих лет, ^правда ведь?@<br>
+              Алексей выглядит моложе своих лет, ^не правда ли?@
+  answer_key:
+    answer1: У Олега хитрый взгляд, правда?
+    answer2: Мне к лицу зелёный цвет, правда?
+    answer3: Настя очень красивая, правда?
+    answer4: У Кирилла приятное лицо, правда?
+    answer5: Пете к лицу эта рубашка, правда?
+    answer6: Ваня очень симпатичный, правда?
+    answer7: Алексей выглядит моложе своих лет, правда?
   difficult_words: ~
   table: ~
