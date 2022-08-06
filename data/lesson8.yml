@@ -209,3 +209,57 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+7:
+  lesson_id: 8
+  ex_number: 7
+  title: Вы ресторанный критик и должны оценить блюда начинающего шеф-повара. В каждом блюде вы нашли одну проблему. Объясните, в чём именно повар сделал ошибку. Используйте заметки внизу и конструкцию ^дело Cop не в NP-Loc (, а в NP-Loc)@.
+  instructions: В этой конструкции Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () означают, что это факультативный элемент.
+  exercise_type: ~
+  title_eng: You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
+              In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
+  title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
+              I denne konstruksjonen står Cop for kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon. Hvis man bruker eksempelet nedenfor ville jeg sagt på norsk: «Det er ikke krydringen som er problemet, men kjøttet»."
+  comment: ~
+  example: "Заметки:<br>
+            Запечённое мясо: Не специи -> Мясо (несвежее).<br>
+            —><br>
+            Запечённое мясо плохо получилось. И дело не в специях, а в мясе. Оно было несвежее."
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "<b>а.</b><br>
+            Яблочный пирог: Не мукa -> Время приготовления. Пирог не пропёкся."
+    task2:
+      text: "<b>б.</b><br>
+            Блины: Не тесто -> масло, слишком много"
+    task3:
+      text: "<b>в.</b><br>
+            Шоколадный торт: Не сливки для крема -> Сахар. Нужна сахарная пудра."
+    task4:
+      text: "<b>г.</b><br>
+            Эспрессо: Не сорт кофе -> обжарка, слишком светлая"
+    task5:
+      text: "<b>д.</b><br>
+            Овощной салат: Не овощи -> оливковое масло, слишком старое"
+  answer_to_show:
+    answer1: Яблочный пирог плохо получился. ^И дело не@ в муке, ^а во@ времени приготовления. Пирог не пропёкся.
+    answer2: Блины плохо получились. ^И дело не@ в тесте, ^а в@ масле. Масла положили слишком много.
+    answer3: Шоколадный торт плохо получился. ^И дело не@ в сливках для крема, ^а в@ сахаре. Нужна сахарная пудра.
+    answer4: Эспрессо плохо получился. ^И дело не@ в сорте кофе, ^а в@ обжарке. Она слишком светлая.
+    answer5: Овощной салат плохо получился. ^И дело не@ в овощах, ^а в@ оливковом масле. Оно слишком старое.
+  answer_key:
+    answer1: Яблочный пирог плохо получился. И дело не в муке, а во времени приготовления. Пирог не пропёкся.
+    answer2: Блины плохо получились. И дело не в тесте, а в масле. Масла положили слишком много.
+    answer3: Шоколадный торт плохо получился. И дело не в сливках для крема, а в сахаре. Нужна сахарная пудра.
+    answer4: Эспрессо плохо получился. И дело не в сорте кофе, а в обжарке. Она слишком светлая.
+    answer5: Овощной салат плохо получился. И дело не в овощах, а в оливковом масле. Оно слишком старое.
+  difficult_words:
+    word1: "мукa — English: flour; Norwegian: mel<br>
+            время приготовления — English: cooking time; Norwegian: tiden brukt til å bake eplekake"
+    word2: "тесто — English: dough; Norwegian: deig<br>
+            масло — English: butter; Norwegian: smør"
+    word3: "сливки — English: dairy cream; Norwegian: fløte"
+    word4: "обжарка — English: roast (about coffee); Norwegian: kaffebrenning (brenningsgrad når det gjelder kaffe)"
+    word5: "оливковое масло — English: olive oil; Norwegian: olivenolje"
+  table: ~

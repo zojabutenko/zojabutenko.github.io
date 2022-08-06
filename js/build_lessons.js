@@ -130,7 +130,7 @@ function add_answer(answer_to_show, answer_key, input) {
         buttons.appendChild(button1);
     }
     button2.onclick = function () {
-        show_item(answer_text, annotate(answer_to_show));
+        show_item(answer_text, annotate(String(answer_to_show)));
     }
     buttons.appendChild(button2);
     task.appendChild(buttons);
@@ -335,7 +335,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["image"] != null) {
         
         if (data[exercise_id]["image"]["link"] != undefined) {
-            console.log(exercise_id)
+            // console.log(exercise_id)
             all_exercise.appendChild(add_image(data[exercise_id]["image"]))
         } else {
             var images_amount = data[exercise_id]["image"].length
@@ -399,12 +399,18 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
-                    let answer_to_show = annotate(data[exercise_id]["answer_to_show"][`answer${i}`])
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
                     add_answer(answer_to_show, answer_key, create_input());
-                } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null) || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)) {
-                    console.log(typeof null)
-                    let answer_to_show = annotate(data[exercise_id]["answer_to_show"])
+                } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
+                    // || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)
+                    
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
+                    // console.log(answer_to_show)
+                    add_answer(answer_to_show);
+                } else {
+                    let answer_to_show = data[exercise_id]["answer_to_show"]
+                    // console.log(answer_to_show)
                     add_answer(answer_to_show);
                 }
             };
