@@ -260,7 +260,7 @@
   ex_number: 6
   title: У многих людей до сих пор есть стереотипы насчёт внешности. Помогите развеять их, подобрав подходящий ответ на каждый из стереотипов.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Many people still have stereotypes about personal appearance. Challenge the stereotypes expressed in the first column (1-5) by finding the appropriate responses in the second column (а-д).
   title_nor: Mange mennesker har fremdeles stereotype oppfatninger når det gjelder utseende. Prøv å utfordre stereotypene i den første kolumnen (1-5) ved å finne riktig svar i den andre kolumnen (а-д).
   comment: ~
@@ -275,21 +275,38 @@
     row1:
       -
         - "1. Она за собой не следит: совсем седая ходит."
-
         - "2. Удивительно: он такой полный, а рекламирует спортивную одежду."
-
         - 3. Что ты понимаешь в еде? Ты такой худой!
-
         - "4. Будь осторожен: в машине впереди нас за рулём блондинка."
-
         - 5. Почему ваша Света всё время ходит в джинсах? Она же девочка!
       -
         - а. ^По-твоему,@ полные люди не могут заниматься спортом?
-
         - б. ^По-твоему,@ блондинки плохо водят машину?
-
         - в. ^По-вашему,@ худые не любят вкусно поесть?
-
         - г. ^По-вашему,@ девочка должна быть в платье?
-
-        - д. ^По-твоему,@ волосы обязательно красить?   
+        - д. ^По-твоему,@ волосы обязательно красить?
+7:
+  lesson_id: 7
+  ex_number: 7
+  title: Обсудите сходства и различия во внешности людей на фотографиях (Жанна и Ира; Дэвид и Алекс; Лина и Маргарита; Амрит и Николай). Один человек указывает на сходства, другой на различия. Узнайте мнение собеседника и выразите собственное. Используйте предложенные варианты конструкций (см. таблицу).
+  instructions: ~
+  exercise_type: ~
+  title_eng: Discuss the similarities and differences in the appearance of the people in the pictures (Жанна and Ира, Дэвид and Алекс, Лина and Маргарита, Амрит and Николай). Point out the similarities, whereas your interlocutor will focus on the differences. Еxpress your own opinion and ask for the opinion of your interlocutor. Use the variants of the constructions provided in the rightmost column of the table.
+  title_nor: Diskuter likheter og forskjeller ved utseendet til menneskene på bildene (Жанна og Ира, Дэвид og Алекс, Лина og Маргарита, Амрит og Николай). En av dere fokuserer på likhetene, mens den andre beskriver forskjellene. Uttrykk din egen mening og spør din samtalepartner om hans eller hennes mening. Bruk de forskjellige variantene av konstruksjonene i kolumne 2 i tabellen.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: — Эти девушки не похожи. У Иры волосы прямые, а у Жанны кудрявые, ^не правда ли?@
+            — Правда, но, ^по-моему,@ они похожи. ^Ты не думашь, что@ у них у обеих длинные волосы?
+            — Да, но у Жанны волосы тёмные, а Ира блондинка, ^правда ведь?@
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/7_1.png
+    task2:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/7_2.png
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
