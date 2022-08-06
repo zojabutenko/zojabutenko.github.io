@@ -471,7 +471,7 @@
         — ^На мой взгляд,@ ___________________________________________________________.<br>
         — ^По-твоему,@ я должна прийти на свидание в джинсах и без макияжа?<br>
         — ^Как по мне,@ ___________________________________________________________ .
-  answer_to_show: — Хочу завтра красиво одеться, накраситься и сходить в парикмахерскую. К первому свиданию нужно как следует подготовиться, правда ведь?<br>
+  answer_to_show: — Хочу завтра красиво одеться, накраситься и сходить в парикмахерскую. К первому свиданию нужно как следует подготовиться, ^правда ведь?@<br>
         — ^Честно говоря,@ для меня это странно. ^По-моему,@ к свиданию не нужно специально готовиться.<br>
         — Мне кажется, первое впечатление — это очень важно.<br>
         — ^А ты не думаешь, что@ внешность в отношениях не главное?<br>
@@ -487,7 +487,7 @@
   ex_number: 11
   title: Перед вами разговор двух подруг. Реплики в разговоре перепутались местами. Восстановите порядок реплик, чтобы получился связный текст. Обсудите в парах, с чьей позицией вы скорее согласны и почему.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: You see a conversation between two friends. The lines of the dialogue are mixed up. Restore the order of the lines to make a coherent text. Discuss with your interlocutor whose opinion you agree with most and why.
   title_nor: Foran deg ser du en samtale mellom to venner. Replikkene i dialogen har havnet i feil rekkefølge. Lag en sammenhengende tekst ved å plassere replikkene i riktig rekkefølge. Diskuter med din samtalepartner hvem du er mest enig med, og hvorfor.
   comment: У этого задания может быть два варианта. Второй, более легкий вариант, представлен в задании 11.
