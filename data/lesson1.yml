@@ -83,10 +83,11 @@
   answer_key: 1д, 2в, 3г, 4а, 5б
   difficult_words: ~
   table:
+<<<<<<< HEAD
     vertical_align: +
     horizontal_align: +
     width: ~
-    table_header: ~
+    header: ~
     row1:
       - 1. Я люблю не только книги про Шерлока Холмса,
       - а. но и во всей школе!
@@ -177,3 +178,4 @@
   <li>Я позвал Юлю в кино, и она согласилась!</li></ul>"
   difficult_words: ~
   table: ~
+
