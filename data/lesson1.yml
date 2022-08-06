@@ -1,104 +1,179 @@
 ---
 1:
-  lesson_id: 3
+  lesson_id: 1
   ex_number: 1
   title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
   instructions: ~
   exercise_type: ~
   title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
   title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
-  comment: Test comment.
-  example: ~
-  model: ~
-  image: ~
-  task:
-    task1: 
-      text: а. Познакомьтесь! Матвей Белов – студент медицинского факультета. Кроме того, Матвей занимается каратэ и хорошо плавает. Матвей не только учится, но и работает санитаром в больнице. Это полезный опыт, к тому же неплохая зарплата. Кстати говоря, в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, плюс ко всему, у него очень хорошее чувство юмора.
-    task2: 
-      text: б. Это Ирина. Она талантливая певица. Ирина не только отлично поет, но и прекрасно играет на гитаре. Кстати говоря, гитару Ирине подарил отец.
-  answer_to_show: Все эти конструкции вводят дополнительную информацию. All of these constructions introduce additional information. Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere.
-  answer_key: ~
-  difficult_words: "*test word"
-  table: ~
-2:
-  lesson_id: 3
-  ex_number: 2
-  title: Переформулируйте предложения, используя конструкцию не только XP, но и XP. Любое ли предложение можно переделать? (Если нельзя, напишите нельзя переделать)
-  instructions: На месте XP находится слово или фраза (XP=phrase).
-  exercise_type: text_input
-  title_eng: Rephrase each sentence by using the construction не только XP, но и XP 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
-  title_nor: Omformuler hver setning ved å bruke konstruksjonen не только XP, но и XP 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
   comment: ~
   example: ~
   model: ~
   image: ~
   task:
-    task1: 
+    task1:
+      text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
+    task2:
+      text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
+  answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+2:
+  lesson_id: 1
+  ex_number: 2
+  title: Переформулируйте предложения, используя конструкцию ^не только XP, но и XP@. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
+  instructions: На месте XP находится слово или фраза (XP=phrase).
+  exercise_type: ~
+  title_eng: Rephrase each sentence by using the construction ^не только XP, но и XP@ 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
+  title_nor: Omformuler hver setning ved å bruke konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
       text: а. Роман хорошо играет в футбол и фотографирует.
-    task2: 
+    task2:
       text: б. София красиво поëт и играет на пианино.
-    task3: 
+    task3:
       text: в. Даниил плохо видит и носит очки.
   answer_to_show:
-    answer1: Роман не только хорошо играет в футбол, но и фотографирует.
-    answer2: София не только красиво поëт, но и играет на пианино.
-    answer3: "Это предложение нельзя переформулировать. Конструкция не только XP, но и XP требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие. = It is not possible to rephrase this sentence. The construction не только XP, но и XP 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence. Det er ikke mulig å omformulere denne setningen. Konstruksjonen не только XP, но и XP 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
+    answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
+    answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
+    answer3: "Это предложение нельзя переформулировать. Конструкция ^не только XP, но и XP@ требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие.<br> = It is not possible to rephrase this sentence. The construction ^не только XP, но и XP@ 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence.<br> = Det er ikke mulig å omformulere denne setningen. Konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
   answer_key:
     answer1: Роман не только хорошо играет в футбол, но и фотографирует.
     answer2: София не только красиво поëт, но и играет на пианино.
-    answer3: Нельзя переделать
-  difficult_words:
-    word2: "*test_word"
+    answer3: нельзя переделать
+  difficult_words: ~
   table: ~
 3:
-  lesson_id: 3
-  ex_number: 2
-  title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию с точки зрения NP-Gen, Cl.
-  instructions: В этой конструкции NP — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
+  lesson_id: 1
+  ex_number: 3
+  title: Составьте предложения.
+  instructions: ~
   exercise_type: ~
-  title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction с точки зрения NP-Gen, Cl meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
-  title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen с точки зрения NP-Gen, Cl som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
+  title_eng: Build sentences from the available parts.
+  title_nor: Lag setninger ved hjelp av de forskjellige delene.
   comment: ~
-  example: С точки зрения комфорта, яхта лучше поезда.
-  model: С точки зрения ________ , ________ лучше/хуже ________
-  image: 
-    link: "https://constructicon.github.io/construxercise-rus/images/6/2_1.png"
-    width: ~
-    height: ~
+  example: Егор любит ^не только@ играть на компьютере, ^но и@ придумывать свои игры.
+  model: ~
+  image: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
   task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
+  table: ~
+4:
+  lesson_id: 1
+  ex_number: 4
+  title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте XP в конструкции ^не только XP, но и XP@.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction не только XP, но и XP 'not only... but also ...'?
+  title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen не только XP, но и XP 'ikke bare... men også ...'?
+  comment: ~
+  example: ~
+  model: ~
+  image: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  task: ~
+  answer_to_show: 1д, 2в, 3г, 4а, 5б
+  answer_key: 1д, 2в, 3г, 4а, 5б
+  difficult_words: ~
   table:
+    vertical_align: +
+    horizontal_align: +
+    width: ~
     table_header: ~
-    row1: # тут в ячейке элементы должны располагаться с новой строки, поэтому я сделала из них список (мб можно просто добавить <br> чтобы он потом его задетектил и скомпилировал хз...
-      - С точки зрения + Gen
-      -
-        - цена
-        - комфорт
-        - скорость
-        - безопасность
-        - экология
-        - надёжность
-        - доступность
-        - маневренность
-      -
-        - автобус
-        - автомобиль
-        - катер
-        - самолёт
-        - поезд
-        - круизный лайнер
-        - вертолёт
-        - яхта
-      - лучше/хуже + Gen
-      -
-        - автобус
-        - автомобиль
-        - катер
-        - самолёт
-        - поезд
-        - круизный лайнер
-        - вертолёт
-        - яхта
-
+    row1:
+      - 1. Я люблю не только книги про Шерлока Холмса,
+      - а. но и во всей школе!
+    row2:
+      - 2. Он был не только талантливым писателем,
+      - б. но и вкусно готовил.
+    row3:
+      - 3. Не только школьники,
+      - в. но и умным политиком.
+    row4:
+      - 4. Ксюша - самая красивая девочка не только в нашем классе,
+      - г. но и учителя выбежали на улицу играть в снежки.
+    row5:
+      - 5. Он не только отлично плавал,
+      - д. но и фильмы о нём.
+5:
+  lesson_id: 1
+  ex_number: 5
+  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  exercise_type: ~
+  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них. <i><br> Иван пережил много невероятных приключений, ^а кроме того,@ он мог увлекательно рассказать о них</i>.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Мы сами выращиваем на даче овощи и фрукты. Мы собираем в лесу ягоды.
+    task2:
+      text: б. Я люблю фильмы про природу. Мне нравится фантастика.
+  answer_to_show:
+    answer1: Мы сами выращиваем на даче овощи и фрукты, ^а кроме того,@ мы собираем в лесу ягоды.
+    answer2: Я люблю фильмы про природу, ^а кроме того,@ мне нравится фантастика.
+  answer_key:
+    answer1: Мы сами выращиваем на даче овощи и фрукты, а кроме того, мы собираем в лесу ягоды.
+    answer2: Я люблю фильмы про природу, а кроме того, мне нравится фантастика.
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 1
+  ex_number: 6
+  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@. Замените союз и на слова а кроме того.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  exercise_type: ~
+  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. Replace the conjunction и 'and' with the words ^а кроме того@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: Вчера я решил убраться во всем доме и выбросить мусор.<br> <i>Вчера я решил убраться во всем доме, ^а кроме того,@ выбросить мусор.</i>
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Моя подруга очень умная и веселая.
+    task2:
+      text: б. Мы хотим купить новый автомобиль и продать старый.
+  answer_to_show:
+    answer1: Моя подруга очень умная, ^а кроме того,@ веселая.
+    answer2: Мы хотим купить новый автомобиль, ^а кроме того,@ продать старый.
+  answer_key:
+    answer1: Моя подруга очень умная, а кроме того, веселая.
+    answer2: Мы хотим купить новый автомобиль, а кроме того, продать старый.
+  difficult_words: ~
+  table: ~
+7:
+  lesson_id: 1
+  ex_number: 7
+  title: "Перед вами запись в дневнике. Соедините предложения с помощью конструкций<br>
+  ^к тому же XP/Cl@
+  ^плюс/вдобавок (ко всему/к тому/к этому), Cl@
+  ^(а) кроме того XP/Cl@"
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: You see an entry in a diary. Connect the matching sentences by using the indicated constructions. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene. I disse konstruksjonene fylles plassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    text: "Дорогой дневник, день сегодня просто отличный!<br>
+  Погода теплая и солнечная!<br>
+  <ul>
+  <li>По дороге на учебу встретил старого друга.</li>
+  <li>Я посмотрел новую серию моего любимого сериала.</li>
+  <li>Мы с отцом наконец выбрали, какую машину мы купим.</li>
+  <li>Я позвал Юлю в кино, и она согласилась!</li></ul>"
+  difficult_words: ~
+  table: ~
