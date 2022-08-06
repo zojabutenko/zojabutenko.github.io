@@ -201,7 +201,7 @@
   difficult_words: ~
   table: ~
 5:
-  lesson_id: 7
+  lesson_id: 9
   ex_number: 5
   title: Выразите своё несогласие с утверждением собеседника. Используйте конструкцию ^по-моему, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
@@ -256,7 +256,7 @@
         - 4. У Лиды круглое лицо.
         - 5. У Аллы густые волосы.
 6:
-  lesson_id: 7
+  lesson_id: 9
   ex_number: 6
   title: У многих людей до сих пор есть стереотипы насчёт внешности. Помогите развеять их, подобрав подходящий ответ на каждый из стереотипов.
   instructions: ~
@@ -286,7 +286,7 @@
         - г. ^По-вашему,@ девочка должна быть в платье?
         - д. ^По-твоему,@ волосы обязательно красить?
 7:
-  lesson_id: 7
+  lesson_id: 9
   ex_number: 7
   title: Обсудите сходства и различия во внешности людей на фотографиях (Жанна и Ира; Дэвид и Алекс; Лина и Маргарита; Амрит и Николай). Один человек указывает на сходства, другой на различия. Узнайте мнение собеседника и выразите собственное. Используйте предложенные варианты конструкций (см. таблицу).
   instructions: ~
@@ -315,19 +315,85 @@
       - Вариант конструкции
     row1:
       - Cl, а NP-Nom как думать-Prs?
-      - ... , а ты как думаешь?
+      - ^... , а ты как думаешь?@
     row2: 
       - а NP-Nom не думать-Prs, что Cl?
-      - А ты не думаешь, что ...?
+      - ^А ты не думаешь, что ...?@
     row3: 
       - Аdj-Nom Cop NP-Nom, правда (ведь)?
-      - ... , правда ведь?
+      - ^... , правда ведь?@
     row4: 
       - Cl, не правда ли?
-      - ..., не правда ли?
+      - ^..., не правда ли?@
     row5: 
       - Cl, по-твоему/по-вашему?
-      - ..., по-твоему?
+      - ^..., по-твоему?@
     row6: 
       - по-моему, Cl
-      - По-моему, ...
+      - ^По-моему, ...@
+8:
+  lesson_id: 9
+  ex_number: 8
+  title: Обсудите людей на фотографии. Как вы думаете, кто они? Используйте предложенные варианты конструкций (см. таблицу).
+  instructions: ~
+  exercise_type: ~
+  title_eng: Discuss the people you see in the pictures. Who do you think they are? Use the variants of the constructions provided in column 2 of the table.
+  title_nor: Diskuter menneskene på bildene. Hvem tror du de er? Bruk de forskjellige variantene av konstruksjonene i kolumne 2 i tabellen.
+  comment: "Формат задания: в парах. Один студент рассказывает о людях на фотографии, а другой студент задаёт вопросы.<br>
+            Comment for language teachers. Task format: in pairs. One student describes the people in the pictures, whereas the other student asks questions."
+  example: "A: — А это семья моего деда. Он в центре, с усами. У него строгий взгляд, ^правда ведь?@<br>
+            Б: — Ага! ^По-моему,@ он очень серьёзный. А что за мужчина стоит слева?<br>
+            А: — А ты как думаешь? Это мой отец. А рядом с ним, справа, моя мама. Она очень красивая, ^правда ведь?@<br>
+            Б: — Да! А ты есть на этой фотографии?"
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>а.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_1.jpg
+    task2:
+      text: <b>б.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_2.jpg
+    task3:
+      text: <b>в.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_3.jpg
+    task4:
+      text: <b>г.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_4.jpg
+    task5:
+      text: <b>д.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_5.jpg
+    task6:
+      text: <b>е.</b>
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_6.jpg
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - Конструкция
+      - Вариант конструкции
+    row1:
+      - Cl, а NP-Nom как думать-Prs?
+      - ^... , а ты как думаешь?@
+    row2: 
+      - а NP-Nom не думать-Prs, что Cl?
+      - ^А ты не думаешь, что ...?@
+    row3: 
+      - Аdj-Nom Cop NP-Nom, правда (ведь)?
+      - ^... , правда ведь?@
+    row4: 
+      - Cl, не правда ли?
+      - ^..., не правда ли?@
+    row5: 
+      - Cl, по-твоему/по-вашему?
+      - ^..., по-твоему?@
+    row6: 
+      - по-моему, Cl
+      - ^По-моему, ...@
