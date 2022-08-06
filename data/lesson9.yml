@@ -1,0 +1,36 @@
+---
+1:
+  lesson_id: 9
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "<b>а.</b><br>
+            Дочь:<br>
+            — Оля пригласила меня к себе на день рождения. Что мне надеть, ^как думаешь?@<br>
+            Мама:<br>
+            — У тебя есть чудесное красное платье, ^правда ведь?@ Я думаю, можно надеть его.<br>
+            Дочь:<br>
+            — А ^как по-твоему,@ к нему подойдут мои светлые туфли?<br>
+            Мама:<br>
+            — ^Ты не думаешь,@ что в кроссовках или кедах тебе будет удобнее? ^По-моему,@ сейчас модно носить кроссовки с платьем. Вы же будете много танцевать, ^не правда ли?@<br>
+            Дочь:<br>
+            — Ты права. Надену те белые кроссовки, которые ты мне подарила на Новый год. Спасибо за идею!"
+    task2:
+      text: "<b>б.</b><br>
+            — Ксюша сегодня очень хорошо выглядит, ^не правда ли?@<br>
+            — ^По-твоему,@ ей идёт новая причёска?<br>
+            — Очень идёт, ^а ты как думаешь?@<br>
+            — Конечно! ^По-моему,@ чёлка* ей к лицу."
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
+  table: ~
