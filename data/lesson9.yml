@@ -429,10 +429,10 @@
   task:
     task1:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_1.jpg
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_1.png
     task2:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_2.jpg
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_2.png
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -451,3 +451,58 @@
         - ^(как) по мне, (так) Cl@
         - ^на PronPoss-Acc взгляд, Cl@
         - ^честно говоря, Cl@
+10:
+  lesson_id: 9
+  ex_number: 10
+  title: Ваша подруга Алла собирается на свидание. Она хочет выглядеть очень нарядно, а вы спорите с ней, потому что считаете, что нет ничего лучше естественности. Дополните диалог своими репликами.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Your friend Alla is going on a date. She wants to dress up. You argue with her because you think that there is nothing better than a natural look. Complete the dialogue below with your own lines.
+  title_nor: Din venninne Alla skal på date. Hun ønsker å se veldig elegant ut, men du mener at det er best å se naturlig ut. Fullfør dialogen med dine egne replikker.
+  comment: У этого задания может быть два варианта. Второй, более легкий вариант, представлен в задании 11.
+  example: ~
+  model: ~
+  image: ~
+  task: — Хочу завтра красиво одеться, накраситься и сходить в парикмахерскую. К первому свиданию нужно как следует подготовиться, ^правда ведь?@<br>
+        — ^Честно говоря,@ __________________________________________________. ^По-моему,@ ___________________________________________________________.<br>
+        — Мне кажется, первое впечатление — это очень важно.<br>
+        — ^А ты не думаешь, что@ ___________________________________________________________?<br>
+        — Да, не главное. Но с красивым человеком и разговаривать приятнее, ^не правда ли?@<br>
+        — ^На мой взгляд,@ ___________________________________________________________.<br>
+        — ^По-твоему,@ я должна прийти на свидание в джинсах и без макияжа?<br>
+        — ^Как по мне,@ ___________________________________________________________ .
+  answer_to_show: — Хочу завтра красиво одеться, накраситься и сходить в парикмахерскую. К первому свиданию нужно как следует подготовиться, правда ведь?<br>
+        — ^Честно говоря,@ для меня это странно. ^По-моему,@ к свиданию не нужно специально готовиться.<br>
+        — Мне кажется, первое впечатление — это очень важно.<br>
+        — ^А ты не думаешь, что@ внешность в отношениях не главное?<br>
+        — Да, не главное. Но с красивым человеком и разговаривать приятнее, ^не правда ли?@<br>
+        — ^На мой взгляд,@ ты и в обычной одежде выглядишь отлично.<br>
+        — ^По-твоему,@ я должна прийти на свидание в джинсах и без макияжа?<br>
+        — Почему нет? ^Как по мне,@ всегда нужно быть самой собой. Естественность — лучший наряд.
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 9
+  ex_number: 11
+  title: Перед вами разговор двух подруг. Реплики в разговоре перепутались местами. Восстановите порядок реплик, чтобы получился связный текст. Обсудите в парах, с чьей позицией вы скорее согласны и почему.
+  instructions: ~
+  exercise_type: ~
+  title_eng: You see a conversation between two friends. The lines of the dialogue are mixed up. Restore the order of the lines to make a coherent text. Discuss with your interlocutor whose opinion you agree with most and why.
+  title_nor: Foran deg ser du en samtale mellom to venner. Replikkene i dialogen har havnet i feil rekkefølge. Lag en sammenhengende tekst ved å plassere replikkene i riktig rekkefølge. Diskuter med din samtalepartner hvem du er mest enig med, og hvorfor.
+  comment: У этого задания может быть два варианта. Второй, более легкий вариант, представлен в задании 11.
+  example: ~
+  model: ~
+  image: ~
+  task: а. — ^А ты не думаешь, что@ внешность в отношениях не главное?<br>
+        б. — Почему нет? ^Как по мне,@ всегда нужно быть самой собой. Естественность — лучший наряд.<br>
+        в. — Хочу завтра красиво одеться, накраситься и сходить в парикмахерскую. К первому свиданию нужно как следует подготовиться, ^правда ведь?@<br>
+        г. — Да, не главное. Но с красивым человеком и разговаривать приятнее, ^не правда ли?@<br>
+        д. — ^На мой взгляд,@ ты и в обычной одежде выглядишь отлично.<br>
+        е. — ^По-твоему,@ я должна прийти на свидание в джинсах и без макияжа?<br>
+        ж. — Мне кажется, первое впечатление — это очень важно.<br>
+        з. — ^Честно говоря,@ для меня это странно. ^По-моему,@ к свиданию не нужно специально готовиться.
+  answer_to_show: в, з, ж, а, г, д, е, б
+  answer_key: в, з, ж, а, г, д, е, б
+  difficult_words: ~
+  table: ~
