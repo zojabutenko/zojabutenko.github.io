@@ -60,7 +60,8 @@
   comment: ~
   example: Егор любит ^не только@ играть на компьютере, ^но и@ придумывать свои игры.
   model: ~
-  image: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  image:
+    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
   task: ~
   answer_to_show: ~
   answer_key: ~
