@@ -92,15 +92,16 @@
 4:
   lesson_id: 2
   ex_number: 4
-  title: ~
+  title: Вы сотрудник посольства. Расскажите туристу, который хочет поехать в Россию, что ему нужно сделать, чтобы получить визу. Используйте схему, слова «надо», «нужно» и «необходимо», а также конструкцию ^в-NumOrd-ых, XP/Cl@.
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning 'necessary' and the construction ^в-NumOrd-ых, XP/Cl@.
+  title_nor: Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr 'nødvendig'. Bruk også konstruksjonen ^в-NumOrd-ых, XP/Cl@.
   comment: ~
   example: ~
   model: ~
-  image: ~
+  image:
+    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_1.jpeg"
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -109,153 +110,349 @@
 5:
   lesson_id: 2
   ex_number: 5
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@. Слово «стороны» во второй части конструкции часто опускается, поэтому в формуле конструкции оно указано в скобках ().
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing the matching continuation. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. The word «стороны» in the second part of this construction is often omitted, therefore in the formula of this construction this word is placed in parentheses (). We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fullfør setningene ved å velge delene som passer sammen. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. I denne konstruksjonens andre halvdel er ofte ordet «стороны» utelatt, derfor står den i parenteser i formelen. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
   comment: ~
   example: ~
   model: ~
   image: ~
   task: ~
-  answer_to_show: ~
-  answer_key: ~
+  answer_to_show: "1в, 2д, 3а, 4г, 5б<br>
+  ^С одной стороны,@ в Москве зимой очень красиво. ^С другой стороны,@ там холодно.<br>
+^С одной стороны,@ путешествовать интересно. ^С другой стороны,@ для путешествий нужно много времени и денег.<br>
+^С одной стороны,@ есть много сладкого вредно. ^С другой стороны,@ сладкое — это очень вкусно.<br>
+^С одной стороны,@ учить русский язык сложно, ^с другой стороны,@ очень интересно.<br>
+^С одной стороны,@ смотреть сериалы весело. ^С другой стороны,@ это прокрастинация.<br>
+В каждом случае, слово «стороны» после слова «другой» можно не использовать."
+  answer_key: 1в, 2д, 3а, 4г, 5б
   difficult_words: ~
-  table: ~
+  table:
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. В Москве зимой очень красиво
+      - а. сладкое — это очень вкусно
+    row2:
+      - 2. Путешествовать интересно
+      - б. это прокрастинация
+    row3:
+      - 3. Есть много сладкого вредно
+      - в. там холодно
+    row4:
+      - 4. Учить русский язык сложно
+      - г. очень интересно
+    row5:
+      - 5. Смотреть сериалы весело
+      - д. для путешествий нужно много времени и денег
 6:
   lesson_id: 2
   ex_number: 6
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Антон отдыхал в Греции и после поездки решил написать отзыв на сайте отеля. Что-то ему понравилось, а что-то не понравилось. Антон сделал заметки. Помогите ему написать отзыв, соединив предложения. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
+  exercise_type: text_input
+  title_eng: Anton went to Greece on vacation. After the trip, he decided to write a review on the website of the hotel. He liked some things, but disliked other things. Anton made some notes. Help him to write the review by connecting the phrases. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Anton har vært på ferie i Hellas. Etter reisen bestemte han seg for å skrive en anmeldelse på hotellets hjemmeside. Han likte noen ting, mens noen ting likte han ikke. Anton tok noen notater. Hjelp ham å skrive anmeldelsen ved å koble sammen setningene. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
+  task:
+    task1:
+      text: 1. В отеле была хорошая еда / плохо убирали в номере
+    task2:
+      text: 2. У отеля отдельный пляж / там всегда было много людей
+    task3:
+      text: 3. Вечером были весёлые вечеринки / музыка всю ночь мешала спать.
+    task4:
+      text: 4. находиться в отеле было приятно / иногда некомфортно
+  answer_to_show:
+    answer1: "^С одной стороны,@ в отеле была хорошая еда. ^С другой стороны,@ плохо убирали в номере.<br>
+^С одной стороны,@ в отеле была хорошая еда. ^С другой,@ плохо убирали в номере."
+    answer2: "^С одной стороны,@ у отеля отдельный пляж. ^С другой стороны,@ там всегда было много людей.<br>
+^С одной стороны,@ у отеля отдельный пляж. ^С другой,@ там всегда было много людей."
+    answer3: "^С одной стороны,@ вечером были весёлые вечеринки. ^С другой стороны,@ музыка всю ночь мешала спать.<br>
+^С одной стороны,@ вечером были весёлые вечеринки. ^С другой,@ музыка всю ночь мешала спать."
+    answer4: "^С одной стороны,@ находиться в отеле было приятно, ^с другой стороны,@ иногда некомфортно.<br>
+^С одной стороны,@ находиться в отеле было приятно, ^с другой,@ иногда некомфортно."
+  answer_key:
+    answer1: С одной стороны, в отеле была хорошая еда. С другой стороны, плохо убирали в номере.
+    answer2: С одной стороны, у отеля отдельный пляж. С другой стороны, там всегда было много людей.
+    answer3: С одной стороны, вечером были весёлые вечеринки. С другой стороны, музыка всю ночь мешала спать.
+    answer4: С одной стороны, находиться в отеле было приятно, с другой стороны, иногда некомфортно.
   difficult_words: ~
   table: ~
 7:
   lesson_id: 2
   ex_number: 7
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Соедините два предложения в одно, используя конструкцию ^что касается NP-Gen, то Cl@.
+  instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen). На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect two sentences by using the construction ^что касается NP-Gen, то Cl@ 'as for ..., ...'. In this construction, NP-Gen strands for a noun in the Genitive case (NP=noun phrase). Cl is a slot where we can place an entire sentence (Cl= clause, sentence).
+  title_nor: Koble sammen og lag en setning av to, ved å bruke konstruksjonen ^что касается NP-Gen, то Cl@ 'når det gjelder ..., ...'. I denne konstruksjonen står NP-Gen for et substantiv (NP=nominalfrase) i genitiv kasus. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
-  example: ~
+  example: "Отель мне ещё нужно забронировать. Билеты я купил уже давно.<br>
+&#10132; Отель мне ещё нужно забронировать. ^Что касается билетов,@ то я купил их уже давно."
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
-  difficult_words: ~
+  task:
+    task1:
+      text: Студенческий билет у вас уже есть. Справку об обучении можно заказать в учебном офисе*.
+    task2:
+      text: Петя и Катя получили визу в Норвегию. Кирилл пока ждет ответа от посольства.
+    task3:
+      text: С пропуском вы можете зайти в любое здание университета. Студенческий билет будет нужен, если вы хотите купить билет в музей со скидкой.
+    task4:
+      text: Фотографию для визы нужно принести с собой. Отпечатки пальцев у вас снимут в посольстве.
+  answer_to_show:
+    answer1: Студенческий билет у вас уже есть. ^Что касается@ справки об обучении, ^то@ её можно заказать в учебном офисе.
+    answer2: Петя и Катя получили визу в Норвегию. ^Что касается@ Кирилла, ^то@ он пока ждёт ответа из посольства.
+    answer3: С пропуском вы можете зайти в любое здание университета. ^Что касается@ студенческого билета, ^то@ он будет нужен, если вы хотите купить билет в музей со скидкой.
+    answer4: Фотографию для визы нужно принести с собой. ^Что касается@ отпечатков пальцев, ^то@ их у вас снимут в посольстве.
+  answer_key:
+    answer1: Студенческий билет у вас уже есть. Что касается справки об обучении, то её можно заказать в учебном офисе.
+    answer2: Петя и Катя получили визу в Норвегию. Что касается Кирилла, то он пока ждёт ответа из посольства.
+    answer3: С пропуском вы можете зайти в любое здание университета. Что касается студенческого билета, то он будет нужен, если вы хотите купить билет в музей со скидкой.
+    answer4: Фотографию для визы нужно принести с собой. Что касается отпечатков пальцев, то их у вас снимут в посольстве.
+  difficult_words: "* Учебный офис может также называться «деканат»."
   table: ~
 8:
   lesson_id: 2
   ex_number: 8
-  title: ~
-  instructions: ~
+  title: Составьте короткий рассказ об одном дне из жизни друзей. Оцените, как прошёл их день, используя конструкцию ^в целом Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Make a short story about how each of the following friends spent their day. Evaluate whether the day went well by using the construction ^в целом Cl@ 'overall, ...'. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Lag en kort fortelling om en dag i livet til en av vennene. Beskriv hvordan dagen var ved hjelp av konstruksjonen ^в целом Cl@ 'alt i alt, ...'. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
-  example: ~
+  example: Леонид выспался, сходил на море и на футбольный матч. ^В целом@ день прошёл хорошо.
   model: ~
-  image: ~
-  task: ~
-  answer_to_show: ~
+  image:
+    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_2.png"
+  task:
+    task1:
+      text: a
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_3.png"
+    task2:
+      text: б
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_4.png"
+    task3:
+      text: в
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_5.png"
+  answer_to_show:
+    answer1: Евгения отдохнула, сходила в спа и посмотрела фильм. ^В целом,@ день прошёл хорошо.
+    answer2: Наташа и Андрей потеряли ключи от квартиры, опоздали на поезд и замёрзли на прогулке. ^В целом,@ день прошёл плохо.
+    answer3: Дима приготовил вкусный ужин, посмотрел новый фильм и купил новый диван. ^В целом,@ день прошёл хорошо.
   answer_key: ~
   difficult_words: ~
   table: ~
 9:
   lesson_id: 2
   ex_number: 9
-  title: ~
+  title: Выберите подходящую конструкцию. Объясните свой выбор. В каждом случае одна конструкция вводит вывод, а другая добавляет информацию.
   instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  exercise_type: text_input
+  title_eng: Choose the appropriate construction. Explain your choice. In each case, make a choice between a construction that draws a conclusion and a construction that adds information.
+  title_nor: Velg riktig konstruksjon. Forklar ditt valg. I hvert tilfelle skal du velge enten en konkluderende konstruksjon, eller en konstruksjon som brukes for å legge til informasjon.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
+  task:
+    task1:
+      text: 1. На границе офицер попросил меня показать паспорт и сертификат о вакцинации. ^Кроме того,@ / ^В целом@ он спросил о цели визита.
+    task2:
+      text: 2. У фильма интересный сюжет, актёры тоже хорошо играли. ^Кроме того,@ / ^В целом@ я рекомендую вам посмотреть этот фильм.
+    task3:
+      text: 3. Оформление паспорта занимает не более трёх месяцев, визы — не более пяти дней. ^К тому же,@ / ^В целом@ до отпуска мы успеем.
+    task4:
+      text: 4. Перед путешествием надо купить билеты, страховку, забронировать отель и получить визы. ^К тому же,@ / ^В целом@ теперь надо сделать ПЦР-тест на коронавирус.
+    task5:
+      text: 5. Для путешествия мне нужна виза, билеты и жильё. Билеты можно купить заранее, а жить — в хостеле или через каучсёрфинг. ^Кроме того,@ / ^В целом@ путешествия — это не всегда очень дорого.
+  answer_to_show:
+    answer1: "^Кроме того@<br>
+Здесь мы добавляем информацию, а не обобщаем сказанное, поэтому ^в целом@ не подходит.<br>
+= Here, we add information, and we do not summarize what has been said. Therefore, we cannot use the construction ^в целом, Cl@ 'overall, ...'.<br>
+= I dette tilfellet legger vi til informasjon, vi oppsummerer ikke det som er blitt sagt. Derfor passer ikke konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+    answer2: "^В целом@<br>
+Здесь мы обобщаем сказанное после предыдущего перечисления аргументов.<br>
+= Here, we summarize what has been said, after providing a line of arguments.<br>
+= Her oppsummerer vi det som er blitt sagt, etter å ha lagt frem en rekke argumenter."
+    answer3: "^В целом@<br>
+Здесь мы обобщаем информацию о сроках и делаем вывод, ничего нового не добавляем. Поэтому ^к тому же@ не подходит.
+= Here, we summarize the information about the timing and draw a conclusion. We do not add any new information. Therefore, the construction ^К тому же@ ... 'in addition, ... ' is not appropriate here.<br>
+= Her oppsummerer vi informasjonen om frister, og konkluderer uten å legge til ytterligere informasjon. Derfor passer ikke konstruksjonen ^К тому же@ ... 'i tillegg, ... '"
+    answer4: "^Кроме того@<br>
+Здесь мы добавляем информацию, а не обобщаем сказанное, поэтому ^в целом@ не подходит.<br>
+= Here, we add some information and we do not summarize what has been said. Therefore, the construction ^в целом, Cl@ 'overall, ...' is not appropriate here.<br>
+= Her legger vi til informasjon uten å oppsummere det som er blitt sagt. Derfor passer ikke konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+    answer5: "^В целом@<br>
+Здесь мы делаем вывод из сказанного, поэтому подходит ^в целом.@<br>
+= Here, we draw a conclusion from what has been said. Therefore, the construction ^в целом, Cl@ 'overall, ...' is appropriate.<br>
+= Her legger vi sammen det som er blitt sagt, og deretter konkluderer vi. Derfor passer konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+  answer_key:
+    answer1: Кроме того
+    answer2: В целом
+    answer3: В целом
+    answer4: Кроме того
+    answer5: В целом
   difficult_words: ~
   table: ~
 10:
   lesson_id: 2
   ex_number: 10
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^таким образом, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^таким образом, Cl@ meaning ‘So, ...’. In the slot Cl we can place an entire sentence (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^таким образом, Cl@ som betyr omtrent ‘Dermed, ...’. Plassen Cl kan fylles med en hel setning.
   comment: ~
   example: ~
   model: ~
   image: ~
   task: ~
-  answer_to_show: ~
-  answer_key: ~
+  answer_to_show: "1в, 2а, 3г, 4б<br>
+  1: Для поездки за границу нужно сделать загранпаспорт, получить визу, купить билеты и спланировать маршрут. ^Таким образом,@ готовиться к путешествию нужно заранее.<br>
+2: В Санкт-Петербурге много музеев, парков, дворцов и храмов. За день их все не посмотреть. ^Таким образом,@ туда лучше ехать на несколько дней.<br>
+3: Чтобы сделать визу в Норвегию, нужно много времени и денег, а у русских мало и того, и другого. ^Таким образом,@ в Норвегию русские туристы приезжают нечасто.<br>
+4: Я потеряла паспорт, а Соня не смогла улететь домой, потому что её рейс отменили. ^Таким образом,@ мы вместе остались на каникулы в общежитии."
+  answer_key: 1в, 2а, 3г, 4б
   difficult_words: ~
-  table: ~
+  table:
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. Для поездки за границу нужно сделать загранпаспорт, получить визу, купить билеты и спланировать маршрут.
+      - а. Туда лучше ехать на несколько дней.
+    row2:
+      - 2. В Санкт-Петербурге много музеев, парков, дворцов и храмов. За день их все не посмотреть.
+      - б. Мы вместе остались на каникулы в общежитии.
+    row3:
+      - 3. Чтобы сделать визу в Норвегию, нужно много времени и денег, а у русских мало и того, и другого.
+      - в. Готовиться к путешествию нужно заранее.
+    row4:
+      - 4. Я потеряла паспорт, а Соня не смогла улететь домой, потому что её рейс отменили.
+      - г. В Норвегию русские туристы приезжают нечасто.
 11:
   lesson_id: 2
   ex_number: 11
-  title: ~
+  title: Вы с другом собираете чемодан в поездку. Перед вами список вещей. Чемодан маленький, поэтому взять нужно только самое необходимое. Обсудите с другом, что из списка вы возьмёте. В таблице даны 4 варианта поездки. Обсудите каждый вариант отдельно.
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
-  comment: ~
+  title_eng: You and your friend are packing a suitcase for a trip. Below you see a list of things. Your suitcase is rather small, so you can take only the most necessary things. Discuss with your friend what things you will take on this trip. The table outlines four different trips. Discuss each trip separately.
+  title_nor: Du og din venn pakker kofferten til en reise. Nedenfor er en liste med gjenstander. Kofferten er liten, derfor kan dere ta med kun de absolutt viktigste tingene. Diskuter med din venn om hvilke ting fra listen dere skal ta med. I tabellen finnes fire forskjellige reiseplaner. Diskuter hver reiseplan separat.
+  comment: "Формат задания: в парах. <br>= Task format: in pairs."
   example: ~
   model: ~
   image: ~
-  task: ~
+  task: "Список вещей:<br><ul>
+<li>фотоаппарат</li>
+<li>купальник</li>
+<li>лыжи</li>
+<li>теплая куртка</li>
+<li>подарок другу</li>
+<li>паспорт</li>
+<li>зонт</li>
+<li>красивая одежда для прогулки</li>
+<li>одеяло</li>
+<li>непромокаемая обувь</li>
+<li>очки от солнца</li>
+<li>ноутбук</li>
+<li>деньги</li>
+<li>коробка конфет</li>
+<li>фонарик</li></ul>"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table: ~
+  table:
+    heading:
+      -
+      - Куда?
+      - На сколько?
+      - Зачем?
+      - Когда?
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - а.
+      - Сочи
+      - 1 неделя
+      - Кататься на лыжах
+      - Январь
+    row2:
+      - б.
+      - Москва
+      - 2 недели
+      - Шопинг
+      - Август
+    row3:
+      - в.
+      - Санкт-Петербург
+      - 10 дней
+      - Гулять по городу
+      - Октябрь
+    row4:
+      - г.
+      - Калининград
+      - 5 дней
+      - В гости
+      - к другу
+      - Март
 12:
   lesson_id: 2
   ex_number: 12
-  title: ~
+  title: Расскажите вашим друзьям о своей поездке. Расскажите о том, что вам понравилось и что не понравилось. Следуйте плану.
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Tell your friends about your trip, about what you liked and what you disliked. Follow the template below.
+  title_nor: Fortell vennene dine om din reise. Fortell hva du likte og hva du ikke likte. Følg planen nedenfor.
   comment: ~
   example: ~
-  model: ~
+  model: "Моя поездка в _____ (город или страна)____  прошла _____(отлично / ужасно / средне)____.<br>
+Во-первых, ___________________________________________________________ .<br>
+Во-вторых, ___________________________________________________________ .<br>
+В целом, ___________________________________________________________ .<br>
+Что касается, ___(отеля / пляжа / ресторанов)___, то _________________________ .<br>
+С одной стороны, ___(что-то хорошее)___, а с другой стороны ____(что-то плохое)___.<br>
+Таким образом, _____(общий вывод о поездке)____."
   image: ~
   task: ~
-  answer_to_show: ~
+  answer_to_show: "Моя поездка в Москву прошла отлично. ^Во-первых,@ я наконец увидел Красную Площадь, она очень красивая. ^Во-вторых,@ я нашел несколько новых друзей. ^В целом,@ Москва — это очень большой город, по которому всегда интересно гулять. ^Что касается@ ресторанов, ^то@ в них я ходил редко. ^С одной стороны,@ еда там хорошая, а ^с другой стороны,@ всё дорого. ^Таким образом,@ я очень доволен поездкой и хочу приехать в Москву еще раз!"
   answer_key: ~
   difficult_words: ~
   table: ~
 13:
   lesson_id: 2
   ex_number: 13
-  title: ~
-  instructions: ~
+  title: "*Бонусное упражнение. Соедините достопримечательности России (1-4) и факты о них (а-г) при помощи конструкции ^что касается NP-Gen, то Cl.@"
+  instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen= Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Bonus exercise. Connect the tourist attractions in Russia (1-4) with the facts about them (а-г). Use the construction ^что касается NP-Gen, то Cl@ 'concerning ..., ...'. In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen=Genitive case). We can put an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Bonusoppgave. Koble sammen Russlands severdigheter (1-4) med faktaene som passer (а-г). Bruk konstruksjonen ^что касается NP-Gen, то Cl@ 'når det gjelder ..., ...'. I denne konstruksjonen står NP-Gen for et substantiv (NP=nominalfrase) i genitiv kasus. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
   example: ~
   model: ~
-  image: ~
-  task: ~
-  answer_to_show: ~
+  image:
+    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_6.png"
+  task: "Факты:<br>
+а. Раньше это была резиденция российского императора, а сейчас в этом здании находится музей «Государственный Эрмитаж».<br>
+б. Этот огромный колокол весит 202 тонны и был поврежден во время большого пожара в Москве в 1737 году.<br>
+в. Это главная площадь Москвы, которая расположена рядом с Московским Кремлём на берегу Москвы-реки.<br>
+г. Это самый крупный православный храм Санкт-Петербурга, который сейчас является музеем и одним из символов города."
+  answer_to_show: "^Что касается@ Красной площади в Москве, ^то@ это главная площадь Москвы, которая расположена рядом с Московским Кремлём на берегу Москвы-реки.<br>
+^Что касается@ Царь-колокола в Москве, ^то@ этот огромный колокол весит 202 тонны и был повреждён во время большого пожара в Москве в 1737 году.<br>
+^Что касается@ Исаакиевского собора в Санкт-Петербурге, ^то@ это самый крупный православный храм Санкт-Петербурга, который сейчас является музеем и одним из символов города.<br>
+^Что касается@ Зимнего дворца в Санкт-Петербурге, ^то@ раньше это была резиденция российского императора, а сейчас в этом здании находится музей «Государственный Эрмитаж»."
   answer_key: ~
   difficult_words: ~
   table: ~
