@@ -294,8 +294,8 @@
   title_eng: Discuss the similarities and differences in the appearance of the people in the pictures (Жанна and Ира, Дэвид and Алекс, Лина and Маргарита, Амрит and Николай). Point out the similarities, whereas your interlocutor will focus on the differences. Еxpress your own opinion and ask for the opinion of your interlocutor. Use the variants of the constructions provided in the rightmost column of the table.
   title_nor: Diskuter likheter og forskjeller ved utseendet til menneskene på bildene (Жанна og Ира, Дэвид og Алекс, Лина og Маргарита, Амрит og Николай). En av dere fokuserer på likhetene, mens den andre beskriver forskjellene. Uttrykk din egen mening og spør din samtalepartner om hans eller hennes mening. Bruk de forskjellige variantene av konstruksjonene i kolumne 2 i tabellen.
   comment: "Формат задания: в парах. = Task format: in pairs."
-  example: — Эти девушки не похожи. У Иры волосы прямые, а у Жанны кудрявые, ^не правда ли?@
-            — Правда, но, ^по-моему,@ они похожи. ^Ты не думашь, что@ у них у обеих длинные волосы?
+  example: — Эти девушки не похожи. У Иры волосы прямые, а у Жанны кудрявые, ^не правда ли?@<br>
+            — Правда, но, ^по-моему,@ они похожи. ^Ты не думашь, что@ у них у обеих длинные волосы?<br>
             — Да, но у Жанны волосы тёмные, а Ира блондинка, ^правда ведь?@
   model: ~
   image: ~
@@ -309,4 +309,25 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table: ~
+  table:
+    header:
+      - Конструкция
+      - Вариант конструкции
+    row1:
+      - Cl, а NP-Nom как думать-Prs?
+      - ... , а ты как думаешь?
+    row2: 
+      - а NP-Nom не думать-Prs, что Cl?
+      - А ты не думаешь, что ...?
+    row3: 
+      - Аdj-Nom Cop NP-Nom, правда (ведь)?
+      - ... , правда ведь?
+    row4: 
+      - Cl, не правда ли?
+      - ..., не правда ли?
+    row5: 
+      - Cl, по-твоему/по-вашему?
+      - ..., по-твоему?
+    row6: 
+      - по-моему, Cl
+      - По-моему, ...
