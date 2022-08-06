@@ -383,14 +383,7 @@
               — ^NP типа NP-Gen@<br>
               I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Pred betyr predikativ, det vil si adjektivets kortform, Cop betyr kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus, (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: "Формат задания: в парах. = Task format: in pairs."
-  example: — ^А что насчёт@ десерта?<br>
-            — ^А насчёт@ десерта — давай закажем шоколадный торт.<br>
-            — Я не хочу.<br>
-            — Почему?<br>
-            — ^Дело не в@ цене, ^а в том, что@ у меня аллергия на шоколад.<br>
-            — Ну давай закажем мороженое.<br>
-            — Давай!<br>
-            — ^Вот и@ хорошо!
+  example: ~
   model: ~
   image: ~
   task: ~
@@ -420,3 +413,68 @@
         - 32 и 28 лет
         - алкоголь не пьют
         - любят кухню Юго-Восточной Азии
+11:
+  lesson_id: 8
+  ex_number: 11
+  title: Бонусное упражнение.<br>
+          Вы с другом готовите борщ. У вас есть список ингредиентов. Друг сказал, что купит всё необходимое. Обсудите с другом, который вернулся из магазина, всё ли он купил.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Bonus exercise. You and your friend are cooking a beetroot soup "borsch". You have a list of ingredients. Your friend said that he would purchase all the ingredients you need. Discuss with your friend who just returned from the grocery store whether he bought everything.
+  title_nor: Bonusoppgave. Du og en venn lager borsjtsj. Dere har en liste på ingredienser. Din venn sa at han skal kjøpe alle nødvendige ingredienser. Diskuter med vennen som akkurat kommet tilbake fra butikken, hvorvidt han kjøpte alt dere trenger.
+  comment: ~
+  example: "— ^А что насчёт@ чеснока — ты его купил?<br>
+            — Да, купил, но забыл взять лимон.<br>
+            — ^Вот и@ славно! Чеснок не забыл, ^и на том спасибо!@<br>
+            ..."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: "говядина — English: beef; Norwegian: storfekjøtt<br>
+                    свёкла — English: beetroot; Norwegian: rødbete<br>
+                    капуста — English: cabbage; Norwegian: kål<br>
+                    подсолнечное масло — English: sunflower oil; Norwegian: solsikkeolje<br>
+                    чеснок — English: garlic; Norwegian: hvitløk<br>
+                    лавровый лист — English: bay leaf; Norwegian: laurbærblad"
+  table:
+    header:
+      - "Ингредиенты:"
+      - "Что купил друг:"
+    row1:
+      -
+        - 500 г. говядины*
+        - 4 картофелины
+        - 2 свёклы*
+        - 1 морковь
+        - 2 луковицы
+        - 300 г. капусты*
+        - подсолнечное масло*
+        - томатная паста
+        - лимон, по вкусу
+        - чеснок*
+        - лавровый лист*
+      -
+        - Говядина*
+        - Картошка
+        - Свёкла
+        - Капуста
+        - Чеснок
+12:
+  lesson_id: 8
+  ex_number: 12
+  title: Напишите короткий текст про ваш поход в ресторан. Что вы заказали, какие блюда попробовали, что понравилось, а что нет? Используйте все новые конструкции этого урока.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Write a short text about a visit to a restaurant. What did you order there? What dishes did you try? What did you like and dislike? Use all new constructions from this lesson.
+  title_nor: Skriv en kort tekst om når du var på restaurant. Hva bestilte du? Hvilke retter prøvde du?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
