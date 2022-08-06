@@ -214,7 +214,7 @@
   ex_number: 7
   title: Вы ресторанный критик и должны оценить блюда начинающего шеф-повара. В каждом блюде вы нашли одну проблему. Объясните, в чём именно повар сделал ошибку. Используйте заметки внизу и конструкцию ^дело Cop не в NP-Loc (, а в NP-Loc)@.
   instructions: В этой конструкции Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () означают, что это факультативный элемент.
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
               In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
   title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
@@ -262,4 +262,94 @@
     word3: "сливки — English: dairy cream; Norwegian: fløte"
     word4: "обжарка — English: roast (about coffee); Norwegian: kaffebrenning (brenningsgrad når det gjelder kaffe)"
     word5: "оливковое масло — English: olive oil; Norwegian: olivenolje"
+  table: ~
+8:
+  lesson_id: 8
+  ex_number: 8
+  title: Переделайте диалог, используя конструкции<br>
+— ^(а) насчёт NP-Gen – Cl@<br>
+— ^дело Cop не в NP-Loc (, а в NP-Loc)@
+  instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Rewrite a dialog by using the constructions ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
+              In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Cop means a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
+  title_nor: Omskriv dialogen ved å bruke konstruksjonene ^(а) насчёт NP-Gen – Cl@ ‘og når det gjelder X, ... ’ og ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
+              I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Cop betyr kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: — Яйца не вредные. Почему ты не хочешь их готовить? (вредный — вред)<br>
+            — У меня на них аллергия.<br>
+            —><br>
+            — ^А насчёт@ яиц, они не вредные. Почему ты не хочешь их готовить?<br>
+            — ^Дело не во@ вреде, ^а в том, что@ у меня на них аллергия.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>а.</b><br>
+            — Рецепт блинов очень простой, нужно просто смешать все ингредиенты. Почему ты не хочешь их готовить?<br>
+            — Я не умею их жарить.<br>
+            —><br>
+            — ^А насчёт@ ______________,______________. Почему ты не хочешь их готовить?<br>
+            — ^Дело не в@ ______________, ^а в том, что@ ______________.
+    task2:
+      text: <b>б.</b><br>
+            — Баклажаны очень вкусные. Почему ты не хочешь их готовить? (вкусный — вкус)<br>
+            — Сейчас баклажанов нет в магазине.<br>
+            —><br>
+            — ^А насчёт@ ______________,______________. Почему ты не хочешь их готовить?<br>
+            — ^Дело не в@ ______________, ^а в том, что@ ______________.
+    task3:
+      text: <b>в.</b><br>
+            — Чтобы испечь этот пирог, нужно потратить время, но получается очень вкусно. Почему ты не хочешь его готовить?<br>
+            — У меня нет духовки.<br>
+            —><br>
+            — ^А насчёт@ ______________,______________. Почему ты не хочешь его готовить?<br>
+            — ^Дело не в@ ______________, ^а в том, что@ ______________.
+    task4:
+      text: <b>г.</b><br>
+            — В этом блюде самые простые ингредиенты. Почему ты не хочешь его готовить?<br>
+            — У меня нет на это времени.<br>
+            —><br>
+            — ^А насчёт@ ______________,______________. Почему ты не хочешь его готовить?<br>
+            — ^Дело не в@ ______________, ^а в том, что@ ______________.
+  answer_to_show:
+    answer1: — ^А насчёт@ блинов, рецепт очень простой. Почему ты не хочешь их готовить?
+              — ^Дело не в@ рецепте, ^а в том, что@ я не умею их жарить.
+    answer2: — ^А насчёт@ баклажанов, они очень вкусные. Почему ты не хочешь их готовить?
+              — ^Дело не во@ вкусе, ^а в том, что@ сейчас баклажанов нет в магазине.
+    answer3: — ^А насчёт@ пирога, нужно потратить время, но получается очень вкусно. Почему ты не хочешь его готовить?
+              — ^Дело не во@ времени, ^а в том, что@ у меня нет духовки.
+    answer4: — ^А насчёт@ этого блюда, в нём самые простые ингредиенты. Почему ты не хочешь его готовить?
+              — ^Дело не в@ ингредиентах, ^а в том, что@ у меня нет на это времени.
+  answer_key:
+    answer1: блинов; рецепт очень простой; рецепте; я не умею их жарить
+    answer2: баклажанов; они очень вкусные; вкусе; сейчас баклажанов нет в магазине
+    answer3: пирога; нужно потратить время, но получается очень вкусно; времени; у меня нет духовки
+    answer4: этого блюда; в нём самые простые ингредиенты; ингредиентах; у меня нет на это времени
+  difficult_words: ~
+  table: ~
+9:
+  lesson_id: 8
+  ex_number: 9
+  title: Вы с другом в ресторане. Вам нужно сделать заказ. Посмотрите на меню и обсудите, что вы будете заказывать в каждой категории блюд.
+  instructions: ~
+  exercise_type: ~
+  title_eng: You are with a friend in a restaurant. You need to order food. Look at the menu and discuss with your friend what you will order in each category of food.
+  title_nor: Du og en venn er på restaurant. Dere skal bestille mat. Se på menyen og diskuter hva dere skal bestille fra hver kategori.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: — ^А что насчёт@ десерта?<br>
+            — ^А насчёт@ десерта — давай закажем шоколадный торт.<br>
+            — Я не хочу.<br>
+            — Почему?<br>
+            — ^Дело не в@ цене, ^а в том, что@ у меня аллергия на шоколад.<br>
+            — Ну давай закажем мороженое.<br>
+            — Давай!<br>
+            — ^Вот и@ хорошо!
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/9.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
   table: ~
