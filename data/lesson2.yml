@@ -1,0 +1,261 @@
+---
+1:
+  lesson_id: 2
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "Чтобы поехать в Россию, вам нужно получить визу. Для этого необходимы, ^во-первых,@ деньги, ^во-вторых,@ время, а ^в-третьих,@ терпение*. ^С одной стороны,@ оформлять документы очень скучно, ^с другой стороны,@ это необходимо. ^Что касается@ времени, ^то@ визу надо делать заранее, как минимум за месяц до поездки. ^В целом@ визу сделать несложно!"
+    task2:
+      text: "Программа обмена доступна* многим студентам. Для неё вам необходимо подготовить небольшой пакет документов. ^Во-первых,@ вам нужна копия паспорта. ^Во-вторых,@ справка о знании английского языка. ^В-третьих,@ рекомендательное письмо от одного преподавателя. Кроме того, вам надо написать короткое эссе. ^С одной стороны,@ это очень легко сделать. ^С другой стороны,@ только 10% студентов решают попробовать."
+    task3:
+      text: "Привет, Мартин! Спасибо тебе за приглашение в Норвегию на Пасху! Я очень хочу поехать, но боюсь, что не успею собрать документы. ^Во-первых,@ у меня нет загранпаспорта. ^С одной стороны,@ его очень просто сделать, а ^с другой стороны,@ это может занять* три месяца. ^Что касается@ других справок и сертификатов, то в целом, их выдают быстро. ^Таким образом,@ когда я получу загранпаспорт, мне можно будет подавать документы на визу. ^Как бы то ни было,@ я надеюсь, что всё сделаю вовремя и приеду в Норвегию! Твоя подруга Саша."
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words:
+    word1: "*терпение — English: patience; Norwegian: tålmodighet"
+    word2: "*доступна — English: available; Norwegian: tilgjengelig"
+    word3: "*занять — English: it takes (about time); Norwegian: det kan ta (om tid)"
+  table: ~
+2:
+  lesson_id: 2
+  ex_number: 2
+  title: Составьте текст, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в- четвёртых...@ .
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Compose a text, using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the slot XP/Cl we can place a phrase or an entire sentence.
+  title_nor: Lag en tekst ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "а. Что нужно, чтобы поехать в Россию?<br><ol>
+<li>Сделать визу</li>
+<li>Купить билеты</li>
+<li>Забронировать отель/найти жильё</li>
+<li>Собрать чемодан/вещи</li></ol>"
+    task2:
+      text: "б. Почему вы хотите поехать в Россию?<br><ol>
+<li>Интересные музеи</li>
+<li>Красивая архитектура</li>
+<li>Хорошие люди</li>
+<li>Вкусная еда</li></ol>"
+    task3:
+      text: "в. У имени Александр есть много вариантов.<br><ol>
+<li>Обычно используют сокращённый* вариант этого имени, Саша.</li>
+<li>Есть ещё другие варианты имени Александр — Шура, Саня, Алик.</li>
+<li>Саша — это не только мужское, но и женское имя (Александра).</li></ol>"
+  answer_to_show:
+    answer1: "Чтобы поехать в Россию, нужно, ^во-первых,@ сделать визу, ^во-вторых,@ купить билеты, ^в-третьих,@ забронировать отель, и ^в-четвёртых@ собрать чемодан."
+    answer2: "Я хочу поехать в Россию по многим причинам. ^Во-первых,@ в России интересные музеи. ^Во-вторых,@ там красивая архитектура. ^В-третьих,@ много хороших людей. ^В-четвёртых,@ там вкусная еда."
+    answer3: "У имени Александр есть много вариантов. ^Во-первых,@ обычно используют сокращённый вариант этого имени, Саша. ^Во-вторых,@ есть ещё другие варианты имени Александр — Шура, Саня, Алик. ^В-третьих,@ Саша — это не только мужское, но и женское имя (Александра)."
+  answer_key: ~
+  difficult_words: "*сокращённый — English: shortened; Norwegian: forkortet"
+  table: ~
+3:
+  lesson_id: 2
+  ex_number: 3
+  title: Перепишите информационное письмо из визового центра, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Rewrite the information letter from a visa application center using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the place of XP/Cl we locate a phrase (XP) or an entire sentence (Cl=clause).
+  title_nor: Omskriv informasjonsbrevet fra visumsenteret ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "Добрый день! Вы записаны в визовый центр на 12:00.<br>
+Список документов, которые вам нужно иметь с собой:<br><ul>
+<li>загранпаспорт;</li>
+<li>сертификат о вакцинации;</li>
+<li>подтверждение о бронировании отеля;</li>
+<li>две фотографии;</li></ul>
+С уважением,<br>
+Визовый центр."
+  answer_to_show: "Добрый день! Вы записаны в визовый центр на 12:00.<br>
+Вам нужно иметь с собой, ^во-первых,@ загранпаспорт, ^во-вторых,@ сертификат о вакцинации, ^в-третьих,@ подтверждение о бронировании отеля, ^в-четвёртых,@ две фотографии.<br>
+С уважением,<br>
+Визовый центр."
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 2
+  ex_number: 4
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+5:
+  lesson_id: 2
+  ex_number: 5
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 2
+  ex_number: 6
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+7:
+  lesson_id: 2
+  ex_number: 7
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 2
+  ex_number: 8
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+9:
+  lesson_id: 2
+  ex_number: 9
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 2
+  ex_number: 10
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 2
+  ex_number: 11
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+12:
+  lesson_id: 2
+  ex_number: 12
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+13:
+  lesson_id: 2
+  ex_number: 13
+  title: ~
+  instructions: ~
+  exercise_type: ~
+  title_eng: ~
+  title_nor: ~
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
