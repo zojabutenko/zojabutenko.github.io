@@ -439,6 +439,8 @@
                     чеснок — English: garlic; Norwegian: hvitløk<br>
                     лавровый лист — English: bay leaf; Norwegian: laurbærblad"
   table:
+    vertical_align: +
+    horizontal_align: +
     header:
       - "Ингредиенты:"
       - "Что купил друг:"
