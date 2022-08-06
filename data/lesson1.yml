@@ -78,7 +78,8 @@
   comment: ~
   example: ~
   model: ~
-  image: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  image:
+    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
   task: ~
   answer_to_show: 1д, 2в, 3г, 4а, 5б
   answer_key: 1д, 2в, 3г, 4а, 5б
@@ -175,6 +176,277 @@
   <li>Я посмотрел новую серию моего любимого сериала.</li>
   <li>Мы с отцом наконец выбрали, какую машину мы купим.</li>
   <li>Я позвал Юлю в кино, и она согласилась!</li></ul>"
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 1
+  ex_number: 8
+  title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^(и) кстати (говоря), Cl@ вводит дополнительную информацию и обозначает отклонение от темы.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^(и) кстати (говоря), Cl@ introduces additional information and often denotes digression. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^(и) кстати (говоря), Cl@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3г, 4д, 5б
+  answer_key: 1в, 2а, 3г, 4д, 5б
+  difficult_words: ~
+  table:
+    header: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. К нам в гости пришла тетя Клава, наша соседка.
+      - а. Кирилл, кстати, до сих пор не вернул Пете плеер.
+    row2:
+      - 2. Петя опять поругался со своим братом Кириллом.
+      - б. Кстати говоря, после фильма будет встреча с режиссером.
+    row3:
+      - 3. У тебя на телефоне опять не работает навигатор.
+      - в. Она, кстати говоря, недавно сломала руку.
+    row4:
+      - 4. Знаете ли вы, что стены и башни московского Кремля спроектировал архитектор из Италии?
+      - г. И кстати говоря, мы едем не в ту сторону!
+    row5:
+      - 5. Я купил билеты в кино, пойдешь со мной?
+      - д. И кстати, раньше стены были белого цвета, а не красного, как сегодня.
+9:
+  lesson_id: 1
+  ex_number: 9
+  title: "Конструкция (и) кстати (говоря), Cl имеет четыре варианта:<br>
+  <ul><li>а. кстати</li><li>б. и кстати</li><li>в. кстати говоря</li><li>г. и кстати говоря</li></ul><br>
+  Обратите внимание, что варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения. Учитывая это, заполните пропуски в предложениях максимальным количеством вариантов."
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: The construction ^(и) кстати (говоря), Cl@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^(и) кстати (говоря), Cl@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: Знакомьтесь, это Владимир Сергеевич. Моего папу, ___, тоже так зовут.
+    task2:
+      text: Не думал, что ты умеешь играть на гитаре. ___, где ты этому научился?
+    task3:
+      text: Я решил пойти на курсы итальянского. Уроки, ___, ведёт настоящий итальянец.
+    task4:
+      text: Квартира стоит восемьсот евро. ___, электричество оплачивается отдельно.
+    task5:
+      text: Тебе лучше поторопиться, уже восемь сорок! ___, не забудь взять зонт, на улице дождь.
+    task6:
+      text: Моя бабушка работала учительницей английского в школе. ___, она никогда не была за границей, но знала его идеально.
+  answer_to_show:
+    answer1: а, в
+    answer2: а, б, в, г
+    answer3: а, в
+    answer4: а, б, в, г
+    answer5: а, б, в, г
+    answer6: а, б, в, г
+  answer_key:
+    answer1: а, в
+    answer2: а, б, в, г
+    answer3: а, в
+    answer4: а, б, в, г
+    answer5: а, б, в, г
+    answer6: а, б, в, г
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 1
+  ex_number: 10
+  title: "*Бонусное упражнение<br>
+Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br>
+<ul><li>а. Кстати</li><li>б. Кроме того</li><li>в. К тому же</li></ul>"
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Bonus exercise. Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
+  title_nor: Bonusoppgave. Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Ты так красиво поешь! ___ ты никогда не думала стать певицей?
+    task2:
+      text: 2. Я снимаю влоги, чтобы показать свои путешествия друзьям и родственникам. ___ это приносит небольшой доход.
+    task3:
+      text: 3. Собаку мы заводить не будем! По контракту мы не можем жить в этой квартире с собакой. ___ на собак у меня аллергия.
+    task4:
+      text: 4. Какая милая у вас собачка! ___ как её зовут?
+    task5:
+      text: 5. Не думаю, что у фильма есть шансы на Оскар. Актёры играли ужасно. ___ сценарий очень нелогичный.
+    task6:
+      text: 6. Свадьба — это очень дорого. ___ её нужно долго планировать.
+    task7:
+      text: 7. Свадьба — это очень весело. ___ можно наконец увидеть всех своих родственников и друзей.
+  answer_to_show:
+    answer1: "а<br>
+    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
+    answer2: "а, б, в<br>
+    Здесь подходят все три конструкции, но они вносят разные нюансы. ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br>
+    = All three constructions can be used here. However, they have different nuances in meaning. ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.<br>
+    = Samtlige tre konstruksjoner kan brukes i dette tilfellet. Imidlertid kan de uttrykke nyanseforskjeller i sammenhengen. Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men samtidig kan den avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta."
+    answer3: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
+    answer4: "а<br>
+    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
+    answer5: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
+    answer6: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det negative i situasjonen."
+    answer7: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen."
+  answer_key:
+    answer1: а
+    answer2: а, б, в
+    answer3: б, в
+    answer4: а
+    answer5: б, в
+    answer6: б, в
+    answer7: б, в
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 1
+  ex_number: 11
+  title: "Обсудите с собеседником, чей лучший друг лучше: ваш или его. Приведите аргументы. Используйте конструкцию ^не только XP, но и XP.@"
+  instructions: На месте XP находится слово или фраза (XP=phrase).
+  exercise_type: ~
+  title_eng: "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction ^не только XP, но и XP@ 'not only... but also ...'. We can put a word or a phrase in the slot marked XP (XP=phrase)."
+  title_nor: "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ... '. Plassen XP kan fylles med et ord eller en frase (XP=frase)."
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: "— Мой друг веселый.<br>
+— А мой друг не только веселый, но и умный.<br>
+— А мой друг не только умный, но и добрый."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+12:
+  lesson_id: 1
+  ex_number: 12
+  title: "Расскажите, каким должен быть настоящий друг. Добавляйте информацию с помощью конструкций:<br>
+  <ul><li>(а) кроме того XP/Cl</li><li>не только XP, но и XP</li><li>(и) кстати (говоря), Cl</li><li>к тому же XP/Cl</li><li>плюс/вдобавок (ко всему/к тому/к этому), Cl</li></ul>"
+  instructions: В этих конструкциях XP — это слово или фраза (XP=phrase), Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Tell another person what a real friend should be like. Add information by using the constructions from this list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  comment: "Это упражнение хорошо делать с целой группой студентов. Формат задания: по цепочке. Каждый студент должен добавить к описанию идеального друга новую черту. Продолжаем по очереди, все предложения должны быть связаны друг с другом.<br>
+= This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
+  example: Настоящий друг добрый. ^Кроме того,@ настоящий друг всегда помогает...
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+13:
+  lesson_id: 1
+  ex_number: 13
+  title: "Вы встретили на улице знаменитость (известного человека). Объясните друзьям кто это, не называя его имени. Они должны отгадать, кто этот человек. После каждого неправильного предположения вы добавляете еще один факт, чтобы помочь им отгадать. Используйте конструкции:<br>
+  <ul><li>(а) кроме того XP/Cl</li><li>не только XP, но и XP</li><li>(и) кстати (говоря), Cl</li><li>к тому же XP/Cl</li><li>плюс/вдобавок (ко всему/к тому/к этому), Cl</li></ul>"
+  instructions: В этих конструкциях XP — это слово или фраза (XP=phrase), Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  comment: "Каждый студент получает имя известного человека и должен объяснить, кто он (или она). Задача других студентов — отгадать, кто это. Кроме имени, студентам можно дать карточки с информацией об этих знаменитостях.<br>
+= Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
+  example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поет, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил! ^Кроме того,@ настоящий друг всегда помогает...
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "<ul>
+      <li>певец, скрипач, композитор</li>
+<li>родился с Минске (Белоруссия), долго жил в Норвегии</li
+<li>35 лет</li>
+<li>выступал на Евровидении (2009), победил</li></ul>"
+    task2:
+      text: "<ul>
+      <li>знаменитая певица</li>
+<li>играет на гитаре, барабанах и пианино</li>
+<li>родилась в Лондоне</li>
+<li>получила премии “Оскар”, “Золотой Глобус”, “Грэмми”</li>
+<li>4 альбома (называются 19, 21, 25, 30)</li></ul>"
+    task3:
+      text: "<ul>
+      <li>девушка, 19 лет</li>
+<li>родилась в Швеции</li>
+<li>её знают во всем мире</li>
+<li>экологическая активистка</li></ul>"
+    task4:
+      text: "<ul>
+      <li>знаменитый актер</li>
+<li>музыкант, режиссер</li>
+<li>ему 58 лет</li>
+<li>играет странных героев: волшебник, пират, владелец шоколадной фабрики</li></ul>"
+    task5:
+      text: "<ul>
+      <li>родился в Норвегии</li>
+<li>ему 31 год</li>
+<li>чемпион мира по шахматам</li></ul>"
+    task6:
+      text: "<ul>
+      <li>норвежец</li>
+<li>ему 62 года</li>
+<li>раньше он был премьер-министром</li>
+<li>теперь он работает в НАТО</li></ul>"
+    task7:
+      text: "<ul>
+      <li>родился и живет в Лос-Анджелесе</li>
+<li>стал знаменит в 23 года</li>
+<li>долго ждал Оскара</li>
+<li>занимается благотворительностью — спасает амурских тигров</li></ul>"
+  answer_to_show:
+    answer1: Александр Рыбак
+    answer2: Адель
+    answer3: Грета Тунберг
+    answer4: Джонни Депп
+    answer5: Магнус Карлсен
+    answer6: Йенс Столтенберг
+    answer7: Леонардо Ди Каприо
+    answer8: Анджелина Джоли
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+14:
+  lesson_id: 1
+  ex_number: 14
+  title: Напишите короткий текст (6 или 7 предложений) о своем друге или знакомом, используя все 5 новых конструкций.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Write a short text (6 to 7 sentences) about your friend or acquaintance. Use all five new constructions.
+  title_nor: Skriv en kort tekst (6 til 7 setninger) om en venn eller bekjent. Bruk alle de fem nye konstruksjonene.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
   difficult_words: ~
   table: ~
 
