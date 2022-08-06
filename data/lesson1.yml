@@ -25,7 +25,7 @@
   ex_number: 2
   title: Переформулируйте предложения, используя конструкцию ^не только XP, но и XP@. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
   instructions: На месте XP находится слово или фраза (XP=phrase).
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Rephrase each sentence by using the construction ^не только XP, но и XP@ 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
   title_nor: Omformuler hver setning ved å bruke konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
   comment: ~
@@ -71,7 +71,7 @@
   ex_number: 4
   title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте XP в конструкции ^не только XP, но и XP@.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction не только XP, но и XP 'not only... but also ...'?
   title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen не только XP, но и XP 'ikke bare... men også ...'?
   comment: ~
@@ -84,7 +84,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    horizontal_align: +
+    horizontal_align: ~
     width: ~
     header: ~
     row1:
@@ -107,7 +107,7 @@
   ex_number: 5
   title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@.
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
   title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
@@ -132,7 +132,7 @@
   ex_number: 6
   title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@. Замените союз и на слова а кроме того.
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. Replace the conjunction и 'and' with the words ^а кроме того@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
   title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
