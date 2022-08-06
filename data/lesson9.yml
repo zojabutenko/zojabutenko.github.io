@@ -200,3 +200,37 @@
     answer7: Алексей выглядит моложе своих лет, правда?
   difficult_words: ~
   table: ~
+5:
+  lesson_id: 7
+  ex_number: 5
+  title: Выразите своё несогласие с утверждением собеседника. Используйте конструкцию ^по-моему, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Express your disagreement with your interlocutor. Use the construction ^по-моему, Cl@ meaning ‘in my opinion, ... ’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Uttrykk din uenighet med samtalepartnerens uttalelse ved å bruke konstruksjonen ^по-моему, Cl@ ‘Etter min mening, ... ’. Ved plassen Cl kan man bruke en hel setning (Cl=setning).
+  comment: ~
+  example: — ^По-моему@, у Лёши карие глаза. — А ^по-моему@, зелёные.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: ~
+    header:
+      - "Собеседник 1:"
+      - "Собеседник 2:"
+    row1:
+      -
+        - 1. Алёна выглядит устало.
+        - 2. У Миши красивые глаза.
+        - 3. У Марины приветливая улыбка.
+        - 4. У Наташи шикарные волосы.
+        - 5. У Глеба не очень счастливое лицо.
+      -
+        - 1. Зина высокого роста.
+        - 2. У Феди хитрый взгляд.
+        - 3. У Гены крупный нос.
+        - 4. У Лиды круглое лицо.
+        - 5. У Аллы густые волосы.    
