@@ -403,12 +403,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
                     add_answer(answer_to_show, answer_key, create_input());
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
-                    // || (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount)
+                    // console.log(exercise_id, i)
                     
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
                     // console.log(answer_to_show)
                     add_answer(answer_to_show);
-                } else {
+                } else if (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount) {
                     let answer_to_show = data[exercise_id]["answer_to_show"]
                     // console.log(answer_to_show)
                     add_answer(answer_to_show);

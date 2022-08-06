@@ -34,3 +34,64 @@
   answer_key: ~
   difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
   table: ~
+2:
+  lesson_id: 9
+  ex_number: 2
+  title: Заполните пропуски. Используйте конструкции ^Cl, а NP-Nom как думать-Prs?@ и ^а NP-Nom не думать-Prs, что Cl?@
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense).<br>
+                На месте NP-Nom часто бывает местоимение (ты, вы, он, она и др.).<br>
+                Обратите внимание на разницу в значении этих конструкций (см. таблицу).
+  exercise_type: text_input
+  title_eng: Fill in the blanks. Use the construction ^Cl, а NP-Nom как думать-Prs?@ ‘..., what do you think?’ and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
+              In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), and Prs stands for the present tense of the verb (Prs= present tense). In the slot NP-Nom we can use a pronoun (for example, ты, вы, он, она, etc.) instead of a noun. Note the difference in meaning between the two constructions (see the table below).
+  title_nor: Fyll ut de tomme feltene. Bruk konstruksjonen ^Cl, а NP-Nom как думать-Prs?@ ‘..., hva tror du?’ og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
+              I disse konstruksjonene betyr Cl en hel setning (Cl=setning), NP-Nom står for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens). Ved plassen NP-Nom er det mulig å bruke pronomen i stedet for substantiv (for eksempel, ты, вы, он, она, etc.). Legg merke til betydningsforskjellen mellom de to konstruksjonene (se tabellen nedenfor).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1.______________эти брюки тебе уже малы? Давай купим тебе новые брюки.
+    task2:
+      text: 2. Думаю, нам лучше не ехать на этом автобусе, а подождать следующий,______________? 
+    task3:
+      text: 3. Почему ты не сказал мне о том, что собираешься прийти в гости?______________я могу быть не дома?
+    task4:
+      text: 4. Я хочу покрасить волосы в розовый цвет. По-моему, мне пойдёт,______________?
+    task5:
+      text: 5. Почему ты хочешь быть похожей на Адель?______________твоя собственная внешность намного интереснее?
+    task6:
+      text: 6. Я так волнуюсь из-за экзамена. Не уверен, что я сдам его,______________?
+  answer_to_show:
+    answer1: А ты не думаешь, что эти брюки тебе уже малы?
+    answer2: Думаю, нам лучше не ехать на этом автобусе, а подождать следующий, а ты как думаешь?
+    answer3: А ты не думаешь, что я могу быть не дома?
+    answer4: По-моему, мне пойдёт, а ты как думаешь?
+    answer5: А ты не думаешь, что твоя собственная внешность намного интереснее?
+    answer6: Не уверен, что я сдам его, а ты как думаешь?
+  answer_key:
+    answer1: А ты не думаешь, что
+    answer2: а ты как думаешь
+    answer3: А ты не думаешь, что
+    answer4: а ты как думаешь
+    answer5: А ты не думаешь, что
+    answer6: а ты как думаешь
+  difficult_words: ~
+  table:
+    row1:
+      - <b>Cl, а NP-Nom ^как думать@-Prs?</b><br><br>
+
+        Мне кажется, ему не идёт этот костюм, ^а ты как думаешь?@
+      - <b>^а@ NP-Nom ^не думать@-Prs, что Cl?</b><br><br>
+
+        ^А ты не думаешь, что@ это слишком дорого?
+    row2:
+      - Спрашиваем мнение собеседника
+      - Формально спрашиваем мнение, а на самом деле хотим привести дополнительный аргумент. Слово не не передаёт отрицания!
+    row3:
+      - We ask for our interlocutor’s opinion
+      - We formally ask for an opinion, but in fact we want to give an additional argument. The word не ‘not’ does not convey negation!
+    row4:
+      - Når vi spør etter samtalepartnerens mening
+      - Formelt sett spør vi etter samtalepartnerens mening, men egentlig ønsker vi å underbygge vår eget resonnement med ytterligere et argument. Ordet не ‘ikke’ er ikke nektende!
