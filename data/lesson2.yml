@@ -28,7 +28,7 @@
 2:
   lesson_id: 2
   ex_number: 2
-  title: Составьте текст, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в- четвёртых...@ .
+  title: Составьте текст, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
   exercise_type: ~
   title_eng: Compose a text, using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the slot XP/Cl we can place a phrase or an entire sentence.
