@@ -417,6 +417,13 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         } else {
             task.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
             task.innerHTML = annotate(data[exercise_id]["task"]);
+
+            if (data[exercise_id]["difficult_words"] != null) {
+                let d_word = document.createElement("p");
+                d_word.innerHTML = data[exercise_id]["difficult_words"];
+                task.appendChild(d_word);
+            }
+
             if (data[exercise_id]["answer_to_show"] != null) {
                 let answer_to_show = data[exercise_id]["answer_to_show"]
                 if (data[exercise_id]["exercise_type"] == "text_input") {
@@ -430,17 +437,29 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         all_exercise.appendChild(task)
         main_content.appendChild(all_exercise);
         // main_content.appendChild(task);
-    } else if (data[exercise_id]["answer_to_show"] != null) {
-        let answer_to_show = data[exercise_id]["answer_to_show"]
-        if (data[exercise_id]["exercise_type"] == "text_input") {
-            let answer_key = data[exercise_id]["answer_key"]
-            add_answer(answer_to_show, answer_key, create_input());
-        } else {
-            add_answer(answer_to_show);
+    } else {
+        console.log(exercise_id)
+        if (data[exercise_id]["difficult_words"] != null) {
+            let d_word = document.createElement("p");
+            d_word.innerHTML = data[exercise_id]["difficult_words"];
+            task.appendChild(d_word);
+        }
+        if (data[exercise_id]["answer_to_show"] != null) {
+            let answer_to_show = data[exercise_id]["answer_to_show"]
+            if (data[exercise_id]["exercise_type"] == "text_input") {
+                let answer_key = data[exercise_id]["answer_key"]
+                add_answer(answer_to_show, answer_key, create_input());
+            } else {
+                add_answer(answer_to_show);
+            }
+            
         }
         all_exercise.appendChild(task)
         main_content.appendChild(all_exercise);
     }
+    
+    
+    
     
     tree.appendChild(main_content)
 }

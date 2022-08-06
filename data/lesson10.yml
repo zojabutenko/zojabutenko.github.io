@@ -1,0 +1,18 @@
+1:
+  lesson_id: 10
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: У меня, ^мягко говоря,@ тяжёлый характер. ^На первый взгляд,@ я серьёзный и трудолюбивый, но ^на самом деле@ я очень требователен* к людям. ^Вряд ли@ моим коллегам нравится, что я всё время критикую их за ошибки. ^Не факт,@ что они сильно расстраиваются* из-за этого, но ^грубо говоря,@ критика — это не лучший способ найти друзей на работе.
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: "*требователен к людям — English: demanding of other people; Norwegian: krevende til folk (eller «krever mye av andre mennesker», altså et menneske som har høye forventninger til kolleger og andre)<br>
+                    *расстраиваться — English: be upset; Norwegian: å bli opprørt"
+  table: ~

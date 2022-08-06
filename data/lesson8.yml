@@ -432,12 +432,12 @@
   task: ~
   answer_to_show: ~
   answer_key: ~
-  difficult_words: "говядина — English: beef; Norwegian: storfekjøtt<br>
-                    свёкла — English: beetroot; Norwegian: rødbete<br>
-                    капуста — English: cabbage; Norwegian: kål<br>
-                    подсолнечное масло — English: sunflower oil; Norwegian: solsikkeolje<br>
-                    чеснок — English: garlic; Norwegian: hvitløk<br>
-                    лавровый лист — English: bay leaf; Norwegian: laurbærblad"
+  difficult_words: "*говядина — English: beef; Norwegian: storfekjøtt<br>
+                    *свёкла — English: beetroot; Norwegian: rødbete<br>
+                    *капуста — English: cabbage; Norwegian: kål<br>
+                    *подсолнечное масло — English: sunflower oil; Norwegian: solsikkeolje<br>
+                    *чеснок — English: garlic; Norwegian: hvitløk<br>
+                    *лавровый лист — English: bay leaf; Norwegian: laurbærblad"
   table:
     vertical_align: +
     horizontal_align: +
