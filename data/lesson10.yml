@@ -178,15 +178,15 @@
 6:
   lesson_id: 10
   ex_number: 6
-  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию грубо говоря, Cl.
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^грубо говоря, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
-  title_eng: Connect the sentences by choosing a matching continuation. Use the construction грубо говоря, Cl meaning ‘Roughly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen грубо говоря, Cl som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^грубо говоря, Cl@ meaning ‘Roughly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, Cl@ som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
   example: "Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
             -><br>
-            Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. Грубо говоря, он очень трусливый."
+            Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. ^Грубо говоря,@ он очень трусливый."
   model: ~
   image: ~
   task: ~
@@ -206,3 +206,50 @@
     row4:
       - 4. Нина никогда не помогает нам делать уборку или готовить ужин.
       - г. Она очень ленивая.
+7:
+  lesson_id: 10
+  ex_number: 7
+  title: Проанализируйте схему. Чем отличаются конструкции (на)вряд ли XP/Cl и Не факт, что Cl?
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Analyze the diagram below. How are the two constructions (на)вряд ли XP/Cl meaning ‘it is unlikely that ...’ and Не факт, что Cl meaning ‘it is not necessarily the case that ...’ different? We can locate a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Analyser diagrammet nedenfor. På hvilken måte er konstruksjonene (на)вряд ли XP/Cl ‘neppe ...’ og Не факт, что Cl ‘det er ikke sikkert at ...’ forskjellige? Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - ^(на)вряд ли XP/Cl@
+      - ^Не факт, что Cl@
+    row1:
+      - Вряд ли он придёт.<br>
+        English<br>
+        ‘It is unlikely that he will come.’<br>
+        = I think he is not coming.<br>
+        Norwegian<br>
+        ‘Det er usannsynlig at han kommer’.<br>
+        = Jeg tror ikke at han kommer.'
+      - Не факт, что он придёт.<br>
+        English<br>
+        ‘It is not necessarily the case that he will come.’<br>
+        = I do not know if he is not coming.<br>
+        Norwegian<br>
+        ‘Det er ikke sikkert han kommer’<br>
+        = Jeg vet ikke om han kommer.
+    row2:
+      - Говорящий сомневается в том, что произойдет некоторое событие
+      - Говорящий сомневается в адекватности некоторой оценки или информации.<br>
+        Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.
+    row3:
+      - The speaker doubts that an event will take place.
+      - The speaker has doubts about the adequacy of some assessment or information.<br>
+        This construction often conveys the speaker’s skepticism based on their knowledge of the situation.
+    row4:
+      - Taleren tviler på om en gitt hendelse vil inntreffe.
+      - Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
+        Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
