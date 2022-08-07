@@ -23,3 +23,50 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+2:
+  lesson_id: 11
+  ex_number: 2
+  title: Вы владелец модного бренда и получаете престижную награду за свою работу. На церемонии награждения вы произносите речь, в конце которой используете конструкцию ^в заключение Cl@.
+  instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
+  exercise_type: ~
+  title_eng: You are the owner of a fashion brand, and you receive a prestigious award for your work. At the awards ceremony, you give a speech. At the end of this speech, you use the construction ^в заключение Cl@ meaning ‘In conclusion / Lastly / Finally, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence). Build sentences from the parts given in the table.
+  title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen Cl fylles med en hel setning (Cl=setning). Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
+  comment: ~
+  example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
+            ^В заключение@, мы продолжим радовать вас нашими платьями.
+  model: ~
+  image: ~
+  task: "<b>Профессор</b>: ^Итак,@ мы с вами обсудили женскую моду начала XX века. ^В заключение@ хочу добавить, что в этой время обувь также становится очень важна. Её делают из разных материалов: кожи, шёлка, атласа ^и так далее@. Модные в это время туфли, сапожки ^и тому подобное@ вызывают восхищение.<br>
+
+        <b>Юля</b>: Простите, а можно задать вопрос?<br>
+
+        <b>Профессор</b>: Да, конечно!<br>
+
+        <b>Юля</b>: Мы сейчас говорим об обуви, которую носили аристократы. А в чём ходили простые люди? ^Скажем,@ рабочие.<br>
+
+        <b>Профессор</b>: Это отличный вопрос! Простые люди, ^в частности@ рабочие и городские жители, обычно носили грубые туфли и сапоги из кожи. Этим людям нужно было много ходить, поэтому они выбирали удобную обувь на небольшом каблуке."
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    row1:
+      - В заключение
+      -
+        - хочу добавить, что	
+        - хочется подчеркнуть, что
+        - мне бы хотелось сказать, что
+        - можно сказать, что
+        - важно упомянуть, что
+        - , мы гордимся этой наградой и благодарим всех за поддержку нашего бренда!
+      -
+        - теперь мы будем производить ещё и обувь!
+        - эта награда очень важна для нашего бренда.
+        - мы продолжим радовать вас нашими платьями.
+        - эта награда  — результат отличной работы всех наших сотрудников.
+        - наш бренд молодой и эта награда  — только начало большого пути.
+
+
+
+
+
+        
