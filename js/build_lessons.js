@@ -365,7 +365,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (var i = 1; i <= subtasks_amount; i++) {
                 var subtask = document.createElement("div")
-                subtask.setAttribute("class", "shadow-sm p-2 mb-3 rounded")
+                subtask.setAttribute("class", "shadow p-2 mb-3 rounded")
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
                     subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
 
@@ -420,7 +420,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
             };
         } else {
-            task.setAttribute("class", "shadow-sm p-2 mb-3 bg-body rounded")
+            task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
             task.innerHTML = annotate(data[exercise_id]["task"]);
 
             if (data[exercise_id]["difficult_words"] != null) {
