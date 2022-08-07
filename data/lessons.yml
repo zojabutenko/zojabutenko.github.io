@@ -139,7 +139,7 @@
       - Cl = clause, sentence (предложение)
   2:
     lesson_id: 5
-    lesson_name: Урок 4. Поход к врачу
+    subpart_name: Урок 4. Поход к врачу
     lesson_name_eng: Going to the doctor
     lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%204.%20Download.pdf
     construction_table_rows:
@@ -166,7 +166,7 @@
       - Cl = clause, sentence (предложение)
   3:
     lesson_id: 5
-    lesson_name: Урок 4. Поход к врачу
+    subpart_name: Урок 4. Поход к врачу
     lesson_name_eng: Going to the doctor
     lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%204.%20Download.pdf
     construction_table_rows:
