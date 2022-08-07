@@ -36,19 +36,12 @@
             ^В заключение@, мы продолжим радовать вас нашими платьями.
   model: ~
   image: ~
-  task: "<b>Профессор</b>: ^Итак,@ мы с вами обсудили женскую моду начала XX века. ^В заключение@ хочу добавить, что в этой время обувь также становится очень важна. Её делают из разных материалов: кожи, шёлка, атласа ^и так далее@. Модные в это время туфли, сапожки ^и тому подобное@ вызывают восхищение.<br>
-
-        <b>Юля</b>: Простите, а можно задать вопрос?<br>
-
-        <b>Профессор</b>: Да, конечно!<br>
-
-        <b>Юля</b>: Мы сейчас говорим об обуви, которую носили аристократы. А в чём ходили простые люди? ^Скажем,@ рабочие.<br>
-
-        <b>Профессор</b>: Это отличный вопрос! Простые люди, ^в частности@ рабочие и городские жители, обычно носили грубые туфли и сапоги из кожи. Этим людям нужно было много ходить, поэтому они выбирали удобную обувь на небольшом каблуке."
+  task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
   table:
+    vertical_align: +
     row1:
       - В заключение
       -
@@ -81,14 +74,20 @@
   task:
     task1:
       image:
-        image1: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
-        image2: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
-        image3: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
+        image3:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
     task2:
       image:
-        image1: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
-        image2: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
-        image3: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
+        image3:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
   answer_to_show:
     answer1: ^Итак,@ в этом сезоне женщины будут носить короткие светлые брюки (бежевые и белые).<br>
               ^Итак,@ в этом сезоне будут в моде джинсовые рубашки и белые кроссовки.<br>
