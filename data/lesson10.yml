@@ -445,3 +445,112 @@
         - лень
         - медлительность
         - глупость
+11:
+  lesson_id : 10
+  ex_number: 11
+  title: "Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:<br>
+          — ^на первый взгляд, Cl@<br>
+          — ^на самом деле, Cl@<br>
+          — ^Не факт, что Cl@<br>
+          — ^(на)вряд ли XP/Cl@<br>
+          — ^мягко говоря, Cl@<br>
+          — ^грубо говоря, Cl@"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Discuss with your interlocutor how you imagine the ideal a) boss, b) subordinate, c) friend, d) partner, e) parent, f) classmate. Use the constructions from the list.
+  title_nor: Diskuter med din samtalepartner om hvordan den perfekte a) sjefen, b) ansatte c) vennen, d) partneren, e) forelderen, f) klassekameraten bør være. Bruk konstruksjonene i listen.
+  comment: "Формат задания: в парах. = Task format: in pairs"
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+12:
+  lesson_id : 10
+  ex_number: 12
+  title: "Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:<br>
+          — ^на первый взгляд, Cl@<br>
+          — ^на самом деле, Cl@<br>
+          — ^Не факт, что Cl@<br>
+          — ^(на)вряд ли XP/Cl@<br>
+          — ^мягко говоря, Cl@<br>
+          — ^грубо говоря, Cl@"
+  instructions: ~
+  exercise_type: ~
+  title_eng: "You and your friend were supposed to prepare a project, but did not have time to finish it before the deadline. Discuss with your friend what to do next: what is the best way to tell the professor that your project is not ready? How will the professor react: will they punish you or let you turn in the project later? Use the constructions from the list."
+  title_nor: "Du og din venn skulle forberede et prosjekt, men dere hadde ikke tid å levere før fristen. Diskuter med din venn hva dere skal gjøre videre: hva er den beste måten å fortelle underviseren at prosjektet ikke er ferdig? Hvordan vil underviseren reagere: straffe dere, eller la dere levere in prosjektet senere? Bruk konstruksjonene i listen."
+  comment: "Формат задания: в парах. = Task format: in pairs"
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+13:
+  lesson_id : 10
+  ex_number: 13
+  title: "Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:<br>
+          — ^на первый взгляд, Cl@<br>
+          — ^на самом деле, Cl@<br>
+          — ^Не факт, что Cl@<br>
+          — ^(на)вряд ли XP/Cl@<br>
+          — ^мягко говоря, Cl@<br>
+          — ^грубо говоря, Cl@"
+  instructions: ~
+  exercise_type: ~
+  title_eng: You and your roommate used another roommate’s favorite mug and accidentally broke it. What should you do? Discuss how your roommate will react and what you need to do so that they do not get offended. Use the constructions from the list.
+  title_nor: Du og romkameraten din brukte en annen romkamerat sitt yndlingskrus og ødela det ved et uhell. Hva skal dere gjøre? Diskuter hvordan romkameraten vil reagere og hva dere må gjøre slik at han eller hun ikke blir fornærmet. Bruk konstruksjonene i listen.
+  comment: "Формат задания: в парах. = Task format: in pairs"
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+14:
+  lesson_id : 10
+  ex_number: 14
+  title: "Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:<br>
+          — ^на первый взгляд, Cl@<br>
+          — ^на самом деле, Cl@<br>
+          — ^Не факт, что Cl@<br>
+          — ^(на)вряд ли XP/Cl@<br>
+          — ^мягко говоря, Cl@<br>
+          — ^грубо говоря, Cl@"
+  instructions: ~
+  exercise_type: ~
+  title_eng: "You have fallen in love with a guy or girl from your group. Discuss with your best friend what is bothering you: do you have a chance? How did you meet? What to do next? Use the constructions from the list."
+  title_nor: "Du ble forelsket i en gutt eller ei jente i gruppa di. Diskuter med din bestevenn eller venninne hva som plager deg: Har du en sjanse? Hvordan møttes dere? Hva skal du gjøre nå? Bruk konstruksjonene i listen."
+  comment: "Формат задания: в парах. = Task format: in pairs"
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+15:
+  lesson_id : 10
+  ex_number: 15
+  title: Составьте короткий текст (6-10 предложений). Опишите характер одного персонажа из любимого фильма или книги. Используйте все конструкции этого урока.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Write a short text (6 to 10 sentences). Describe the personality of a character from your favorite movie or book. Use all the constructions from this lesson.
+  title_nor: Skriv en kort tekst (6 til 10 setninger). Beskriv personligheten til en av karakterene i din favorittfilm eller bok. Bruk alle konstruksjonene du har lært i denne leksjonen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
