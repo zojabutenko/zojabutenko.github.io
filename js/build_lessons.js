@@ -315,7 +315,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         ex_words.innerHTML = "Модель"
         ex_words.appendChild(document.createElement("br"))
 
-        model.innerHTML = data[exercise_id]["model"];
+        model.innerHTML = annotate(data[exercise_id]["model"]);
         all_exercise.appendChild(ex_words)
         all_exercise.appendChild(model);
         // main_content.appendChild(model);
