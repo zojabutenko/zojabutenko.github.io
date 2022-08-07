@@ -141,3 +141,33 @@
     row4:
       - Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.
       - Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.
+5:
+  lesson_id: 10
+  ex_number: 5
+  title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
+  exercise_type: ~
+  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, Cl@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence). The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
+  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
+  comment: ~
+  example: Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
+          -> Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
+  model: ~
+  image: ~
+  task:
+    task1: Миша ведёт себя <b>ужасно</b>! Сегодня он снова подрался с младшим братом.
+    task2: Мы <b>ненавидим</b> нашего нового соседа! Он шумит каждую ночь и оставляет мусор у нас под окнами.
+    task3: У моих друзей <b>тупая собака</b>! Она часто убегает во время прогулок.
+    task4: Я <b>в шоке</b>! Как вы могли прийти на день рождения и не принести подарок?
+  answer_to_show:
+    answer1: Миша ведёт себя, ^мягко говоря,@ плохо.
+    answer2: Мы, ^мягко говоря,@ не любим нового соседа!
+    answer3: У моих друзей, ^мягко говоря,@ глупая собака.
+    answer4: Я, ^мягко говоря,@ удивлён.
+  answer_key:
+    answer1: Миша ведёт себя, мягко говоря, плохо.
+    answer2: Мы, мягко говоря, не любим нового соседа!
+    answer3: У моих друзей, мягко говоря, глупая собака.
+    answer4: Я, мягко говоря, удивлён.
+  difficult_words: ~
+  table: ~
