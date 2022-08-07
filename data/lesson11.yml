@@ -64,9 +64,38 @@
         - мы продолжим радовать вас нашими платьями.
         - эта награда  — результат отличной работы всех наших сотрудников.
         - наш бренд молодой и эта награда  — только начало большого пути.
-
-
-
-
-
-        
+3:
+  lesson_id: 11
+  ex_number: 3
+  title: Вы стилист и ведёте блог о моде. Расскажите своим подписчикам в социальных сетях, что будут носить люди весной и летом этого года. Используйте фото ниже. Подведите итог своему рассказу, используя конструкцию ^Итак, Cl@.
+  instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
+  exercise_type: ~
+  title_eng: You are a stylist and have a fashion blog. Tell your social media followers what people will be wearing in the upcoming spring and summer seasons. Use the photo below. Summarize your story using the construction ^Итак, Cl@ meaning ‘Thus, / So, ...’. In this construction, Cl stands for the whole sentence (Cl=clause, sentence).
+  title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, Cl@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er Cl en hel setning (Cl=setning).
+  comment: ~
+  example: ^Итак,@ в этом сезоне люди будут носить блузки ярких цветов. Например, красные.<br>
+          ^Итак,@ в этом сезоне будут в моде блузки ярких цветов. Например, красные.<br>
+          ^Итак,@ в этом сезоне будет модно носить блузки ярких цветов. Например, красные.
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        image1: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
+        image2: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
+        image3: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
+    task2:
+      image:
+        image1: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
+        image2: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
+        image3: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
+  answer_to_show:
+    answer1: ^Итак,@ в этом сезоне женщины будут носить короткие светлые брюки (бежевые и белые).<br>
+              ^Итак,@ в этом сезоне будут в моде джинсовые рубашки и белые кроссовки.<br>
+              ^Итак,@ в этом сезоне будет модно носить туфли на высоких каблуках.
+    answer2: ^Итак,@ в этом сезоне мужчины будут носить длинные пиджаки с джинсами.<br>
+              ^Итак,@ в этом сезоне будут в моде синие жилетки и брюки в клеточку.<br>
+              ^Итак,@ в этом сезоне будет модно носить белые рубашки.
+  answer_key: ~
+  difficult_words: ~
+  table: ~        
