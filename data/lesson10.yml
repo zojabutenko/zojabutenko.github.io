@@ -315,3 +315,42 @@
         - работать одному (одной)
         - прыгнуть с парашютом
         - отправиться в кругосветное путешествие
+9:
+  lesson_id : 10
+  ex_number: 9
+  title: Составьте как можно больше предложений по моделям 1 и 2. Используйте конструкцию ^Не факт, что Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+              Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
+  exercise_type: ~
+  title_eng: Build as many sentences as you can by using the two patterns below. Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).<br>
+              Note that in pattern 1 we use the infinitive, whereas in pattern 2 we use the subjunction чтобы ‘in order to’ followed by a subordinate clause. In both patterns, the second sentence should contradict the first sentence.
+  title_nor: Lag så mange setninger som mulig med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Ved plassen Cl brukes en hel setning (Cl=setning).<br>
+              Legg merke til at i eksempel 1 brukes infinitiv, men i eksempel 2 brukes subjunksjonen чтобы ‘for å’ som etterfølges av en leddsetning. I begge eksemplene skal den andre setningen motsi den første setningen.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: 1. Ты предлагаешь обмануть. Но он такой честный! Не факт, что он на это согласится.<br>
+          2. Ты предлагаешь, чтобы они погуляли с нашей собакой. Но они такие ленивые. Не факт, что они согласятся.
+  model: 1. Ты предлагаешь ___INF________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.<br>
+          2. Ты предлагаешь, чтобы ___________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.
+  image: ~
+  task: добрый<br>
+        злой<br>
+        талантливый<br>
+        (не)внимательный<br>
+        легкомысленный<br>
+        ответственный<br>
+        инициативный<br>
+        (не)честный<br>
+        смелый<br>
+        храбрый<br>
+        трусливый<br>
+        хитрый<br>
+        сообразительный<br>
+        энергичный<br>
+        ленивый<br>
+        трудолюбивый<br>
+        (не)терпеливый<br>
+        верный
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
