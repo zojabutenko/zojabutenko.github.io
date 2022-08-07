@@ -116,7 +116,7 @@
   title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
   comment: ~
   example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
-            -><br>
+    &#10132;<br>
             — Я постоянно мёрзну, поэтому всегда ношу свитера, толстовки, тёплые кардиганы, шарфы ^и так далее@.<br>
             — Оля постоянно мёрзнет. Из-за этого она всё время носит свитера, толстовки, тёплые кардиганы, шарфы ^и тому подобное@.
   model: ~

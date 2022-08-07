@@ -151,7 +151,7 @@
   title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
   example: Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
-          -> Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
+    &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
   model: ~
   image: ~
   task:
@@ -185,7 +185,7 @@
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, Cl@ som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
   example: "Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
-            -><br>
+            &#10132;<br>
             Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. ^Грубо говоря,@ он очень трусливый."
   model: ~
   image: ~
