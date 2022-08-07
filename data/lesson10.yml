@@ -16,3 +16,82 @@
   difficult_words: "*требователен к людям — English: demanding of other people; Norwegian: krevende til folk (eller «krever mye av andre mennesker», altså et menneske som har høye forventninger til kolleger og andre)<br>
                     *расстраиваться — English: be upset; Norwegian: å bli opprørt"
   table: ~
+2:
+  lesson_id: 10
+  ex_number: 2
+  title: "Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
+          — ^На первый взгляд, Cl@<br>
+          — ^На самом деле Cl"@
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Describe your first impressions from meeting your classmates and teachers. Describe also how these first impressions have changed over time. Use the sentences 1 to 6, the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’ and the construction ^На самом деле Cl@ meaning ‘Actually / In reality /As a matter of fact, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Beskriv dine første inntrykk når du møtte dine klassekamerater og lærere. Beskriv også hvordan dette forandret seg over tid. Bruk setningene 1 til 6 og konstruksjonene ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’ og ^На самом деле Cl@ ‘Faktisk ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: Саша скучный. Саша спокойный.<br>
+          ^На первый взгляд,@ Саша скучный. Но ^на самом деле@ он спокойный.
+  model: ~
+  image: ~
+  task:
+    task1: 1. Катя закрытая. Катя серьёзная.
+    task2: 2. Игорь грубый. Игорь честный.
+    task3: 3. Ася легкомысленная. Ася ответственная.
+    task4: 4. Паша умный. Паша просто много говорит.
+    task5: 5. Ирина Петровна строгая. Ирина Петровна справедливая.
+    task6: 6. Николай Андреевич несерьёзный. Николай Андреевич очень весёлый.
+  answer_to_show:
+    answer1: ^На первый взгляд,@ Катя закрытая. Но ^на самом деле@ она серьёзная.
+    answer2: ^На первый взгляд,@ Игорь грубый. Но ^на самом деле@ он честный.
+    answer3: ^На первый взгляд,@ Ася легкомысленная. Но ^на самом деле@ она ответственная.
+    answer4: ^На первый взгляд,@ Паша умный. Но ^на самом деле@ он просто много говорит.
+    answer5: ^На первый взгляд,@ Ирина Петровна строгая. ^Но на самом@ деле она справедливая.
+    answer6: ^На первый взгляд,@ Николай Андреевич несерьёзный. ^Но на самом@ деле он очень весёлый.
+  answer_key:
+    answer1: На первый взгляд, Катя закрытая. Но на самом деле она серьёзная.
+    answer2: На первый взгляд, Игорь грубый. Но на самом деле он честный.
+    answer3: На первый взгляд, Ася легкомысленная. Но на самом деле она ответственная.
+    answer4: На первый взгляд, Паша умный. Но на самом деле он просто много говорит.
+    answer5: На первый взгляд, Ирина Петровна строгая. Но на самом деле она справедливая.
+    answer6: На первый взгляд, Николай Андреевич несерьёзный. Но на самом деле он очень весёлый.
+  difficult_words: ~
+  table:
+    header:
+      - ^На первый взгляд, Cl@
+      - ^На самом деле Cl@
+    row1:
+      - ^На первый взгляд,@ это не искусство.<br>
+        English<br>
+        ‘At first glance, this is not art.’<br>
+        Norwegian<br>
+        ‘Ved første øyekast er ikke dette kunst.’
+      - ^На самом деле@ всё не так страшно.<br>
+        English<br>
+        ‘Actually, this is not so scary.’<br>
+        Norwegian<br>
+        ‘Faktisk er ikke alt så skummelt.’
+    row2:
+      - Конструкция обозначает <b>первоначальную, часто поверхностную и субъективную оценку объекта</b> или участника. Эта оценка не вполне соответствует действительности и впоследствии может измениться.
+      - Конструкция обозначает <b>объективную оценку</b> объекта или участника или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.
+    row3:
+      - This construction denotes <b>the initial, often preliminary, and subjective assessment</b> of аn object or a participant. This assessment is not entirely true and may change later.
+      - This construction denotes <b>an objective assessment</b> of an object or a participant or communicates information that is true. Often this information is contrasted with another, less accurate information.
+    row4:
+      - Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.
+      - Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.
+3:
+  lesson_id : 10
+  ex_number: 3
+  title: Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию ^На первый взгляд, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Discuss with your interlocutor what you think of the person in the picture. What kind of personality do they have? Use the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Diskuter med din samtalepartner hva dere tenker om personen på bildet. Hvordan er han eller hun som person? Bruk konstruksjonen ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/3.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
