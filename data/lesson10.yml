@@ -272,6 +272,7 @@
   difficult_words: ~
   table:
     vertical_align: +
+    horizontal_align: +
     row1:
       - NOM
       -
@@ -301,9 +302,9 @@
         /<br>
         ^Навряд ли@
       - DAT
-      - (будет)
-        - трудно
-        - легко
+      - (будет)<br>
+          трудно<br>
+          легко
       -
         - найти работу
         - найти друзей
