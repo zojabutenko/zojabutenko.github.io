@@ -103,4 +103,35 @@
               ^Итак,@ в этом сезоне будет модно носить белые рубашки.
   answer_key: ~
   difficult_words: ~
-  table: ~        
+  table: ~
+4:
+  lesson_id: 11
+  ex_number: 4
+  title: "Составьте предложения с перечислением объектов. В конце предложения используйте конструкции:<br>
+          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
+          — ^NP, NP и тому подобное/и т. п.@"
+  instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
+  exercise_type: ~
+  title_eng: Build sentences in which you list several objects. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
+  title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  comment: ~
+  example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
+            -><br>
+            — Я постоянно мёрзну, поэтому всегда ношу свитера, толстовки, тёплые кардиганы, шарфы ^и так далее@.<br>
+            — Оля постоянно мёрзнет. Из-за этого она всё время носит свитера, толстовки, тёплые кардиганы, шарфы ^и тому подобное@.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. (Одежда тёплых цветов) (красный, оранжевый, коричневый, жёлтый)
+    task2:
+      text: 2. (Одежда в полоску) (брюки, рубашка, кеды, куртка)
+    task3:
+      text: 3. (Тема вечеринки — звёзды* на красной дорожке) (вечерние платья в пол, нарядные костюмы, туфли на каблуках)
+    task4:
+      text: 4. (Одежда для похода — практичная и удобная) (футболка, свитер, непромокаемая куртка, тёплые ботинки, шапка)
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words:
+    word3: "звёзды* — English: celebrities; Norwegian: kjendiser"
+  table:
