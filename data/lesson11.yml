@@ -142,5 +142,45 @@
   answer_key: ~
   difficult_words:
     word3: "звёзды* — English: celebrities; Norwegian: kjendiser"
-  table: 
+  table: ~
+5:
+  lesson_id: 11
+  ex_number: 5
+  title: "Составьте предложения, подобрав логичное продолжение. В конце предложения используйте конструкции:<br>
+          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
+          — ^NP, NP и тому подобное/и т. п.@"
+  instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1б, 2г, 3а, 4в
+  answer_key: 1б, 2г, 3а, 4в
+  difficult_words: ~
+  table:
+    row1:
+      -
+        - 1. Оля часто покупает себе новую обувь:
+        - 2. Мой отец любит яркую одежду:
+        - 3. Сергей хочет обновить свой гардероб:
+        - 4. Настя одевается как кинозвезда:
+      -
+        - а. купить стильные джинсы, трендовые кроссовки, несколько универсальных футболок…
+        - б. туфли, сапоги, босоножки, кеды…
+        - в. шляпа, солнечные очки, стильное платье, шёлковый шарф на шее…
+        - г. у него есть синие ботинки, зелёные носки, красный галстук, рубашки в клетку, футболка с цветочками… 
+      - 
+        - и так далее.
+        - и тому подобное.
+        
 
+
+
+		
+	
+	
+	
