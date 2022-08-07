@@ -251,7 +251,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     if (data[exercise_id]["instructions"] != null) {
         let instructions = document.createElement("h6");
-        instructions.innerHTML = data[exercise_id]["instructions"];
+        instructions.innerHTML = annotate(data[exercise_id]["instructions"]);
         instructions.setAttribute("style", "margin-top: 10px")
         task_title.appendChild(instructions);
     };
