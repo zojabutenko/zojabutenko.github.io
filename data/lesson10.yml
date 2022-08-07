@@ -209,15 +209,16 @@
 7:
   lesson_id: 10
   ex_number: 7
-  title: Проанализируйте схему. Чем отличаются конструкции (на)вряд ли XP/Cl и Не факт, что Cl?
+  title: Проанализируйте схему. Чем отличаются конструкции ^(на)вряд ли XP/Cl@ и ^Не факт, что Cl@?
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
   exercise_type: ~
-  title_eng: Analyze the diagram below. How are the two constructions (на)вряд ли XP/Cl meaning ‘it is unlikely that ...’ and Не факт, что Cl meaning ‘it is not necessarily the case that ...’ different? We can locate a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Analyser diagrammet nedenfor. På hvilken måte er konstruksjonene (на)вряд ли XP/Cl ‘neppe ...’ og Не факт, что Cl ‘det er ikke sikkert at ...’ forskjellige? Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning (Cl=setning).
+  title_eng: Analyze the diagram below. How are the two constructions ^(на)вряд ли XP/Cl@ meaning ‘it is unlikely that ...’ and ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’ different? We can locate a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Analyser diagrammet nedenfor. På hvilken måte er konstruksjonene ^(на)вряд ли XP/Cl@ ‘neppe ...’ og ^Не факт, что Cl@ ‘det er ikke sikkert at ...’ forskjellige? Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning (Cl=setning).
   comment: ~
   example: ~
   model: ~
-  image: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/7.png
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -227,14 +228,14 @@
       - ^(на)вряд ли XP/Cl@
       - ^Не факт, что Cl@
     row1:
-      - Вряд ли он придёт.<br>
+      - ^Вряд ли@ он придёт.<br>
         English<br>
         ‘It is unlikely that he will come.’<br>
         = I think he is not coming.<br>
         Norwegian<br>
         ‘Det er usannsynlig at han kommer’.<br>
         = Jeg tror ikke at han kommer.'
-      - Не факт, что он придёт.<br>
+      - ^Не факт, что@ он придёт.<br>
         English<br>
         ‘It is not necessarily the case that he will come.’<br>
         = I do not know if he is not coming.<br>
@@ -253,3 +254,63 @@
       - Taleren tviler på om en gitt hendelse vil inntreffe.
       - Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
         Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
+8:
+  lesson_id : 10
+  ex_number: 8
+  title: Составьте предложения, используя конструкцию ^(на)вряд ли XP/Cl@. Обратите внимание, что ^навряд ли@ более разговорный вариант, чем ^вряд ли@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Build sentences from the available parts. Note that ^навряд ли@ is more colloquial than ^вряд ли@. We can put a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Lag setninger ved å bruke de foreslåtte delene. Bruk konstruksjonen ^(на)вряд ли XP/Cl@ ‘neppe ...’. Legg merke til at ^навряд ли@ er mer muntlig enn ^вряд ли@. Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning.
+  comment: ~
+  example: Она такая инициативная. ^Вряд ли@ ей будет трудно найти работу.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    row1:
+      - NOM
+      -
+        - такой
+        - такая
+        - такие
+        - слишком
+      -
+        - добрый
+        - злой
+        - талантливый
+        - (не)внимательный
+        - легкомысленный
+        - ответственный
+        - инициативный
+        - (не)честный
+        - смелый
+        - храбрый
+        - трусливый
+        - хитрый
+        - сообразительный
+        - энергичный
+        - ленивый
+        - трудолюбивый
+        - (не)терпеливый
+      - ^Вряд ли@<br>
+        /<br>
+        ^Навряд ли@
+      - DAT
+      - (будет)
+        - трудно
+        - легко
+      -
+        - найти работу
+        - найти друзей
+        - (быть) в отношениях
+        - вести бизнес
+        - знакомиться с людьми
+        - работать в команде
+        - работать одному (одной)
+        - прыгнуть с парашютом
+        - отправиться в кругосветное путешествие
