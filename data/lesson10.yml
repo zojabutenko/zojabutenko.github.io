@@ -101,3 +101,43 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+4:
+  lesson_id: 10
+  ex_number: 4
+  title: Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции ^мягко говоря, Cl@ и ^грубо говоря, Cl@?
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, Cl@ ‘To put it mildly, ...’ and ^грубо говоря, Cl@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, Cl@ ‘mildt sagt, ...’ og ^грубо говоря, Cl@, Cl ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - ^мягко говоря, Cl@
+      - ^грубо говоря, Cl@
+    row1:
+      - Миша, ^мягко говоря,@ не подарок.<br>
+        English<br>
+        ‘To put it mildly, Misha is no joy to be with.’<br>
+        Norwegian<br>
+        ‘Misja er mildt sagt ikke en gave.’
+      - Разница совсем небольшая. Все видят, ^грубо говоря@ одно и то же.<br>
+        English<br>
+        ‘The difference isn’t so big. Roughly speaking, everyone sees the same thing.’<br>
+        Norwegian<br>
+        ‘Forskjellen er ganske liten. Alle ser, grovt sett, det samme.’
+    row2:
+      - Конструкция вводит некоторую <b>оценочную формулировку, которая является более нейтральной или вежливой</b>, чем могла бы быть в этой ситуации. Говорящий дает понять, что его <b>формулировка является более мягкой</b>, чем то, что он на самом деле думает. Говорящий намеренно избегает резких или грубых выражений.
+      - Конструкция вводит некоторую <b>формулировку, которая является менее точной</b>, чем могла бы быть в этой ституации. Говорящий намеренно передает <b>общую идею и избегает деталей</b>.
+    row3:
+      - This construction introduces an <b>evaluative statement that is more neutral or polite</b> than it might have been in this situation. The speaker makes it clear that the wording is milder than what they really think</b>. The speaker deliberately avoids harsh or rude expressions.
+      - This construction introduces an <b>evaluative statement</b> that is less precise than it might be in this situation. The speaker deliberately <b>conveys the general idea and avoids giving details</b>.
+    row4:
+      - Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.
+      - Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.
