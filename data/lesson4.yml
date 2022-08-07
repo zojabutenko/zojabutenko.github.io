@@ -204,101 +204,210 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 6:
   lesson_id: 4
   ex_number: 6
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: "Заполните пропуски, используя конструкции<br>
+<br>
+а. ^(Так) мало того – Cl@<br>
+б. ^ко всему прочему, Cl.@<br>
+<br>
+В некоторых случаях обе конструкции подходят."
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Fill in the blanks by using constructions from the list. Note that in some cases either of these constructions can be used. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene i listen. Legg merke til at i noen tilfeller kan begge konstruksjonene passe. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
+  task:
+    task1:
+      text: 1. Больница по выходным работает только утром, ________________, недолго.
+    task2:
+      text: 2. Больничный у нашего врача получить сложно, ________________, его долго оформляют.
+    task3:
+      text: 3. Трудно работать, когда у тебя насморк, кашель и, ________________, температура.
+    task4:
+      text: 4. Я плохо себя чувствовала всю неделю, у меня болела голова, ________________, вчера заболел мой сын.
+  answer_to_show:
+    answer1: а
+    answer2: а
+    answer3: а, б
+    answer4: а, б
+  answer_key:
+    answer1: а
+    answer2: а
+    answer3: а, б
+    answer4: а, б
   difficult_words: ~
   table: ~
 7:
   lesson_id: 4
   ex_number: 7
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Составьте предложения, соединив жалобы по модели с помощью конструкций ^(Так) мало того – Cl@ и ^ко всему прочему, Cl@.
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Build sentences from the available parts. Connect complaints by using the pattern below and the constructions ^(Так) мало того – Cl@ meaning ‘and what is more...’ and ^ко всему прочему, Cl@ meaning ‘on top of all of this ...’. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Lag setninger og uttrykk relaterte til helse og sykdom med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonene ^(Так) мало того – Cl@ ‘ikke nok med det, dessuten ...’ og ^ко всему прочему, Cl@ ‘dessuten ...’, ‘på toppen av X ...’. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
-  example: ~
-  model: ~
+  example: "болит голова + насморк + кашель<br>
+&#10132; У меня болит голова. ^Mало того,@ у меня насморк и, ^ко всему прочему,@ кашель."
+  model: У меня ______________ ^Mало того,@ ____________ ^Kо всему прочему,@ ____________
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
-  difficult_words: ~
+  task:
+    task1:
+      text: 1. высокая температура + болит всё тело + озноб*
+    task2:
+      text: 2. низкое давление* + слабость* + я упал(а) в обморок
+    task3:
+      text: 3. болит рука + болят ноги + высокое давление*
+  answer_to_show:
+    answer1: У меня высокая температура. ^Mало того,@ у меня болит всё тело, ^ко всему прочему,@ озноб.
+    answer2: У меня низкое давление. ^Mало того,@ у меня слабость, ^ко всему прочему,@ я упал в обморок.
+    answer3: У меня болит рука. ^Mало того,@ у меня болят ноги и, ^ко всему прочему,@ высокое давление.
+  answer_key:
+    answer1: У меня высокая температура. Mало того, у меня болит всё тело, ко всему прочему, озноб.
+    answer2: У меня низкое давление. Mало того, у меня слабость, ко всему прочему, я упал в обморок.
+    answer3: У меня болит рука. Mало того, у меня болят ноги и, ко всему прочему, высокое давление.
+  difficult_words:
+    word1: "*озноб — English: chills; Norwegian: frysninger"
+    word2: "*низкое давление — English: low blood pressure; Norwegian: lavt blodtrykk"
+    word3: "высокое давление — English: high blood pressure; Norwegian: høyt blodtrykk"
   table: ~
 8:
   lesson_id: 4
   ex_number: 8
-  title: ~
-  instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title: Соедините части предложений с помощью конструкции ^(да) и вообще, Cl@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Connect the phrases by means of the construction ^(да) и вообще, Cl@ meaning ‘for that matter, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Koble sammen setningene ved å bruke konstruksjonen (да) и вообще, Cl som betyr omtrent ‘generelt, ...’ eller ‘i det hele tatt, ...’ (det er vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
-  difficult_words: ~
+  task:
+    task1:
+      text: "1. ― Вам плохо? Давайте, я понесу Вашу сумку.<br>
+― Нет, спасибо! Мне уже лучше, ___________________, я вас совсем не знаю!"
+    task2:
+      text: "2. ― Тебе больше нельзя так жить и постоянно заедать* стресс шоколадом! ___________________, тебе надо найти другую работу!"
+    task3:
+      text: "3. ― Вы давно были у окулиста? Сколько вам лет?<br>
+― Я же дама, и это невежливый вопрос. ___________________, я уже не помню..."
+    task4:
+      text: "4. ― Доктор, я плохо себя чувствую. У меня болит рука, нога, нос, голова... ___________________, у меня всё болит."
+  answer_to_show:
+    answer1: "Мне уже лучше, ^и вообще,@ я вас совсем не знаю!<br>
+Мне уже лучше, ^да и вообще,@ я вас совсем не знаю!"
+    answer2: "^И вообще,@ тебе надо найти другую работу!<br>
+^Да и вообще,@ тебе надо найти другую работу!"
+    answer3: "^И вообще,@ я уже не помню...<br>
+^Да и вообще,@ я уже не помню..."
+    answer4: "^И вообще,@ у меня всё болит.<br>
+^Да и вообще,@ у меня всё болит."
+  answer_key:
+    answer1: "Мне уже лучше, ^и вообще,@ я вас совсем не знаю!"
+    answer2: "^И вообще,@ тебе надо найти другую работу!"
+    answer3: "^И вообще,@ я уже не помню.."
+    answer4: "^И вообще,@ у меня всё болит."
+  difficult_words: "*заедать стресс ― English: eat in response to stress; Norwegian: trøstespise"
   table: ~
 9:
   lesson_id: 4
   ex_number: 9
-  title: ~
+  title: Вы встретили друга. Обсудите, как ваши дела. Используйте варианты ответов, предложенные в таблице, или придумайте свои примеры. Конструкции в таблице, расположенные в таком порядке, образуют «шкалу» проблем.
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: You have met a friend. Tell your friend how you are doing. Use the answer options provided in the table or come up with your own examples. When used in the order in the table, the constructions indicate a «scale» of problems.
+  title_nor: Du har truffet en venn. Fortell din venn om hvordan du har det. Bruk svarsalternativene i tabellen, eller finn på egne eksempler. Rekken av konstruksjoner i tabellen danner en slags «skale» for å beskrive problemer.
   comment: ~
-  example: ~
+  example: "― Как у тебя дела? У меня ...<br>
+― А у тебя как дела? У меня ..."
   model: ~
   image: ~
   task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table: ~
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    header:
+      - Шкала проблем
+    row1:
+      - У меня ...
+      - Мало того, ...
+      - Ко всему прочему, ...
+      - И вообще, ...
+    row2:
+      -
+        - часто болит голова
+        - много работы
+        - скоро экзамен по русскому языку
+      -
+        - проблемы на работе
+        - много дел
+        - я недавно болел гриппом
+      -
+        - приехал друг
+        - сломалась машина
+        - нужно переезжать в другую квартиру
+      -
+        - всë плохо!
+        - всë сложно!
+        - много сюрпризов!
+        - хорошего мало, но всë будет хорошо!
 10:
   lesson_id: 4
   ex_number: 10
-  title: ~
+  title: "Заполните пропуски словами из списка:<br><ul>
+<li>^то есть@</li>
+<li>^Мало того,@</li>
+<li>^Ко всему прочему,@</li>
+<li>^Да и вообще,@</li></ul>"
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Fill in the blanks with the words from the list.
+  title_nor: Fyll ut de tomme feltene med ord fra listen.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
+  task: Я заболел гриппом. У меня болит всё тело. _________________, у меня ещё и плохо думает голова. _________________, у меня много дел, а я сплю целый день, _________________, ничего не делаю. _________________, болеть – это всегда неприятно.
+  answer_to_show: "1. Мало того, <br>
+2. Ко всему прочему, <br>
+3. то есть<br>
+4. Да и вообще,"
   answer_key: ~
   difficult_words: ~
   table: ~
 11:
   lesson_id: 4
   ex_number: 11
-  title: ~
+  title: "Вы пациент, а ваш собеседник – врач. Расскажите, что у вас болит. Используйте конструкции<br><ul>
+<li>^(Так) мало того – Cl@</li>
+<li>^ко всему прочему, Cl@</li>
+<li>^(да) и вообще, Cl@</li>
+<li>^иными/другими словами, XP/Cl@</li>
+<li>^XP/Cl, то есть XP/Cl@</li>
+<li>^XP, а именно XP@</li></ul>"
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
-  comment: ~
-  example: ~
+  title_eng: You are a patient, and your interlocutor is a doctor. Tell the doctor where in your body it hurts (where you have a problem). Use the constructions from the list.
+  title_nor: Du er pasient, din samtalepartner er lege. Fortell legen hvor det gjør vondt. Bruk konstruksjonene i listen.
+  comment: "Комментарий для преподавателя. Формат задания: в парах. После одного диалога студенты меняются ролями.<br>
+Comment for language teachers. Task format: in pairs. After one dialogue, the students switch roles."
+  example: "Врач: – На что жалуетесь?<br>
+Пациент: – У меня ..."
   model: ~
   image: ~
-  task: ~
+  task: "<b>Вопросы врача</b><br><ul>
+<li>Что у вас болит?</li>
+<li>Какие симптомы?</li>
+<li>Какая температура?</li>
+<li>Какое у вас обычно давление?</li>
+<li>Когда заболели?</li>
+<li>Лечились ли вы самостоятельно и чем?</li></ul>"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -306,46 +415,81 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 12:
   lesson_id: 4
   ex_number: 12
-  title: ~
+  title: "Заполните пропуски словами из списка:<br><ul>
+<li>^а именно@</li>
+<li>^ко всему прочему,@</li>
+<li>^мало того,@</li>
+<li>^то есть@</li>
+<li>^да и вообще,@</li>
+<li>^иными словами,@</li></ul>
+"
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Fill in the blanks with the words from the list.
+  title_nor: Fyll ut de tomme feltene med ord fra listen.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: ~
+  task: "В понедельник у меня начал болеть зуб, и _________________, поднялась температура. Я сразу же пошел к врачу, _________________ к стоматологу. Он сказал, что у меня кариес и сильное воспаление*, _________________ надо лечиться. Я не люблю ходить к стоматологам, _________________ я не люблю лечить зубы. Обычно это очень неприятно. _________________ — дорого. _________________ всегда лучше следить за гигиеной, чем потом ходить по врачам."
+  answer_to_show: "1. ^мало того@<br>
+2. ^а именно@<br>
+3. ^иными словами@ / ^то есть@ (оба варианта возможны)<br>
+4. ^то есть@<br>
+5. ^мало того@ / ^ко всему прочему,@ (оба варианта возможны)<br>
+6. ^иными словами,@ / ^да и вообще,@ (оба варианта возможны, но вариант с ^иными словами@ означает пояснение (English: clarification, rephrasing; Norwegian: omformulering), a вариант с ^да и вообще@ означает подведение итога, вывод (English: drawing a conclusion; Norwegian konklusjon)."
   answer_key: ~
-  difficult_words: ~
+  difficult_words: "*воспаление – English: painful swelling, inflammation; Norwegian: betennelse"
   table: ~
 13:
   lesson_id: 4
   ex_number: 13
-  title: ~
+  title: "Бонусное упражнение*<br>
+Закончите предложения (1-6), подобрав подходящий вариант (а-е). Используйте конструкцию ^XP, а именно XP.@"
   instructions: ~
-  exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  exercise_type: text_input
+  title_eng: Bonus exercise. Connect the phrases by choosing the matching continuation. Use the construction ^XP, а именно XP@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’.
+  title_nor: Bonusoppgave. Koble sammen setningene ved å velge en passende fortsettelse. Bruk konstruksjonen ^XP, а именно XP@ som betyr ‘..., eller mer spesifikt, ...’ eller ‘..., det vil si, ...’.
   comment: ~
   example: ~
   model: ~
   image: ~
   task: ~
-  answer_to_show: ~
-  answer_key: ~
+  answer_to_show: 1д , 2б, 3г, 4а, 5е, 6в
+  answer_key: 1д , 2б, 3г, 4а, 5е, 6в
   difficult_words: ~
-  table: ~
+  table:
+    width: ~
+    header: ~
+    horizontal_align: ~
+    vertical_align: +
+    row1:
+      - 1. На ваше здоровье влияет много факторов,
+      - а. ^а именно@ печенье, конфеты, шоколадки, газировку — эти продукты содержат много добавленного сахара!
+    row2:
+      - 2. Нутрициологи советуют измерять еду не калориями, а порциями,
+      - б. ^а именно@ объёмом еды размером с ваш кулак.
+    row3:
+      - 3. В день взрослому человеку рекомендуется 1–2 порции молочных продуктов,
+      - в. ^а именно@ ходьба, бег, плавание, желательна 3 раза в неделю.
+    row4:
+      - 4. Старайтесь не покупать домой много сладостей,
+      - г. ^а именно@ 250 миллилитров молока или 300 миллилитров кефира, 150 граммов творога или 30 граммов сыра.
+    row5:
+      - 5. Внимательно читайте список ингредиентов. Во многих продуктах,
+      - д. ^а именно@ еда, сон, физические упражнения и стресс.
+    row6:
+      - 6. Аэробная нагрузка,
+      - е. ^а именно@ в йогуртах, соусах и соках не должно быть сахара в составе.
 14:
   lesson_id: 4
   ex_number: 14
-  title: ~
+  title: "Бонусное упражнение*.<br>Обсудите с собеседником, согласны ли вы с советами из таблицы в задании 13 и следуете ли вы им."
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
-  comment: ~
+  title_eng: Bonus exercise. Discuss with your interlocutor whether you agree with the advice given in the table in exercise 13 and whether you follow this advice.
+  title_nor: Bonusoppgave. Diskuter med din samtalepartner om du er enig i rådene i tabellen til øvelse 13, og hvorvidt du vil følge dem.
+  comment: "Формат задания: в парах.<br> = Task format: in pairs."
   example: ~
   model: ~
   image: ~
@@ -357,16 +501,45 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 15:
   lesson_id: 4
   ex_number: 15
-  title: ~
+  title: "Бонусное упражнение*.<br>
+Вы администратор в поликлинике. Объясните пациенту по телефону, как подготовиться к приему у врача. Используйте памятку внизу и конструкции ^XP, а именно XP@ и ^XP/Cl, то есть XP/Cl@."
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: "Bonus exercise. You are an administrator at a clinic. Explain to a patient over the phone how to prepare for their doctor’s appointment. Use the checklist (memo) below, the construction ^XP, а именно XP@ ‘..., specifically, ...’ or ‘..., to be exact, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is, ...’. In these constructions, XP is a phrase (XP=phrase) and Cl is a whole sentence (Cl=clause, sentence)."
+  title_nor: "Bonusoppgave. Du jobber som administrator ved en klinikk. Forklar for en pasient på telefon hvordan forberede seg til legetimen. Bruk huskelisten nedenfor og konstruksjonene ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’, ‘..., det vil si, ...’ ^XP/Cl, то есть XP/Cl@ ‘..., det vil si, ...’. I disse konstruksjonene er XP en frase (XP=frase) and Cl er en hel setning (Cl=setning)."
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
+  task: "<b>Памятка</b><br> Приготовьте документы<br>
+  <ul>
+<li>Паспорт</li>
+<li>Медицинский полис</li>
+</ul>
+Опишите свои жалобы
+<ul>
+<li>Какие симптомы?</li>
+<li>Когда они начались?</li>
+<li>Было ли такое раньше?</li>
+</ul>
+Расскажите о ваших хронических заболеваниях
+<ul>
+<li>Есть ли у вас хронические заболевания?</li>
+<li>Принимаете ли вы постоянно какие-то лекарства?</li>
+</ul>
+Предупредите врача об особых состояниях
+<ul>
+<li>Аллергия</li>
+<li>Беременность</li>
+<li>Операции в прошлом</li>
+</ul>
+Задайте вопросы по итогам разговора
+<ul>
+<li>Какой диагноз поставил вам врач?</li>
+<li>Почему он выбрал такую тактику лечения?</li>
+<li>Какие лекарства он вам назначил?</li>
+</ul>
+"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -374,11 +547,11 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 16:
   lesson_id: 4
   ex_number: 16
-  title: ~
+  title: Напишите короткий рассказ о том, как вы болели. Используйте все новые конструкции этого урока.
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Write a short story about when you were sick. Use all new constructions you have learned in this lesson.
+  title_nor: Skriv en kort tekst om når du var syk. Bruk alle de nye konstruksjonene du har lært i denne leksjonen.
   comment: ~
   example: ~
   model: ~
