@@ -76,18 +76,24 @@
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
+          width: 200
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
+          width: 200
         image3:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
+          width: 200
     task2:
       image:
         image1:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
+          width: 200
         image2:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
+          width: 200
         image3:
           link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
+          width: 200
   answer_to_show:
     answer1: ^Итак,@ в этом сезоне женщины будут носить короткие светлые брюки (бежевые и белые).<br>
               ^Итак,@ в этом сезоне будут в моде джинсовые рубашки и белые кроссовки.<br>
