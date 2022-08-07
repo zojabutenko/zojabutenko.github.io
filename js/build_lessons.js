@@ -443,7 +443,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(all_exercise);
         // main_content.appendChild(task);
     } else {
-        console.log(exercise_id)
+        // console.log(exercise_id)
         if (data[exercise_id]["difficult_words"] != null) {
             let d_word = document.createElement("p");
             d_word.innerHTML = data[exercise_id]["difficult_words"];
