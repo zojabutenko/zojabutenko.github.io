@@ -146,7 +146,7 @@
   ex_number: 5
   title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, Cl@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence). The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
   title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
@@ -175,3 +175,34 @@
     answer4: Я, мягко говоря, удивлён.
   difficult_words: ~
   table: ~
+6:
+  lesson_id: 10
+  ex_number: 6
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию грубо говоря, Cl.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the sentences by choosing a matching continuation. Use the construction грубо говоря, Cl meaning ‘Roughly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen грубо говоря, Cl som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: "Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
+            -><br>
+            Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. Грубо говоря, он очень трусливый."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3б, 4г
+  answer_key: 1в, 2а, 3б, 4г
+  difficult_words: ~
+  table:
+    row1:
+      - 1. Игорь всегда готовится к семинарам, делает все домашние задания и ходит на все лекции.
+      - а. Она ужасно неорганизованная.
+    row2:
+      - 2. Аня часто теряет ключи, забывает вещи в гостях и всегда опаздывает.
+      - б. Он самый весёлый человек в группе.
+    row3:
+      - 3. Дима всё время шутит и рассказывает смешные истории.
+      - в. Он идеальный студент.
+    row4:
+      - 4. Нина никогда не помогает нам делать уборку или готовить ужин.
+      - г. Она очень ленивая.
