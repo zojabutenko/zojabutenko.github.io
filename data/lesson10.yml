@@ -21,7 +21,7 @@
   ex_number: 2
   title: "Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
           — ^На первый взгляд, Cl@<br>
-          — ^На самом деле Cl"@
+          — ^На самом деле Cl@"
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
   title_eng: Describe your first impressions from meeting your classmates and teachers. Describe also how these first impressions have changed over time. Use the sentences 1 to 6, the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’ and the construction ^На самом деле Cl@ meaning ‘Actually / In reality /As a matter of fact, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
