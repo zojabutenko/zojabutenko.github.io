@@ -311,14 +311,19 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["model"] != null) {
         let model = document.createElement("div");
         model.setAttribute("style", "margin-bottom: 20px")
+        let ex_words = document.createElement("b")
+        ex_words.innerHTML = "Модель"
+        ex_words.appendChild(document.createElement("br"))
+
         model.innerHTML = data[exercise_id]["model"];
+        all_exercise.appendChild(ex_words)
         all_exercise.appendChild(model);
         // main_content.appendChild(model);
     }
 
     if (data[exercise_id]["example"] != null) {
         let example = document.createElement("div")
-        example.setAttribute("style", "margin-bottom: 10px")
+        example.setAttribute("style", "margin-bottom: 20px")
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
@@ -326,7 +331,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         example.innerHTML = annotate(data[exercise_id]["example"])
         all_exercise.appendChild(ex_words)
         all_exercise.appendChild(example)
-        all_exercise.appendChild(document.createElement("br"))
+        // all_exercise.appendChild(document.createElement("br"))
         // main_content.appendChild(ex_words)
         // main_content.appendChild(example)
     }

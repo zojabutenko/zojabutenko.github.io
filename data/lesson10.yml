@@ -353,4 +353,95 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
+  table: ~
+10:
+  lesson_id : 10
+  ex_number: 10
+  title: Бонусное упражнение*.<br>
+          Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию ^Не факт, что Cl@. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию ^(на)вряд ли XP/Cl@. Объясните свою позицию.
+  instructions: В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Bonus exercise.<br>
+              The same personal qualities can be favorable or unfavorable in different contexts and for different purposes. Discuss what traditionally negative personal qualities can be beneficial and what traditionally positive qualities can be harmful (see the table). Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. Some personal qualities, however, are rather unambiguously good or bad. Name them by using the construction ^(на)вряд ли XP/Cl@ meaning ‘It’s unlikely that ... ’ and explain your opinion. In these constructions, XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
+  title_nor: Bonusoppgave.<br>
+              De samme personlige egenskapene kan være fordelaktige i noen situasjoner, og ufordelaktige i andre. Diskuter hvilke tradisjonelt negative personlige egenskaper kan være nyttige, og hvilke tradisjonelt positive personlige egenskaper kan være skadelige (se tabell). Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Noen personlige egenskaper er imidlertid mer eller mindre entydig positive eller negative. Navngi dem ved å bruke konstruksjonen ^(на)вряд ли XP/Cl@ ‘neppe ... ’ og uttrykk din mening. I disse konstruksjonene står XP for en frase, mens Cl er en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: ^Не факт, что@ эгоизм — это плохое качество. В карьере эгоизм даже помогает.<br>
+          ^Навряд ли@ злость может быть хорошим качеством. Она не приносит ничего хорошего человеку и окружающим.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
   table:
+    header:
+      - Какой человек по характеру	
+      - Качество характера
+    row1:
+      -
+        - Добрый
+        - Ответственный
+        - Серьёзный
+        - Честный
+        - Справедливый
+        - Смелый
+        - Строгий
+        - Требовательный
+        - Энергичный
+        - Трудолюбивый
+        - Умный
+        - Весёлый
+        - Бескомпромиссный
+        - Принципиальный
+        - Педантичный
+        - Целеустремлённый
+        - Любопытный
+        - Преданный
+        - Верный
+        - Злой
+        - Легкомысленный
+        - Лживый
+        - Хитрый
+        - Коварный
+        - Трусливый
+        - Жёсткий
+        - Суровый
+        - Жестокий
+        - Безынициативный
+        - Ленивый
+        - Медлительный
+        - Глупый
+      -
+        - доброта
+	      - ответственность
+	      - серьёзность
+	      - честность
+	      - любовь к справедливости
+	      - смелость
+	      - строгость
+	      - требовательность
+	      - энергичность
+	      - трудолюбие
+	      - ум
+	      - весёлость
+	      - бескомпромиссность
+	      - принципиальность
+	      - педантичность
+	      - целеустремлённость
+	      - любопытность
+	      - преданность
+	      - верность
+	      - злость
+	      - легкомысленность
+	      - лживость
+	      - хитрость
+	      - коварство
+	      - трусость
+	      - жёсткость
+	      - суровость
+	      - жестокость
+	      - безынициативность
+	      - лень
+	      - медлительность
+	      - глупость
