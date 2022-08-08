@@ -562,3 +562,23 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+15:
+  lesson_id : 11
+  ex_number: 15
+  title: Бонусное упражнение* Помогите выбрать подходящую одежду вашему другу или подруге.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Bonus exercise*. Help your friend choose the right clothes.
+  title_nor: Bonusoppgave*. Hjelp en venn å velge riktige klær.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "<b>Люба</b>: собеседование, помощник юриста<br>
+          <b>Вика</b>: экскурсия по храмам Москвы<br>
+          <b>Миша</b>: поход в горы<br>
+          <b>Захар</b>: свадьба подруги, свидетель"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
