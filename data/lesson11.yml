@@ -502,7 +502,7 @@
   title_eng: You are a stylist. Help a client to pick out their clothes. What color type does your client have? Write a short text for your client with your advice. Use the information on color types provided in exercise 13 and the constructions from the list.
   title_nor: Du jobber som stylist. Hjelp din klient å velge klær. Hvilken fargetype har din klient? Skriv en kort tekst som gir råd til din klient. Bruk informasjonen om fargetyper i oppgave 13 og konstruksjonene i listen.
   comment: ~
-example: ~
+  example: ~
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/13.jpg
