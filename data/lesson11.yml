@@ -506,6 +506,7 @@
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/13.jpg
+    width: 600
   task: "Цветотип — это цветовой тип внешности, он есть у каждого. Считается, что существует четыре цветотипа: весна, лето, осень и зима (1 __________________
         , у каждого времени года есть ещё более подробная классификация: 2 __________________
         , цветотип весна может быть тёплым, ярким или светлым). Определить ваше «время года» можно по цвету волос, кожи, глаз, губ 3 __________________
@@ -541,19 +542,23 @@
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_1.jpg
+    width: 400
   task:
     task1:
       text: 1. Инна, 29 лет
       image:
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_2.jpg
+        width: 250
     task2:
       text: 2. Олег, 29 лет
       image:
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_3.jpg
+        width: 250
     task3:
       text: 3. Костя, 31 год
       image:
         link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_4.jpg
+        width: 250
   answer_to_show: 1. на самом деле<br>
                   2. в частности / скажем<br>
                   3. и так далее<br>
