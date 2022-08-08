@@ -497,12 +497,12 @@
         — ^скажем,@<br>
         — ^в частности@<br>
         — ^на самом деле@
-  instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence). Обратите внимание на падеж в скобках (), который требуется в предложении.
+  instructions: ~
   exercise_type: ~
-  title_eng: Read the text that explains what a personal color type analysis is. Fill in the blanks with the words from the list.
-  title_nor: Les teksten om personlig fargeanalyse. Fyll ut de tomme feltene med ord fra listen.
+  title_eng: You are a stylist. Help a client to pick out their clothes. What color type does your client have? Write a short text for your client with your advice. Use the information on color types provided in exercise 13 and the constructions from the list.
+  title_nor: Du jobber som stylist. Hjelp din klient å velge klær. Hvilken fargetype har din klient? Skriv en kort tekst som gir råd til din klient. Bruk informasjonen om fargetyper i oppgave 13 og konstruksjonene i listen.
   comment: ~
-  example: ~
+example: ~
   model: ~
   image:
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/13.jpg
@@ -512,6 +512,48 @@
         . 4 __________________
         , цветотип помогает понять, какой цвет одежды больше подойдёт человеку. 5 __________________
         , людям с рыжими волосами обычно идёт одежда тёплых оттенков, а людям с чёрными волосами лучше носить вещи ярких цветов."
+  answer_to_show: 1. на самом деле<br>
+                  2. в частности / скажем<br>
+                  3. и так далее<br>
+                  4. Грубо говоря<br>
+                  4. Скажем / в частности
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+14:
+  lesson_id: 11
+  ex_number: 14
+  title: Вы стилист. Помогите клиенту подобрать одежду. Какой цветотип у вашего клиента? Напишите короткий текст для вашего клиента с вашими советами. Используйте информацию о цветотипах из упражнения 13 и конструкции<br>
+        — ^в заключение VP/Cl@<br>
+        — ^Итак, Cl@<br>
+        — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
+        — ^NP, NP и тому подобное/и т. п.@<br>
+        — ^в частности, Cl/XP@<br>
+        — ^скажем, Cl/XP@
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text that explains what a personal color type analysis is. Fill in the blanks with the words from the list.
+  title_nor: Les teksten om personlig fargeanalyse. Fyll ut de tomme feltene med ord fra listen.
+  comment: ~
+  example: "Кристина, 25 лет<br>
+            Совет стилиста:<br>
+            Цветотип Кристины — лето: у неё голубые глаза холодного оттенка и светлые волосы. Кристине подойдут неяркие холодные цвета, ^в частности,@ сиреневый, голубой, бирюзовый и ^так далее@. ^Скажем,@ она будет прекрасно выглядеть в голубой рубашке, светлых джинсах, синем пальто и бежевых ботинках. Также ей подойдёт пастельно- розовая толстовка, светло-серый свитер, бежевая куртка ^и тому подобное@. ^Итак,@ мы собрали для Кристины новый гардероб."
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_1.jpg
+  task:
+    task1:
+      text: 1. Инна, 29 лет
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_2.jpg
+    task2:
+      text: 2. Олег, 29 лет
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_3.jpg
+    task3:
+      text: 3. Костя, 31 год
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_4.jpg
   answer_to_show: 1. на самом деле<br>
                   2. в частности / скажем<br>
                   3. и так далее<br>
