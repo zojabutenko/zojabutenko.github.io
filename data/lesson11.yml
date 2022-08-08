@@ -315,3 +315,35 @@
         - шляпа
         - кепка
         - бейсболка
+8:
+  lesson_id: 11
+  ex_number: 8
+  title: Соедините предложения или части предложений, подобрав логичное продолжение.
+  instructions: Конструкция ^в частности, XP/Cl@ может присоединять целое предложение (Cl) или только часть предложения, фразу (XP).
+  exercise_type: ~
+  title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’, kan plassen XP/Cl fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: На деловую встречу лучше надеть что-то строгое, ^скажем,@ рубашку и брюки.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3г, 4б, 5д
+  answer_key: 1в, 2а, 3г, 4б, 5д
+  difficult_words: ~
+  table:
+    row1:
+      - 1. Представители многих профессий должны носить форму,
+      - а. В частности, стюардессам запрещено иметь татуировки и делать яркий маникюр.
+    row2:
+      - 2. Ограничения на внешний вид могут касаться не только одежды, но и тела человека.
+      - В частности, лучше избегать () массивных кроссовок или ярких шнурков.
+    row3:
+      - 3. Деловой стиль одежды часто требуется на официальных мероприятиях,
+      - в. в частности, пилоты и машинисты поездов.
+    row4:
+      - 4. Современный деловой образ допускает спортивную обувь, но действовать нужно аккуратно.
+      - г. в частности, на престижных конференциях или серьёзных деловых встречах.
+    row5:
+      - Шик может быть выражен аксессуарами,
+      - д. в частности, дорогим галстуком, часами или очками.
