@@ -309,7 +309,11 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
     answer2: "^И вообще,@ тебе надо найти другую работу!"
     answer3: "^И вообще,@ я уже не помню.."
     answer4: "^И вообще,@ у меня всё болит."
-  difficult_words: "*заедать стресс ― English: eat in response to stress; Norwegian: trøstespise"
+  difficult_words:
+    word1: ~
+    word2: "*заедать стресс ― English: eat in response to stress; Norwegian: trøstespise"
+    word3: ~
+    word4: ~
   table: ~
 9:
   lesson_id: 4

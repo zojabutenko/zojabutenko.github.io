@@ -107,7 +107,7 @@
               I denne konstruksjonen står NP-Nom for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens), og Cl betyr en hel setning (Cl=setning). Ved plassen NP-Nom, bruk pronomen i parentes (ты, вы, он, она, etc.).
   comment: ~
   example: Странно, что ты хочешь идти на стрижку к новому парикмахеру. ______________ (ты / результат может тебе не понравиться)?<br>
-            -><br>
+    &#10132;<br>
             ^А ты не думаешь, что@ результат может тебе не понравиться?
   model: ~
   image: ~
@@ -147,7 +147,7 @@
               I disse konstruksjonene står Adj-Nom for et adjektiv i nominativ kasus (Adj=adjektiv, Nom=nominativ kasus), Cop er kopula-verbet быть (Cop=kopula-verb), NP-Nom betyr substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), og Cl betyr en hel setning (Cl=setning). Disse to konstruksjonene har veldig lik betydning. Begge konstruksjonene betyr at taleren forventer at samtalepartneren er enig. Ordet не ‘ikke’ er ikke nektende!
   comment: ~
   example: У Алины весёлая улыбка.<br>
-            -><br>
+    &#10132;<br>
             У Алины весёлая улыбка, ^правда?@<br>
             У Алины весёлая улыбка, ^правда ведь?@<br>
             У Алины весёлая улыбка, ^не правда ли?@
