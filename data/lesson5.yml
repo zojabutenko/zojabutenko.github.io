@@ -255,10 +255,9 @@ Comment for language teachers. Task format: snowball. The text is generated join
     comment: ~
     example: ~
     model: ~
-    image: ~
-    task:
-      image:
-        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_7.png"
+    image:
+      link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_7.png"
+    task: ~
     answer_to_show: "^Что касается@ профессии, ^то@ я переводчик. ^Другими словами,@ я хорошо знаю русский язык и умею переводить разные тексты. ^К примеру,@ я могу переводить документы, ^то@ есть справки, сертификаты, дипломы. ^Кроме того,@ я хорошо перевожу статьи и блоги."
     answer_key: ~
     difficult_words: ~
