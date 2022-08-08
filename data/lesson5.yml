@@ -3,106 +3,397 @@
   1:
     lesson_id: 5
     ex_number: 1
-    title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+    title: Соедините предложения, подобрав логичное продолжение.
     instructions: ~
-    exercise_type: ~
-    title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-    title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+    exercise_type: text_input
+    title_eng: Connect the phrases by choosing a matching continuation.
+    title_nor: Koble sammen setningene ved å bruke delene som passer.
     comment: ~
     example: ~
     model: ~
     image: ~
-    task:
-      task1:
-        text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
-      task2:
-        text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
-    answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
-    answer_key: ~
+    task: ~
+    answer_to_show: 1в, 2а 3д, 4б, 5г
+    answer_key: 1в, 2а 3д, 4б, 5г
     difficult_words: ~
-    table: ~
+    table:
+      width: ~
+      vertical_align: +
+      horizontal_align: ~
+      heading: ~
+      row1:
+        - 1. Иван — студент-программист, учится на отлично!
+        - a. ^К тому же,@ нет ветра.
+      row2:
+        - 2. Сегодня очень хорошая погода.
+        - б. ^Мало того,@ она ещё и заразилась коронавирусом, когда была в больнице.
+      row3:
+        - "3. Мне очень нравится моя новая работа: интересная, приятные коллеги, недалеко от дома."
+        - в. ^Кроме того,@ Иван — спортсмен, хорошо играет в волейбол.
+      row4:
+        - 4. Маша недавно сломала руку.
+        - г. ^Ко всему прочему,@ она потеряла паспорт в метро.
+      row5:
+        - 5. У Оли сегодня был трудный день
+        - д. ^Плюс ко всему,@ высокая зарплата.
   2:
     lesson_id: 5
     ex_number: 2
-    title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+    title: "Заполните пропуски. В каждом случае выберите подходящую конструкцию из двух предложенных.<br><ol>
+<li>а. к тому же б. а именно</li>
+<li>а. Например б. Кроме того</li>
+<li>a. Мало того б. Иными словами</li>
+<li>a. В целом б. Ко всему прочему</li>
+<li>a. Таким образом б. Плюс ко всему</li></ol>"
     instructions: ~
-    exercise_type: ~
-    title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-    title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+    exercise_type: text_input
+    title_eng: Fill in the blanks. In each case, choose one appropriate construction from the two available options.
+    title_nor: Fyll ut de tomme feltene. I hvert tilfelle skal du velge en av de to foreslåtte konstruksjonene. En av disse er riktig.
     comment: ~
     example: ~
     model: ~
     image: ~
-    task:
-      task1:
-        text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
-      task2:
-        text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
-    answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
-    answer_key: ~
+    task: "Летом я хочу поехать в Россию. Планирую посетить Москву и Санкт-Петербург, 1__________________ побывать в городах Золотого кольца. Давно хотел посмотреть на Красную площадь, музеи, дворцы, старинные монастыри. 2_____________, в июне в Москве будет мой друг Илья, хочу его увидеть. Илья работает врачом, у него маленькая зарплата и много стресса. 3_____________ , недавно его бросила девушка, поэтому Илья грустит. 4_____________ , у Ильи заболел кот. Думаю, Илья будет рад погулять по Москве со мной и забыть о проблемах. 5_____________ , мы можем пойти в бар, чтобы пить и веселиться."
+    answer_to_show: 1a, 2б, 3а, 4б, 5б
+    answer_key: 1a, 2б, 3а, 4б, 5б
     difficult_words: ~
     table: ~
 2:
   1:
     lesson_id: 5
     ex_number: 3
-    title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
-    instructions: ~
-    exercise_type: ~
-    title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-    title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+    title: "Заполните пропуски словами из списка<br><ul>
+<li>а - ^к примеру@</li>
+<li>б - ^например,@</li>
+<li>в - ^Так,@</li></ul>"
+    instructions: "Обратите внимание на различия в использовании конструкций. Слова ^к примеру@ и ^например@ могут быть в начале или в середине предложения, а слово ^Так@ только в начале предложения. Конструкция ^Так, Cl@ в качестве примера приводит целую ситуацию, которая описана целым предложением (Cl = sentence, clause). Конструкции ^к примеру, XP/Cl@ и ^например, XP/Cl@ могут описывать как целую ситуацию, так и элемент ситуации, поэтому в этих конструкциях слот XP/Cl заполняется фразой или целым предложением (XP=phrase, Cl = sentence, clause): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
+    exercise_type: text_input
+    title_eng: "Fill in the blanks with the words from the list. Note the differences in the use of these constructions. The words ^к примеру@ and ^например@ both meaning ‘for example, ...’ can appear either at the beginning or in the middle of a sentence, whereas the word ^Так@ can only be sentence initial. The construction ^Так, Cl@ ‘For example, ...’ presents an example that is an entire situation described by a sentence (Cl = sentence, clause). The constructions ^к примеру, XP/Cl@ and ^например, XP/Cl@ present an example that is either an entire situation or an element of a situation. Therefore, in these constructions we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
+    title_nor: "Fyll ut de tomme feltene med ord fra listen. Legg merke til hvordan konstruksjonene brukes forskjellig. Ordene ^к примеру@ og ^например@ kan plasseres i begynnelsen eller midten av setningen, mens ^Так@ kan plasseres kun i begynnelsen. Konstruksjonen ^Так, Cl@ beskriver en hel situasjon med en setning (Cl = en setning), mens ^к примеру@ og ^например@ kan brukes for å legge til både hele setninger og mindre deler av en setning. Altså er det mulig å fylle plassen XP/Cl med en frase eller en hel setning (XP=frase, Cl=setning): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
     comment: ~
     example: ~
     model: ~
     image: ~
     task:
       task1:
-        text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
+        text: "1. Медицина бывает платной и бесплатной. В России, __________________, медицина бесплатная."
       task2:
-        text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
-    answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
-    answer_key: ~
+        text: "2. Чтобы хорошо себя чувствовать, нужны разные вещи. __________________, здоровый сон."
+      task3:
+        text: "3. У всех бывают вредные привычки. __________________, я раньше много курил."
+      task4:
+        text: "4. На этой неделе Нина сидит дома. Вчера, __________________, она не пошла на работу из-за высокой температуры, а в понедельник — из-за давления."
+      task5:
+        text: "5. Мне нужен пластырь. Давай куда-нибудь зайдём! __________________, в аптеку или в магазин."
+    answer_to_show:
+      answer1: a, б
+      answer2: a, б
+      answer3: а, б, в
+      answer4: а, б
+      answer5: а, б
+    answer_key:
+      answer1: a, б
+      answer2: a, б
+      answer3: а, б, в
+      answer4: а, б
+      answer5: а, б
     difficult_words: ~
     table: ~
   2:
     lesson_id: 5
     ex_number: 4
-    title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+    title: Заполните пропуски, выбрав подходящую конструкцию из списка.
     instructions: ~
-    exercise_type: ~
-    title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-    title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+    exercise_type: text_input
+    title_eng: Fill in the blanks by choosing the appropriate construction from the list.
+    title_nor: Fyll ut de tomme feltene ved å velge riktig konstruksjon fra listen.
     comment: ~
     example: ~
     model: ~
     image: ~
     task:
       task1:
-        text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
+        text: "1. Нашей компании нужны новые сотрудники, __________ программисты и веб-дизайнеры. <br><ul>
+        <li>а. ^кроме того XP/Cl@</li> <li>б. ^в целом Cl@</li> <li>в. ^а именно, XP/Cl@</li></ul>"
       task2:
-        text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
-    answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
+        text: "2. Кристина хочет выучить какой-нибудь новый язык, __________ испанский. <br><ul>
+        <li>а. ^таким образом, Cl @</li><li>б. ^например, XP/Cl @</li><li>в. ^в-NumOrd-ых, XP/Cl@</li></ul>"
+      task3:
+        text: "3. Число людей с высшим образованием разное в разных регионах России. __________ в Москве высшее образование получили 80% жителей. <br><ul>
+        <li>а. ^к тому же XP/Cl@ </li><li>б. ^так, Cl@ </li><li>в. ^честно говоря, Cl@</li></ul>"
+      task4:
+        text: "В России многие организации* работают по субботам. __________ , банки.<br><ul>
+        <li>а. ^например, Cl/XP@</li> <li>б. ^в целом Cl@</li> <li>в. ^честно говоря, Cl@</li></ul>"
+      task5:
+        text: "5. У вас с собой есть документы? __________ , паспорт или водительские права.<br><ul>
+        <li>а. ^к примеру, Cl/XP @</li><li>б. ^кроме того XP/Cl@ </li><li>в. ^таким образом, Cl@ </li></ul>"
+    answer_to_show:
+      answer1: в
+      answer2: б
+      answer3: б
+      answer4: а
+      answer5: а
+    answer_key:
+      answer1: в
+      answer2: б
+      answer3: б
+      answer4: а
+      answer5: а
+    difficult_words:
+      word1: ~
+      word2: ~
+      word3: ~
+      word4: "*организации — English: institution, organization; Norwegian: organisasjon"
+      word5: ~
+    table: ~
+  3:
+    lesson_id: 5
+    ex_number: 5
+    title: Расскажите о вашем друге своему начальнику, чтобы он захотел взять вашего друга на работу. Расскажите не только о профессиональных, но и о личных качествах вашего друга. Используйте предложенный план.
+    instructions: ~
+    exercise_type: ~
+    title_eng: Tell your boss about your friend in order to encourage the boss to hire him. Tell the boss about both your friend’s professional and personal qualities. Use the template below.
+    title_nor: Fortell sjefen din om din venn, slik at sjefen vil ansette ham. Fortell sjefen om de profesjonelle og personlige egenskapene til din venn. Bruk de foreslåtte konstruksjonene nedenfor.
+    comment: ~
+    example: ~
+    model: ~
+    image: ~
+    task:
+      task1:
+        text: "<b>План</b><br> Мой друг _________________ — отличный кандидат на должность (Gen) ______________. ^Во-первых,@ __________________________________________________________________ . ^Кроме того,@ _________________________________________________________________ . ^К тому же,@ ___________________________________________________________________. Он(а) ^не только@ ________________________ , ^но и@ _________________________________. ^К примеру,@ __________________________________________________________________ . Он(а) ________________________ , ^иными словами@ ________________________________. ^Что касается@ _____________________ , ^то@ он(а) ____________________________________ . ^В целом,@ __________________________________________________________________________ ."
+      task2:
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_1.png"
+      task3:
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_2.png"
+      task4:
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_3.png"
+      task5:
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_4.png"
+    answer_to_show: ~
+    answer_key: ~
+    difficult_words: ~
+    table: ~
+3:
+  1:
+    lesson_id: 5
+    ex_number: 6
+    title: "Заполните пропуски словами из списка:<br><ul>
+<li>а. ^В целом@</li>
+<li>б. ^Таким образом@</li>
+<li>в. ^Как бы то ни было@</li>
+<li>г. ^Да и вообще@</li></ul>"
+    instructions: ~
+    exercise_type: text_input
+    title_eng: Fill in the blanks with the words from the list.
+    title_nor: Fyll ut de tomme feltene med ord fra listen.
+    comment: ~
+    example: ~
+    model: ~
+    image: ~
+    task:
+      task1:
+        text: 1. У Антона хорошая работа, большой дом. Недавно он купил дорогую машину. Не знаю, новую или нет. _______________ денег у него много, поэтому он может купить любую.
+      task2:
+        text: 2. Я люблю ходить к Ивановым в гости. У них дома всегда тепло и уютно. _____________ они очень гостеприимные.
+      task3:
+        text: 3. Учёные провели эксперимент и узнали, что новое лекарство от кашля намного эффективнее старого. ______________ теперь нам будет легче лечиться при коронавирусе.
+      task4:
+        text: 4. Сейчас болеют очень много людей. Власти говорят, что ______________ ситуация под контролем, но все равно нам нужно быть осторожными.
+    answer_to_show:
+      answer1: в
+      answer2: г
+      answer3: б
+      answer4: а
+    answer_key:
+      answer1: в
+      answer2: г
+      answer3: б
+      answer4: а
+    difficult_words: ~
+    table: ~
+4:
+  1:
+    lesson_id: 5
+    ex_number: 7
+    title: Составьте текст о ваших увлечениях по модели. Используйте предложенные конструкции.
+    instructions: ~
+    exercise_type: ~
+    title_eng: Generate a text about your hobbies or interests by using the set of constructions below.
+    title_nor: Lag en tekst om dine hobbys og interesser ved hjelp av konstruksjonene nedenfor.
+    comment: "Комментарий для преподавателя. Формат задания: «Снежный ком». Первый студент говорит предложение, второй студент повторяет и добавляет новое предложение, третий студент повторяет первые два предложения и добавляет одно свое и т. д. Каждый студент должен повторить весь текст, который получился до него, и добавить свое.<br>
+Comment for language teachers. Task format: snowball. The text is generated jointly by a group of students. Each student repeats what has already been said by their peers and adds a new sentence at the end. This way, the entire sequence of relevant sentences is repeated several times and helps the students to learn the template."
+    example: ~
+    model: ~
+    image: ~
+    task:
+      task1:
+        text: a.
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_5.png"
+      task2:
+        text: б.
+        image:
+          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_6.png"
+    answer_to_show:
+      answer1: "^Что касается@ спорта, ^то@ я очень люблю бегать. Почему? ^Во-первых,@ это бесплатно. ^Во-вторых,@ это хорошая кардиотренировка. ^В-третьих,@ бег улучшает настроение. ^Плюс ко всему,@ это лучшее лекарство от стресса. ^Честно говоря,@ у меня не всегда есть время, чтобы бегать. ^В целом@ у меня есть система и я бегаю три раза в неделю."
+      answer2: "^Что касается@ музыки, ^то@ мне нравится рок. ^Во-первых,@ в рок-песнях интересные философские тексты. ^Во-вторых,@ это лучшее лекарство от стресса. ^В-третьих,@ рок всегда современный. ^Кроме того,@ я слушаю русский рок и учу новые русские слова. ^Честно говоря,@ не все рок-песни красивые. ^В целом@ каждая рок-группа уникальна."
+    answer_key: ~
+    difficult_words: ~
+    table: ~
+  2:
+    lesson_id: 5
+    ex_number: 8
+    title: Составьте текст о профессии переводчика. Используйте предложенные конструкции.
+    instructions: ~
+    exercise_type: ~
+    title_eng: Generate a text about what it means to be a professional translator. Use the constructions from the template.
+    title_nor: Lag en tekst om hva det vil si å være profesjonell oversetter. Bruk de foreslåtte konstruksjonene.
+    comment: ~
+    example: ~
+    model: ~
+    image: ~
+    task:
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_7.png"
+    answer_to_show: "^Что касается@ профессии, ^то@ я переводчик. ^Другими словами,@ я хорошо знаю русский язык и умею переводить разные тексты. ^К примеру,@ я могу переводить документы, ^то@ есть справки, сертификаты, дипломы. ^Кроме того,@ я хорошо перевожу статьи и блоги."
     answer_key: ~
     difficult_words: ~
     table: ~
   3:
     lesson_id: 5
-    ex_number: 5
-    title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+    ex_number: 9
+    title: Вы продавец-консультант в магазине бытовой техники, а ваш собеседник — покупатель. Помогите покупателю выбрать товар. Прорекламируйте товар так, чтобы покупатель точно его купил. Используйте как можно больше конструкций.
     instructions: ~
     exercise_type: ~
-    title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-    title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+    title_eng: You are a sales assistant in a household appliance store, and your interlocutor is a customer. Help the customer to choose a product. Present the product in a compelling way so that the customer will be sure to purchase it. Use as many constructions as possible.
+    title_nor: Du er selger i en husholdningsmaskinbutikk, og samtalepartneren din er kunde. Hjelp kunden å velge et produkt. Reklamer for produktet slik at kunden ikke kan motstå å kjøpe det. Bruk så mange konstruksjoner som mulig.
+    comment: ~
+    example: "— Чем я могу помочь?<br>
+— Мне нужен …<br>
+...<br>
+— ^Что насчёт NP-Gen@?<br>
+— ^Что касается NP-Gen, то@ ..."
+    model: ~
+    image: ~
+    task:
+      text: "<b>Товары на выбор:</b><br><ul>
+<li>телефон</li>
+<li>телевизор</li>
+<li>наушники</li>
+<li>электрочайник</li>
+<li>умные часы</li></ul><br>
+<b>Обсудить:</b><ul>
+<li>Технические характеристики</li>
+<li>Фирма</li>
+<li>Цена</li>
+<li>Страна-производитель</li>
+<li>Гарантия</li>
+<li>Страховка, сервис</li></ul>"
+    answer_to_show: ~
+    answer_key: ~
+    difficult_words: ~
+    table: ~
+  4:
+    lesson_id: 5
+    ex_number: 10
+    title: Вы министр здравоохранения, а ваш собеседник— журналист, который берёт у вас интервью. Обсудите ситуацию с коронавирусом в вашей стране по предложенному плану.
+    instructions: ~
+    exercise_type: ~
+    title_eng: You are the Minister of Health, and your interlocutor is a journalist who is interviewing you. Discuss the situation with coronavirus in your country according to the proposed template.
+    title_nor: Du er helseminister, og din samtalepartner er en journalist som intervjuer deg. Diskuter koronasituasjonen med utgangspunkt i eksemplene.
     comment: ~
     example: ~
     model: ~
     image: ~
     task:
-      task1:
-        text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
-      task2:
-        text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
-    answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
+      text: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
+<li>^в целом@ всё хорошо</li>
+<li>^в целом@ всё плохо</li>
+<li>^в целом@ остаётся опасность для здоровья людей</li>
+<li>^в целом@ опасности больше нет</li></ul><br>
+2. — Почему Вы так считаете?<br><ul>
+<li>^во-первых,@ ...; ^во-вторых,@ ....</li>
+<li>^кроме того,@ ...</li>
+<li>^да и вообще,@ ... (в конце)</li></ul><br>
+3. — По Вашим оценкам, что будет в будущем?<br><ul>
+<li>^Kак бы то ни было,@ ...</li></ul><br>
+4. Подведите итог<br><ul>
+<li>^Tаким образом,@ ...</li></ul>"
+    answer_to_show: "^В целом,@ ситуация с коронавирусом в России остается тяжёлой. ^Во-первых,@ каждый день ковидом заражаются тысячи людей. ^Кроме того,@ многих из них отправляют в больницу. ^Да и вообще,@ теперь коронавирусом болеют не только взрослые, но и дети. ^Kак бы то ни было,@ я верю, что скоро пандемия закончится, потому что сейчас многие люди делают прививки. ^Таким образом,@ сейчас всё непросто, но мы справимся."
+    answer_key: ~
+    difficult_words: ~
+    table: ~
+  5:
+    lesson_id: 5
+    ex_number: 11
+    title: В каждой строке таблицы найдите две конструкции с похожей функцией и назовите её. Выберите функцию из списка (a-г).
+    instructions: ~
+    exercise_type: ~
+    title_eng: In each row of the table, find two constructions with a similar function and name their function. Choose the function from the list (a-г).
+    title_nor: Finn to lignende konstruksjoner i hver kolumne i tabellen og navngi funksjonene til konstruksjonene. Velg funksjon fra listen (a-г).
+    comment: ~
+    example: ~
+    model: ~
+    image: ~
+    task:
+      text: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
+б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
+в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
+г. добавить информацию (English: add information; Norwegian: legge til informasjon)"
+    answer_to_show: "1. 1, 2, г<br>
+<b>2.</b> 1, 3, б<br>
+<b>3.</b> 1, 2, в<br>
+<b>4.</b> 2, 3, а"
+    answer_key: ~
+    difficult_words: ~
+    table:
+      width: ~
+      horizontal_align: ~
+      vertical_align: ~
+      heading:
+        - " "
+        - " "
+        - " "
+        - <b>Функция</b>
+      row1:
+        - 1. кроме того XP/Cl
+        - 2. к тому же XP/Cl
+        - 3. таким образом, Cl
+        - " "
+      row2:
+        - 1. таким образом, Cl
+        - 2. в-NumOrd-ых, XP/Cl
+        - 3. в целом Cl
+        - " "
+      row3:
+        - 1. что касается NP-Gen, то Cl
+        - 2. (а/так) что насчёт XP?
+        - 3. иными/другими словами, XP/Cl
+        - " "
+      row4:
+        - 1. не только XP, но и XP
+        - 2. к примеру, Cl/XP
+        - 3. так, Cl
+        - " "
+  6:
+    lesson_id: 5
+    ex_number: 12
+    title: Ваш друг Илья недавно расстался со своей девушкой. Вы считаете, что Илье нужна новая девушка, чтобы он не грустил. Илья хочет найти её в Тиндере. Помогите ему создать аккаунт и описать себя. Напишите, почему Илья — идеальный мужчина. Используйте конструкции из разных групп.
+    instructions: ~
+    exercise_type: ~
+    title_eng: Your friend Ilya has recently split up with his girlfriend. You think that Ilya needs a new girlfriend so that he will not be sad. Ilya wants to find a new girlfriend on Tinder. Help him create an account and describe himself. Write a short text about why Ilya is the perfect man. Use constructions from different groups.
+    title_nor: Din venn Ilja har nylig slått opp med kjæresten. Du mener Ilja trenger en ny kjæreste for å ikke være lei seg. Ilja vil treffe en ny kjæreste på Tinder. Hjelp ham å lage en profil hvor han beskriver seg selv. Skriv en kort tekst om hvorfor Ilja er den perfekte mannen. Bruk konstruksjoner fra de forskjellige konstruksjonsgruppene.
+    comment: ~
+    example: ~
+    model: ~
+    image:
+      link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_8.png"
+    task: ~
+    answer_to_show: ~
     answer_key: ~
     difficult_words: ~
     table: ~
