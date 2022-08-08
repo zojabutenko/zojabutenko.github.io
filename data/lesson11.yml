@@ -177,11 +177,61 @@
       - 
         - и так далее.
         - и тому подобное.
-        
-
-
-
-		
-	
-	
-	
+6:
+  lesson_id: 11
+  ex_number: 6
+  title: Заполните пропуски в предложениях, используя конструкции ^в частности, XP/Cl@ и ^скажем, XP/Cl@. Прочитайте информацию в таблице, чтобы понять, чем похожи и чем отличаются эти конструкции.
+  instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Fill in the blanks by using the constructions ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’ and ^скажем, XP/Cl@ ‘for example /say/let us say ...’. In order to understand the differences between these constructions, see the table below. In both constructions, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’ og ^скажем, XP/Cl@ ‘for eksempel / la oss si ...’. Les tabellen nedenfor for å forstå likhetene og forskjellene mellom disse to konstruksjonene. I begge konstruksjonene kan plassen XP/Cl fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    text: Обе конструкции вводят пояснение некоторого общего утверждения с помощью конкретного частного примера. В качестве примера описывается целая ситуация или называется её элемент.<br>
+          Both constructions introduce an explanation of a general assertion by presenting a specific concrete example. The example usually describes an entire situation or names one of its elements.<br>
+          Begge konstruksjoner introduserer en nærmere forklaring på en generell påstand ved hjelp av et konkret, spesifikt eksempel. Eksempelet beskriver som regel en hel situasjon eller nevner et element av den.
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/6.jpg
+  task:
+    task1:
+      text: Синтетические материалы сегодня активно используются в производстве одежды,__________, в изготовлении купальников и тёплых курток.
+    task2:
+      text: ― Назовите более конкретную цену.__________, двести рублей вас устроит?
+    task3:
+      text: "Ему захотелось вдруг сделать что-то необыкновенное: ну,__________,покрасить волосы в синий цвет или потратить все деньги на новые кожаные ботинки."
+    task4:
+      text: Ей вручили награду за вклад в развитие киноиндустрии ―__________, за фильмы «Дьявол носит Prada» и «Мамма мия!».
+  answer_to_show:
+    answer1: в частности
+    answer2: скажем
+    answer3: скажем
+    answer4: в частности
+  answer_key:
+    answer1: в частности
+    answer2: скажем
+    answer3: скажем
+    answer4: в частности
+  difficult_words: ~
+  table:
+    header:
+      - ^в частности, XP/Cl@
+      - ^скажем, XP/Cl@
+    row1:
+      -
+        - Они занимались ремонтом техники, ^в частности@ холодильников.
+        - English ‘They worked with equipment repair, in particular refrigerators.’
+        - Norwegian ‘... for eksempel / spesifikt ...’
+      -
+        - Вариантов предлагается множество. ^Скажем,@ японская модель образования.
+        - English ‘There can be many options. Let’s take for example the Japanese model of education.’
+        - Norwegian ‘... for eksempel / la oss si ...’
+    row2:
+      -
+        - Конструкция ^в частности, XP/Cl@ часто подчёркивает принадлежность приведённого примера к некоторому множеству.
+        - This construction ^в частности, Cl/XP@ emphasizes the fact that the given example belongs to a certain set.
+        - Konstruksjonen ^в частности, Cl/XP@ fremhever det anførte eksempelets tilhørighet til en gitt mengde.
+      -
+        - Конструкция ^скажем, XP/Cl@ часто вводит пример как гипотетически возможный.
+        - The construction ^скажем, Cl/XP@ often presents an example as hypothetically possible.
+        - Konstruksjonen ^скажем, Cl/XP@ presenterer ofte eksempelet som noe hypotetisk mulig.

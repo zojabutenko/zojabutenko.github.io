@@ -76,6 +76,7 @@ function create_input() {
 }
 
 function add_image(image_data) {
+    let image_block = document.createElement("div")
     let image = document.createElement("img")
     // if (Boolean(subtask)) {
     //     var image_data = data[exercise_id]["task"][`task${i}`]["image"]
@@ -97,8 +98,14 @@ function add_image(image_data) {
     } else {
         image.setAttribute("style", "width: 800px")
     }
+    if (image_data["text"] != null) {
+        let image_text = document.createElement("div")
+        image_text.innerHTML = image_data["text"]
+        image_block.appendChild(image_text)
 
-    return image
+    }
+    image_block.appendChild(image)
+    return image_block
 }
 
 function add_answer(answer_to_show, answer_key, input) {
