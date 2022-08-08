@@ -350,7 +350,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
       width: ~
       horizontal_align: ~
       vertical_align: ~
-      heading:
+      header:
         - " "
         - " "
         - " "
