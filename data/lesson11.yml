@@ -422,6 +422,69 @@
                     3. и тому подобное<br>
                     4. Итак"
   answer_key: ~
-  difficult_words: "*уместные — English: appropriate; Norwegian:
+  difficult_words: "*уместные — English: appropriate; Norwegian: passende<br>
                     * судить «по одёжке» — English: first impressions count; judge someone by their clothes; Norwegian: dømme noen etter utseendet"
+  table: ~
+12:
+  lesson_id: 11
+  ex_number: 12
+  title: Как одевались люди в разные времена? Выберите изображение и опишите его по плану.
+  instructions: ~
+  exercise_type: ~
+  title_eng: How did people dress in different historical periods? Choose a picture and describe it according to the plan below.
+  title_nor: Hvordan kledde seg folk i forskjellige tidsperioder? Velg et bilde og beskriv det etter planen nedenfor.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: Мне больше всего нравится, как одевались люди в __________________ годы.<br>
+            ^В частности,@ я считаю, что __________________<br>
+            Ещё они выбирали __________________^и тому подобное@.<br>
+            Я сам(а) бы мог(ла) надеть такой наряд, ^скажем,@ на __________________. (бал / вечеринку / церемонию награждения и т.п.).  Но к сожалению, такую одежду больше не носят.<br>
+            ^Итак,@ моя любимая эпоха — это __________________<br>
+            ^В заключение@ хочу добавить, что __________________  / хочется сказать, что __________________
+    task2:
+      text: <b>а.</b><br>
+      — 1950-е годы<br>
+      — Приталенное платье<br>
+      — Пышная юбка<br>
+      — Широкий ремень<br>
+      — Туфли на каблуках<br>
+      — Строгий костюм
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_1.jpg
+    task3:
+      text: <b>б.</b><br>
+      — 1920-е годы<br>
+      — Женская шляпка<br>
+      — Короткие волосы<br>
+      — Блузка<br>
+      — Кардиган<br>
+      — Плиссированная юбка (юбка-плиссе) до колена<br>
+      — Туфли с узким носком на низких каблуках<br>
+      — Бусы
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_2.jpg
+    task4:
+      text: <b>в.</b><br>
+      — 1900-е годы<br>
+      — Большие женские шляпы с перьями<br>
+      — Платья в пол<br>
+      — Вышивка на одежде<br>
+      — Бусы
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_3.jpg
+    task5:
+      text: "<b>г.</b><br>
+      	— начало 1900-х годов<br>
+        — Мужской костюм- тройка: пиджак, жилет, брюки<br>
+        — У мужчин: рубашка, галстук, трость<br>
+        — У женщин: длинная юбка, платье в пол"
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_4.jpg
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
   table: ~
