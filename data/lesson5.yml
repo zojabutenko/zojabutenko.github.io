@@ -278,8 +278,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
 — ^Что касается NP-Gen, то@ ..."
     model: ~
     image: ~
-    task:
-      text: "<b>Товары на выбор:</b><br><ul>
+    task: "<b>Товары на выбор:</b><br><ul>
 <li>телефон</li>
 <li>телевизор</li>
 <li>наушники</li>
@@ -299,7 +298,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
   4:
     lesson_id: 5
     ex_number: 10
-    title: Вы министр здравоохранения, а ваш собеседник— журналист, который берёт у вас интервью. Обсудите ситуацию с коронавирусом в вашей стране по предложенному плану.
+    title: Вы министр здравоохранения, а ваш собеседник — журналист, который берёт у вас интервью. Обсудите ситуацию с коронавирусом в вашей стране по предложенному плану.
     instructions: ~
     exercise_type: ~
     title_eng: You are the Minister of Health, and your interlocutor is a journalist who is interviewing you. Discuss the situation with coronavirus in your country according to the proposed template.
@@ -308,8 +307,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task:
-      text: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
+    task: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
 <li>^в целом@ всё хорошо</li>
 <li>^в целом@ всё плохо</li>
 <li>^в целом@ остаётся опасность для здоровья людей</li>
@@ -338,8 +336,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task:
-      text: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
+    task: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
 б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
 в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
 г. добавить информацию (English: add information; Norwegian: legge til informasjon)"
