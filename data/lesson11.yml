@@ -488,3 +488,35 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+12:
+  lesson_id: 11
+  ex_number: 12
+  title: Прочитайте текст о том, что такое цветотип. Заполните пропуски, используя слова<br>
+        — ^и так далее@<br>
+        — ^грубо говоря@<br>
+        — ^скажем,@<br>
+        — ^в частности@<br>
+        — ^на самом деле@
+  instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence). Обратите внимание на падеж в скобках (), который требуется в предложении.
+  exercise_type: ~
+  title_eng: Read the text that explains what a personal color type analysis is. Fill in the blanks with the words from the list.
+  title_nor: Les teksten om personlig fargeanalyse. Fyll ut de tomme feltene med ord fra listen.
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/13.jpg
+  task: "Цветотип — это цветовой тип внешности, он есть у каждого. Считается, что существует четыре цветотипа: весна, лето, осень и зима (1 __________________
+        , у каждого времени года есть ещё более подробная классификация: 2 __________________
+        , цветотип весна может быть тёплым, ярким или светлым). Определить ваше «время года» можно по цвету волос, кожи, глаз, губ 3 __________________
+        . 4 __________________
+        , цветотип помогает понять, какой цвет одежды больше подойдёт человеку. 5 __________________
+        , людям с рыжими волосами обычно идёт одежда тёплых оттенков, а людям с чёрными волосами лучше носить вещи ярких цветов."
+  answer_to_show: 1. на самом деле<br>
+                  2. в частности / скажем<br>
+                  3. и так далее<br>
+                  4. Грубо говоря<br>
+                  4. Скажем / в частности
+  answer_key: ~
+  difficult_words: ~
+  table: ~
