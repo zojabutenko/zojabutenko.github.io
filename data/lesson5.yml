@@ -163,16 +163,16 @@
         text: "<b>План</b><br> Мой друг _________________ — отличный кандидат на должность (Gen) ______________. ^Во-первых,@ __________________________________________________________________ . ^Кроме того,@ _________________________________________________________________ . ^К тому же,@ ___________________________________________________________________. Он(а) ^не только@ ________________________ , ^но и@ _________________________________. ^К примеру,@ __________________________________________________________________ . Он(а) ________________________ , ^иными словами@ ________________________________. ^Что касается@ _____________________ , ^то@ он(а) ____________________________________ . ^В целом,@ __________________________________________________________________________ ."
       task2:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_1.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_1.png"
       task3:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_2.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_2.png"
       task4:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_3.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_3.png"
       task5:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_4.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_4.png"
     answer_to_show: ~
     answer_key: ~
     difficult_words: ~
@@ -233,11 +233,11 @@ Comment for language teachers. Task format: snowball. The text is generated join
       task1:
         text: a.
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_5.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_5.png"
       task2:
         text: б.
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_6.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_6.png"
     answer_to_show:
       answer1: "^Что касается@ спорта, ^то@ я очень люблю бегать. Почему? ^Во-первых,@ это бесплатно. ^Во-вторых,@ это хорошая кардиотренировка. ^В-третьих,@ бег улучшает настроение. ^Плюс ко всему,@ это лучшее лекарство от стресса. ^Честно говоря,@ у меня не всегда есть время, чтобы бегать. ^В целом@ у меня есть система и я бегаю три раза в неделю."
       answer2: "^Что касается@ музыки, ^то@ мне нравится рок. ^Во-первых,@ в рок-песнях интересные философские тексты. ^Во-вторых,@ это лучшее лекарство от стресса. ^В-третьих,@ рок всегда современный. ^Кроме того,@ я слушаю русский рок и учу новые русские слова. ^Честно говоря,@ не все рок-песни красивые. ^В целом@ каждая рок-группа уникальна."
@@ -256,7 +256,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_7.png"
+      link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_7.png"
     task: ~
     answer_to_show: "^Что касается@ профессии, ^то@ я переводчик. ^Другими словами,@ я хорошо знаю русский язык и умею переводить разные тексты. ^К примеру,@ я могу переводить документы, ^то@ есть справки, сертификаты, дипломы. ^Кроме того,@ я хорошо перевожу статьи и блоги."
     answer_key: ~
@@ -387,7 +387,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_8.png"
+      link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_8.png"
     task: ~
     answer_to_show: ~
     answer_key: ~
