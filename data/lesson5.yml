@@ -231,11 +231,11 @@ Comment for language teachers. Task format: snowball. The text is generated join
     image: ~
     task:
       task1:
-        text: a.
+        text: a.<br>
         image:
           link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_5.png"
       task2:
-        text: б.
+        text: б.<br>
         image:
           link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_6.png"
     answer_to_show:
