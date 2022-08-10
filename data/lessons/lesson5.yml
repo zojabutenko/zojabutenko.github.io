@@ -163,16 +163,16 @@
         text: "<b>План</b><br> Мой друг _________________ — отличный кандидат на должность (Gen) ______________. ^Во-первых,@ __________________________________________________________________ . ^Кроме того,@ _________________________________________________________________ . ^К тому же,@ ___________________________________________________________________. Он(а) ^не только@ ________________________ , ^но и@ _________________________________. ^К примеру,@ __________________________________________________________________ . Он(а) ________________________ , ^иными словами@ ________________________________. ^Что касается@ _____________________ , ^то@ он(а) ____________________________________ . ^В целом,@ __________________________________________________________________________ ."
       task2:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_1.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_1.png"
       task3:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_2.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_2.png"
       task4:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_3.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_3.png"
       task5:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_4.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_4.png"
     answer_to_show: ~
     answer_key: ~
     difficult_words: ~
@@ -231,13 +231,13 @@ Comment for language teachers. Task format: snowball. The text is generated join
     image: ~
     task:
       task1:
-        text: a.
+        text: a.<br>
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_5.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_5.png"
       task2:
-        text: б.
+        text: б.<br>
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_6.png"
+          link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_6.png"
     answer_to_show:
       answer1: "^Что касается@ спорта, ^то@ я очень люблю бегать. Почему? ^Во-первых,@ это бесплатно. ^Во-вторых,@ это хорошая кардиотренировка. ^В-третьих,@ бег улучшает настроение. ^Плюс ко всему,@ это лучшее лекарство от стресса. ^Честно говоря,@ у меня не всегда есть время, чтобы бегать. ^В целом@ у меня есть система и я бегаю три раза в неделю."
       answer2: "^Что касается@ музыки, ^то@ мне нравится рок. ^Во-первых,@ в рок-песнях интересные философские тексты. ^Во-вторых,@ это лучшее лекарство от стресса. ^В-третьих,@ рок всегда современный. ^Кроме того,@ я слушаю русский рок и учу новые русские слова. ^Честно говоря,@ не все рок-песни красивые. ^В целом@ каждая рок-группа уникальна."
@@ -255,10 +255,9 @@ Comment for language teachers. Task format: snowball. The text is generated join
     comment: ~
     example: ~
     model: ~
-    image: ~
-    task:
-      image:
-        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_7.png"
+    image:
+      link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_7.png"
+    task: ~
     answer_to_show: "^Что касается@ профессии, ^то@ я переводчик. ^Другими словами,@ я хорошо знаю русский язык и умею переводить разные тексты. ^К примеру,@ я могу переводить документы, ^то@ есть справки, сертификаты, дипломы. ^Кроме того,@ я хорошо перевожу статьи и блоги."
     answer_key: ~
     difficult_words: ~
@@ -279,8 +278,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
 — ^Что касается NP-Gen, то@ ..."
     model: ~
     image: ~
-    task:
-      text: "<b>Товары на выбор:</b><br><ul>
+    task: "<b>Товары на выбор:</b><br><ul>
 <li>телефон</li>
 <li>телевизор</li>
 <li>наушники</li>
@@ -300,7 +298,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
   4:
     lesson_id: 5
     ex_number: 10
-    title: Вы министр здравоохранения, а ваш собеседник— журналист, который берёт у вас интервью. Обсудите ситуацию с коронавирусом в вашей стране по предложенному плану.
+    title: Вы министр здравоохранения, а ваш собеседник — журналист, который берёт у вас интервью. Обсудите ситуацию с коронавирусом в вашей стране по предложенному плану.
     instructions: ~
     exercise_type: ~
     title_eng: You are the Minister of Health, and your interlocutor is a journalist who is interviewing you. Discuss the situation with coronavirus in your country according to the proposed template.
@@ -309,8 +307,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task:
-      text: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
+    task: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
 <li>^в целом@ всё хорошо</li>
 <li>^в целом@ всё плохо</li>
 <li>^в целом@ остаётся опасность для здоровья людей</li>
@@ -339,8 +336,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task:
-      text: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
+    task: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
 б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
 в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
 г. добавить информацию (English: add information; Norwegian: legge til informasjon)"
@@ -354,11 +350,11 @@ Comment for language teachers. Task format: snowball. The text is generated join
       width: ~
       horizontal_align: ~
       vertical_align: ~
-      heading:
+      header:
         - " "
         - " "
         - " "
-        - <b>Функция</b>
+        - Функция
       row1:
         - 1. кроме того XP/Cl
         - 2. к тому же XP/Cl
@@ -391,7 +387,7 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/5/5_8.png"
+      link: "https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/5/5_8.png"
     task: ~
     answer_to_show: ~
     answer_key: ~
