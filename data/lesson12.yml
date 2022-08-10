@@ -161,6 +161,7 @@
     model: ~
     image: ~
     task:
+      text: ""
       image:
         link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_3.png"
     answer_to_show: "— Ирина, привет! ^Так что насчёт@ ужина в субботу? Мы хотели приготовить что-нибудь новое. Может, утку с яблоками?<br>
