@@ -1,0 +1,603 @@
+1:
+  lesson_id: 1
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "а. Познакомьтесь! Матвей Белов – студент медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и хорошо плавает. Матвей ^не только@ учится, ^но и@ работает санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала моя тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него очень хорошее чувство юмора."
+    task2:
+      text: "б. Это Ирина. Она талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно играет на гитаре. ^Кстати говоря,@ гитару Ирине подарил отец."
+  answer_to_show: "Все эти конструкции вводят дополнительную информацию.<br> = All of these constructions introduce additional information.<br> = Alle disse konstruksjonene introduserer informasjon som supplerer noe som er sagt tidligere."
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+2:
+  lesson_id: 1
+  ex_number: 2
+  title: Переформулируйте предложения, используя конструкцию ^не только XP, но и XP@. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
+  instructions: На месте XP находится слово или фраза (XP=phrase).
+  exercise_type: text_input
+  title_eng: Rephrase each sentence by using the construction ^не только XP, но и XP@ 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
+  title_nor: Omformuler hver setning ved å bruke konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Роман хорошо играет в футбол и фотографирует.
+    task2:
+      text: б. София красиво поëт и играет на пианино.
+    task3:
+      text: в. Даниил плохо видит и носит очки.
+  answer_to_show:
+    answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
+    answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
+    answer3: "Это предложение нельзя переформулировать. Конструкция ^не только XP, но и XP@ требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие.<br> = It is not possible to rephrase this sentence. The construction ^не только XP, но и XP@ 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence.<br> = Det er ikke mulig å omformulere denne setningen. Konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
+  answer_key:
+    answer1: Роман не только хорошо играет в футбол, но и фотографирует.
+    answer2: София не только красиво поëт, но и играет на пианино.
+    answer3: нельзя переделать
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 1
+  ex_number: 3
+  title: Составьте предложения.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Build sentences from the available parts.
+  title_nor: Lag setninger ved hjelp av de forskjellige delene.
+  comment: ~
+  example: Егор любит ^не только@ играть на компьютере, ^но и@ придумывать свои игры.
+  model: ~
+  image:
+    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 1
+  ex_number: 4
+  title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте XP в конструкции ^не только XP, но и XP@.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction не только XP, но и XP 'not only... but also ...'?
+  title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen не только XP, но и XP 'ikke bare... men også ...'?
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  task: ~
+  answer_to_show: 1д, 2в, 3г, 4а, 5б
+  answer_key: 1д, 2в, 3г, 4а, 5б
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    header: ~
+    row1:
+      - 1. Я люблю не только книги про Шерлока Холмса,
+      - а. но и во всей школе!
+    row2:
+      - 2. Он был не только талантливым писателем,
+      - б. но и вкусно готовил.
+    row3:
+      - 3. Не только школьники,
+      - в. но и умным политиком.
+    row4:
+      - 4. Ксюша - самая красивая девочка не только в нашем классе,
+      - г. но и учителя выбежали на улицу играть в снежки.
+    row5:
+      - 5. Он не только отлично плавал,
+      - д. но и фильмы о нём.
+5:
+  lesson_id: 1
+  ex_number: 5
+  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них. <i><br> Иван пережил много невероятных приключений, ^а кроме того,@ он мог увлекательно рассказать о них</i>.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Мы сами выращиваем на даче овощи и фрукты. Мы собираем в лесу ягоды.
+    task2:
+      text: б. Я люблю фильмы про природу. Мне нравится фантастика.
+  answer_to_show:
+    answer1: Мы сами выращиваем на даче овощи и фрукты, ^а кроме того,@ мы собираем в лесу ягоды.
+    answer2: Я люблю фильмы про природу, ^а кроме того,@ мне нравится фантастика.
+  answer_key:
+    answer1: Мы сами выращиваем на даче овощи и фрукты, а кроме того, мы собираем в лесу ягоды.
+    answer2: Я люблю фильмы про природу, а кроме того, мне нравится фантастика.
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 1
+  ex_number: 6
+  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@. Замените союз и на слова а кроме того.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. Replace the conjunction и 'and' with the words ^а кроме того@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: Вчера я решил убраться во всем доме и выбросить мусор.<br> <i>Вчера я решил убраться во всем доме, ^а кроме того,@ выбросить мусор.</i>
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: а. Моя подруга очень умная и веселая.
+    task2:
+      text: б. Мы хотим купить новый автомобиль и продать старый.
+  answer_to_show:
+    answer1: Моя подруга очень умная, ^а кроме того,@ веселая.
+    answer2: Мы хотим купить новый автомобиль, ^а кроме того,@ продать старый.
+  answer_key:
+    answer1: Моя подруга очень умная, а кроме того, веселая.
+    answer2: Мы хотим купить новый автомобиль, а кроме того, продать старый.
+  difficult_words: ~
+  table: ~
+7:
+  lesson_id: 1
+  ex_number: 7
+  title: "Перед вами запись в дневнике. Соедините предложения с помощью конструкций<br>
+  ^к тому же XP/Cl@
+  ^плюс/вдобавок (ко всему/к тому/к этому), Cl@
+  ^(а) кроме того XP/Cl@"
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: You see an entry in a diary. Connect the matching sentences by using the indicated constructions. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene. I disse konstruksjonene fylles plassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "Дорогой дневник, день сегодня просто отличный!<br>
+  Погода теплая и солнечная!<br>
+  <ul>
+  <li>По дороге на учебу встретил старого друга.</li>
+  <li>Я посмотрел новую серию моего любимого сериала.</li>
+  <li>Мы с отцом наконец выбрали, какую машину мы купим.</li>
+  <li>Я позвал Юлю в кино, и она согласилась!</li></ul>"
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 1
+  ex_number: 8
+  title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^(и) кстати (говоря), Cl@ вводит дополнительную информацию и обозначает отклонение от темы.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^(и) кстати (говоря), Cl@ introduces additional information and often denotes digression. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^(и) кстати (говоря), Cl@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3г, 4д, 5б
+  answer_key: 1в, 2а, 3г, 4д, 5б
+  difficult_words: ~
+  table:
+    header: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. К нам в гости пришла тетя Клава, наша соседка.
+      - а. Кирилл, кстати, до сих пор не вернул Пете плеер.
+    row2:
+      - 2. Петя опять поругался со своим братом Кириллом.
+      - б. Кстати говоря, после фильма будет встреча с режиссером.
+    row3:
+      - 3. У тебя на телефоне опять не работает навигатор.
+      - в. Она, кстати говоря, недавно сломала руку.
+    row4:
+      - 4. Знаете ли вы, что стены и башни московского Кремля спроектировал архитектор из Италии?
+      - г. И кстати говоря, мы едем не в ту сторону!
+    row5:
+      - 5. Я купил билеты в кино, пойдешь со мной?
+      - д. И кстати, раньше стены были белого цвета, а не красного, как сегодня.
+9:
+  lesson_id: 1
+  ex_number: 9
+  title: "Конструкция (и) кстати (говоря), Cl имеет четыре варианта:<br>
+  <ul><li>а. кстати</li><li>б. и кстати</li><li>в. кстати говоря</li><li>г. и кстати говоря</li></ul><br>
+  Обратите внимание, что варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения. Учитывая это, заполните пропуски в предложениях максимальным количеством вариантов."
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: text_input
+  title_eng: The construction ^(и) кстати (говоря), Cl@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^(и) кстати (говоря), Cl@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: Знакомьтесь, это Владимир Сергеевич. Моего папу, ___, тоже так зовут.
+    task2:
+      text: Не думал, что ты умеешь играть на гитаре. ___, где ты этому научился?
+    task3:
+      text: Я решил пойти на курсы итальянского. Уроки, ___, ведёт настоящий итальянец.
+    task4:
+      text: Квартира стоит восемьсот евро. ___, электричество оплачивается отдельно.
+    task5:
+      text: Тебе лучше поторопиться, уже восемь сорок! ___, не забудь взять зонт, на улице дождь.
+    task6:
+      text: Моя бабушка работала учительницей английского в школе. ___, она никогда не была за границей, но знала его идеально.
+  answer_to_show:
+    answer1: а, в
+    answer2: а, б, в, г
+    answer3: а, в
+    answer4: а, б, в, г
+    answer5: а, б, в, г
+    answer6: а, б, в, г
+  answer_key:
+    answer1: а, в
+    answer2: а, б, в, г
+    answer3: а, в
+    answer4: а, б, в, г
+    answer5: а, б, в, г
+    answer6: а, б, в, г
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 1
+  ex_number: 10
+  title: "*Бонусное упражнение<br>
+Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br>
+<ul><li>а. Кстати</li><li>б. Кроме того</li><li>в. К тому же</li></ul>"
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Bonus exercise. Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
+  title_nor: Bonusoppgave. Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Ты так красиво поешь! ___ ты никогда не думала стать певицей?
+    task2:
+      text: 2. Я снимаю влоги, чтобы показать свои путешествия друзьям и родственникам. ___ это приносит небольшой доход.
+    task3:
+      text: 3. Собаку мы заводить не будем! По контракту мы не можем жить в этой квартире с собакой. ___ на собак у меня аллергия.
+    task4:
+      text: 4. Какая милая у вас собачка! ___ как её зовут?
+    task5:
+      text: 5. Не думаю, что у фильма есть шансы на Оскар. Актёры играли ужасно. ___ сценарий очень нелогичный.
+    task6:
+      text: 6. Свадьба — это очень дорого. ___ её нужно долго планировать.
+    task7:
+      text: 7. Свадьба — это очень весело. ___ можно наконец увидеть всех своих родственников и друзей.
+  answer_to_show:
+    answer1: "а<br>
+    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
+    answer2: "а, б, в<br>
+    Здесь подходят все три конструкции, но они вносят разные нюансы. ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br>
+    = All three constructions can be used here. However, they have different nuances in meaning. ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.<br>
+    = Samtlige tre konstruksjoner kan brukes i dette tilfellet. Imidlertid kan de uttrykke nyanseforskjeller i sammenhengen. Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men samtidig kan den avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta."
+    answer3: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
+    answer4: "а<br>
+    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
+    answer5: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
+    answer6: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det negative i situasjonen."
+    answer7: "б, в<br>
+    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br>
+    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.<br>
+    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen."
+  answer_key:
+    answer1: а
+    answer2: а, б, в
+    answer3: б, в
+    answer4: а
+    answer5: б, в
+    answer6: б, в
+    answer7: б, в
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 4
+  ex_number: 5
+  title: Проанализируйте схему. Чем отличаются конструкции ^(Так) мало того – Cl@ и ^ко всему прочему, Cl@?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Analyze the diagram below. How are the two constructions ^(Так) мало того – Cl@ ‘and what is more...’ and ^ко всему прочему, Cl@ ‘on top of all of this ...’ different?
+  title_nor: Analyser diagrammet nedenfor. Hvordan er konstruksjonene ^(Так) мало того – Cl@ som betyr omtrent ‘Ikke nok med det ... / Dessuten ...’ og konstruksjonen ^ко всему прочему, Cl@ som betyr ‘På toppen av alt, ... ’, forskjellige?
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: "https://constructicon.github.io/construxercise-rus/images/4/1.png"
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+12:
+  lesson_id: 4
+  ex_number: 6
+  title: "Заполните пропуски, используя конструкции<br>
+<br>
+а. ^(Так) мало того – Cl@<br>
+б. ^ко всему прочему, Cl.@<br>
+<br>
+В некоторых случаях обе конструкции подходят."
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Fill in the blanks by using constructions from the list. Note that in some cases either of these constructions can be used. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene i listen. Legg merke til at i noen tilfeller kan begge konstruksjonene passe. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Больница по выходным работает только утром, ________________, недолго.
+    task2:
+      text: 2. Больничный у нашего врача получить сложно, ________________, его долго оформляют.
+    task3:
+      text: 3. Трудно работать, когда у тебя насморк, кашель и, ________________, температура.
+    task4:
+      text: 4. Я плохо себя чувствовала всю неделю, у меня болела голова, ________________, вчера заболел мой сын.
+  answer_to_show:
+    answer1: а
+    answer2: а
+    answer3: а, б
+    answer4: а, б
+  answer_key:
+    answer1: а
+    answer2: а
+    answer3: а, б
+    answer4: а, б
+  difficult_words: ~
+  table: ~
+13:
+  lesson_id: 4
+  ex_number: 7
+  title: Составьте предложения, соединив жалобы по модели с помощью конструкций ^(Так) мало того – Cl@ и ^ко всему прочему, Cl@.
+  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Build sentences from the available parts. Connect complaints by using the pattern below and the constructions ^(Так) мало того – Cl@ meaning ‘and what is more...’ and ^ко всему прочему, Cl@ meaning ‘on top of all of this ...’. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Lag setninger og uttrykk relaterte til helse og sykdom med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonene ^(Так) мало того – Cl@ ‘ikke nok med det, dessuten ...’ og ^ко всему прочему, Cl@ ‘dessuten ...’, ‘på toppen av X ...’. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: "болит голова + насморк + кашель<br>
+&#10132; У меня болит голова. ^Mало того,@ у меня насморк и, ^ко всему прочему,@ кашель."
+  model: У меня ______________ ^Mало того,@ ____________ ^Kо всему прочему,@ ____________
+  image: ~
+  task:
+    task1:
+      text: 1. высокая температура + болит всё тело + озноб*
+    task2:
+      text: 2. низкое давление* + слабость* + я упал(а) в обморок
+    task3:
+      text: 3. болит рука + болят ноги + высокое давление*
+  answer_to_show:
+    answer1: У меня высокая температура. ^Mало того,@ у меня болит всё тело, ^ко всему прочему,@ озноб.
+    answer2: У меня низкое давление. ^Mало того,@ у меня слабость, ^ко всему прочему,@ я упал в обморок.
+    answer3: У меня болит рука. ^Mало того,@ у меня болят ноги и, ^ко всему прочему,@ высокое давление.
+  answer_key:
+    answer1: У меня высокая температура. Mало того, у меня болит всё тело, ко всему прочему, озноб.
+    answer2: У меня низкое давление. Mало того, у меня слабость, ко всему прочему, я упал в обморок.
+    answer3: У меня болит рука. Mало того, у меня болят ноги и, ко всему прочему, высокое давление.
+  difficult_words:
+    word1: "*озноб — English: chills; Norwegian: frysninger"
+    word2: "*низкое давление — English: low blood pressure; Norwegian: lavt blodtrykk"
+    word3: "высокое давление — English: high blood pressure; Norwegian: høyt blodtrykk"
+  table: ~
+14:
+  lesson_id: 4
+  ex_number: 9
+  title: Вы встретили друга. Обсудите, как ваши дела. Используйте варианты ответов, предложенные в таблице, или придумайте свои примеры. Конструкции в таблице, расположенные в таком порядке, образуют «шкалу» проблем.
+  instructions: ~
+  exercise_type: ~
+  title_eng: You have met a friend. Tell your friend how you are doing. Use the answer options provided in the table or come up with your own examples. When used in the order in the table, the constructions indicate a «scale» of problems.
+  title_nor: Du har truffet en venn. Fortell din venn om hvordan du har det. Bruk svarsalternativene i tabellen, eller finn på egne eksempler. Rekken av konstruksjoner i tabellen danner en slags «skale» for å beskrive problemer.
+  comment: ~
+  example: "― Как у тебя дела? У меня ...<br>
+― А у тебя как дела? У меня ..."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    header:
+      - Шкала проблем
+    row1:
+      - У меня ...
+      - Мало того, ...
+      - Ко всему прочему, ...
+      - И вообще, ...
+    row2:
+      -
+        - часто болит голова
+        - много работы
+        - скоро экзамен по русскому языку
+      -
+        - проблемы на работе
+        - много дел
+        - я недавно болел гриппом
+      -
+        - приехал друг
+        - сломалась машина
+        - нужно переезжать в другую квартиру
+      -
+        - всë плохо!
+        - всë сложно!
+        - много сюрпризов!
+        - хорошего мало, но всë будет хорошо!
+15:
+  lesson_id: 5
+  ex_number: 1
+  title: Соедините предложения, подобрав логичное продолжение.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation.
+  title_nor: Koble sammen setningene ved å bruke delene som passer.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а 3д, 4б, 5г
+  answer_key: 1в, 2а 3д, 4б, 5г
+  difficult_words: ~
+  table:
+    width: ~
+    vertical_align: +
+    horizontal_align: ~
+    heading: ~
+    row1:
+      - 1. Иван — студент-программист, учится на отлично!
+      - a. ^К тому же,@ нет ветра.
+    row2:
+      - 2. Сегодня очень хорошая погода.
+      - б. ^Мало того,@ она ещё и заразилась коронавирусом, когда была в больнице.
+    row3:
+      - "3. Мне очень нравится моя новая работа: интересная, приятные коллеги, недалеко от дома."
+      - в. ^Кроме того,@ Иван — спортсмен, хорошо играет в волейбол.
+    row4:
+      - 4. Маша недавно сломала руку.
+      - г. ^Ко всему прочему,@ она потеряла паспорт в метро.
+    row5:
+      - 5. У Оли сегодня был трудный день
+      - д. ^Плюс ко всему,@ высокая зарплата.
+16:
+  lesson_id: 7
+  ex_number: 2
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^VP, заодно VP@.
+  instructions: В этой конструкции VP — это глагол (VP=verb phrase).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^VP, заодно VP@ meaning ‘while X is at it ...’ or ‘..., meanwhile ...’. In this construction, VP stands for a verb (VP=verb phrase).
+  title_nor: Koble sammen frasene ved å velge en passende fortsettelse. Bruk konstruksjonen ^VP, заодно VP@ ‘..., samtidig, i tillegg ...’. I denne konstruksjonen står VP for et verb (VP=verbfrase).
+  comment: ~
+  example: Я вчера сделала уборку дома, ^заодно@ нашла старые фотографии бабушки с дедушкой.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3д, 4б, 5г
+  answer_key: 1в, 2а, 3д, 4б, 5г
+  difficult_words: ~
+  table:
+    vertical_align: +
+    row1:
+      - 1. Я вчера сделала уборку дома
+      - а. попробуем вместе новый рецепт.
+    row2:
+      - 2. Помоги мне, пожалуйста, приготовить торт
+      - б. посмотрим, нужны ли нам новые ёлочные игрушки.
+    row3:
+      - 3. Отправь приглашение на юбилей тёте Ирине
+      - в. нашла старые фотографии бабушки с дедушкой.
+    row4:
+      - 4. Давай пораньше украсим дом к Новому году
+      - г. нашёл себе новую рубашку на праздник.
+    row5:
+      - 5. Он уже купил всей семье подарки на Рождество
+      - д. узнаешь как у неё дела.
+17:
+  lesson_id: 11
+  ex_number: 4
+  title: "Составьте предложения с перечислением объектов. В конце предложения используйте конструкции:<br>
+          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
+          — ^NP, NP и тому подобное/и т. п.@"
+  instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
+  exercise_type: ~
+  title_eng: Build sentences in which you list several objects. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
+  title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  comment: ~
+  example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
+    &#10132;<br>
+            — Я постоянно мёрзну, поэтому всегда ношу свитера, толстовки, тёплые кардиганы, шарфы ^и так далее@.<br>
+            — Оля постоянно мёрзнет. Из-за этого она всё время носит свитера, толстовки, тёплые кардиганы, шарфы ^и тому подобное@.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. (Одежда тёплых цветов) (красный, оранжевый, коричневый, жёлтый)
+    task2:
+      text: 2. (Одежда в полоску) (брюки, рубашка, кеды, куртка)
+    task3:
+      text: 3. (Тема вечеринки — звёзды* на красной дорожке) (вечерние платья в пол, нарядные костюмы, туфли на каблуках)
+    task4:
+      text: 4. (Одежда для похода — практичная и удобная) (футболка, свитер, непромокаемая куртка, тёплые ботинки, шапка)
+  answer_to_show:
+    answer1: "Ваня любит носить одежду тёплых цветов: красного, оранжевого, коричневого, жёлтого ^и так далее@.<br>
+              Ваня любит носить одежду тёплых цветов: красного, оранжевого, коричневого, жёлтого ^и тому подобное@."
+    answer2: "Моя сестра всегда носит одежду в полоску: у неё есть полосатые брюки, рубашка, кеды, куртка ^и так далее@ .<br>
+              Моя сестра всегда носит одежду в полоску: у неё есть полосатые брюки, рубашка, кеды, куртка ^и тому подобное@."
+    answer3: Тема новогодней вечеринки — звёзды на красной дорожке. Надевайте вечерние платья в пол, нарядные костюмы, туфли на каблуках ^и тому подобное@.<br>
+              Тема новогодней вечеринки — звёзды на красной дорожке. Надевайте вечерние платья в пол, нарядные костюмы, туфли на каблуках ^и так далее@.
+    answer4: "Одежда для похода должна быть практичной и удобной: футболка, свитер, непромокаемая куртка, тёплые ботинки, шапка ^и тому подобное@.<br>
+              Одежда для похода должна быть практичной и удобной: футболка, свитер, непромокаемая куртка, тёплые ботинки, шапка ^и так далее@."
+  answer_key: ~
+  difficult_words:
+    word3: "звёзды* — English: celebrities; Norwegian: kjendiser"
+  table: ~
+18:
+  lesson_id: 11
+  ex_number: 5
+  title: "Составьте предложения, подобрав логичное продолжение. В конце предложения используйте конструкции:<br>
+          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
+          — ^NP, NP и тому подобное/и т. п.@"
+  instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1б, 2г, 3а, 4в
+  answer_key: 1б, 2г, 3а, 4в
+  difficult_words: ~
+  table:
+    vertical_alignment: +
+    row1:
+      -
+        - "1. Оля часто покупает себе новую обувь:"
+        - "2. Мой отец любит яркую одежду:"
+        - "3. Сергей хочет обновить свой гардероб:"
+        - "4. Настя одевается как кинозвезда:"
+      -
+        - а. купить стильные джинсы, трендовые кроссовки, несколько универсальных футболок…
+        - б. туфли, сапоги, босоножки, кеды…
+        - в. шляпа, солнечные очки, стильное платье, шёлковый шарф на шее…
+        - г. у него есть синие ботинки, зелёные носки, красный галстук, рубашки в клетку, футболка с цветочками… 
+      - 
+        - и так далее.
+        - и тому подобное.

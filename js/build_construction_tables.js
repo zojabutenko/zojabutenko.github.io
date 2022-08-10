@@ -1,6 +1,11 @@
 const tree = document.createDocumentFragment();
 const lesson_id = document.title.split(" ")[1]
-let r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons/lessons.yml");
+if (document.title.split(" ")[0] == "Lesson") {
+    var r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons.yml");
+} else {
+    var r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/functions.yml");
+}
+
 let json_data = jsyaml.loadAll(r.data);
 let records = {};
 

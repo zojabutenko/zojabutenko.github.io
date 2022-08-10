@@ -1,0 +1,429 @@
+1:
+  lesson_id: 10
+  ex_number: 4
+  title: Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции ^мягко говоря, Cl@ и ^грубо говоря, Cl@?
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, Cl@ ‘To put it mildly, ...’ and ^грубо говоря, Cl@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, Cl@ ‘mildt sagt, ...’ og ^грубо говоря, Cl@, Cl ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - ^мягко говоря, Cl@
+      - ^грубо говоря, Cl@
+    row1:
+      - Миша, ^мягко говоря,@ не подарок.<br>
+        English<br>
+        ‘To put it mildly, Misha is no joy to be with.’<br>
+        Norwegian<br>
+        ‘Misja er mildt sagt ikke en gave.’
+      - Разница совсем небольшая. Все видят, ^грубо говоря@ одно и то же.<br>
+        English<br>
+        ‘The difference isn’t so big. Roughly speaking, everyone sees the same thing.’<br>
+        Norwegian<br>
+        ‘Forskjellen er ganske liten. Alle ser, grovt sett, det samme.’
+    row2:
+      - Конструкция вводит некоторую <b>оценочную формулировку, которая является более нейтральной или вежливой</b>, чем могла бы быть в этой ситуации. Говорящий дает понять, что его <b>формулировка является более мягкой</b>, чем то, что он на самом деле думает. Говорящий намеренно избегает резких или грубых выражений.
+      - Конструкция вводит некоторую <b>формулировку, которая является менее точной</b>, чем могла бы быть в этой ституации. Говорящий намеренно передает <b>общую идею и избегает деталей</b>.
+    row3:
+      - This construction introduces an <b>evaluative statement that is more neutral or polite</b> than it might have been in this situation. The speaker makes it clear that the wording is milder than what they really think</b>. The speaker deliberately avoids harsh or rude expressions.
+      - This construction introduces an <b>evaluative statement</b> that is less precise than it might be in this situation. The speaker deliberately <b>conveys the general idea and avoids giving details</b>.
+    row4:
+      - Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.
+      - Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.
+2:
+  lesson_id: 10
+  ex_number: 5
+  title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
+  exercise_type: text_input
+  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, Cl@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence). The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
+  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
+  comment: ~
+  example: Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
+    &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: Миша ведёт себя <b>ужасно</b>! Сегодня он снова подрался с младшим братом.
+    task2:
+      text: Мы <b>ненавидим</b> нашего нового соседа! Он шумит каждую ночь и оставляет мусор у нас под окнами.
+    task3:
+      text: У моих друзей <b>тупая собака</b>! Она часто убегает во время прогулок.
+    task4:
+      text: Я <b>в шоке</b>! Как вы могли прийти на день рождения и не принести подарок?
+  answer_to_show:
+    answer1: Миша ведёт себя, ^мягко говоря,@ плохо.
+    answer2: Мы, ^мягко говоря,@ не любим нового соседа!
+    answer3: У моих друзей, ^мягко говоря,@ глупая собака.
+    answer4: Я, ^мягко говоря,@ удивлён.
+  answer_key:
+    answer1: Миша ведёт себя, мягко говоря, плохо.
+    answer2: Мы, мягко говоря, не любим нового соседа!
+    answer3: У моих друзей, мягко говоря, глупая собака.
+    answer4: Я, мягко говоря, удивлён.
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 10
+  ex_number: 6
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^грубо говоря, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^грубо говоря, Cl@ meaning ‘Roughly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, Cl@ som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: "Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
+            &#10132;<br>
+            Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. ^Грубо говоря,@ он очень трусливый."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3б, 4г
+  answer_key: 1в, 2а, 3б, 4г
+  difficult_words: ~
+  table:
+    row1:
+      - 1. Игорь всегда готовится к семинарам, делает все домашние задания и ходит на все лекции.
+      - а. Она ужасно неорганизованная.
+    row2:
+      - 2. Аня часто теряет ключи, забывает вещи в гостях и всегда опаздывает.
+      - б. Он самый весёлый человек в группе.
+    row3:
+      - 3. Дима всё время шутит и рассказывает смешные истории.
+      - в. Он идеальный студент.
+    row4:
+      - 4. Нина никогда не помогает нам делать уборку или готовить ужин.
+      - г. Она очень ленивая.
+4:
+  lesson_id: 10
+  ex_number: 2
+  title: "Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
+          — ^На первый взгляд, Cl@<br>
+          — ^На самом деле Cl@"
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Describe your first impressions from meeting your classmates and teachers. Describe also how these first impressions have changed over time. Use the sentences 1 to 6, the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’ and the construction ^На самом деле Cl@ meaning ‘Actually / In reality /As a matter of fact, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Beskriv dine første inntrykk når du møtte dine klassekamerater og lærere. Beskriv også hvordan dette forandret seg over tid. Bruk setningene 1 til 6 og konstruksjonene ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’ og ^На самом деле Cl@ ‘Faktisk ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: Саша скучный. Саша спокойный.<br>
+          ^На первый взгляд,@ Саша скучный. Но ^на самом деле@ он спокойный.
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Катя закрытая. Катя серьёзная.
+    task2:
+      text: 2. Игорь грубый. Игорь честный.
+    task3:
+      text: 3. Ася легкомысленная. Ася ответственная.
+    task4:
+      text: 4. Паша умный. Паша просто много говорит.
+    task5:
+      text: 5. Ирина Петровна строгая. Ирина Петровна справедливая.
+    task6:
+      text: 6. Николай Андреевич несерьёзный. Николай Андреевич очень весёлый.
+  answer_to_show:
+    answer1: ^На первый взгляд,@ Катя закрытая. Но ^на самом деле@ она серьёзная.
+    answer2: ^На первый взгляд,@ Игорь грубый. Но ^на самом деле@ он честный.
+    answer3: ^На первый взгляд,@ Ася легкомысленная. Но ^на самом деле@ она ответственная.
+    answer4: ^На первый взгляд,@ Паша умный. Но ^на самом деле@ он просто много говорит.
+    answer5: ^На первый взгляд,@ Ирина Петровна строгая. ^Но на самом@ деле она справедливая.
+    answer6: ^На первый взгляд,@ Николай Андреевич несерьёзный. ^Но на самом@ деле он очень весёлый.
+  answer_key:
+    answer1: На первый взгляд, Катя закрытая. Но на самом деле она серьёзная.
+    answer2: На первый взгляд, Игорь грубый. Но на самом деле он честный.
+    answer3: На первый взгляд, Ася легкомысленная. Но на самом деле она ответственная.
+    answer4: На первый взгляд, Паша умный. Но на самом деле он просто много говорит.
+    answer5: На первый взгляд, Ирина Петровна строгая. Но на самом деле она справедливая.
+    answer6: На первый взгляд, Николай Андреевич несерьёзный. Но на самом деле он очень весёлый.
+  difficult_words: ~
+  table:
+    header:
+      - ^На первый взгляд, Cl@
+      - ^На самом деле Cl@
+    row1:
+      - ^На первый взгляд,@ это не искусство.<br>
+        English<br>
+        ‘At first glance, this is not art.’<br>
+        Norwegian<br>
+        ‘Ved første øyekast er ikke dette kunst.’
+      - ^На самом деле@ всё не так страшно.<br>
+        English<br>
+        ‘Actually, this is not so scary.’<br>
+        Norwegian<br>
+        ‘Faktisk er ikke alt så skummelt.’
+    row2:
+      - Конструкция обозначает <b>первоначальную, часто поверхностную и субъективную оценку объекта</b> или участника. Эта оценка не вполне соответствует действительности и впоследствии может измениться.
+      - Конструкция обозначает <b>объективную оценку</b> объекта или участника или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.
+    row3:
+      - This construction denotes <b>the initial, often preliminary, and subjective assessment</b> of аn object or a participant. This assessment is not entirely true and may change later.
+      - This construction denotes <b>an objective assessment</b> of an object or a participant or communicates information that is true. Often this information is contrasted with another, less accurate information.
+    row4:
+      - Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.
+      - Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.
+5:
+  lesson_id : 10
+  ex_number: 3
+  title: Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию ^На первый взгляд, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Discuss with your interlocutor what you think of the person in the picture. What kind of personality do they have? Use the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Diskuter med din samtalepartner hva dere tenker om personen på bildet. Hvordan er han eller hun som person? Bruk konstruksjonen ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/3.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+6:
+  lesson_id: 10
+  ex_number: 7
+  title: Проанализируйте схему. Чем отличаются конструкции ^(на)вряд ли XP/Cl@ и ^Не факт, что Cl@?
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Analyze the diagram below. How are the two constructions ^(на)вряд ли XP/Cl@ meaning ‘it is unlikely that ...’ and ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’ different? We can locate a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Analyser diagrammet nedenfor. På hvilken måte er konstruksjonene ^(на)вряд ли XP/Cl@ ‘neppe ...’ og ^Не факт, что Cl@ ‘det er ikke sikkert at ...’ forskjellige? Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/7.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - ^(на)вряд ли XP/Cl@
+      - ^Не факт, что Cl@
+    row1:
+      - ^Вряд ли@ он придёт.<br>
+        English<br>
+        ‘It is unlikely that he will come.’<br>
+        = I think he is not coming.<br>
+        Norwegian<br>
+        ‘Det er usannsynlig at han kommer’.<br>
+        = Jeg tror ikke at han kommer.'
+      - ^Не факт, что@ он придёт.<br>
+        English<br>
+        ‘It is not necessarily the case that he will come.’<br>
+        = I do not know if he is not coming.<br>
+        Norwegian<br>
+        ‘Det er ikke sikkert han kommer’<br>
+        = Jeg vet ikke om han kommer.
+    row2:
+      - Говорящий сомневается в том, что произойдет некоторое событие
+      - Говорящий сомневается в адекватности некоторой оценки или информации.<br>
+        Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.
+    row3:
+      - The speaker doubts that an event will take place.
+      - The speaker has doubts about the adequacy of some assessment or information.<br>
+        This construction often conveys the speaker’s skepticism based on their knowledge of the situation.
+    row4:
+      - Taleren tviler på om en gitt hendelse vil inntreffe.
+      - Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
+        Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
+7:
+  lesson_id : 10
+  ex_number: 8
+  title: Составьте предложения, используя конструкцию ^(на)вряд ли XP/Cl@. Обратите внимание, что ^навряд ли@ более разговорный вариант, чем ^вряд ли@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Build sentences from the available parts. Note that ^навряд ли@ is more colloquial than ^вряд ли@. We can put a phrase or an entire sentence in the slot XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Lag setninger ved å bruke de foreslåtte delene. Bruk konstruksjonen ^(на)вряд ли XP/Cl@ ‘neppe ...’. Legg merke til at ^навряд ли@ er mer muntlig enn ^вряд ли@. Plassen XP/Cl kan fylles med en frase (XP=frase) eller en hel setning.
+  comment: ~
+  example: Она такая инициативная. ^Вряд ли@ ей будет трудно найти работу.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: +
+    row1:
+      - NOM
+      -
+        - такой
+        - такая
+        - такие
+        - слишком
+      -
+        - добрый
+        - злой
+        - талантливый
+        - (не)внимательный
+        - легкомысленный
+        - ответственный
+        - инициативный
+        - (не)честный
+        - смелый
+        - храбрый
+        - трусливый
+        - хитрый
+        - сообразительный
+        - энергичный
+        - ленивый
+        - трудолюбивый
+        - (не)терпеливый
+      - ^Вряд ли@<br>
+        /<br>
+        ^Навряд ли@
+      - DAT
+      - (будет)<br>
+          трудно<br>
+          легко
+      -
+        - найти работу
+        - найти друзей
+        - (быть) в отношениях
+        - вести бизнес
+        - знакомиться с людьми
+        - работать в команде
+        - работать одному (одной)
+        - прыгнуть с парашютом
+        - отправиться в кругосветное путешествие
+8:
+  lesson_id : 10
+  ex_number: 9
+  title: Составьте как можно больше предложений по моделям 1 и 2. Используйте конструкцию ^Не факт, что Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+              Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
+  exercise_type: ~
+  title_eng: Build as many sentences as you can by using the two patterns below. Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).<br>
+              Note that in pattern 1 we use the infinitive, whereas in pattern 2 we use the subjunction чтобы ‘in order to’ followed by a subordinate clause. In both patterns, the second sentence should contradict the first sentence.
+  title_nor: Lag så mange setninger som mulig med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Ved plassen Cl brukes en hel setning (Cl=setning).<br>
+              Legg merke til at i eksempel 1 brukes infinitiv, men i eksempel 2 brukes subjunksjonen чтобы ‘for å’ som etterfølges av en leddsetning. I begge eksemplene skal den andre setningen motsi den første setningen.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: 1. Ты предлагаешь обмануть. Но он такой честный! Не факт, что он на это согласится.<br>
+          2. Ты предлагаешь, чтобы они погуляли с нашей собакой. Но они такие ленивые. Не факт, что они согласятся.
+  model: 1. Ты предлагаешь ___INF________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.<br>
+          2. Ты предлагаешь, чтобы ___________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.
+  image: ~
+  task: добрый<br>
+        злой<br>
+        талантливый<br>
+        (не)внимательный<br>
+        легкомысленный<br>
+        ответственный<br>
+        инициативный<br>
+        (не)честный<br>
+        смелый<br>
+        храбрый<br>
+        трусливый<br>
+        хитрый<br>
+        сообразительный<br>
+        энергичный<br>
+        ленивый<br>
+        трудолюбивый<br>
+        (не)терпеливый<br>
+        верный
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+9:
+  lesson_id : 10
+  ex_number: 10
+  title: Бонусное упражнение*.<br>
+          Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию ^Не факт, что Cl@. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию ^(на)вряд ли XP/Cl@. Объясните свою позицию.
+  instructions: В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Bonus exercise.<br>
+              The same personal qualities can be favorable or unfavorable in different contexts and for different purposes. Discuss what traditionally negative personal qualities can be beneficial and what traditionally positive qualities can be harmful (see the table). Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. Some personal qualities, however, are rather unambiguously good or bad. Name them by using the construction ^(на)вряд ли XP/Cl@ meaning ‘It’s unlikely that ... ’ and explain your opinion. In these constructions, XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
+  title_nor: Bonusoppgave.<br>
+              De samme personlige egenskapene kan være fordelaktige i noen situasjoner, og ufordelaktige i andre. Diskuter hvilke tradisjonelt negative personlige egenskaper kan være nyttige, og hvilke tradisjonelt positive personlige egenskaper kan være skadelige (se tabell). Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Noen personlige egenskaper er imidlertid mer eller mindre entydig positive eller negative. Navngi dem ved å bruke konstruksjonen ^(на)вряд ли XP/Cl@ ‘neppe ... ’ og uttrykk din mening. I disse konstruksjonene står XP for en frase, mens Cl er en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: ^Не факт, что@ эгоизм — это плохое качество. В карьере эгоизм даже помогает.<br>
+          ^Навряд ли@ злость может быть хорошим качеством. Она не приносит ничего хорошего человеку и окружающим.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    header:
+      - Какой человек по характеру
+      - Качество характера
+    row1:
+      -
+        - Добрый
+        - Ответственный
+        - Серьёзный
+        - Честный
+        - Справедливый
+        - Смелый
+        - Строгий
+        - Требовательный
+        - Энергичный
+        - Трудолюбивый
+        - Умный
+        - Весёлый
+        - Бескомпромиссный
+        - Принципиальный
+        - Педантичный
+        - Целеустремлённый
+        - Любопытный
+        - Преданный
+        - Верный
+        - Злой
+        - Легкомысленный
+        - Лживый
+        - Хитрый
+        - Коварный
+        - Трусливый
+        - Жёсткий
+        - Суровый
+        - Жестокий
+        - Безынициативный
+        - Ленивый
+        - Медлительный
+        - Глупый
+      -
+        - доброта
+        - ответственность
+        - серьёзность
+        - честность
+        - справедливости
+        - смелость
+        - строгость
+        - требовательность
+        - энергичность
+        - трудолюбие
+        - ум
+        - весёлость
+        - бескомпромиссность
+        - принципиальность
+        - педантичность
+        - целеустремлённость
+        - любопытность
+        - преданность
+        - верность
+        - злость
+        - легкомысленность
+        - лживость
+        - хитрость
+        - коварство
+        - трусость
+        - жёсткость
+        - суровость
+        - жестокость
+        - безынициативность
+        - лень
+        - медлительность
+        - глупость
