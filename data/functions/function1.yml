@@ -203,3 +203,149 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
   answer_key: ~
   difficult_words: ~
   table: ~
+6:
+  lesson_id: 11
+  ex_number: 8
+  title: Соедините предложения или части предложений, подобрав логичное продолжение.
+  instructions: Конструкция ^в частности, XP/Cl@ может присоединять целое предложение (Cl) или только часть предложения, фразу (XP).
+  exercise_type: text_input
+  title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’, kan plassen XP/Cl fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: На деловую встречу лучше надеть что-то строгое, ^скажем,@ рубашку и брюки.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3г, 4б, 5д
+  answer_key: 1в, 2а, 3г, 4б, 5д
+  difficult_words: ~
+  table:
+    row1:
+      - 1. Представители многих профессий должны носить форму,
+      - а. В частности, стюардессам запрещено иметь татуировки и делать яркий маникюр.
+    row2:
+      - 2. Ограничения на внешний вид могут касаться не только одежды, но и тела человека.
+      - В частности, лучше избегать () массивных кроссовок или ярких шнурков.
+    row3:
+      - 3. Деловой стиль одежды часто требуется на официальных мероприятиях,
+      - в. в частности, пилоты и машинисты поездов.
+    row4:
+      - 4. Современный деловой образ допускает спортивную обувь, но действовать нужно аккуратно.
+      - г. в частности, на престижных конференциях или серьёзных деловых встречах.
+    row5:
+      - Шик может быть выражен аксессуарами,
+      - д. в частности, дорогим галстуком, часами или очками.
+7:
+  lesson_id: 11
+  ex_number: 9
+  title: Продолжите предложения, используя конструкцию ^в частности, XP/Cl@.
+  instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Complete the sentences by using the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’. In this construction, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fullfør setningene ved å bruke konstruksjonen ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’ Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: "Красивая одежда не обязательно дорогая.<br>
+            &#10132; Красивая одежда не обязательно дорогая. ^В частности,@ можно покупать вещи с рук (например, на finn.no)."
+  model: ~
+  image: ~
+  task: 1. Стиль и мода — это разные вещи. ^В частности,@ ________________________<br>
+        2. Для хорошего гардероба не нужно много вещей. ^В частности,@ _____________________<br>
+        3. Современная мода очень либеральна. ^В частности,@ _____________________<br>
+        4. Внешний вид может помочь в работе. ^В частности,@ _____________________
+  answer_to_show: "1: Стиль и мода — это разные вещи. ^В частности,@ можно быть модным, но не стильным/мода меняется, а стиль сохраняется.<br>
+                    2: Для хорошего гардероба не нужно много вещей. ^В частности,@ можно иметь всего несколько вещей и красиво выглядеть.<br>
+                    3: Современная мода очень либеральна. ^В частности,@ можно носить кроссовки с официальным костюмом или надевать джинсы на рабочую встречу.<br>
+                    4: Внешний вид может помочь в работе. ^В частности,@ к стильно одетому человеку больше доверия."
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 6
+  ex_number: 2
+  title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию с точки зрения NP-Gen, Cl.
+  instructions: В этой конструкции NP — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
+  exercise_type: ~
+  title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction с точки зрения NP-Gen, Cl meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
+  title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen с точки зрения NP-Gen, Cl som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
+  comment: "Формат задания: в парах. = Task format: in pairs."
+  example: С точки зрения комфорта, яхта лучше поезда.
+  model: С точки зрения ________ , ________ лучше/хуже ________
+  image: 
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/2.png
+    width: ~
+    height: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: +
+    width: ~
+    header: ~
+    row1:
+      - С точки зрения + Gen
+      -
+        - цена
+        - комфорт
+        - скорость
+        - безопасность
+        - экология
+        - надёжность
+        - доступность
+        - маневренность
+      -
+        - автобус
+        - автомобиль
+        - катер
+        - самолёт
+        - поезд
+        - круизный лайнер
+        - вертолёт
+        - яхта
+      - лучше/хуже + Gen
+      -
+        - автобус
+        - автомобиль
+        - катер
+        - самолёт
+        - поезд
+        - круизный лайнер
+        - вертолёт
+        - яхта
+9:
+  lesson_id: 8
+  ex_number: 3
+  title: Некоторые популярные в России блюда имеют аналоги в других странах. Вы сходили в кафе в Москве. Расскажите другу о том, какое блюдо вы попробовали, используя конструкцию ^NP типа NP-Gen@.
+  instructions: В этой конструкции NP — это существительное (NP=noun phrase), а NP-Gen — это существительное в генитиве (Gen=Genitive case).
+  exercise_type: ~
+  title_eng: Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction ^NP типа NP-Gen@ ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case).
+  title_nor: Noen populære russiske retter har tilsvarende retter i andre land. Forestill deg at du har vært på en kafé i Moskva. Fortell en venn om hvilke matretter du prøvde der, ved å bruke konstruksjonen ^NP типа NP-Gen@ ‘en slags X / som X’. I denne konstruksjonen står NP for et substantiv (NP=nominalfrase), og NP-Gen betyr substantiv i genitiv kasus (Gen=genitiv kasus).
+  comment: ~
+  example: Сначала я заказала оладьи. Это что-то ^типа@ панкейков. Затем я попробовала...
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
+    task2:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
+    task3:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
+    task4:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
+    task5:
+      image:
+        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
+  answer_to_show: Затем я попробовала кексы. Это что-то ^типа@ маффинов.<br>
+                  Затем я попробовала яичницу болтунью. Это что-то ^типа@ яичного скрэмбла.<br>
+                  Затем я попробовала бефстроганов. Это что-то ^типа@ гуляша.<br>
+                  Затем я попробовала творожную запеканку. Это что-то ^типа@ чизкейка.
+  answer_key: ~
+  difficult_words: "*подавать — English: serve; Norwegian: servere<br>
+                    *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
+  table: ~

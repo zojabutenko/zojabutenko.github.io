@@ -1,6 +1,6 @@
 const tree = document.createDocumentFragment();
 const lesson_id = document.title.split(" ")[1]
-let r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons.yml");
+let r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons/lessons.yml");
 let json_data = jsyaml.loadAll(r.data);
 let records = {};
 
