@@ -356,5 +356,10 @@
     - XP = phrase (фраза)
     - NP = noun phrase (существительное)
 12:
-  ~
+  1:
+    lesson_id: 12
+    subpart_name: "Часть 1. Общие планы: диалог"
+    lesson_name_eng: ~
+    construction_table_rows: ~
+    lesson_instructions: ~
 ---
