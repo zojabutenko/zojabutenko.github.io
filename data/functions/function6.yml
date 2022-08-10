@@ -1,0 +1,503 @@
+1:
+  lesson_id: 2
+  ex_number: 10
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^таким образом, Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^таким образом, Cl@ meaning ‘So, ...’. In the slot Cl we can place an entire sentence (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^таким образом, Cl@ som betyr omtrent ‘Dermed, ...’. Plassen Cl kan fylles med en hel setning.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: "1в, 2а, 3г, 4б<br>1: Для поездки за границу нужно сделать загранпаспорт, получить визу, купить билеты и спланировать маршрут. ^Таким образом,@ готовиться к путешествию нужно заранее.<br>2: В Санкт-Петербурге много музеев, парков, дворцов и храмов. За день их все не посмотреть. ^Таким образом,@ туда лучше ехать на несколько дней.<br>3: Чтобы сделать визу в Норвегию, нужно много времени и денег, а у русских мало и того, и другого. ^Таким образом,@ в Норвегию русские туристы приезжают нечасто.<br>4: Я потеряла паспорт, а Соня не смогла улететь домой, потому что её рейс отменили. ^Таким образом,@ мы вместе остались на каникулы в общежитии."
+  answer_key: 1в, 2а, 3г, 4б
+  difficult_words: ~
+  table:
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. Для поездки за границу нужно сделать загранпаспорт, получить визу, купить билеты и спланировать маршрут.
+      - а. Туда лучше ехать на несколько дней.
+    row2:
+      - 2. В Санкт-Петербурге много музеев, парков, дворцов и храмов. За день их все не посмотреть.
+      - б. Мы вместе остались на каникулы в общежитии.
+    row3:
+      - 3. Чтобы сделать визу в Норвегию, нужно много времени и денег, а у русских мало и того, и другого.
+      - в. Готовиться к путешествию нужно заранее.
+    row4:
+      - 4. Я потеряла паспорт, а Соня не смогла улететь домой, потому что её рейс отменили.
+      - г. В Норвегию русские туристы приезжают нечасто.
+2:
+  lesson_id: 2
+  ex_number: 8
+  title: Составьте короткий рассказ об одном дне из жизни друзей. Оцените, как прошёл их день, используя конструкцию ^в целом Cl@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Make a short story about how each of the following friends spent their day. Evaluate whether the day went well by using the construction ^в целом Cl@ 'overall, ...'. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Lag en kort fortelling om en dag i livet til en av vennene. Beskriv hvordan dagen var ved hjelp av konstruksjonen ^в целом Cl@ 'alt i alt, ...'. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: ~
+  example: Леонид выспался, сходил на море и на футбольный матч. ^В целом@ день прошёл хорошо.
+  model: ~
+  image:
+    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_2.png"
+  task:
+    task1:
+      text: a
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_3.png"
+    task2:
+      text: б
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_4.png"
+    task3:
+      text: в
+      image:
+        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_5.png"
+  answer_to_show:
+    answer1: Евгения отдохнула, сходила в спа и посмотрела фильм. ^В целом,@ день прошёл хорошо.
+    answer2: Наташа и Андрей потеряли ключи от квартиры, опоздали на поезд и замёрзли на прогулке. ^В целом,@ день прошёл плохо.
+    answer3: Дима приготовил вкусный ужин, посмотрел новый фильм и купил новый диван. ^В целом,@ день прошёл хорошо.
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 2
+  ex_number: 9
+  title: Выберите подходящую конструкцию. Объясните свой выбор. В каждом случае одна конструкция вводит вывод, а другая добавляет информацию.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Choose the appropriate construction. Explain your choice. In each case, make a choice between a construction that draws a conclusion and a construction that adds information.
+  title_nor: Velg riktig konstruksjon. Forklar ditt valg. I hvert tilfelle skal du velge enten en konkluderende konstruksjon, eller en konstruksjon som brukes for å legge til informasjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. На границе офицер попросил меня показать паспорт и сертификат о вакцинации. ^Кроме того,@ / ^В целом@ он спросил о цели визита.
+    task2:
+      text: 2. У фильма интересный сюжет, актёры тоже хорошо играли. ^Кроме того,@ / ^В целом@ я рекомендую вам посмотреть этот фильм.
+    task3:
+      text: 3. Оформление паспорта занимает не более трёх месяцев, визы — не более пяти дней. ^К тому же,@ / ^В целом@ до отпуска мы успеем.
+    task4:
+      text: 4. Перед путешествием надо купить билеты, страховку, забронировать отель и получить визы. ^К тому же,@ / ^В целом@ теперь надо сделать ПЦР-тест на коронавирус.
+    task5:
+      text: 5. Для путешествия мне нужна виза, билеты и жильё. Билеты можно купить заранее, а жить — в хостеле или через каучсёрфинг. ^Кроме того,@ / ^В целом@ путешествия — это не всегда очень дорого.
+  answer_to_show:
+    answer1: "^Кроме того@<br>Здесь мы добавляем информацию, а не обобщаем сказанное, поэтому ^в целом@ не подходит.<br>= Here, we add information, and we do not summarize what has been said. Therefore, we cannot use the construction ^в целом, Cl@ 'overall, ...'.<br>= I dette tilfellet legger vi til informasjon, vi oppsummerer ikke det som er blitt sagt. Derfor passer ikke konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+    answer2: "^В целом@<br>Здесь мы обобщаем сказанное после предыдущего перечисления аргументов.<br>= Here, we summarize what has been said, after providing a line of arguments.<br>= Her oppsummerer vi det som er blitt sagt, etter å ha lagt frem en rekke argumenter."
+    answer3: "^В целом@<br>Здесь мы обобщаем информацию о сроках и делаем вывод, ничего нового не добавляем. Поэтому ^к тому же@ не подходит.<br>= Here, we summarize the information about the timing and draw a conclusion. We do not add any new information. Therefore, the construction ^К тому же@ ... 'in addition, ... ' is not appropriate here.<br>= Her oppsummerer vi informasjonen om frister, og konkluderer uten å legge til ytterligere informasjon. Derfor passer ikke konstruksjonen ^К тому же@ ... 'i tillegg, ... '"
+    answer4: "^Кроме того@<br>Здесь мы добавляем информацию, а не обобщаем сказанное, поэтому ^в целом@ не подходит.<br>= Here, we add some information and we do not summarize what has been said. Therefore, the construction ^в целом, Cl@ 'overall, ...' is not appropriate here.<br>= Her legger vi til informasjon uten å oppsummere det som er blitt sagt. Derfor passer ikke konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+    answer5: "^В целом@<br>Здесь мы делаем вывод из сказанного, поэтому подходит ^в целом.@<br>= Here, we draw a conclusion from what has been said. Therefore, the construction ^в целом, Cl@ 'overall, ...' is appropriate.<br>= Her legger vi sammen det som er blitt sagt, og deretter konkluderer vi. Derfor passer konstruksjonen ^в целом, Cl@ 'alt i alt, ...'."
+  answer_key:
+    answer1: Кроме того
+    answer2: В целом
+    answer3: В целом
+    answer4: Кроме того
+    answer5: В целом
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 7
+  ex_number: 7
+  title: Подпишите открытки, адресованные разным людям. В каждой открытке напишите поздравление с помощью «конструктора поздравлений». Обратите внимание, что поздравления разным людям отличаются друг от друга. Каждое поздравление заканчивайте, используя конструкцию ^словом, Cl@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Sign postcards addressed to different people. In each card, write a congratulation using the congratulations constructor. Note that congratulations for different people differ from each other. At the end of each congratulation, use the construction ^словом, Cl@ meaning ‘In a nutshell, ... ’ or ‘to make a long story short, ...’.<br>
+              In this construction Cl stands for an entire sentence (Cl=clause, sentence).
+  title_nor: Signer postkortene adresserte til forskjellige folk. Skriv gratulasjoner i hvert postkort ved hjelp av «gratulasjonsgeneratoren». Legg merke til at det er forskjell på gratulasjoner til forskjellige folk. Avslutt hver gratulasjon med konstruksjonen ^словом, Cl@ som betyr ‘alt i alt / generelt / kort sagt / fortalt ...’.<br>
+              I denne konstruksjonen står Cl for en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/7/7.png
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    header:
+      - <b>Кого поздравить:</b>
+    row1:
+      - 
+        - сестру с Днём рождения (18 лет)
+        - друга с Новым годом
+        - начальника с юбилеем (60 лет)
+        - подругу с рождением ребёнка
+        - бабушку с 8 марта
+        - родителей с годовщиной свадьбы
+        - коллегу с Днём рождения (34 года)
+        - учителя с Днём учителя
+5:
+  lesson_id: 4
+  ex_number: 8
+  title: Соедините части предложений с помощью конструкции ^(да) и вообще, Cl@.
+  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент.
+  exercise_type: text_input
+  title_eng: Connect the phrases by means of the construction ^(да) и вообще, Cl@ meaning ‘for that matter, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
+  title_nor: Koble sammen setningene ved å bruke konstruksjonen (да) и вообще, Cl som betyr omtrent ‘generelt, ...’ eller ‘i det hele tatt, ...’ (det er vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "1. ― Вам плохо? Давайте, я понесу Вашу сумку.<br>
+― Нет, спасибо! Мне уже лучше, ___________________, я вас совсем не знаю!"
+    task2:
+      text: "2. ― Тебе больше нельзя так жить и постоянно заедать* стресс шоколадом! ___________________, тебе надо найти другую работу!"
+    task3:
+      text: "3. ― Вы давно были у окулиста? Сколько вам лет?<br>
+― Я же дама, и это невежливый вопрос. ___________________, я уже не помню..."
+    task4:
+      text: "4. ― Доктор, я плохо себя чувствую. У меня болит рука, нога, нос, голова... ___________________, у меня всё болит."
+  answer_to_show:
+    answer1: "Мне уже лучше, ^и вообще,@ я вас совсем не знаю!<br>
+Мне уже лучше, ^да и вообще,@ я вас совсем не знаю!"
+    answer2: "^И вообще,@ тебе надо найти другую работу!<br>
+^Да и вообще,@ тебе надо найти другую работу!"
+    answer3: "^И вообще,@ я уже не помню...<br>
+^Да и вообще,@ я уже не помню..."
+    answer4: "^И вообще,@ у меня всё болит.<br>
+^Да и вообще,@ у меня всё болит."
+  answer_key:
+    answer1: "Мне уже лучше, ^и вообще,@ я вас совсем не знаю!"
+    answer2: "^И вообще,@ тебе надо найти другую работу!"
+    answer3: "^И вообще,@ я уже не помню.."
+    answer4: "^И вообще,@ у меня всё болит."
+  difficult_words:
+    word1: ~
+    word2: "*заедать стресс ― English: eat in response to stress; Norwegian: trøstespise"
+    word3: ~
+    word4: ~
+  table: ~
+6:
+  lesson_id: 4
+  ex_number: 9
+  title: Вы встретили друга. Обсудите, как ваши дела. Используйте варианты ответов, предложенные в таблице, или придумайте свои примеры. Конструкции в таблице, расположенные в таком порядке, образуют «шкалу» проблем.
+  instructions: ~
+  exercise_type: ~
+  title_eng: You have met a friend. Tell your friend how you are doing. Use the answer options provided in the table or come up with your own examples. When used in the order in the table, the constructions indicate a «scale» of problems.
+  title_nor: Du har truffet en venn. Fortell din venn om hvordan du har det. Bruk svarsalternativene i tabellen, eller finn på egne eksempler. Rekken av konstruksjoner i tabellen danner en slags «skale» for å beskrive problemer.
+  comment: ~
+  example: "― Как у тебя дела? У меня ...<br>
+― А у тебя как дела? У меня ..."
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    header:
+      - Шкала проблем
+    row1:
+      - У меня ...
+      - Мало того, ...
+      - Ко всему прочему, ...
+      - И вообще, ...
+    row2:
+      -
+        - часто болит голова
+        - много работы
+        - скоро экзамен по русскому языку
+      -
+        - проблемы на работе
+        - много дел
+        - я недавно болел гриппом
+      -
+        - приехал друг
+        - сломалась машина
+        - нужно переезжать в другую квартиру
+      -
+        - всë плохо!
+        - всë сложно!
+        - много сюрпризов!
+        - хорошего мало, но всë будет хорошо!
+7:
+  lesson_id: 5
+  ex_number: 6
+  title: "Заполните пропуски словами из списка:<br><ul>
+  <li>а. ^В целом@</li>
+  <li>б. ^Таким образом@</li>
+  <li>в. ^Как бы то ни было@</li>
+  <li>г. ^Да и вообще@</li></ul>"
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Fill in the blanks with the words from the list.
+  title_nor: Fyll ut de tomme feltene med ord fra listen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. У Антона хорошая работа, большой дом. Недавно он купил дорогую машину. Не знаю, новую или нет. _______________ денег у него много, поэтому он может купить любую.
+    task2:
+      text: 2. Я люблю ходить к Ивановым в гости. У них дома всегда тепло и уютно. _____________ они очень гостеприимные.
+    task3:
+      text: 3. Учёные провели эксперимент и узнали, что новое лекарство от кашля намного эффективнее старого. ______________ теперь нам будет легче лечиться при коронавирусе.
+    task4:
+      text: 4. Сейчас болеют очень много людей. Власти говорят, что ______________ ситуация под контролем, но все равно нам нужно быть осторожными.
+  answer_to_show:
+    answer1: в
+    answer2: г
+    answer3: б
+    answer4: а
+  answer_key:
+    answer1: в
+    answer2: г
+    answer3: б
+    answer4: а
+  difficult_words: ~
+  table: ~
+8:
+  lesson_id: 8
+  ex_number: 2
+  title: Соедините части предложений, подобрав логичное продолжение.Используйте конструкцию ^Cl,и на том спасибо@.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^Cl,и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^Cl,и на том спасибо@. som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а, 3г, 4д, 5б<br><br>
+                  Соня опять пересолила суп. Со сметаной есть можно, ^и на том спасибо@.<br>
+                  Паша снова съел шоколадку вместо ужина. Что-то поел, ^и на том спасибо@.<br>
+                  Я выпил(а) уже 3 кружки кофе за утро. Не пиво, ^и на том спасибо@.<br>
+                  У моего брата сильная аллергия на цитрусовые. Он может есть остальные фрукты, ^и на том спасибо@.<br>
+                  Муж опять забыл убрать молоко в холодильник, и оно испортилось. Никто это молоко не выпил, ^и на том спасибо@.
+  answer_key: 1в, 2а, 3г, 4д, 5б
+  difficult_words: "*пересолить — English: to put too much salt; Norwegian:"
+  table:
+    row1:
+      - 1. Соня опять пересолила* суп.
+      - а. Что-то поел.
+    row2:
+      - 2. Паша снова съел шоколадку вместо ужина.
+      - б. Никто это молоко не выпил.
+    row3:
+      - 3. Я выпил(а) уже 3 кружки кофе за утро.
+      - в. Со сметаной есть можно.
+    row4:
+      - 4. У моего брата сильная аллергия на цитрусовые.
+      - г. Не пиво.
+    row5:
+      - 5. Муж опять забыл убрать молоко в холодильник, и оно испортилось.
+      - д. Он может есть остальные фрукты.
+9:
+  lesson_id: 8
+  ex_number: 4
+  title: Закончите разговор, дописав третью реплику. Поставьте прилагательное в скобках () в краткую форму. Используйте конструкцию ^вот и Pred!@
+  instructions: В этой конструкции Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative).
+  exercise_type: text_input
+  title_eng: Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction ^вот и Pred!@ ‘then X’ (for example Then fine!). In this construction, Pred stands for a predicative, that is a short form of an adjective.
+  title_nor: "Fullfør samtalen ved å legge til en tredje replikk. Bruk kortform av adjektivet i parentes. Bruk konstruksjonen ^вот и Pred!@ som kan oversettes med enten ‘det er X’, ‘hvor X’ eller ‘så X’ (for eksempel: Det er fint! Hvor herlig! Så bra!). I denne konstruksjonen står Pred for predikativ, det vil si adjektivets kortform."
+  comment: ~
+  example: "— Ждём вас на обед к двум. Придёте?<br>
+            — Да.<br>
+            — _____________________(чудесный)!<br><br>
+            Ответ: ^Вот и@ чудесно!"
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: <b>а.</b><br>
+            — Будешь чай?<br>
+            — Да.<br>
+            — _____________________(отличный)!
+    task2:
+      text: <b>б.</b><br>
+            — Как вам ужин?<br>
+            — Ужин нам очнь понравился!<br>
+            — _____________________(замечательный)!
+    task3:
+      text: <b>в.</b><br>
+            — У вас есть клубника?<br>
+            — Да. — _____________________(прекрасный)!
+  answer_to_show:
+    answer1: ^Вот и@ отлично!
+    answer2: ^Вот и@ замечательно!
+    answer3: ^Вот и@ прекрасно!
+  answer_key:
+    answer1: Вот и отлично!
+    answer2: Вот и замечательно!
+    answer3: Вот и прекрасно!
+  difficult_words: ~
+  table: ~
+10:
+  lesson_id: 8
+  ex_number: 5
+  title: Вы с собеседником должны решить, что приготовить на праздничный ужин. Обсудите с ним блюда, используя конструкции<br>
+          — ^(а) насчёт NP-Gen – Cl@<br>
+          — ^вот и Pred!@
+  instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence), Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  exercise_type: ~
+  title_eng: You and your interlocutor must decide what to cook for a festive dinner. Discuss your meal plan with him (or her). Use the construction ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and the construction ^вот и Pred!@ ‘then X’ (for example Then fine!).<br>
+              In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, and parentheses () indicate an optional element of a construction.
+  title_nor: "Du og din samtalepartner må bestemme hva dere skal lage til en festlig middag. Diskuter forskjellige matretter med din samtalepartner ved å bruke konstruksjonene ^(а) насчёт NP-Gen – Cl@ ‘og når det gjelder X, ... ’ og ^вот и Pred!@ ‘det er X’, ‘hvor X’, eller ‘så X’ (For eksempel: Det er fint! Hvor herlig! Så bra!).<br>
+              I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Pred betyr predikativ, det vil si adjektivets kortform, mens parentesene () indikerer en valgfri del av en konstruksjon."
+  comment: ~
+  example: — ^А насчёт@ горячего — что мы будем готовить?<br>
+            — Я хочу лазанью. А ты?<br>
+            — Я тоже.<br>
+            — ^Вот и@ чудесно!
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/5.png
+  task: ~
+  answer_to_show: 1) — ^А насчёт@ закусок — что мы будем готовить?<br>
+                  2) — ^А насчёт@ супа — что мы будем готовить?<br>
+                  3) — ^А насчёт@ горячего — что мы будем готовить?<br>
+                  4) — ^А насчёт@ гарнира — что мы будем готовить?<br>
+                  5) — ^А насчёт@ десерта — что мы будем готовить?
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 8
+  ex_number: 7
+  title: Вы ресторанный критик и должны оценить блюда начинающего шеф-повара. В каждом блюде вы нашли одну проблему. Объясните, в чём именно повар сделал ошибку. Используйте заметки внизу и конструкцию ^дело Cop не в NP-Loc (, а в NP-Loc)@.
+  instructions: В этой конструкции Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () означают, что это факультативный элемент.
+  exercise_type: text_input
+  title_eng: You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
+              In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
+  title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
+              I denne konstruksjonen står Cop for kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon. Hvis man bruker eksempelet nedenfor ville jeg sagt på norsk: «Det er ikke krydringen som er problemet, men kjøttet»."
+  comment: ~
+  example: "Заметки:<br>
+            Запечённое мясо: Не специи &#10132; Мясо (несвежее).<br>
+            —><br>
+            Запечённое мясо плохо получилось. И дело не в специях, а в мясе. Оно было несвежее."
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "<b>а.</b><br>
+            Яблочный пирог: Не мукa &#10132; Время приготовления. Пирог не пропёкся."
+    task2:
+      text: "<b>б.</b><br>
+            Блины: Не тесто &#10132; масло, слишком много"
+    task3:
+      text: "<b>в.</b><br>
+            Шоколадный торт: Не сливки для крема &#10132; Сахар. Нужна сахарная пудра."
+    task4:
+      text: "<b>г.</b><br>
+            Эспрессо: Не сорт кофе &#10132; обжарка, слишком светлая"
+    task5:
+      text: "<b>д.</b><br>
+            Овощной салат: Не овощи &#10132; оливковое масло, слишком старое"
+  answer_to_show:
+    answer1: Яблочный пирог плохо получился. ^И дело не@ в муке, ^а во@ времени приготовления. Пирог не пропёкся.
+    answer2: Блины плохо получились. ^И дело не@ в тесте, ^а в@ масле. Масла положили слишком много.
+    answer3: Шоколадный торт плохо получился. ^И дело не@ в сливках для крема, ^а в@ сахаре. Нужна сахарная пудра.
+    answer4: Эспрессо плохо получился. ^И дело не@ в сорте кофе, ^а в@ обжарке. Она слишком светлая.
+    answer5: Овощной салат плохо получился. ^И дело не@ в овощах, ^а в@ оливковом масле. Оно слишком старое.
+  answer_key:
+    answer1: Яблочный пирог плохо получился. И дело не в муке, а во времени приготовления. Пирог не пропёкся.
+    answer2: Блины плохо получились. И дело не в тесте, а в масле. Масла положили слишком много.
+    answer3: Шоколадный торт плохо получился. И дело не в сливках для крема, а в сахаре. Нужна сахарная пудра.
+    answer4: Эспрессо плохо получился. И дело не в сорте кофе, а в обжарке. Она слишком светлая.
+    answer5: Овощной салат плохо получился. И дело не в овощах, а в оливковом масле. Оно слишком старое.
+  difficult_words:
+    word1: "мукa — English: flour; Norwegian: mel<br>
+            время приготовления — English: cooking time; Norwegian: tiden brukt til å bake eplekake"
+    word2: "тесто — English: dough; Norwegian: deig<br>
+            масло — English: butter; Norwegian: smør"
+    word3: "сливки — English: dairy cream; Norwegian: fløte"
+    word4: "обжарка — English: roast (about coffee); Norwegian: kaffebrenning (brenningsgrad når det gjelder kaffe)"
+    word5: "оливковое масло — English: olive oil; Norwegian: olivenolje"
+  table: ~
+12:
+  lesson_id: 11
+  ex_number: 2
+  title: Вы владелец модного бренда и получаете престижную награду за свою работу. На церемонии награждения вы произносите речь, в конце которой используете конструкцию ^в заключение Cl@.
+  instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
+  exercise_type: ~
+  title_eng: You are the owner of a fashion brand, and you receive a prestigious award for your work. At the awards ceremony, you give a speech. At the end of this speech, you use the construction ^в заключение Cl@ meaning ‘In conclusion / Lastly / Finally, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence). Build sentences from the parts given in the table.
+  title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen Cl fylles med en hel setning (Cl=setning). Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
+  comment: ~
+  example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
+            ^В заключение@, мы продолжим радовать вас нашими платьями.
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    vertical_align: +
+    row1:
+      - В заключение
+      -
+        - хочу добавить, что
+        - хочется подчеркнуть, что
+        - мне бы хотелось сказать, что
+        - можно сказать, что
+        - важно упомянуть, что
+        - ", мы гордимся этой наградой и благодарим всех за поддержку нашего бренда!"
+      -
+        - теперь мы будем производить ещё и обувь!
+        - эта награда очень важна для нашего бренда.
+        - мы продолжим радовать вас нашими платьями.
+        - эта награда  — результат отличной работы всех наших сотрудников.
+        - наш бренд молодой и эта награда  — только начало большого пути.
+13:
+  lesson_id: 11
+  ex_number: 3
+  title: Вы стилист и ведёте блог о моде. Расскажите своим подписчикам в социальных сетях, что будут носить люди весной и летом этого года. Используйте фото ниже. Подведите итог своему рассказу, используя конструкцию ^Итак, Cl@.
+  instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
+  exercise_type: ~
+  title_eng: You are a stylist and have a fashion blog. Tell your social media followers what people will be wearing in the upcoming spring and summer seasons. Use the photo below. Summarize your story using the construction ^Итак, Cl@ meaning ‘Thus, / So, ...’. In this construction, Cl stands for the whole sentence (Cl=clause, sentence).
+  title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, Cl@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er Cl en hel setning (Cl=setning).
+  comment: ~
+  example: ^Итак,@ в этом сезоне люди будут носить блузки ярких цветов. Например, красные.<br>
+          ^Итак,@ в этом сезоне будут в моде блузки ярких цветов. Например, красные.<br>
+          ^Итак,@ в этом сезоне будет модно носить блузки ярких цветов. Например, красные.
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
+          width: 250
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
+          width: 250
+        image3:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
+          width: 250
+    task2:
+      image:
+        image1:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
+          width: 250
+        image2:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
+          width: 250
+        image3:
+          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
+          width: 250
+  answer_to_show:
+    answer1: ^Итак,@ в этом сезоне женщины будут носить короткие светлые брюки (бежевые и белые).<br>
+              ^Итак,@ в этом сезоне будут в моде джинсовые рубашки и белые кроссовки.<br>
+              ^Итак,@ в этом сезоне будет модно носить туфли на высоких каблуках.
+    answer2: ^Итак,@ в этом сезоне мужчины будут носить длинные пиджаки с джинсами.<br>
+              ^Итак,@ в этом сезоне будут в моде синие жилетки и брюки в клеточку.<br>
+              ^Итак,@ в этом сезоне будет модно носить белые рубашки.
+  answer_key: ~
+  difficult_words: ~
+  table: ~

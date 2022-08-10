@@ -1,0 +1,322 @@
+1:
+  lesson_id: 2
+  ex_number: 1
+  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
+  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "Программа обмена доступна* многим студентам. Для неё вам необходимо подготовить небольшой пакет документов. ^Во-первых,@ вам нужна копия паспорта. ^Во-вторых,@ справка о знании английского языка. ^В-третьих,@ рекомендательное письмо от одного преподавателя. Кроме того, вам надо написать короткое эссе. ^С одной стороны,@ это очень легко сделать. ^С другой стороны,@ только 10% студентов решают попробовать."
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: "*доступна — English: available; Norwegian: tilgjengelig"
+  table: ~
+2:
+  lesson_id: 2
+  ex_number: 2
+  title: Составьте текст, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Compose a text, using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the slot XP/Cl we can place a phrase or an entire sentence.
+  title_nor: Lag en tekst ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "а. Что нужно, чтобы поехать в Россию?<br><ol>
+<li>Сделать визу</li>
+<li>Купить билеты</li>
+<li>Забронировать отель/найти жильё</li>
+<li>Собрать чемодан/вещи</li></ol>"
+    task2:
+      text: "б. Почему вы хотите поехать в Россию?<br><ol>
+<li>Интересные музеи</li>
+<li>Красивая архитектура</li>
+<li>Хорошие люди</li>
+<li>Вкусная еда</li></ol>"
+    task3:
+      text: "в. У имени Александр есть много вариантов.<br><ol>
+<li>Обычно используют сокращённый* вариант этого имени, Саша.</li>
+<li>Есть ещё другие варианты имени Александр — Шура, Саня, Алик.</li>
+<li>Саша — это не только мужское, но и женское имя (Александра).</li></ol>"
+  answer_to_show:
+    answer1: "Чтобы поехать в Россию, нужно, ^во-первых,@ сделать визу, ^во-вторых,@ купить билеты, ^в-третьих,@ забронировать отель, и ^в-четвёртых@ собрать чемодан."
+    answer2: "Я хочу поехать в Россию по многим причинам. ^Во-первых,@ в России интересные музеи. ^Во-вторых,@ там красивая архитектура. ^В-третьих,@ много хороших людей. ^В-четвёртых,@ там вкусная еда."
+    answer3: "У имени Александр есть много вариантов. ^Во-первых,@ обычно используют сокращённый вариант этого имени, Саша. ^Во-вторых,@ есть ещё другие варианты имени Александр — Шура, Саня, Алик. ^В-третьих,@ Саша — это не только мужское, но и женское имя (Александра)."
+  answer_key: ~
+  difficult_words: "*сокращённый — English: shortened; Norwegian: forkortet"
+  table: ~
+3:
+  lesson_id: 2
+  ex_number: 3
+  title: Перепишите информационное письмо из визового центра, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: ~
+  title_eng: Rewrite the information letter from a visa application center using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the place of XP/Cl we locate a phrase (XP) or an entire sentence (Cl=clause).
+  title_nor: Omskriv informasjonsbrevet fra visumsenteret ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "Добрый день! Вы записаны в визовый центр на 12:00.<br>
+Список документов, которые вам нужно иметь с собой:<br><ul>
+<li>загранпаспорт;</li>
+<li>сертификат о вакцинации;</li>
+<li>подтверждение о бронировании отеля;</li>
+<li>две фотографии;</li></ul>
+С уважением,<br>
+Визовый центр."
+  answer_to_show: "Добрый день! Вы записаны в визовый центр на 12:00.<br>
+Вам нужно иметь с собой, ^во-первых,@ загранпаспорт, ^во-вторых,@ сертификат о вакцинации, ^в-третьих,@ подтверждение о бронировании отеля, ^в-четвёртых,@ две фотографии.<br>
+С уважением,<br>
+Визовый центр."
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 2
+  ex_number: 4
+  title: Вы сотрудник посольства. Расскажите туристу, который хочет поехать в Россию, что ему нужно сделать, чтобы получить визу. Используйте схему, слова «надо», «нужно» и «необходимо», а также конструкцию ^в-NumOrd-ых, XP/Cl@.
+  instructions: ~
+  exercise_type: ~
+  title_eng: You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning 'necessary' and the construction ^в-NumOrd-ых, XP/Cl@.
+  title_nor: Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr 'nødvendig'. Bruk også konstruksjonen ^в-NumOrd-ых, XP/Cl@.
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_1.jpeg"
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+5:
+  lesson_id: 2
+  ex_number: 5
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@. Слово «стороны» во второй части конструкции часто опускается, поэтому в формуле конструкции оно указано в скобках ().
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing the matching continuation. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. The word «стороны» in the second part of this construction is often omitted, therefore in the formula of this construction this word is placed in parentheses (). We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fullfør setningene ved å velge delene som passer sammen. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. I denne konstruksjonens andre halvdel er ofte ordet «стороны» utelatt, derfor står den i parenteser i formelen. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: "1в, 2д, 3а, 4г, 5б<br>
+    С одной стороны, в Москве зимой очень красиво. С другой стороны, там холодно.<br>
+    С одной стороны, путешествовать интересно. С другой стороны, для путешествий нужно много времени и денег.<br>
+    С одной стороны, есть много сладкого вредно. С другой стороны, сладкое — это очень вкусно.<br>
+    С одной стороны, учить русский язык сложно, с другой стороны, очень интересно.<br>
+    С одной стороны, смотреть сериалы весело. С другой стороны, это прокрастинация.<br>
+    В каждом случае, слово «стороны» после слова «другой» можно не использовать."
+  answer_key: 1в, 2д, 3а, 4г, 5б
+  difficult_words: ~
+  table:
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. В Москве зимой очень красиво
+      - а. сладкое — это очень вкусно
+    row2:
+      - 2. Путешествовать интересно
+      - б. это прокрастинация
+    row3:
+      - 3. Есть много сладкого вредно
+      - в. там холодно
+    row4:
+      - 4. Учить русский язык сложно
+      - г. очень интересно
+    row5:
+      - 5. Смотреть сериалы весело
+      - д. для путешествий нужно много времени и денег
+6:
+  lesson_id: 2
+  ex_number: 6
+  title: Антон отдыхал в Греции и после поездки решил написать отзыв на сайте отеля. Что-то ему понравилось, а что-то не понравилось. Антон сделал заметки. Помогите ему написать отзыв, соединив предложения. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
+  exercise_type: text_input
+  title_eng: Anton went to Greece on vacation. After the trip, he decided to write a review on the website of the hotel. He liked some things, but disliked other things. Anton made some notes. Help him to write the review by connecting the phrases. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Anton har vært på ferie i Hellas. Etter reisen bestemte han seg for å skrive en anmeldelse på hotellets hjemmeside. Han likte noen ting, mens noen ting likte han ikke. Anton tok noen notater. Hjelp ham å skrive anmeldelsen ved å koble sammen setningene. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. В отеле была хорошая еда / плохо убирали в номере
+    task2:
+      text: 2. У отеля отдельный пляж / там всегда было много людей
+    task3:
+      text: 3. Вечером были весёлые вечеринки / музыка всю ночь мешала спать.
+    task4:
+      text: 4. находиться в отеле было приятно / иногда некомфортно
+  answer_to_show:
+    answer1: "^С одной стороны,@ в отеле была хорошая еда. ^С другой стороны,@ плохо убирали в номере.<br> ^С одной стороны,@ в отеле была хорошая еда. ^С другой,@ плохо убирали в номере."
+    answer2: "^С одной стороны,@ у отеля отдельный пляж. ^С другой стороны,@ там всегда было много людей.<br> ^С одной стороны,@ у отеля отдельный пляж. ^С другой,@ там всегда было много людей."
+    answer3: "^С одной стороны,@ вечером были весёлые вечеринки. ^С другой стороны,@ музыка всю ночь мешала спать.<br> ^С одной стороны,@ вечером были весёлые вечеринки. ^С другой,@ музыка всю ночь мешала спать."
+    answer4: "^С одной стороны,@ находиться в отеле было приятно, ^с другой стороны,@ иногда некомфортно.<br> ^С одной стороны,@ находиться в отеле было приятно, ^с другой,@ иногда некомфортно."
+  answer_key:
+    answer1: С одной стороны, в отеле была хорошая еда. С другой стороны, плохо убирали в номере.
+    answer2: С одной стороны, у отеля отдельный пляж. С другой стороны, там всегда было много людей.
+    answer3: С одной стороны, вечером были весёлые вечеринки. С другой стороны, музыка всю ночь мешала спать.
+    answer4: С одной стороны, находиться в отеле было приятно, с другой стороны, иногда некомфортно.
+  difficult_words: ~
+  table: ~
+7:
+  lesson_id: 6
+  ex_number: 3
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию впрочем, Cl. На месте Cl находится целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Connect the sentences by choosing a matching continuation. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Legg merke til hvordan diagrammet nedenfor beskriver betydningen av denne konstruksjonen.
+  comment: ~
+  example: ~
+  model: ~
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/3.png
+    width: ~
+    height: ~
+  task: ~
+  answer_to_show: 1б, 2д, 3а, 4е, 5г, 6в
+  answer_key: 1б, 2д, 3а, 4е, 5г, 6в
+  difficult_words: ~
+  table:
+    vertical_align: +
+    width: ~
+    header: ~
+    row1:
+      - 1
+      - 
+        - — Как мне доехать до стадиона?
+        - — Вам нужен трамвай номер 25.
+      - а. ^Впрочем,@ налево и прямо тоже можно.
+    row2:
+      - 2
+      - 
+        - — Сколько стоит проезд на метро?
+        - — Одна поездка стоит 56 рублей.
+      - б. ^Впрочем,@ вам быстрее дойти пешком через парк.
+    row3:
+      - 3
+      -
+        - — Как дойти до Большого театра?
+        - — Вам сейчас нужно повернуть направо и на перекрестке снова направо.
+      - в. ^Впрочем,@ на троллейбусе можно доехать всего за двадцать минут.
+    row4:
+      - 4
+      -
+        - — Ура, прилетели! Поедем домой на автобусе?
+        - — Да, можно.
+      - г. ^Впрочем,@ сейчас пробки. Нам будет быстрее доехать в аэропорт на аэроэкспрессе.
+    row5:
+      - 5
+      -
+        - — Нам надо быть в аэропорту через час. Я вызову такси?
+        - — Да, вызывай!
+      - д. ^Впрочем,@ неважно! У вас же есть проездной!
+    row6:
+      - 6
+      -
+        - — Вы далеко живёте от работы?
+        - — Далеко! Пешком идти больше часа.
+      - е. ^Впрочем,@ у нас много багажа. Поехали лучше на такси!
+8:
+  lesson_id: 6
+  ex_number: 4
+  title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию впрочем, Cl.
+  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+                Откройте схему московского метро по <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">ссылке</a>.<br>*5 — Кольцевая ветка (название дано не по цвету).
+  exercise_type: ~
+  title_eng: Here is a portion of the Moscow subway map. One of you is a tourist, and the other is a resident of Moscow. The tourist needs to find out how to get from one subway station to a different one. The Moscow resident gives instructions and describes two ways how to get to the destination. Use the dialogue structure provided below. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
+  title_nor: Foran dere er en del av Moskvas tunnelbanekart. En av dere er turist, den andre moskovitt. Turisten trenger å vite hvordan man tar seg fra en tunnelbanestasjon til en annen. Moskovitten forklarer for turisten at det finns to måter å komme seg til riktig stasjon. Bruk dialogmalen nedenfor. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig/ imidlertid / likevel ...’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.<br>
+           Task format: in pairs. After each dialogue, the students switch roles."
+  example: — Скажите, пожалуйста, как мне доехать от Минской до Киевской?<br>
+           — Вам нужно доехать до Делового центра, а потом пересесть на голубую ветку. Впрочем, вы можете доехать до Парка победы, а потом пересесть на синюю ветку.
+  model: "Турист/туристка:<br>
+          — Скажите, пожалуйста, как мне доехать от (Gen)__________ до (Gen) __________?<br>
+          Москвич/москвичка:<br>
+          — Вам нужно доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку. Впрочем, вы можете доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку (а потом доехать до (Gen)____________и пересесть на (Acc) ____________ ветку)"
+  image:
+    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/4.png
+    width: ~
+    height: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    width: ~
+    header:
+      - ""
+      -
+        Откуда
+      -
+        Куда
+    row1:
+      - 
+        1
+      - 
+        Китай-город (Gen Китай-города)
+      -
+        Павелéцкая
+    row2:
+      - 
+        2
+      - 
+        Тексти́льщики (Gen Текстильщиков)
+      -
+        Чкáловская
+    row3:
+      - 
+        3
+      - 
+        Тру́бная
+      -
+        Площадь революции (Gen Площади революции)
+    row4:
+      - 
+        4
+      - 
+        Новослобóдская
+      -
+        Пу́шкинская
+    row5:
+      - 
+        5
+      - 
+        Третьякóвская
+      -
+        Серпуховскáя
+    row6:
+      - 
+        6
+      - 
+        Театрáльная
+      -
+        Баррикáдная
+    row7:
+      - 
+        7
+      - 
+        Маякóвская
+      -
+        Китай-город (Gen Китай-города)
+    row8:
+      - 
+        8
+      - 
+        Кропóткинская
+      -
+        Проспект мира (Gen Проспекта мира)

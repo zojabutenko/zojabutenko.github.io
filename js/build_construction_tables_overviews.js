@@ -8,7 +8,7 @@ for (let key of Object.keys(json_data)) {
     records[key] = json_data[key];
 }
 
-let r2 = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lesson${lesson_id}.yml`);
+let r2 = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons/lesson${lesson_id}.yml`);
 let json_data2 = jsyaml.loadAll(r2.data);
 let records2 = {};
 
