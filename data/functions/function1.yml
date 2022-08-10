@@ -1,0 +1,205 @@
+---
+1:
+  lesson_id: 4
+  ex_number: 2
+  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкции ^иными/другими словами, XP/Cl@ и ^XP/Cl, то есть XP/Cl@. Эти конструкции выполняют одну и ту же функцию и в этих предложениях являются взаимозаменяемыми.
+  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  exercise_type: text_input
+  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^иными/другими словами, XP/Cl@ meaning ‘in other words / to put it differently, ...’ and the construction ^XP/Cl, то есть XP/Cl@ meaning ‘..., that is ... ’. These constructions serve the same function, and in these sentences either of them can be used. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
+  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^иными/другими словами, XP/Cl@ som betyr omtrent ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ som betyr ‘..., det vil si ... ’. Disse konstruksjonene har lik betydning, og i disse setningene kan de brukes om hverandre. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1б, 2в, 3а
+  answer_key: 1б, 2в, 3а
+  difficult_words: "*перелом — Engish: fracture; Norwegian: brudd, beinbrudd, fraktur"
+  table:
+    heading: ~
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    row1:
+      -
+        - 1. У бабушки болят глаза. Ей нужен врач, который лечит болезни глаз,
+        - 2. Маша каталась на сноуборде и сломала ногу. Ей нужен врач, который лечит переломы*,
+        - 3. У Степана болит зуб. Ему нужен врач, который лечит зубы,
+      -
+        - ^другими словами,@
+        - ^то есть@
+      -
+        - а. стоматолог
+        - б. окулист
+        - в. хирург
+2:
+  lesson_id: 4
+  ex_number: 3
+  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкцию ^XP, а именно XP@.
+  instructions: На месте XP находится слово или фраза (XP=phrase).
+  exercise_type: text_input
+  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^XP, а именно XP@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’. We can put a word or a phrase in the slot marked XP (XP=phrase).
+  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^XP, а именно XP@ som betyr omtrent ‘..., eller mer spesifikt, ...’ og ‘..., det vil si, ...’. Plassen XP kan fylles med et ord eller en frase (XP=frase).
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1б, 2a, 3в
+  answer_key: 1б, 2a, 3в
+  difficult_words: ~
+  table:
+    heading: ~
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    row1:
+      -
+        - 1. У Михаила часто болит голова. Ему нужен врач,
+        - 2. У тëти глубокая депрессия. Ей нужен специалист,
+        - 3. У дедушки сломался зуб. Ему нужен стоматолог,
+      -
+        - ^а именно@
+      -
+        - а. психотерапевт
+        - б. невропатолог
+        - в. стоматолог-ортопед
+3:
+  lesson_id: 4
+  ex_number: 4
+  title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br><ul><li>а - ^другими словами@</li><li>б - ^то есть@</li><li>в - ^а именно@</li></ul>"
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
+  title_nor: Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: "1. Когда вы пойдëте в больницу, возьмите с собой нужные документы, ____________ паспорт и медицинский полис."
+    task2:
+      text: "2. Я реагирую на кошек и собак, ____________ у меня на них аллергия."
+    task3:
+      text: "3. Томас постоянно играет в компьютерные игры, ____________ у него игромания, ____________ игровая зависимость* (spilleavhengighet)."
+    task4:
+      text: "4. При коронавирусе бывают разные симптомы, ____________ насморк, температура, кашель, диарея."
+  answer_to_show:
+    answer1: "в<br>
+    Конструкция ^XP, а именно XP@ уточняет более общее понятие (документы) через более частное (паспорт, медицинский полис). Конструкция ^иными/другими словами, XP/Cl@ и конструкция ^XP/Cl, то есть XP/Cl@ это значение не передают.<br>
+
+The construction ^XP, а именно XP@ ‘..., specifically, ...’ explains a more general concept (here: <i>документы</i>) by using more specific ones (here: <i>паспорт, медицинский полис</i>). The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ do not convey this meaning.<br>
+
+Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: <i>документы</i>) ved å referere til spesifikke eksempler (her: <i>паспорт, медицинский полис</i>). Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
+    answer2: "a, б<br>
+    Конструкция ^иными/другими словами, XP/Cl@ и ^конструкция XP/Cl, то есть XP/Cl@ поясняют одну, менее понятную формулировку (<i>Я реагирую на кошек и собак</i>) с помощью другой, более понятной формулировки (<i>У меня на них аллергия</i>). Это пояснение не является переходом от общего к частному, поэтому конструкция ^XP, а именно XP@ здесь не подходит.<br>
+
+The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction X^P/Cl, то есть XP/Cl@ ‘..., that is ... ’ is used to explain a less clear phrasing (<i>Я реагирую на кошек и собак</i> ‘I react to cats and dogs’) with a more comprehensible one (<i>У меня на них аллергия</i> ‘I’m allergic to them’). This explanation however does not contain the transition from a more general to a more specific concept, therefore the construction ^XP, а именно XP@ ‘..., specifically, ...’ is not appropriate here.<br>
+
+Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ forklarer et noe utydelig utsagn (<i>Я реагирую на кошек и собак</i> ‘Jeg reagerer på katter og hunder’) ved hjelp av et tydeligere formulert utsagn (<i>У меня на них аллергия</i> ‘Jeg er allergisk mot dem’). Denne konstruksjonen formidler imidlertid ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ i dette tilfellet."
+    answer3: "a, б<br>
+    В этом предложении пояснение содержится два раза: 1) одна формулировка (<i>Томас постоянно играет в компьютерные игры</i>) поясняется с помощью другой, более понятной формулировки (<i>у него игромания</i>), 2) вторая формулировка содержит термин, который поясняется с помощью третьей формулировки (<i>игровая зависимость</i>). В обоих случаях подходит и конструкция ^иными/другими словами, XP/Cl@, и конструкция ^XP/Cl, то есть XP/Cl@, потому что обе конструкции выполняют функцию пояснения. Первый пропуск можно заполнить словами ^другими словами@, а второй пропуск словами ^то есть@ или наоборот. Заполнить оба пропуска одинаково нельзя. Так как пояснение не является переходом от общего к частному, конструкция ^XP, а именно XP@ здесь не подходит.<br>
+
+This sentence contains clarifications in two places. First, the phrase <i>Томас постоянно играет в компьютерные игры</i> ‘Thomas is constantly playing videogames’ is explained with another, more comprehensible phrase (<i>у него игромания</i> ‘Thomas has a gaming addiction’). Then, the term in the second phrase is explained by means of the third phrase (<i>игровая зависимость</i> ‘gaming addiction’). In both cases, either the construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ or the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ can be used, because these constructions serve the same function: they clarify one’s statement. We can fill in the first blank with the words ^другими словами@, and the second blank can be filled in with the words ^то есть@, or the other way around. However, avoid filling in both blanks with the same construction. The construction ^XP, а именно XP@ ‘..., specifically, ...’ is not appropriate here, because this clarification does not contain a transition from a more general to a more specific concept.<br>
+
+I denne setningen forekommer det tydeliggjøring to ganger. Først forklares et utsagn (<i>Томас постоянно играет в компьютерные игры</i> ‘Tomas spiller dataspill hele tiden’) ved hjelp av et tydeligere formulert utsagn (<i>у него игромания</i> ‘Tomas er dataspillavhengig’). Dessuten inneholder det andre utsagnet et uttrykk som forklares ved hjelp av et tredje utsagn (<i>игровая зависимость</i> ‘dataspillavhengighet’). I begge tilfellene passer konstruksjonene ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ like godt, fordi de fyller samme funksjon: å tydeliggjøre et utsagn. Det første og det andre tomme feltet kan begge fylles med enten ^другими словами@ eller ^то есть@. Unngå å fylle begge feltene med den samme konstruksjonen. I dette tilfellet formidles ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’."
+    answer4: "в<br>
+    Конструкция ^XP, а именно XP@ уточняет более общее понятие (<i>разные симптомы</i>) через более частное (<i>насморк, температура, кашель, диарея</i>). Конструкция ^иными/другими словами, XP/Cl@ и конструкция ^XP/Cl, то есть XP/Cl@ это значение не передают.<br>
+
+The construction ^XP, а именно XP@ ‘..., specifically, ...’ explains a more general concept (here: <i>разные симптомы</i> ‘various symptoms’) by using more specific ones (here: <i>насморк</i> ‘runny nose’, <i>температура</i> ‘fever’, <i>кашель</i> ‘cough’, <i>диарея</i> ‘diarrhea’). The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ do not convey this meaning.<br>
+
+Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: ^разные симптомы@ ‘forskjellige symptomer’) ved å referere til spesifikke eksempler (i dette tilfellet: <i>насморк</i> ‘rennende nese’, <i>температура</i> ‘feber’, <i>кашель</i> ‘hoste’, <i>диарея</i> ‘diaré’). Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
+  answer_key:
+    answer1: в
+    answer2: a, б
+    answer3: a, б
+    answer4: в
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 4
+  ex_number: 13
+  title: "Бонусное упражнение*<br>
+Закончите предложения (1-6), подобрав подходящий вариант (а-е). Используйте конструкцию ^XP, а именно XP.@"
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Bonus exercise. Connect the phrases by choosing the matching continuation. Use the construction ^XP, а именно XP@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’.
+  title_nor: Bonusoppgave. Koble sammen setningene ved å velge en passende fortsettelse. Bruk konstruksjonen ^XP, а именно XP@ som betyr ‘..., eller mer spesifikt, ...’ eller ‘..., det vil si, ...’.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1д , 2б, 3г, 4а, 5е, 6в
+  answer_key: 1д , 2б, 3г, 4а, 5е, 6в
+  difficult_words: ~
+  table:
+    width: ~
+    header: ~
+    horizontal_align: ~
+    vertical_align: +
+    row1:
+      - 1. На ваше здоровье влияет много факторов,
+      - а. ^а именно@ печенье, конфеты, шоколадки, газировку — эти продукты содержат много добавленного сахара!
+    row2:
+      - 2. Нутрициологи советуют измерять еду не калориями, а порциями,
+      - б. ^а именно@ объёмом еды размером с ваш кулак.
+    row3:
+      - 3. В день взрослому человеку рекомендуется 1–2 порции молочных продуктов,
+      - в. ^а именно@ ходьба, бег, плавание, желательна 3 раза в неделю.
+    row4:
+      - 4. Старайтесь не покупать домой много сладостей,
+      - г. ^а именно@ 250 миллилитров молока или 300 миллилитров кефира, 150 граммов творога или 30 граммов сыра.
+    row5:
+      - 5. Внимательно читайте список ингредиентов. Во многих продуктах,
+      - д. ^а именно@ еда, сон, физические упражнения и стресс.
+    row6:
+      - 6. Аэробная нагрузка,
+      - е. ^а именно@ в йогуртах, соусах и соках не должно быть сахара в составе.
+5:
+  lesson_id: 4
+  ex_number: 15
+  title: "Бонусное упражнение*.<br>
+Вы администратор в поликлинике. Объясните пациенту по телефону, как подготовиться к приему у врача. Используйте памятку внизу и конструкции ^XP, а именно XP@ и ^XP/Cl, то есть XP/Cl@."
+  instructions: ~
+  exercise_type: ~
+  title_eng: "Bonus exercise. You are an administrator at a clinic. Explain to a patient over the phone how to prepare for their doctor’s appointment. Use the checklist (memo) below, the construction ^XP, а именно XP@ ‘..., specifically, ...’ or ‘..., to be exact, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is, ...’. In these constructions, XP is a phrase (XP=phrase) and Cl is a whole sentence (Cl=clause, sentence)."
+  title_nor: "Bonusoppgave. Du jobber som administrator ved en klinikk. Forklar for en pasient på telefon hvordan forberede seg til legetimen. Bruk huskelisten nedenfor og konstruksjonene ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’, ‘..., det vil si, ...’ ^XP/Cl, то есть XP/Cl@ ‘..., det vil si, ...’. I disse konstruksjonene er XP en frase (XP=frase) and Cl er en hel setning (Cl=setning)."
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: "<b>Памятка</b><br> Приготовьте документы<br>
+  <ul>
+<li>Паспорт</li>
+<li>Медицинский полис</li>
+</ul>
+Опишите свои жалобы
+<ul>
+<li>Какие симптомы?</li>
+<li>Когда они начались?</li>
+<li>Было ли такое раньше?</li>
+</ul>
+Расскажите о ваших хронических заболеваниях
+<ul>
+<li>Есть ли у вас хронические заболевания?</li>
+<li>Принимаете ли вы постоянно какие-то лекарства?</li>
+</ul>
+Предупредите врача об особых состояниях
+<ul>
+<li>Аллергия</li>
+<li>Беременность</li>
+<li>Операции в прошлом</li>
+</ul>
+Задайте вопросы по итогам разговора
+<ul>
+<li>Какой диагноз поставил вам врач?</li>
+<li>Почему он выбрал такую тактику лечения?</li>
+<li>Какие лекарства он вам назначил?</li>
+</ul>
+"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~

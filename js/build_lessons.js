@@ -1,6 +1,12 @@
 const tree = document.createDocumentFragment();
+
 const lesson_id = document.title.split(" ")[1]
-let r = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lesson${lesson_id}.yml`);
+
+if (document.title.split(" ")[0] == "lesson") {
+    let r = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons/lesson${lesson_id}.yml`);
+} else {
+    let r = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/functions/function${lesson_id}.yml`);
+}
 let json_data = jsyaml.loadAll(r.data);
 let records = {};
 
@@ -254,7 +260,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
-    task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
+    
+    if (document.title.split(" ")[0] == "lesson") {
+        task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
+    } else {
+        task_title.innerHTML = annotate(`${data[exercise_id]["lesson_id"]}.${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
+    }
 
     if (data[exercise_id]["instructions"] != null) {
         let instructions = document.createElement("h6");
