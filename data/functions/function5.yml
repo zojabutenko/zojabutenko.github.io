@@ -259,7 +259,7 @@
   table:
     width: ~
     header:
-      -
+      - ""
       -
         Откуда
       -
