@@ -39,26 +39,32 @@ const lesson_title = document.createElement("h1")
 lesson_title.appendChild(document.createTextNode(data["lesson_name"]));
 
 // file link
-const file = document.createElement("a")
-file.setAttribute("class", "btn btn-light float-end")
-file.setAttribute("href", `../../files/Lesson%20${data["lesson_id"]}.%20Download.pdf`)
-file.setAttribute("role", "button")
-file.setAttribute("target", "_blank")
-file.appendChild(document.createTextNode("Download"))
-lesson_title.appendChild(file)
 
-const constructions = document.createElement("h3")
-constructions.appendChild(document.createTextNode("Конструкции урока"));
+part_1.appendChild(lesson_title)
 
-const constr_table = document.createElement("table")
+if (document.title.split(" ")[0] == "Lesson") {
+    var file = document.createElement("a")
+    file.setAttribute("class", "btn btn-light float-end")
+    file.setAttribute("href", `../../files/Lesson%20${data["lesson_id"]}.%20Download.pdf`)
+    file.setAttribute("role", "button")
+    file.setAttribute("target", "_blank")
+    file.appendChild(document.createTextNode("Download"))
+    lesson_title.appendChild(file)
+
+    var constructions = document.createElement("h3")
+    constructions.appendChild(document.createTextNode("Конструкции урока"));
+    part_1.appendChild(constructions)
+}
+
+var constr_table = document.createElement("table")
 constr_table.setAttribute("class", "table")
 
-const thead = document.createElement("thead")
+var thead = document.createElement("thead")
 thead.setAttribute("class", "table-primary")
 
-const tr_head = document.createElement("tr")
+var tr_head = document.createElement("tr")
 
-const table_header = ["ID", "Construction", "Illustration"]
+var table_header = ["ID", "Construction", "Illustration"]
 for (var i = 0; i <=2; i++) {
     var t = document.createElement("th")
     t.setAttribute("scope", "col")
@@ -69,7 +75,7 @@ for (var i = 0; i <=2; i++) {
 constr_table.appendChild(thead)
 thead.appendChild(tr_head)
 
-const tbody = document.createElement("tbody")
+var tbody = document.createElement("tbody")
 constr_table.appendChild(tbody)
 
 for (var i = 0; i < data["construction_table_rows"].length; i++) {
@@ -90,13 +96,13 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
     tbody.appendChild(tr)
 }
 
-const abbvs = document.createElement("p")
+var abbvs = document.createElement("p")
 
 for (var i = 0; i < data["lesson_instructions"].length; i++) {
     abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
     abbvs.appendChild(document.createElement("br"))
 }
-const constr_link = document.createElement("a")
+var constr_link = document.createElement("a")
 constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
 constr_link.setAttribute("target", "_blank")
 constr_link.appendChild(document.createTextNode("Русский конструктикон"))
@@ -104,8 +110,8 @@ constr_link.appendChild(document.createTextNode("Русский конструк
 abbvs.appendChild(constr_link)
 abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
 
-part_1.appendChild(lesson_title)
-part_1.appendChild(constructions)
+
+
 part_1.appendChild(constr_table)
 part_1.appendChild(abbvs)
 
